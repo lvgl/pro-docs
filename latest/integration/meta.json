@@ -1,0 +1,13 @@
+{
+  "title": "Integration",
+  "pages": [
+    "---General---",
+    "using-exported-c-code",
+    "loading-xml-files",
+    "---Ecosystems---",
+    "cmake",
+    "zephyr",
+    "arduino-ide",
+    "renesas"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "index",
+    "learn-by-examples",
+    "syntax",
+    "integration",
+    "editor",
+    "online-viewer",
+    "figma",
+    "cli"
+  ]
+}
