@@ -1,4 +1,4 @@
-```xml title="examples/components/basic/button/button.xml" source="https://github.com/lvgl/lvgl/blob/e78dbcaa254bcc76f561b2ab1fee59d0c7046dea/examples/components/basic/button/button.xml"
+```xml title="examples/components/basic/button/button.xml" source="https://github.com/lvgl/lvgl/blob/04f4503b0f498905ea79d38284829aad25aed89f/examples/components/basic/button/button.xml"
 <component>
 	<previews>
 		<preview style_pad_all="4" />

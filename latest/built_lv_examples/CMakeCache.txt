@@ -20,11 +20,8 @@ BUILD_SHARED_LIBS:BOOL=OFF
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
 
-//Emscripten ar
-CMAKE_AR:FILEPATH=/home/runner/work/lvgl_editor/lvgl_editor/emsdk-cache/emsdk-main/upstream/emscripten/emar
-
 //ASM compiler
-CMAKE_ASM_COMPILER:FILEPATH=/home/runner/work/lvgl_editor/lvgl_editor/emsdk-cache/emsdk-main/upstream/emscripten/emcc
+CMAKE_ASM_COMPILER:FILEPATH=/home/runner/work/_temp/c982ffe8-94d5-44ca-9d8d-893df72e520e/emsdk-main/upstream/emscripten/emcc
 
 //Flags used by the ASM compiler during all build types.
 CMAKE_ASM_FLAGS:STRING=
@@ -46,22 +43,10 @@ CMAKE_ASM_FLAGS_RELWITHDEBINFO:STRING=
 CMAKE_BUILD_TYPE:STRING=
 
 //No help, variable specified on the command line.
-CMAKE_CROSSCOMPILING_EMULATOR:UNINITIALIZED="/home/runner/work/lvgl_editor/lvgl_editor/emsdk-cache/emsdk-main/node/12.18.1_64bit/bin/node"
-
-//CXX compiler
-CMAKE_CXX_COMPILER:STRING=/home/runner/work/lvgl_editor/lvgl_editor/emsdk-cache/emsdk-main/upstream/emscripten/em++
-
-//Emscripten ar
-CMAKE_CXX_COMPILER_AR:FILEPATH=/home/runner/work/lvgl_editor/lvgl_editor/emsdk-cache/emsdk-main/upstream/emscripten/emar
-
-//`clang-scan-deps` dependency scanner
-CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS:FILEPATH=CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND
+CMAKE_CROSSCOMPILING_EMULATOR:UNINITIALIZED=/home/runner/work/_temp/c982ffe8-94d5-44ca-9d8d-893df72e520e/emsdk-main/node/22.16.0_64bit/bin/node
 
 //No help, variable specified on the command line.
 CMAKE_CXX_COMPILER_LAUNCHER:UNINITIALIZED=ccache
-
-//Emscripten ranlib
-CMAKE_CXX_COMPILER_RANLIB:FILEPATH=/home/runner/work/lvgl_editor/lvgl_editor/emsdk-cache/emsdk-main/upstream/emscripten/emranlib
 
 //Flags used by the CXX compiler during all build types.
 CMAKE_CXX_FLAGS:STRING=
@@ -69,20 +54,14 @@ CMAKE_CXX_FLAGS:STRING=
 //Flags used by the CXX compiler during DEBUG builds.
 CMAKE_CXX_FLAGS_DEBUG:STRING=-g
 
-//Emscripten-overridden CMAKE_CXX_FLAGS_MINSIZEREL
-CMAKE_CXX_FLAGS_MINSIZEREL:STRING=-DNDEBUG -Os
+//Flags used by the CXX compiler during MINSIZEREL builds.
+CMAKE_CXX_FLAGS_MINSIZEREL:STRING=-Os -DNDEBUG
 
-//Emscripten-overridden CMAKE_CXX_FLAGS_RELEASE
-CMAKE_CXX_FLAGS_RELEASE:STRING=-DNDEBUG -O2
+//Flags used by the CXX compiler during RELEASE builds.
+CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 
-//Emscripten-overridden CMAKE_CXX_FLAGS_RELWITHDEBINFO
-CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-DNDEBUG -O2
-
-//C compiler
-CMAKE_C_COMPILER:STRING=/home/runner/work/lvgl_editor/lvgl_editor/emsdk-cache/emsdk-main/upstream/emscripten/emcc
-
-//Emscripten ar
-CMAKE_C_COMPILER_AR:FILEPATH=/home/runner/work/lvgl_editor/lvgl_editor/emsdk-cache/emsdk-main/upstream/emscripten/emar
+//Flags used by the CXX compiler during RELWITHDEBINFO builds.
+CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
 //`clang-scan-deps` dependency scanner
 CMAKE_C_COMPILER_CLANG_SCAN_DEPS:FILEPATH=CMAKE_C_COMPILER_CLANG_SCAN_DEPS-NOTFOUND
@@ -90,23 +69,20 @@ CMAKE_C_COMPILER_CLANG_SCAN_DEPS:FILEPATH=CMAKE_C_COMPILER_CLANG_SCAN_DEPS-NOTFO
 //No help, variable specified on the command line.
 CMAKE_C_COMPILER_LAUNCHER:UNINITIALIZED=ccache
 
-//Emscripten ranlib
-CMAKE_C_COMPILER_RANLIB:FILEPATH=/home/runner/work/lvgl_editor/lvgl_editor/emsdk-cache/emsdk-main/upstream/emscripten/emranlib
-
 //Flags used by the C compiler during all build types.
 CMAKE_C_FLAGS:STRING=
 
 //Flags used by the C compiler during DEBUG builds.
 CMAKE_C_FLAGS_DEBUG:STRING=-g
 
-//Emscripten-overridden CMAKE_C_FLAGS_MINSIZEREL
-CMAKE_C_FLAGS_MINSIZEREL:STRING=-DNDEBUG -Os
+//Flags used by the C compiler during MINSIZEREL builds.
+CMAKE_C_FLAGS_MINSIZEREL:STRING=-Os -DNDEBUG
 
-//Emscripten-overridden CMAKE_C_FLAGS_RELEASE
-CMAKE_C_FLAGS_RELEASE:STRING=-DNDEBUG -O2
+//Flags used by the C compiler during RELEASE builds.
+CMAKE_C_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 
-//Emscripten-overridden CMAKE_C_FLAGS_RELWITHDEBINFO
-CMAKE_C_FLAGS_RELWITHDEBINFO:STRING=-DNDEBUG -O2
+//Flags used by the C compiler during RELWITHDEBINFO builds.
+CMAKE_C_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
 //Path to a program.
 CMAKE_DLLTOOL:FILEPATH=CMAKE_DLLTOOL-NOTFOUND
@@ -117,14 +93,14 @@ CMAKE_EXE_LINKER_FLAGS:STRING=
 //Flags used by the linker during DEBUG builds.
 CMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=
 
-//Emscripten-overridden CMAKE_EXE_LINKER_FLAGS_MINSIZEREL
-CMAKE_EXE_LINKER_FLAGS_MINSIZEREL:STRING=-Os
+//Flags used by the linker during MINSIZEREL builds.
+CMAKE_EXE_LINKER_FLAGS_MINSIZEREL:STRING=
 
-//Emscripten-overridden CMAKE_EXE_LINKER_FLAGS_RELEASE
-CMAKE_EXE_LINKER_FLAGS_RELEASE:STRING=-O2
+//Flags used by the linker during RELEASE builds.
+CMAKE_EXE_LINKER_FLAGS_RELEASE:STRING=
 
-//Emscripten-overridden CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO
-CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=-O2 -g
+//Flags used by the linker during RELWITHDEBINFO builds.
+CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //Enable/Disable output of build database during the build.
 CMAKE_EXPORT_BUILD_DATABASE:BOOL=
@@ -136,7 +112,7 @@ CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=
 CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=/home/runner/work/lvgl_editor/emscripten_builder/cmbuild/CMakeFiles/pkgRedirects
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=/usr/local
+CMAKE_INSTALL_PREFIX:PATH=/home/runner/work/_temp/c982ffe8-94d5-44ca-9d8d-893df72e520e/emsdk-main/upstream/emscripten/cache/sysroot
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=/usr/bin/ld
@@ -152,17 +128,17 @@ CMAKE_MODULE_LINKER_FLAGS:STRING=
 // DEBUG builds.
 CMAKE_MODULE_LINKER_FLAGS_DEBUG:STRING=
 
-//Emscripten-overridden CMAKE_MODULE_LINKER_FLAGS_MINSIZEREL
-CMAKE_MODULE_LINKER_FLAGS_MINSIZEREL:STRING=-Os
+//Flags used by the linker during the creation of modules during
+// MINSIZEREL builds.
+CMAKE_MODULE_LINKER_FLAGS_MINSIZEREL:STRING=
 
-//Emscripten-overridden CMAKE_MODULE_LINKER_FLAGS_RELEASE
-CMAKE_MODULE_LINKER_FLAGS_RELEASE:STRING=-O2
+//Flags used by the linker during the creation of modules during
+// RELEASE builds.
+CMAKE_MODULE_LINKER_FLAGS_RELEASE:STRING=
 
-//Emscripten-overridden CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO
-CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO:STRING=-O2 -g
-
-//Path to a program.
-CMAKE_NM:FILEPATH=/usr/bin/nm
+//Flags used by the linker during the creation of modules during
+// RELWITHDEBINFO builds.
+CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //Path to a program.
 CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
@@ -179,9 +155,6 @@ CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 //Value Computed by CMake
 CMAKE_PROJECT_NAME:STATIC=lv_emscripten
 
-//Emscripten ranlib
-CMAKE_RANLIB:FILEPATH=/home/runner/work/lvgl_editor/lvgl_editor/emsdk-cache/emsdk-main/upstream/emscripten/emranlib
-
 //Path to a program.
 CMAKE_READELF:FILEPATH=/usr/bin/readelf
 
@@ -193,14 +166,17 @@ CMAKE_SHARED_LINKER_FLAGS:STRING=
 // during DEBUG builds.
 CMAKE_SHARED_LINKER_FLAGS_DEBUG:STRING=
 
-//Emscripten-overridden CMAKE_SHARED_LINKER_FLAGS_MINSIZEREL
-CMAKE_SHARED_LINKER_FLAGS_MINSIZEREL:STRING=-Os
+//Flags used by the linker during the creation of shared libraries
+// during MINSIZEREL builds.
+CMAKE_SHARED_LINKER_FLAGS_MINSIZEREL:STRING=
 
-//Emscripten-overridden CMAKE_SHARED_LINKER_FLAGS_RELEASE
-CMAKE_SHARED_LINKER_FLAGS_RELEASE:STRING=-O2
+//Flags used by the linker during the creation of shared libraries
+// during RELEASE builds.
+CMAKE_SHARED_LINKER_FLAGS_RELEASE:STRING=
 
-//Emscripten-overridden CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO
-CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO:STRING=-O2 -g
+//Flags used by the linker during the creation of shared libraries
+// during RELWITHDEBINFO builds.
+CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //If set, runtime paths are not added when installing shared libraries,
 // but are added when building.
@@ -236,7 +212,7 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 
 //The CMake toolchain file
-CMAKE_TOOLCHAIN_FILE:FILEPATH=/home/runner/work/lvgl_editor/lvgl_editor/emsdk-cache/emsdk-main/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake
+CMAKE_TOOLCHAIN_FILE:FILEPATH=/home/runner/work/_temp/c982ffe8-94d5-44ca-9d8d-893df72e520e/emsdk-main/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake
 
 //If this value is on, makefiles will be generated without the
 // .SILENT directive, and all commands will be echoed to the console
@@ -255,9 +231,6 @@ CONFIG_LV_USE_PRIVATE_API:BOOL=OFF
 
 //Use the internal version of ThorVG
 CONFIG_LV_USE_THORVG_INTERNAL:BOOL=ON
-
-//If true, we are targeting Emscripten output.
-EMSCRIPTEN:BOOL=1
 
 //Force C/C++ compiler
 EMSCRIPTEN_FORCE_COMPILERS:BOOL=ON
@@ -338,8 +311,6 @@ lv_emscripten_SOURCE_DIR:STATIC=/home/runner/work/lvgl_editor/emscripten_builder
 
 //ADVANCED property for variable: CMAKE_ADDR2LINE
 CMAKE_ADDR2LINE-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_AR
-CMAKE_AR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_ASM_COMPILER
 CMAKE_ASM_COMPILER-ADVANCED:INTERNAL=1
 CMAKE_ASM_COMPILER_WORKS:INTERNAL=0
@@ -367,14 +338,6 @@ CMAKE_COMMAND:INTERNAL=/usr/local/bin/cmake
 CMAKE_CPACK_COMMAND:INTERNAL=/usr/local/bin/cpack
 //Path to ctest program executable.
 CMAKE_CTEST_COMMAND:INTERNAL=/usr/local/bin/ctest
-//ADVANCED property for variable: CMAKE_CXX_COMPILER
-CMAKE_CXX_COMPILER-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_CXX_COMPILER_AR
-CMAKE_CXX_COMPILER_AR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS
-CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_CXX_COMPILER_RANLIB
-CMAKE_CXX_COMPILER_RANLIB-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_FLAGS
 CMAKE_CXX_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_FLAGS_DEBUG
@@ -385,14 +348,8 @@ CMAKE_CXX_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
 CMAKE_CXX_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_FLAGS_RELWITHDEBINFO
 CMAKE_CXX_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_C_COMPILER
-CMAKE_C_COMPILER-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_C_COMPILER_AR
-CMAKE_C_COMPILER_AR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_COMPILER_CLANG_SCAN_DEPS
 CMAKE_C_COMPILER_CLANG_SCAN_DEPS-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_C_COMPILER_RANLIB
-CMAKE_C_COMPILER_RANLIB-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_FLAGS
 CMAKE_C_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_FLAGS_DEBUG
@@ -448,8 +405,6 @@ CMAKE_MODULE_LINKER_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
 CMAKE_MODULE_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO
 CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_NM
-CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
 CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
 //ADVANCED property for variable: CMAKE_OBJCOPY
@@ -458,8 +413,6 @@ CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 CMAKE_OBJDUMP-ADVANCED:INTERNAL=1
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_RANLIB
-CMAKE_RANLIB-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_READELF
 CMAKE_READELF-ADVANCED:INTERNAL=1
 //Path to CMake installation.
@@ -496,6 +449,8 @@ CMAKE_TAPI-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//If true, we are targeting Emscripten output.
+EMSCRIPTEN:INTERNAL=1
 //Details about finding PkgConfig
 FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/usr/bin/pkg-config][v1.8.1()]
 //ADVANCED property for variable: PKG_CONFIG_ARGN
