@@ -1,4 +1,4 @@
-```xml title="examples/components/cards/thermostat/thermostat.xml" source="https://github.com/lvgl/lvgl/blob/04f4503b0f498905ea79d38284829aad25aed89f/examples/components/cards/thermostat/thermostat.xml"
+```xml title="examples/components/cards/thermostat/thermostat.xml" source="https://github.com/lvgl/lvgl/blob/482e97c06fc05cf07ba9b2c4903384241141714b/examples/components/cards/thermostat/thermostat.xml"
 <component>
 	<previews>
 		<preview width="320" height="370" />

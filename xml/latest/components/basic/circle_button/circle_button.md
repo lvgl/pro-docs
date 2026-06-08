@@ -1,4 +1,4 @@
-```xml title="examples/components/basic/circle_button/circle_button.xml" source="https://github.com/lvgl/lvgl/blob/04f4503b0f498905ea79d38284829aad25aed89f/examples/components/basic/circle_button/circle_button.xml"
+```xml title="examples/components/basic/circle_button/circle_button.xml" source="https://github.com/lvgl/lvgl/blob/482e97c06fc05cf07ba9b2c4903384241141714b/examples/components/basic/circle_button/circle_button.xml"
 <component>
 	<api>
 		<prop name="icon" type="image" default="icon_plus" />

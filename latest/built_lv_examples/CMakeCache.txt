@@ -21,7 +21,7 @@ BUILD_SHARED_LIBS:BOOL=OFF
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
 
 //ASM compiler
-CMAKE_ASM_COMPILER:FILEPATH=/home/runner/work/_temp/c982ffe8-94d5-44ca-9d8d-893df72e520e/emsdk-main/upstream/emscripten/emcc
+CMAKE_ASM_COMPILER:FILEPATH=/home/runner/work/lvgl_editor/lvgl_editor/emsdk-cache/emsdk-main/upstream/emscripten/emcc
 
 //Flags used by the ASM compiler during all build types.
 CMAKE_ASM_FLAGS:STRING=
@@ -43,7 +43,7 @@ CMAKE_ASM_FLAGS_RELWITHDEBINFO:STRING=
 CMAKE_BUILD_TYPE:STRING=
 
 //No help, variable specified on the command line.
-CMAKE_CROSSCOMPILING_EMULATOR:UNINITIALIZED=/home/runner/work/_temp/c982ffe8-94d5-44ca-9d8d-893df72e520e/emsdk-main/node/22.16.0_64bit/bin/node
+CMAKE_CROSSCOMPILING_EMULATOR:UNINITIALIZED=/home/runner/work/lvgl_editor/lvgl_editor/emsdk-cache/emsdk-main/node/22.16.0_64bit/bin/node
 
 //No help, variable specified on the command line.
 CMAKE_CXX_COMPILER_LAUNCHER:UNINITIALIZED=ccache
@@ -112,7 +112,7 @@ CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=
 CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=/home/runner/work/lvgl_editor/emscripten_builder/cmbuild/CMakeFiles/pkgRedirects
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=/home/runner/work/_temp/c982ffe8-94d5-44ca-9d8d-893df72e520e/emsdk-main/upstream/emscripten/cache/sysroot
+CMAKE_INSTALL_PREFIX:PATH=/home/runner/work/lvgl_editor/lvgl_editor/emsdk-cache/emsdk-main/upstream/emscripten/cache/sysroot
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=/usr/bin/ld
@@ -212,7 +212,7 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 
 //The CMake toolchain file
-CMAKE_TOOLCHAIN_FILE:FILEPATH=/home/runner/work/_temp/c982ffe8-94d5-44ca-9d8d-893df72e520e/emsdk-main/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake
+CMAKE_TOOLCHAIN_FILE:FILEPATH=/home/runner/work/lvgl_editor/lvgl_editor/emsdk-cache/emsdk-main/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake
 
 //If this value is on, makefiles will be generated without the
 // .SILENT directive, and all commands will be echoed to the console

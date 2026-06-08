@@ -1,4 +1,4 @@
-```xml title="examples/components/cards/speaker_volume/speaker_volume.xml" source="https://github.com/lvgl/lvgl/blob/04f4503b0f498905ea79d38284829aad25aed89f/examples/components/cards/speaker_volume/speaker_volume.xml"
+```xml title="examples/components/cards/speaker_volume/speaker_volume.xml" source="https://github.com/lvgl/lvgl/blob/482e97c06fc05cf07ba9b2c4903384241141714b/examples/components/cards/speaker_volume/speaker_volume.xml"
 <component>
 	<previews>
 		<preview width="320" height="230" />
