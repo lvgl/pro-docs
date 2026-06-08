@@ -4962,243 +4962,261 @@ build lvgl/lib/liblvgl_thorvg.a: CXX_STATIC_LIBRARY_LINKER__lvgl_thorvg_ lvgl/CM
 
 build cmake_object_order_depends_target_lvgl_examples: phony || cmake_object_order_depends_target_lvgl_demos
 
-build lvgl/CMakeFiles/lvgl_examples.dir/examples/components/basic/bar/bar_gen.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/components/basic/bar/bar_gen.c || cmake_object_order_depends_target_lvgl_examples
+build lvgl/CMakeFiles/lvgl_examples.dir/examples/fonts/font_large_data.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/fonts/font_large_data.c || cmake_object_order_depends_target_lvgl_examples
   DEFINES = -DLV_CONF_PATH=\"/home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs/lv_conf_docs.h\" -DLV_KCONFIG_IGNORE -DLV_LVGL_H_INCLUDE_SIMPLE
-  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/components/basic/bar/bar_gen.c.o.d
+  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/fonts/font_large_data.c.o.d
   FLAGS = -O2 -s USE_SDL=2
   INCLUDES = -I/home/runner/work/lvgl_editor/emscripten_builder -I/home/runner/work/lvgl_editor/emscripten_builder/lvgl/include/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/include -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/cmbuild/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/demos
   LAUNCHER = ccache 
   OBJECT_DIR = lvgl/CMakeFiles/lvgl_examples.dir
-  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples/components/basic/bar
+  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples/fonts
 
-build lvgl/CMakeFiles/lvgl_examples.dir/examples/components/basic/button/button_gen.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/components/basic/button/button_gen.c || cmake_object_order_depends_target_lvgl_examples
+build lvgl/CMakeFiles/lvgl_examples.dir/examples/images/img_logo_data.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/images/img_logo_data.c || cmake_object_order_depends_target_lvgl_examples
   DEFINES = -DLV_CONF_PATH=\"/home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs/lv_conf_docs.h\" -DLV_KCONFIG_IGNORE -DLV_LVGL_H_INCLUDE_SIMPLE
-  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/components/basic/button/button_gen.c.o.d
+  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/images/img_logo_data.c.o.d
   FLAGS = -O2 -s USE_SDL=2
   INCLUDES = -I/home/runner/work/lvgl_editor/emscripten_builder -I/home/runner/work/lvgl_editor/emscripten_builder/lvgl/include/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/include -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/cmbuild/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/demos
   LAUNCHER = ccache 
   OBJECT_DIR = lvgl/CMakeFiles/lvgl_examples.dir
-  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples/components/basic/button
+  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples/images
 
-build lvgl/CMakeFiles/lvgl_examples.dir/examples/components/basic/card/card_gen.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/components/basic/card/card_gen.c || cmake_object_order_depends_target_lvgl_examples
+build lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_arc.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/screens/lv_example_arc.c || cmake_object_order_depends_target_lvgl_examples
   DEFINES = -DLV_CONF_PATH=\"/home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs/lv_conf_docs.h\" -DLV_KCONFIG_IGNORE -DLV_LVGL_H_INCLUDE_SIMPLE
-  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/components/basic/card/card_gen.c.o.d
+  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_arc.c.o.d
   FLAGS = -O2 -s USE_SDL=2
   INCLUDES = -I/home/runner/work/lvgl_editor/emscripten_builder -I/home/runner/work/lvgl_editor/emscripten_builder/lvgl/include/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/include -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/cmbuild/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/demos
   LAUNCHER = ccache 
   OBJECT_DIR = lvgl/CMakeFiles/lvgl_examples.dir
-  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples/components/basic/card
+  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens
 
-build lvgl/CMakeFiles/lvgl_examples.dir/examples/components/basic/card/card_header_gen.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/components/basic/card/card_header_gen.c || cmake_object_order_depends_target_lvgl_examples
+build lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_bar.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/screens/lv_example_bar.c || cmake_object_order_depends_target_lvgl_examples
   DEFINES = -DLV_CONF_PATH=\"/home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs/lv_conf_docs.h\" -DLV_KCONFIG_IGNORE -DLV_LVGL_H_INCLUDE_SIMPLE
-  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/components/basic/card/card_header_gen.c.o.d
+  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_bar.c.o.d
   FLAGS = -O2 -s USE_SDL=2
   INCLUDES = -I/home/runner/work/lvgl_editor/emscripten_builder -I/home/runner/work/lvgl_editor/emscripten_builder/lvgl/include/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/include -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/cmbuild/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/demos
   LAUNCHER = ccache 
   OBJECT_DIR = lvgl/CMakeFiles/lvgl_examples.dir
-  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples/components/basic/card
+  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens
 
-build lvgl/CMakeFiles/lvgl_examples.dir/examples/components/basic/circle_button/circle_button_gen.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/components/basic/circle_button/circle_button_gen.c || cmake_object_order_depends_target_lvgl_examples
+build lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_button.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/screens/lv_example_button.c || cmake_object_order_depends_target_lvgl_examples
   DEFINES = -DLV_CONF_PATH=\"/home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs/lv_conf_docs.h\" -DLV_KCONFIG_IGNORE -DLV_LVGL_H_INCLUDE_SIMPLE
-  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/components/basic/circle_button/circle_button_gen.c.o.d
+  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_button.c.o.d
   FLAGS = -O2 -s USE_SDL=2
   INCLUDES = -I/home/runner/work/lvgl_editor/emscripten_builder -I/home/runner/work/lvgl_editor/emscripten_builder/lvgl/include/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/include -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/cmbuild/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/demos
   LAUNCHER = ccache 
   OBJECT_DIR = lvgl/CMakeFiles/lvgl_examples.dir
-  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples/components/basic/circle_button
+  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens
 
-build lvgl/CMakeFiles/lvgl_examples.dir/examples/components/basic/column/column_gen.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/components/basic/column/column_gen.c || cmake_object_order_depends_target_lvgl_examples
+build lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_buttonmatrix.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/screens/lv_example_buttonmatrix.c || cmake_object_order_depends_target_lvgl_examples
   DEFINES = -DLV_CONF_PATH=\"/home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs/lv_conf_docs.h\" -DLV_KCONFIG_IGNORE -DLV_LVGL_H_INCLUDE_SIMPLE
-  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/components/basic/column/column_gen.c.o.d
+  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_buttonmatrix.c.o.d
   FLAGS = -O2 -s USE_SDL=2
   INCLUDES = -I/home/runner/work/lvgl_editor/emscripten_builder -I/home/runner/work/lvgl_editor/emscripten_builder/lvgl/include/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/include -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/cmbuild/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/demos
   LAUNCHER = ccache 
   OBJECT_DIR = lvgl/CMakeFiles/lvgl_examples.dir
-  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples/components/basic/column
+  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens
 
-build lvgl/CMakeFiles/lvgl_examples.dir/examples/components/basic/div/div_gen.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/components/basic/div/div_gen.c || cmake_object_order_depends_target_lvgl_examples
+build lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_calendar.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/screens/lv_example_calendar.c || cmake_object_order_depends_target_lvgl_examples
   DEFINES = -DLV_CONF_PATH=\"/home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs/lv_conf_docs.h\" -DLV_KCONFIG_IGNORE -DLV_LVGL_H_INCLUDE_SIMPLE
-  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/components/basic/div/div_gen.c.o.d
+  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_calendar.c.o.d
   FLAGS = -O2 -s USE_SDL=2
   INCLUDES = -I/home/runner/work/lvgl_editor/emscripten_builder -I/home/runner/work/lvgl_editor/emscripten_builder/lvgl/include/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/include -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/cmbuild/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/demos
   LAUNCHER = ccache 
   OBJECT_DIR = lvgl/CMakeFiles/lvgl_examples.dir
-  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples/components/basic/div
+  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens
 
-build lvgl/CMakeFiles/lvgl_examples.dir/examples/components/basic/icon_button/icon_button_gen.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/components/basic/icon_button/icon_button_gen.c || cmake_object_order_depends_target_lvgl_examples
+build lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_chart.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/screens/lv_example_chart.c || cmake_object_order_depends_target_lvgl_examples
   DEFINES = -DLV_CONF_PATH=\"/home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs/lv_conf_docs.h\" -DLV_KCONFIG_IGNORE -DLV_LVGL_H_INCLUDE_SIMPLE
-  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/components/basic/icon_button/icon_button_gen.c.o.d
+  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_chart.c.o.d
   FLAGS = -O2 -s USE_SDL=2
   INCLUDES = -I/home/runner/work/lvgl_editor/emscripten_builder -I/home/runner/work/lvgl_editor/emscripten_builder/lvgl/include/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/include -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/cmbuild/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/demos
   LAUNCHER = ccache 
   OBJECT_DIR = lvgl/CMakeFiles/lvgl_examples.dir
-  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples/components/basic/icon_button
+  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens
 
-build lvgl/CMakeFiles/lvgl_examples.dir/examples/components/basic/roller/roller_gen.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/components/basic/roller/roller_gen.c || cmake_object_order_depends_target_lvgl_examples
+build lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_checkbox.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/screens/lv_example_checkbox.c || cmake_object_order_depends_target_lvgl_examples
   DEFINES = -DLV_CONF_PATH=\"/home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs/lv_conf_docs.h\" -DLV_KCONFIG_IGNORE -DLV_LVGL_H_INCLUDE_SIMPLE
-  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/components/basic/roller/roller_gen.c.o.d
+  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_checkbox.c.o.d
   FLAGS = -O2 -s USE_SDL=2
   INCLUDES = -I/home/runner/work/lvgl_editor/emscripten_builder -I/home/runner/work/lvgl_editor/emscripten_builder/lvgl/include/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/include -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/cmbuild/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/demos
   LAUNCHER = ccache 
   OBJECT_DIR = lvgl/CMakeFiles/lvgl_examples.dir
-  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples/components/basic/roller
+  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens
 
-build lvgl/CMakeFiles/lvgl_examples.dir/examples/components/basic/row/row_gen.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/components/basic/row/row_gen.c || cmake_object_order_depends_target_lvgl_examples
+build lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_dropdown.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/screens/lv_example_dropdown.c || cmake_object_order_depends_target_lvgl_examples
   DEFINES = -DLV_CONF_PATH=\"/home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs/lv_conf_docs.h\" -DLV_KCONFIG_IGNORE -DLV_LVGL_H_INCLUDE_SIMPLE
-  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/components/basic/row/row_gen.c.o.d
+  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_dropdown.c.o.d
   FLAGS = -O2 -s USE_SDL=2
   INCLUDES = -I/home/runner/work/lvgl_editor/emscripten_builder -I/home/runner/work/lvgl_editor/emscripten_builder/lvgl/include/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/include -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/cmbuild/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/demos
   LAUNCHER = ccache 
   OBJECT_DIR = lvgl/CMakeFiles/lvgl_examples.dir
-  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples/components/basic/row
+  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens
 
-build lvgl/CMakeFiles/lvgl_examples.dir/examples/components/basic/slider/slider_gen.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/components/basic/slider/slider_gen.c || cmake_object_order_depends_target_lvgl_examples
+build lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_gif.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/screens/lv_example_gif.c || cmake_object_order_depends_target_lvgl_examples
   DEFINES = -DLV_CONF_PATH=\"/home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs/lv_conf_docs.h\" -DLV_KCONFIG_IGNORE -DLV_LVGL_H_INCLUDE_SIMPLE
-  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/components/basic/slider/slider_gen.c.o.d
+  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_gif.c.o.d
   FLAGS = -O2 -s USE_SDL=2
   INCLUDES = -I/home/runner/work/lvgl_editor/emscripten_builder -I/home/runner/work/lvgl_editor/emscripten_builder/lvgl/include/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/include -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/cmbuild/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/demos
   LAUNCHER = ccache 
   OBJECT_DIR = lvgl/CMakeFiles/lvgl_examples.dir
-  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples/components/basic/slider
+  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens
 
-build lvgl/CMakeFiles/lvgl_examples.dir/examples/components/basic/switch/switch_gen.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/components/basic/switch/switch_gen.c || cmake_object_order_depends_target_lvgl_examples
+build lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_image.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/screens/lv_example_image.c || cmake_object_order_depends_target_lvgl_examples
   DEFINES = -DLV_CONF_PATH=\"/home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs/lv_conf_docs.h\" -DLV_KCONFIG_IGNORE -DLV_LVGL_H_INCLUDE_SIMPLE
-  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/components/basic/switch/switch_gen.c.o.d
+  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_image.c.o.d
   FLAGS = -O2 -s USE_SDL=2
   INCLUDES = -I/home/runner/work/lvgl_editor/emscripten_builder -I/home/runner/work/lvgl_editor/emscripten_builder/lvgl/include/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/include -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/cmbuild/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/demos
   LAUNCHER = ccache 
   OBJECT_DIR = lvgl/CMakeFiles/lvgl_examples.dir
-  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples/components/basic/switch
+  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens
 
-build lvgl/CMakeFiles/lvgl_examples.dir/examples/components/basic/table/table_gen.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/components/basic/table/table_gen.c || cmake_object_order_depends_target_lvgl_examples
+build lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_imagebutton.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/screens/lv_example_imagebutton.c || cmake_object_order_depends_target_lvgl_examples
   DEFINES = -DLV_CONF_PATH=\"/home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs/lv_conf_docs.h\" -DLV_KCONFIG_IGNORE -DLV_LVGL_H_INCLUDE_SIMPLE
-  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/components/basic/table/table_gen.c.o.d
+  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_imagebutton.c.o.d
   FLAGS = -O2 -s USE_SDL=2
   INCLUDES = -I/home/runner/work/lvgl_editor/emscripten_builder -I/home/runner/work/lvgl_editor/emscripten_builder/lvgl/include/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/include -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/cmbuild/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/demos
   LAUNCHER = ccache 
   OBJECT_DIR = lvgl/CMakeFiles/lvgl_examples.dir
-  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples/components/basic/table
+  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens
 
-build lvgl/CMakeFiles/lvgl_examples.dir/examples/components/cards/alarm/alarm_gen.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/components/cards/alarm/alarm_gen.c || cmake_object_order_depends_target_lvgl_examples
+build lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_keyboard.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/screens/lv_example_keyboard.c || cmake_object_order_depends_target_lvgl_examples
   DEFINES = -DLV_CONF_PATH=\"/home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs/lv_conf_docs.h\" -DLV_KCONFIG_IGNORE -DLV_LVGL_H_INCLUDE_SIMPLE
-  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/components/cards/alarm/alarm_gen.c.o.d
+  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_keyboard.c.o.d
   FLAGS = -O2 -s USE_SDL=2
   INCLUDES = -I/home/runner/work/lvgl_editor/emscripten_builder -I/home/runner/work/lvgl_editor/emscripten_builder/lvgl/include/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/include -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/cmbuild/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/demos
   LAUNCHER = ccache 
   OBJECT_DIR = lvgl/CMakeFiles/lvgl_examples.dir
-  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples/components/cards/alarm
+  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens
 
-build lvgl/CMakeFiles/lvgl_examples.dir/examples/components/cards/light_temperature/light_temperature_gen.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/components/cards/light_temperature/light_temperature_gen.c || cmake_object_order_depends_target_lvgl_examples
+build lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_label.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/screens/lv_example_label.c || cmake_object_order_depends_target_lvgl_examples
   DEFINES = -DLV_CONF_PATH=\"/home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs/lv_conf_docs.h\" -DLV_KCONFIG_IGNORE -DLV_LVGL_H_INCLUDE_SIMPLE
-  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/components/cards/light_temperature/light_temperature_gen.c.o.d
+  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_label.c.o.d
   FLAGS = -O2 -s USE_SDL=2
   INCLUDES = -I/home/runner/work/lvgl_editor/emscripten_builder -I/home/runner/work/lvgl_editor/emscripten_builder/lvgl/include/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/include -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/cmbuild/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/demos
   LAUNCHER = ccache 
   OBJECT_DIR = lvgl/CMakeFiles/lvgl_examples.dir
-  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples/components/cards/light_temperature
+  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens
 
-build lvgl/CMakeFiles/lvgl_examples.dir/examples/components/cards/move_goal/move_goal_gen.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/components/cards/move_goal/move_goal_gen.c || cmake_object_order_depends_target_lvgl_examples
+build lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_led.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/screens/lv_example_led.c || cmake_object_order_depends_target_lvgl_examples
   DEFINES = -DLV_CONF_PATH=\"/home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs/lv_conf_docs.h\" -DLV_KCONFIG_IGNORE -DLV_LVGL_H_INCLUDE_SIMPLE
-  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/components/cards/move_goal/move_goal_gen.c.o.d
+  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_led.c.o.d
   FLAGS = -O2 -s USE_SDL=2
   INCLUDES = -I/home/runner/work/lvgl_editor/emscripten_builder -I/home/runner/work/lvgl_editor/emscripten_builder/lvgl/include/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/include -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/cmbuild/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/demos
   LAUNCHER = ccache 
   OBJECT_DIR = lvgl/CMakeFiles/lvgl_examples.dir
-  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples/components/cards/move_goal
+  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens
 
-build lvgl/CMakeFiles/lvgl_examples.dir/examples/components/cards/move_goal/stat_col_gen.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/components/cards/move_goal/stat_col_gen.c || cmake_object_order_depends_target_lvgl_examples
+build lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_line.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/screens/lv_example_line.c || cmake_object_order_depends_target_lvgl_examples
   DEFINES = -DLV_CONF_PATH=\"/home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs/lv_conf_docs.h\" -DLV_KCONFIG_IGNORE -DLV_LVGL_H_INCLUDE_SIMPLE
-  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/components/cards/move_goal/stat_col_gen.c.o.d
+  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_line.c.o.d
   FLAGS = -O2 -s USE_SDL=2
   INCLUDES = -I/home/runner/work/lvgl_editor/emscripten_builder -I/home/runner/work/lvgl_editor/emscripten_builder/lvgl/include/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/include -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/cmbuild/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/demos
   LAUNCHER = ccache 
   OBJECT_DIR = lvgl/CMakeFiles/lvgl_examples.dir
-  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples/components/cards/move_goal
+  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens
 
-build lvgl/CMakeFiles/lvgl_examples.dir/examples/components/cards/music_player/music_player_gen.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/components/cards/music_player/music_player_gen.c || cmake_object_order_depends_target_lvgl_examples
+build lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_obj.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/screens/lv_example_obj.c || cmake_object_order_depends_target_lvgl_examples
   DEFINES = -DLV_CONF_PATH=\"/home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs/lv_conf_docs.h\" -DLV_KCONFIG_IGNORE -DLV_LVGL_H_INCLUDE_SIMPLE
-  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/components/cards/music_player/music_player_gen.c.o.d
+  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_obj.c.o.d
   FLAGS = -O2 -s USE_SDL=2
   INCLUDES = -I/home/runner/work/lvgl_editor/emscripten_builder -I/home/runner/work/lvgl_editor/emscripten_builder/lvgl/include/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/include -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/cmbuild/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/demos
   LAUNCHER = ccache 
   OBJECT_DIR = lvgl/CMakeFiles/lvgl_examples.dir
-  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples/components/cards/music_player
+  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens
 
-build lvgl/CMakeFiles/lvgl_examples.dir/examples/components/cards/speaker_volume/speaker_volume_gen.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/components/cards/speaker_volume/speaker_volume_gen.c || cmake_object_order_depends_target_lvgl_examples
+build lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_qrcode.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/screens/lv_example_qrcode.c || cmake_object_order_depends_target_lvgl_examples
   DEFINES = -DLV_CONF_PATH=\"/home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs/lv_conf_docs.h\" -DLV_KCONFIG_IGNORE -DLV_LVGL_H_INCLUDE_SIMPLE
-  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/components/cards/speaker_volume/speaker_volume_gen.c.o.d
+  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_qrcode.c.o.d
   FLAGS = -O2 -s USE_SDL=2
   INCLUDES = -I/home/runner/work/lvgl_editor/emscripten_builder -I/home/runner/work/lvgl_editor/emscripten_builder/lvgl/include/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/include -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/cmbuild/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/demos
   LAUNCHER = ccache 
   OBJECT_DIR = lvgl/CMakeFiles/lvgl_examples.dir
-  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples/components/cards/speaker_volume
+  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens
 
-build lvgl/CMakeFiles/lvgl_examples.dir/examples/components/cards/theme_swtcher/theme_switcher_gen.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/components/cards/theme_swtcher/theme_switcher_gen.c || cmake_object_order_depends_target_lvgl_examples
+build lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_roller.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/screens/lv_example_roller.c || cmake_object_order_depends_target_lvgl_examples
   DEFINES = -DLV_CONF_PATH=\"/home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs/lv_conf_docs.h\" -DLV_KCONFIG_IGNORE -DLV_LVGL_H_INCLUDE_SIMPLE
-  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/components/cards/theme_swtcher/theme_switcher_gen.c.o.d
+  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_roller.c.o.d
   FLAGS = -O2 -s USE_SDL=2
   INCLUDES = -I/home/runner/work/lvgl_editor/emscripten_builder -I/home/runner/work/lvgl_editor/emscripten_builder/lvgl/include/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/include -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/cmbuild/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/demos
   LAUNCHER = ccache 
   OBJECT_DIR = lvgl/CMakeFiles/lvgl_examples.dir
-  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples/components/cards/theme_swtcher
+  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens
 
-build lvgl/CMakeFiles/lvgl_examples.dir/examples/components/cards/thermostat/thermostat_gen.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/components/cards/thermostat/thermostat_gen.c || cmake_object_order_depends_target_lvgl_examples
+build lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_scale.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/screens/lv_example_scale.c || cmake_object_order_depends_target_lvgl_examples
   DEFINES = -DLV_CONF_PATH=\"/home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs/lv_conf_docs.h\" -DLV_KCONFIG_IGNORE -DLV_LVGL_H_INCLUDE_SIMPLE
-  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/components/cards/thermostat/thermostat_gen.c.o.d
+  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_scale.c.o.d
   FLAGS = -O2 -s USE_SDL=2
   INCLUDES = -I/home/runner/work/lvgl_editor/emscripten_builder -I/home/runner/work/lvgl_editor/emscripten_builder/lvgl/include/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/include -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/cmbuild/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/demos
   LAUNCHER = ccache 
   OBJECT_DIR = lvgl/CMakeFiles/lvgl_examples.dir
-  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples/components/cards/thermostat
+  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens
 
-build lvgl/CMakeFiles/lvgl_examples.dir/examples/components/cards/weather/location_gen.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/components/cards/weather/location_gen.c || cmake_object_order_depends_target_lvgl_examples
+build lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_slider.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/screens/lv_example_slider.c || cmake_object_order_depends_target_lvgl_examples
   DEFINES = -DLV_CONF_PATH=\"/home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs/lv_conf_docs.h\" -DLV_KCONFIG_IGNORE -DLV_LVGL_H_INCLUDE_SIMPLE
-  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/components/cards/weather/location_gen.c.o.d
+  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_slider.c.o.d
   FLAGS = -O2 -s USE_SDL=2
   INCLUDES = -I/home/runner/work/lvgl_editor/emscripten_builder -I/home/runner/work/lvgl_editor/emscripten_builder/lvgl/include/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/include -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/cmbuild/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/demos
   LAUNCHER = ccache 
   OBJECT_DIR = lvgl/CMakeFiles/lvgl_examples.dir
-  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples/components/cards/weather
+  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens
 
-build lvgl/CMakeFiles/lvgl_examples.dir/examples/components/cards/weather/weather_gen.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/components/cards/weather/weather_gen.c || cmake_object_order_depends_target_lvgl_examples
+build lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_spangroup.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/screens/lv_example_spangroup.c || cmake_object_order_depends_target_lvgl_examples
   DEFINES = -DLV_CONF_PATH=\"/home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs/lv_conf_docs.h\" -DLV_KCONFIG_IGNORE -DLV_LVGL_H_INCLUDE_SIMPLE
-  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/components/cards/weather/weather_gen.c.o.d
+  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_spangroup.c.o.d
   FLAGS = -O2 -s USE_SDL=2
   INCLUDES = -I/home/runner/work/lvgl_editor/emscripten_builder -I/home/runner/work/lvgl_editor/emscripten_builder/lvgl/include/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/include -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/cmbuild/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/demos
   LAUNCHER = ccache 
   OBJECT_DIR = lvgl/CMakeFiles/lvgl_examples.dir
-  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples/components/cards/weather
+  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens
 
-build lvgl/CMakeFiles/lvgl_examples.dir/examples/examples.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/examples.c || cmake_object_order_depends_target_lvgl_examples
+build lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_spinbox.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/screens/lv_example_spinbox.c || cmake_object_order_depends_target_lvgl_examples
   DEFINES = -DLV_CONF_PATH=\"/home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs/lv_conf_docs.h\" -DLV_KCONFIG_IGNORE -DLV_LVGL_H_INCLUDE_SIMPLE
-  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/examples.c.o.d
+  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_spinbox.c.o.d
   FLAGS = -O2 -s USE_SDL=2
   INCLUDES = -I/home/runner/work/lvgl_editor/emscripten_builder -I/home/runner/work/lvgl_editor/emscripten_builder/lvgl/include/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/include -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/cmbuild/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/demos
   LAUNCHER = ccache 
   OBJECT_DIR = lvgl/CMakeFiles/lvgl_examples.dir
-  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples
+  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens
 
-build lvgl/CMakeFiles/lvgl_examples.dir/examples/examples_gen.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/examples_gen.c || cmake_object_order_depends_target_lvgl_examples
+build lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_spinner.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/screens/lv_example_spinner.c || cmake_object_order_depends_target_lvgl_examples
   DEFINES = -DLV_CONF_PATH=\"/home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs/lv_conf_docs.h\" -DLV_KCONFIG_IGNORE -DLV_LVGL_H_INCLUDE_SIMPLE
-  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/examples_gen.c.o.d
+  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_spinner.c.o.d
   FLAGS = -O2 -s USE_SDL=2
   INCLUDES = -I/home/runner/work/lvgl_editor/emscripten_builder -I/home/runner/work/lvgl_editor/emscripten_builder/lvgl/include/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/include -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/cmbuild/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/demos
   LAUNCHER = ccache 
   OBJECT_DIR = lvgl/CMakeFiles/lvgl_examples.dir
-  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples
+  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens
 
-build lvgl/CMakeFiles/lvgl_examples.dir/examples/lv_example_arc_bind_value.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/lv_example_arc_bind_value.c || cmake_object_order_depends_target_lvgl_examples
+build lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_switch.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/screens/lv_example_switch.c || cmake_object_order_depends_target_lvgl_examples
   DEFINES = -DLV_CONF_PATH=\"/home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs/lv_conf_docs.h\" -DLV_KCONFIG_IGNORE -DLV_LVGL_H_INCLUDE_SIMPLE
-  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/lv_example_arc_bind_value.c.o.d
+  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_switch.c.o.d
   FLAGS = -O2 -s USE_SDL=2
   INCLUDES = -I/home/runner/work/lvgl_editor/emscripten_builder -I/home/runner/work/lvgl_editor/emscripten_builder/lvgl/include/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/include -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/cmbuild/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/demos
   LAUNCHER = ccache 
   OBJECT_DIR = lvgl/CMakeFiles/lvgl_examples.dir
-  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples
+  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens
 
-build lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/elements_gen.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/screens/elements_gen.c || cmake_object_order_depends_target_lvgl_examples
+build lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_table.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/screens/lv_example_table.c || cmake_object_order_depends_target_lvgl_examples
   DEFINES = -DLV_CONF_PATH=\"/home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs/lv_conf_docs.h\" -DLV_KCONFIG_IGNORE -DLV_LVGL_H_INCLUDE_SIMPLE
-  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/elements_gen.c.o.d
+  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_table.c.o.d
+  FLAGS = -O2 -s USE_SDL=2
+  INCLUDES = -I/home/runner/work/lvgl_editor/emscripten_builder -I/home/runner/work/lvgl_editor/emscripten_builder/lvgl/include/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/include -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/cmbuild/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/demos
+  LAUNCHER = ccache 
+  OBJECT_DIR = lvgl/CMakeFiles/lvgl_examples.dir
+  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens
+
+build lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_tabview.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/screens/lv_example_tabview.c || cmake_object_order_depends_target_lvgl_examples
+  DEFINES = -DLV_CONF_PATH=\"/home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs/lv_conf_docs.h\" -DLV_KCONFIG_IGNORE -DLV_LVGL_H_INCLUDE_SIMPLE
+  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_tabview.c.o.d
+  FLAGS = -O2 -s USE_SDL=2
+  INCLUDES = -I/home/runner/work/lvgl_editor/emscripten_builder -I/home/runner/work/lvgl_editor/emscripten_builder/lvgl/include/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/include -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/cmbuild/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/demos
+  LAUNCHER = ccache 
+  OBJECT_DIR = lvgl/CMakeFiles/lvgl_examples.dir
+  OBJECT_FILE_DIR = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens
+
+build lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_textarea.c.o: C_COMPILER__lvgl_examples_unscanned_ /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples/screens/lv_example_textarea.c || cmake_object_order_depends_target_lvgl_examples
+  DEFINES = -DLV_CONF_PATH=\"/home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs/lv_conf_docs.h\" -DLV_KCONFIG_IGNORE -DLV_LVGL_H_INCLUDE_SIMPLE
+  DEP_FILE = lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_textarea.c.o.d
   FLAGS = -O2 -s USE_SDL=2
   INCLUDES = -I/home/runner/work/lvgl_editor/emscripten_builder -I/home/runner/work/lvgl_editor/emscripten_builder/lvgl/include/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/configs/ci/docs -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/include -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/cmbuild/lvgl -isystem /home/runner/work/lvgl_editor/emscripten_builder/lvgl/demos
   LAUNCHER = ccache 
@@ -5213,7 +5231,7 @@ build lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/elements_gen.c.o: C_COM
 #############################################
 # Link the static library lvgl/lib/liblvgl_examples.a
 
-build lvgl/lib/liblvgl_examples.a: CXX_STATIC_LIBRARY_LINKER__lvgl_examples_ lvgl/CMakeFiles/lvgl_examples.dir/examples/components/basic/bar/bar_gen.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/components/basic/button/button_gen.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/components/basic/card/card_gen.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/components/basic/card/card_header_gen.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/components/basic/circle_button/circle_button_gen.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/components/basic/column/column_gen.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/components/basic/div/div_gen.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/components/basic/icon_button/icon_button_gen.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/components/basic/roller/roller_gen.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/components/basic/row/row_gen.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/components/basic/slider/slider_gen.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/components/basic/switch/switch_gen.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/components/basic/table/table_gen.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/components/cards/alarm/alarm_gen.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/components/cards/light_temperature/light_temperature_gen.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/components/cards/move_goal/move_goal_gen.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/components/cards/move_goal/stat_col_gen.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/components/cards/music_player/music_player_gen.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/components/cards/speaker_volume/speaker_volume_gen.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/components/cards/theme_swtcher/theme_switcher_gen.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/components/cards/thermostat/thermostat_gen.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/components/cards/weather/location_gen.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/components/cards/weather/weather_gen.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/examples.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/examples_gen.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/lv_example_arc_bind_value.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/elements_gen.c.o || lvgl/lib/liblvgl_demos.a
+build lvgl/lib/liblvgl_examples.a: CXX_STATIC_LIBRARY_LINKER__lvgl_examples_ lvgl/CMakeFiles/lvgl_examples.dir/examples/fonts/font_large_data.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/images/img_logo_data.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_arc.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_bar.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_button.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_buttonmatrix.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_calendar.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_chart.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_checkbox.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_dropdown.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_gif.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_image.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_imagebutton.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_keyboard.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_label.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_led.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_line.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_obj.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_qrcode.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_roller.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_scale.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_slider.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_spangroup.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_spinbox.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_spinner.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_switch.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_table.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_tabview.c.o lvgl/CMakeFiles/lvgl_examples.dir/examples/screens/lv_example_textarea.c.o || lvgl/lib/liblvgl_demos.a
   OBJECT_DIR = lvgl/CMakeFiles/lvgl_examples.dir
   POST_BUILD = :
   PRE_LINK = :
