@@ -1,4 +1,4 @@
-```xml title="examples/components/basic/slider/slider.xml" source="https://github.com/lvgl/lvgl/blob/3bde9a1bf978e33d70ff16f3ced5740692e06987/examples/components/basic/slider/slider.xml"
+```xml title="examples/components/basic/slider/slider.xml" source="https://github.com/lvgl/lvgl/blob/ec111c26934fa05fc52c68edf76d01e3e4b6d72c/examples/components/basic/slider/slider.xml"
 <component>
 	<previews>
 		<preview style_pad_all="20" />

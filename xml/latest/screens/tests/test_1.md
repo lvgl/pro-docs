@@ -1,4 +1,4 @@
-```xml title="examples/screens/tests/test_1.xml" source="https://github.com/lvgl/lvgl/blob/3bde9a1bf978e33d70ff16f3ced5740692e06987/examples/screens/tests/test_1.xml"
+```xml title="examples/screens/tests/test_1.xml" source="https://github.com/lvgl/lvgl/blob/ec111c26934fa05fc52c68edf76d01e3e4b6d72c/examples/screens/tests/test_1.xml"
 <test>
 	<view extends="elements" />
 	<steps>
