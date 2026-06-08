@@ -1,4 +1,4 @@
-```xml title="examples/screens/elements.xml" source="https://github.com/lvgl/lvgl/blob/c7f14db4472da8ca3d086ab82e66073a696a96e4/examples/screens/elements.xml"
+```xml title="examples/screens/elements.xml" source="https://github.com/lvgl/lvgl/blob/e6381c608099f934d57f5db916fba03e84783f7a/examples/screens/elements.xml"
 <screen>
 	<styles>
 		<style name="style_light" bg_color="#accent2_50_light" />

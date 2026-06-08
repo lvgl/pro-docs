@@ -1,4 +1,4 @@
-prefix="/home/runner/work/_temp/3ee5e061-cdfb-4392-809d-946806719c49/emsdk-main/upstream/emscripten/cache/sysroot"
+prefix="/home/runner/work/lvgl_editor/lvgl_editor/emsdk-cache/emsdk-main/upstream/emscripten/cache/sysroot"
 includedir="${prefix}/include"
 libdir=${prefix}/lib
 

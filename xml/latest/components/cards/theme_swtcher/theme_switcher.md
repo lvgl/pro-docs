@@ -1,4 +1,4 @@
-```xml title="examples/components/cards/theme_swtcher/theme_switcher.xml" source="https://github.com/lvgl/lvgl/blob/c7f14db4472da8ca3d086ab82e66073a696a96e4/examples/components/cards/theme_swtcher/theme_switcher.xml"
+```xml title="examples/components/cards/theme_swtcher/theme_switcher.xml" source="https://github.com/lvgl/lvgl/blob/e6381c608099f934d57f5db916fba03e84783f7a/examples/components/cards/theme_swtcher/theme_switcher.xml"
 <component>
 	<styles>
 		<style
