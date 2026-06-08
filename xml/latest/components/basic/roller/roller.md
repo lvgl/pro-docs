@@ -1,4 +1,4 @@
-```xml title="examples/components/basic/roller/roller.xml" source="https://github.com/lvgl/lvgl/blob/7785e89ec4cef12ae82b026aa653c580dd7a2d2a/examples/components/basic/roller/roller.xml"
+```xml title="examples/components/basic/roller/roller.xml" source="https://github.com/lvgl/lvgl/blob/c7f14db4472da8ca3d086ab82e66073a696a96e4/examples/components/basic/roller/roller.xml"
 <component>
 	<api>
 		<prop name="subject_enable" type="subject" help="Make the roller disabled if the subject is 0" />

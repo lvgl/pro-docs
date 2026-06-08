@@ -1,4 +1,4 @@
-```xml title="examples/components/basic/switch/switch.xml" source="https://github.com/lvgl/lvgl/blob/7785e89ec4cef12ae82b026aa653c580dd7a2d2a/examples/components/basic/switch/switch.xml"
+```xml title="examples/components/basic/switch/switch.xml" source="https://github.com/lvgl/lvgl/blob/c7f14db4472da8ca3d086ab82e66073a696a96e4/examples/components/basic/switch/switch.xml"
 <component>
 	<styles>
 		<style name="switch_knob" pad_all="-4" shadow_opa="0" />
