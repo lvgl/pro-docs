@@ -43,7 +43,7 @@ LV_CONF_PATH=$LVGL_PATH/configs/ci/docs/lv_conf_docs.h
 python $LVGL_PATH/scripts/generate_lv_conf.py \
   --template $LVGL_PATH/lv_conf_template.h \
   --config $LV_CONF_PATH \
-  --defaults $LVGL_PATH/configs/ci/docs/lv_conf_docs.defaults
+  --defaults $PROJ_PATH/docs/scripts/lv_conf_docs.defaults
 
 echo Build the examples
 echo ------------------

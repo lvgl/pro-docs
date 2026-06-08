@@ -1,0 +1,27 @@
+```xml title="examples/components/cards/move_goal/stat_col.xml" source="https://github.com/lvgl/lvgl/blob/e78dbcaa254bcc76f561b2ab1fee59d0c7046dea/examples/components/cards/move_goal/stat_col.xml"
+<component>
+	<previews>
+		<preview width="320" height="240" style_pad_all="24" style_bg_color="0xaaa" />
+	</previews>
+
+	<styles>
+		<style name="style_main" height="100%" flex_cross_place="center" pad_row="#unit_sm" />
+		<style name="style_main_dark" text_color="#surface_primary_dark" />
+		<style name="style_bar" width="#unit_md" flex_grow="1" />
+	</styles>
+	<api>
+		<prop name="move" type="int" default="5000" />
+		<prop name="day" type="string" default="Mon" />
+	</api>
+	<view extends="column">
+		<style name="style_main" />
+		<bind_style name="style_main_dark" subject="dark_theme" ref_value="1" />
+
+		<bar min_value="0" max_value="10000" value="$move">
+			<style name="style_bar" />
+		</bar>
+
+		<lv_label text="$day" style_text_font="geist_semibold_12" />
+	</view>
+</component>
+```
