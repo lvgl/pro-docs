@@ -1,4 +1,4 @@
-```xml title="examples/lv_example_arc_bind_value.xml" source="https://github.com/lvgl/lvgl/blob/c7f14db4472da8ca3d086ab82e66073a696a96e4/examples/lv_example_arc_bind_value.xml"
+```xml title="examples/lv_example_arc_bind_value.xml" source="https://github.com/lvgl/lvgl/blob/39850b2eb5722c772735cb3c847b846e70a47af2/examples/lv_example_arc_bind_value.xml"
 <!--
  @title Arc bind value
  @brief An arc and a slider co-bound to one subject; moving the slider rotates the arc.
