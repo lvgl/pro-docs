@@ -1,4 +1,4 @@
-```xml title="examples/components/cards/alarm/alarm.xml" source="https://github.com/lvgl/lvgl/blob/aca58066d4998276fd5819ddfe550bd5ebc36cec/examples/components/cards/alarm/alarm.xml"
+```xml title="examples/components/cards/alarm/alarm.xml" source="https://github.com/lvgl/lvgl/blob/98c975f3a279fd3db99ac75c6c250b36e25aec5a/examples/components/cards/alarm/alarm.xml"
 <component>
 	<previews>
 		<preview width="320" height="400" style_bg_color="0x888" />

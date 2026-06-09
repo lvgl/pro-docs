@@ -1,4 +1,4 @@
-```xml title="examples/components/basic/card/card.xml" source="https://github.com/lvgl/lvgl/blob/aca58066d4998276fd5819ddfe550bd5ebc36cec/examples/components/basic/card/card.xml"
+```xml title="examples/components/basic/card/card.xml" source="https://github.com/lvgl/lvgl/blob/98c975f3a279fd3db99ac75c6c250b36e25aec5a/examples/components/basic/card/card.xml"
 <component>
 	<previews>
 		<!-- To see the panel on both with light and dark theme -->
