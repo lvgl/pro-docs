@@ -31,6 +31,15 @@ Learn more in the [LVGL Open documentation](https://lvgl.io/docs/open/widgets/ke
 
 ## Properties
 
+### Parts
+
+Style parts of the widget with local style (e.g. `style_bg_color-knob="0xff0000"`) or with style sheets (e.g. `<style name="style_knob" selector="knob">`). See [Styles](../syntax/styles) to learn more.
+
+| Part | Description |
+| --- | --- |
+| `main` | The background behind the keys (extends lv_buttonmatrix): background properties. `pad_row` and `pad_column` set the gaps between keys. |
+| `items` | The keys: text and background properties. Combine with the 'checked', 'pressed', 'focused' and 'disabled' states, e.g. items\|pressed. |
+
 Properties below are the widget's XML [`<api>`](../syntax/api); see [API](../syntax/api) for how properties, parameters and elements work.
 
 | Property | Type | Description |

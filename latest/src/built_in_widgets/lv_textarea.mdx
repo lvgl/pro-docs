@@ -15,6 +15,18 @@ Learn more in the [LVGL Open documentation](https://lvgl.io/docs/open/widgets/te
 
 ## Properties
 
+### Parts
+
+Style parts of the widget with local style (e.g. `style_bg_color-knob="0xff0000"`) or with style sheets (e.g. `<style name="style_knob" selector="knob">`). See [Styles](../syntax/styles) to learn more.
+
+| Part | Description |
+| --- | --- |
+| `main` | The background and the typed text: background, padding and text properties. |
+| `scrollbar` | The scrollbar shown when the text is taller than the area: `width` (thickness), background properties and padding on the respective side. |
+| `selected` | The selected text. Only `text_color` and `bg_color` are used. |
+| `cursor` | The insertion cursor: set `bg_color`/`bg_opa` for a block cursor or a left border (`border_side`='left') for a bar cursor. `anim_duration` controls blinking. |
+| `textarea_placeholder` | The placeholder text shown when empty: text properties (e.g. `text_color`, `text_font`). |
+
 Properties below are the widget's XML [`<api>`](../syntax/api); see [API](../syntax/api) for how properties, parameters and elements work.
 
 | Property | Type | Description |

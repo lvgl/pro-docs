@@ -15,6 +15,15 @@ Learn more in the [LVGL Open documentation](https://lvgl.io/docs/open/widgets/ch
 
 ## Properties
 
+### Parts
+
+Style parts of the widget with local style (e.g. `style_bg_color-knob="0xff0000"`) or with style sheets (e.g. `<style name="style_knob" selector="knob">`). See [Styles](../syntax/styles) to learn more.
+
+| Part | Description |
+| --- | --- |
+| `main` | The label and its area: text properties; `pad_column` sets the gap between the tick box and the text. |
+| `indicator` | The tick box: background, border, shadow and padding properties. `bg_image_src` sets the check icon. Use the 'checked' state (e.g. indicator\|checked) for the checked look. |
+
 Properties below are the widget's XML [`<api>`](../syntax/api); see [API](../syntax/api) for how properties, parameters and elements work.
 
 | Property | Type | Description |

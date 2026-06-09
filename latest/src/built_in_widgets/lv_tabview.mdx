@@ -15,6 +15,14 @@ Learn more in the [LVGL Open documentation](https://lvgl.io/docs/open/widgets/ta
 
 ## Properties
 
+### Parts
+
+Style parts of the widget with local style (e.g. `style_bg_color-knob="0xff0000"`) or with style sheets (e.g. `<style name="style_knob" selector="knob">`). See [Styles](../syntax/styles) to learn more.
+
+| Part | Description |
+| --- | --- |
+| `main` | The tab view body (the content container background): background and padding properties. The tab bar is a separate object styled via the `tab_bar` element, and each tab button (an lv_button) via the `tab_button` element. |
+
 Properties below are the widget's XML [`<api>`](../syntax/api); see [API](../syntax/api) for how properties, parameters and elements work.
 
 | Property | Type | Description |
@@ -29,6 +37,13 @@ Get the tab bar object
 
 _access `get` · returns `lv_obj`_
 
+**Parts**
+
+| Part | Description |
+| --- | --- |
+| `main` | The tab bar container holding the tab buttons: background and padding properties. |
+| `scrollbar` | The tab bar's scrollbar shown when the buttons overflow: `width` (thickness), background properties and padding. |
+
 _No attributes — created as an empty child._
 
 ### `<lv_tabview-tab>`
@@ -36,6 +51,13 @@ _No attributes — created as an empty child._
 Add a tab with content
 
 _access `add` · returns `lv_obj`_
+
+**Parts**
+
+| Part | Description |
+| --- | --- |
+| `main` | The tab content page: background and padding properties. |
+| `scrollbar` | The page's scrollbar shown when its content overflows: `width` (thickness), background properties and padding. |
 
 | Name | Kind | Type | Description |
 | --- | --- | --- | --- |
@@ -46,6 +68,12 @@ _access `add` · returns `lv_obj`_
 Get a specific tab button
 
 _access `get` · returns `lv_obj`_
+
+**Parts**
+
+| Part | Description |
+| --- | --- |
+| `main` | The tab button (an lv_button): background, border and text properties. Use the 'checked' state for the active tab and 'pressed'/'focused' for feedback. |
 
 | Name | Kind | Type | Description |
 | --- | --- | --- | --- |

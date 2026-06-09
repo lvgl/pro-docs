@@ -25,6 +25,16 @@ Learn more in the [LVGL Open documentation](https://lvgl.io/docs/open/widgets/ar
 
 ## Properties
 
+### Parts
+
+Style parts of the widget with local style (e.g. `style_bg_color-knob="0xff0000"`) or with style sheets (e.g. `<style name="style_knob" selector="knob">`). See [Styles](../syntax/styles) to learn more.
+
+| Part | Description |
+| --- | --- |
+| `main` | The background arc: `arc_color`, `arc_width`, `arc_opa`, `arc_rounded` and `arc_image_src`. Background properties draw a box behind it. |
+| `indicator` | The value arc drawn over the background: the arc_* properties. Its padding is relative to the background arc. |
+| `knob` | The handle at the end of the indicator: background, border, shadow and padding properties (padding enlarges it). |
+
 Properties below are the widget's XML [`<api>`](../syntax/api); see [API](../syntax/api) for how properties, parameters and elements work.
 
 | Property | Type | Description |

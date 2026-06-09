@@ -25,6 +25,16 @@ Learn more in the [LVGL Open documentation](https://lvgl.io/docs/open/widgets/sw
 
 ## Properties
 
+### Parts
+
+Style parts of the widget with local style (e.g. `style_bg_color-knob="0xff0000"`) or with style sheets (e.g. `<style name="style_knob" selector="knob">`). See [Styles](../syntax/styles) to learn more.
+
+| Part | Description |
+| --- | --- |
+| `main` | The background track: background properties. padding shrinks the indicator. |
+| `indicator` | The fill that shows the on/off state: background properties. Use the 'checked' state (e.g. indicator\|checked) for the ON color. |
+| `knob` | The sliding handle: background, border, shadow and padding properties. |
+
 Properties below are the widget's XML [`<api>`](../syntax/api); see [API](../syntax/api) for how properties, parameters and elements work.
 
 | Property | Type | Description |

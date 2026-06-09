@@ -15,6 +15,15 @@ Learn more in the [LVGL Open documentation](https://lvgl.io/docs/open/widgets/dr
 
 ## Properties
 
+### Parts
+
+Style parts of the widget with local style (e.g. `style_bg_color-knob="0xff0000"`) or with style sheets (e.g. `<style name="style_knob" selector="knob">`). See [Styles](../syntax/styles) to learn more.
+
+| Part | Description |
+| --- | --- |
+| `main` | The closed button: background and text properties. Gets the 'checked' state while the list is open. |
+| `indicator` | The symbol shown next to the text (set via `symbol`): `image_recolor` and `image_recolor_opa`. |
+
 Properties below are the widget's XML [`<api>`](../syntax/api); see [API](../syntax/api) for how properties, parameters and elements work.
 
 | Property | Type | Description |
@@ -31,5 +40,13 @@ Properties below are the widget's XML [`<api>`](../syntax/api); see [API](../syn
 The dropdown list object for styling or customization
 
 _access `get` · returns `lv_obj`_
+
+**Parts**
+
+| Part | Description |
+| --- | --- |
+| `main` | The open list background: background, border and padding. `max_height` caps the open list size. |
+| `scrollbar` | The list's scrollbar: `width` (thickness), background properties and padding on the respective side. |
+| `selected` | The highlighted option: background and text properties. The 'checked' state styles the currently selected option and 'pressed' the one being pressed/keyed. |
 
 _No attributes — created as an empty child._

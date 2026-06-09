@@ -17,6 +17,15 @@ Learn more in the [LVGL Open documentation](https://lvgl.io/docs/open/widgets/ba
 
 ## Properties
 
+### Parts
+
+Style parts of the widget with local style (e.g. `style_bg_color-knob="0xff0000"`) or with style sheets (e.g. `<style name="style_knob" selector="knob">`). See [Styles](../syntax/styles) to learn more.
+
+| Part | Description |
+| --- | --- |
+| `main` | Style the widget's main area: background, border, outline, shadow and padding properties. |
+| `scrollbar` | Style the scrollbars: `width` (thickness), background properties, and padding on the respective side. `base_dir`='rtl' moves the vertical scrollbar to the left. |
+
 Properties below are the widget's XML [`<api>`](../syntax/api); see [API](../syntax/api) for how properties, parameters and elements work.
 
 | Property | Type | Description |
@@ -239,16 +248,18 @@ _access `add`_
 
 #### `<lv_obj-subject_increment_event>`
 
+Increment (or decrement) an int subject's value on an event
+
 _access `add` · returns `lv_subject_increment_dsc`_
 
 | Name | Kind | Type | Description |
 | --- | --- | --- | --- |
-| `subject` | arg | `subject` | — |
-| `trigger` | arg | `lv_event` | (default: `clicked`) |
-| `step` | arg | `int` | (default: `1`) |
-| `rollover` | prop | `bool` | — |
-| `min_value` | prop | `int` | — |
-| `max_value` | prop | `int` | — |
+| `subject` | arg | `subject` | Subject to change |
+| `trigger` | arg | `lv_event` | Trigger event (default: `clicked`) |
+| `step` | arg | `int` | Value to add on trigger (can be negative to decrement) (default: `1`) |
+| `rollover` | prop | `bool` | false: stop at the min/max value; true: jump to the other end |
+| `min_value` | prop | `int` | Minimum value to set |
+| `max_value` | prop | `int` | Maximum value to set |
 
 ### Data bindings
 
@@ -301,6 +312,6 @@ Apply a widget state from a subject. One element per comparison — operators: `
 
 | Name | Type | Description |
 | --- | --- | --- |
-| `subject` | `subject` | — |
-| `state` | `enum:lv_state` | — |
-| `ref_value` | `int` | — |
+| `subject` | `subject` | Subject to monitor |
+| `state` | `enum:lv_state` | State to apply |
+| `ref_value` | `int` | Reference value to compare the subject against |

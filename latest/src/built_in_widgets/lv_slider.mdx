@@ -33,12 +33,22 @@ Learn more in the [LVGL Open documentation](https://lvgl.io/docs/open/widgets/sl
 
 ## Properties
 
+### Parts
+
+Style parts of the widget with local style (e.g. `style_bg_color-knob="0xff0000"`) or with style sheets (e.g. `<style name="style_knob" selector="knob">`). See [Styles](../syntax/styles) to learn more.
+
+| Part | Description |
+| --- | --- |
+| `main` | The track/background: background properties. padding makes the indicator smaller in the respective direction. |
+| `indicator` | The filled portion that shows the value: background properties. |
+| `knob` | The draggable handle: background, border, shadow and padding properties. Use knob\|pressed for drag feedback; range mode draws two knobs. |
+
 Properties below are the widget's XML [`<api>`](../syntax/api); see [API](../syntax/api) for how properties, parameters and elements work.
 
 | Property | Type | Description |
 | --- | --- | --- |
-| `min_value` | `int` | Set minimum value |
-| `max_value` | `int` | Set maximum value |
+| `min_value` | `int` | Set minimum value. If `min_value` > `max_value` fills from the right |
+| `max_value` | `int` | Set maximum value. If `min_value` > `max_value` fills from the right |
 | `value` | `int` | Set current value |
 | `value-anim` | `bool` | Animate update (reference as `value-anim`) (default: `false`) |
 | `start_value` | `int` | Set start value in range mode |

@@ -28,6 +28,16 @@ Learn more in the [LVGL Open documentation](https://lvgl.io/docs/open/widgets/ta
 
 ## Properties
 
+### Parts
+
+Style parts of the widget with local style (e.g. `style_bg_color-knob="0xff0000"`) or with style sheets (e.g. `<style name="style_knob" selector="knob">`). See [Styles](../syntax/styles) to learn more.
+
+| Part | Description |
+| --- | --- |
+| `main` | The table's outer frame and background: background, border and padding properties. |
+| `items` | The cells: background and text properties, applied uniformly to all cells. Per-cell variations need cell ctrl flags or draw events. |
+| `scrollbar` | The scrollbar shown when the table is larger than its area: `width` (thickness), background properties and padding. |
+
 Properties below are the widget's XML [`<api>`](../syntax/api); see [API](../syntax/api) for how properties, parameters and elements work.
 
 | Property | Type | Description |

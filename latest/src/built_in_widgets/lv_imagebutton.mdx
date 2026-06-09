@@ -28,6 +28,14 @@ Learn more in the [LVGL Open documentation](https://lvgl.io/docs/open/widgets/im
 
 ## Properties
 
+### Parts
+
+Style parts of the widget with local style (e.g. `style_bg_color-knob="0xff0000"`) or with style sheets (e.g. `<style name="style_knob" selector="knob">`). See [Styles](../syntax/styles) to learn more.
+
+| Part | Description |
+| --- | --- |
+| `main` | Style the button: background, text and `image_recolor`/`image_recolor_opa` properties. The shown left/mid/right images change with the state (released, pressed, disabled, checked_*). |
+
 Properties below are the widget's XML [`<api>`](../syntax/api); see [API](../syntax/api) for how properties, parameters and elements work.
 
 | Property | Type | Description |
@@ -43,7 +51,7 @@ _access `set`_
 | Name | Kind | Type | Description |
 | --- | --- | --- | --- |
 | `state` | arg | `enum:lv_imagebutton_state` | Set the image in this state |
-| `src` | prop | `image` | The image in the given state |
+| `src` | arg | `image` | The image in the given state |
 
 ### `<lv_imagebutton-src_right>`
 
@@ -54,7 +62,7 @@ _access `set`_
 | Name | Kind | Type | Description |
 | --- | --- | --- | --- |
 | `state` | arg | `enum:lv_imagebutton_state` | Set the image in this state |
-| `src` | prop | `image` | The image in the given state |
+| `src` | arg | `image` | The image in the given state |
 
 ### `<lv_imagebutton-src_mid>`
 
@@ -65,4 +73,4 @@ _access `set`_
 | Name | Kind | Type | Description |
 | --- | --- | --- | --- |
 | `state` | arg | `enum:lv_imagebutton_state` | Set the image in this state |
-| `src` | prop | `image` | The image in the given state |
+| `src` | arg | `image` | The image in the given state |

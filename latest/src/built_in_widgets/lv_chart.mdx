@@ -43,6 +43,18 @@ Learn more in the [LVGL Open documentation](https://lvgl.io/docs/open/widgets/ch
 
 ## Properties
 
+### Parts
+
+Style parts of the widget with local style (e.g. `style_bg_color-knob="0xff0000"`) or with style sheets (e.g. `<style name="style_knob" selector="knob">`). See [Styles](../syntax/styles) to learn more.
+
+| Part | Description |
+| --- | --- |
+| `main` | The background and the division lines: background properties, plus the line properties (`line_color`/width/dash) for the division lines. `pad_column` sets the space between `BAR` column groups. |
+| `items` | The data series body. For LINE charts the connecting lines use the line properties (`line_color`, `line_width`, line_dash, `line_rounded`). For BAR charts the bars use the background properties (`bg_color`, `radius`, border). `pad_column` sets the gap between bars on the same X. |
+| `indicator` | The point markers drawn at each value on LINE and SCATTER charts: `width`/`height` set the marker size, `bg_color` its fill and `radius` its roundness; border, outline, and shadow properties also apply. |
+| `cursor` | The cursors: the line properties draw the crosshair lines and the marker at the cursor point uses `width` together with `bg_color`/`radius`. |
+| `scrollbar` | The scrollbar shown when the chart is zoomed/scrolled: `width` (thickness), background properties and padding. |
+
 Properties below are the widget's XML [`<api>`](../syntax/api); see [API](../syntax/api) for how properties, parameters and elements work.
 
 | Property | Type | Description |

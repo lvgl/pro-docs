@@ -15,6 +15,15 @@ Learn more in the [LVGL Open documentation](https://lvgl.io/docs/open/widgets/ca
 
 ## Properties
 
+### Parts
+
+Style parts of the widget with local style (e.g. `style_bg_color-knob="0xff0000"`) or with style sheets (e.g. `<style name="style_knob" selector="knob">`). See [Styles](../syntax/styles) to learn more.
+
+| Part | Description |
+| --- | --- |
+| `main` | The calendar background: background and padding properties. |
+| `items` | The day cells and weekday names (built on a button matrix): background and text properties. Weekday names and days outside the shown month (disabled) are drawn without background/border. Today's thicker border and the highlighted days' fill/border are forced to the theme's primary color in code, so they are not set via style properties. |
+
 Properties below are the widget's XML [`<api>`](../syntax/api); see [API](../syntax/api) for how properties, parameters and elements work.
 
 | Property | Type | Description |
