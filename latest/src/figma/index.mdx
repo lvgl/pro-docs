@@ -1,0 +1,73 @@
+---
+title: Figma Flow
+description: Bring your Figma screens, components, and styles into LVGL as clean, editable UI files. You design, and LVGL Flow handles the translation.
+---
+
+Design your interface in Figma the way you always have. **LVGL Flow for Figma** reads
+your file (screens, components, colors, fonts, spacing) and turns it into [LVGL XML](../syntax/introduction)
+files you can open, run, and refine in [LVGL Pro Editor](../editor).
+
+You don't write any code to get started. You design; the plugin and the Editor do the
+translation. And because a developer stays in control of the final structure, nothing you
+hand off ever locks them in.
+
+<Callout type="success">
+  **LVGL Flow for Figma** workflow requires LVGL Pro Editor v2.0.0+ to work.
+</Callout>
+
+<Figure
+  src="/_static/images/figma/hero-image.png"
+  alt="LVGL Flow for Figma: convert your designs to LVGL XML in minutes"
+  caption="LVGL Flow reads your Figma file and hands it to LVGL Pro Editor as real UI files."
+  border={false}
+/>
+
+## Start here
+
+<Cards>
+  <Card
+    icon={<Figma />}
+    href="./get-started"
+    title="Get started"
+  >
+    Install the plugin, connect to the Editor, and export your first screen — the whole
+    path on one page.
+  </Card>
+</Cards>
+
+## What you can do
+
+<Cards>
+
+  <Card
+    icon={<Sparkles />}
+    href="./annotating"
+    title="Add intent"
+  >
+    Tell the plugin what a layer really is (a slider, a switch, a label) and point live
+    layers at their data.
+  </Card>
+
+  <Card
+    icon={<Eye />}
+    href="./inspect"
+    title="Inspect styles"
+  >
+    Read any layer's LVGL style and copy it straight into your XML.
+  </Card>
+
+  <Card
+    icon={<Download />}
+    href="./exporting"
+    title="Export your work"
+  >
+    Send your tokens, components, screens, or whole prototype flows to the Editor.
+  </Card>
+
+</Cards>
+
+## How it fits together
+
+There are two halves. The **plugin** lives in Figma and reads your design. **The service**
+lives inside LVGL Pro Editor and writes the LVGL files to your project. They talk to each
+other on your own machine.

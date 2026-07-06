@@ -1,10 +1,13 @@
-prefix="/home/runner/work/lvgl_editor/lvgl_editor/emsdk-cache/emsdk-main/upstream/emscripten/cache/sysroot"
-includedir="${prefix}/include"
+prefix=/home/runner/work/lvgl_editor/lvgl_editor/emsdk-cache/emsdk-main/upstream/emscripten/cache/sysroot
+includedir=${prefix}/include
 libdir=${prefix}/lib
 
 Name: lvgl
 Description: Light and Versatile Graphics Library
 URL: https://lvgl.io/
 Version: 9.6.0
+Requires: 
+Requires.private: 
 Cflags: -I${includedir}
-Libs: -L${libdir} -llvgl
+Libs: -L${libdir} -llvgl 
+Libs.private: -lm -llvgl_thorvg

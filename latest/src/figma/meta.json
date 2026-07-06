@@ -1,0 +1,19 @@
+{
+  "title": "Figma Flow",
+  "pages": [
+    "get-started",
+    "---Using the Plugin---",
+    "interface",
+    "project-settings",
+    "exporting",
+    "annotating",
+    "subjects",
+    "inspect",
+    "---Reference---",
+    "output-structure",
+    "updating",
+    "widget-support",
+    "widget-properties",
+    "troubleshooting"
+  ]
+}
