@@ -1,4 +1,4 @@
-```xml title="examples/components/basic/bar/bar.xml" source="https://github.com/lvgl/lvgl/blob/2f33b3c23f09d4df83963593e67c82f6d1b60191/examples/components/basic/bar/bar.xml"
+```xml title="examples/components/basic/bar/bar.xml" source="https://github.com/lvgl/lvgl/blob/90c55193f827c8bea311dbd436e708bfd2f2dc81/examples/components/basic/bar/bar.xml"
 <component>
 	<previews>
 		<preview style_pad_all="20" />
