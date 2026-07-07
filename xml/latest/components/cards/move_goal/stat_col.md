@@ -1,4 +1,4 @@
-```xml title="examples/components/cards/move_goal/stat_col.xml" source="https://github.com/lvgl/lvgl/blob/787d813dbdc6ec4dd4cc36368d0cfdd65aba1e11/examples/components/cards/move_goal/stat_col.xml"
+```xml title="examples/components/cards/move_goal/stat_col.xml" source="https://github.com/lvgl/lvgl/blob/b3409b2e321d5c66af2223e693fe190f8fad7e38/examples/components/cards/move_goal/stat_col.xml"
 <component>
 	<previews>
 		<preview width="320" height="240" style_pad_all="24" style_bg_color="0xaaa" />
