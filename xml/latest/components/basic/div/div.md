@@ -1,4 +1,4 @@
-```xml title="examples/components/basic/div/div.xml" source="https://github.com/lvgl/lvgl/blob/b3409b2e321d5c66af2223e693fe190f8fad7e38/examples/components/basic/div/div.xml"
+```xml title="examples/components/basic/div/div.xml" source="https://github.com/lvgl/lvgl/blob/93be1ceb6427498e885e21f2c4643da478f09160/examples/components/basic/div/div.xml"
 <!-- Mimic the behaviour of a HTML <div>. 100% width, 
      content height, fully transparent, flex colum layout -->
 <component>

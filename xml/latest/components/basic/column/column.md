@@ -1,4 +1,4 @@
-```xml title="examples/components/basic/column/column.xml" source="https://github.com/lvgl/lvgl/blob/b3409b2e321d5c66af2223e693fe190f8fad7e38/examples/components/basic/column/column.xml"
+```xml title="examples/components/basic/column/column.xml" source="https://github.com/lvgl/lvgl/blob/93be1ceb6427498e885e21f2c4643da478f09160/examples/components/basic/column/column.xml"
 <component>
 	<styles>
 		<style name="style_base" width="content" height="content" layout="flex" flex_flow="column" />
