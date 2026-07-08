@@ -1,4 +1,4 @@
-```xml title="examples/components/cards/music_player/music_player.xml" source="https://github.com/lvgl/lvgl/blob/90c55193f827c8bea311dbd436e708bfd2f2dc81/examples/components/cards/music_player/music_player.xml"
+```xml title="examples/components/cards/music_player/music_player.xml" source="https://github.com/lvgl/lvgl/blob/21fd4f656bda1d61cc57d91f3ef7a0595611fe7f/examples/components/cards/music_player/music_player.xml"
 <component>
 	<previews>
 		<preview width="320" height="240" />

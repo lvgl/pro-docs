@@ -30,24 +30,28 @@ There are two things you can point at a subject, and they solve different proble
 
 ## Bind a value
 
-Select a bindable widget and you'll see a **Subject Binding** row with two
-fields:
+Select a bindable widget and you'll see a **Subject Binding** row:
 
 - **Subject**: the name of the live value (e.g. `room_temp`, `wifi_on`). Typing a name
   is what turns the widget dynamic; leave it blank and the widget keeps its drawn value.
-- **Format**: an optional pattern for how the value is shown (e.g. `%d°` renders the
-  number `72` as `72°`). See [the format reference](#formatting-the-value) below.
+- **Format** *(labels only)*: an optional pattern for how a **label** renders its value as
+  text (e.g. `%d°` renders `72` as `72°`). See [the format reference](#formatting-the-value)
+  below.
 
 You give **one** subject name; the plugin picks the right LVGL attribute for you based on
 what the widget is:
 
-| Widget | What binds to the subject | Value type |
-|---|---|---|
-| **Label** | its text | string (or a number via **Format**) |
-| **Image** | its source (which image shows) | string |
-| **Slider**, **Bar** | its value | integer |
-| **Switch**, **Checkbox** | its on / off state | boolean |
-| **Dropdown**, **Roller** | its selected **index** | integer |
+| Widget | What binds to the subject | Value type | Format field? |
+|---|---|---|---|
+| **Label** | its text | string (or a number via **Format**) | yes |
+| **Image** | its source (which image shows) | string | no |
+| **Slider**, **Bar** | its value | integer | no |
+| **Switch**, **Checkbox** | its on / off state | boolean | no |
+| **Dropdown**, **Roller** | its selected **index** | integer | no |
+
+The **Format** field appears only on **labels**, because a label is the only widget that
+renders its subject as *text*. A slider, switch, image, or dropdown reflects the value
+directly (as a position, an on/off, an image, an index), so there's nothing to format.
 
 <Callout type="info">
   Subjects come in three kinds (**integer**, **string**, and **boolean**), and the
@@ -56,14 +60,13 @@ what the widget is:
 
 ### Formatting the value
 
-The **Format** field is a small pattern with a placeholder for the value. You'll rarely
-need more than the first two:
+The **Format** field (on labels) is a small pattern with a placeholder for the value.
+You'll rarely need more than the first two:
 
 | Format | Use it for | Value | Shows |
 |---|---|---|---|
 | `%d` | a whole number | `72` | `72` |
 | `%s` | text | `Kitchen` | `Kitchen` |
-| `%x` | a number in hexadecimal | `255` | `ff` |
 | `%%` | a literal percent sign | (none) | `%` |
 
 Put your own text around the placeholder and it comes through as-is:
@@ -117,6 +120,30 @@ Variant binding is offered only when the component set has **one** variant axis 
 values are plain names (not state words like Hover/Pressed, which are handled differently;
 see below). You need at least two variants. Instances of a bound set are read-only, so they
 all follow the shared subject.
+
+## See every subject in your file
+
+Once you've bound a few widgets, it helps to see everything in one place. The **All
+Subjects** button in the Annotate sub-bar opens a file-wide list of every subject the
+plugin found across both kinds of binding above.
+
+Each row shows the subject's **name**, its **type** (integer, boolean, or string), and how
+many places bind it. Expand a row to see each usage: the node, its format (for a label) or
+type, and which screen or component it lives in. Click a usage to select it on the canvas.
+Use **Refresh** (top-right) to re-scan after you've bound more widgets.
+
+### Type conflicts
+
+A subject can only be **one** type. If two bindings disagree, say a **Bar** (integer) and
+an **Image** (string) that share the same subject name, the row is flagged **`conflict`**.
+Fix it before exporting, by renaming one of them or making them agree; otherwise the value
+won't bind the way you expect.
+
+<Callout type="info">
+  Different **formats** on the same subject are fine and never flagged: two labels can show
+  `battery` as `%d%%` in one place and `%d total` in another. Those are just different ways
+  of printing the same integer, so the *type* is what must match, not the format.
+</Callout>
 
 ## Subjects aren't states
 

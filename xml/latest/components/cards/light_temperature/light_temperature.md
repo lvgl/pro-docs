@@ -1,4 +1,4 @@
-```xml title="examples/components/cards/light_temperature/light_temperature.xml" source="https://github.com/lvgl/lvgl/blob/90c55193f827c8bea311dbd436e708bfd2f2dc81/examples/components/cards/light_temperature/light_temperature.xml"
+```xml title="examples/components/cards/light_temperature/light_temperature.xml" source="https://github.com/lvgl/lvgl/blob/21fd4f656bda1d61cc57d91f3ef7a0595611fe7f/examples/components/cards/light_temperature/light_temperature.xml"
 <component>
 	<previews>
 		<preview width="320" height="240" style_bg_color="0x888" />
