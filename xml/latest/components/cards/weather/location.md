@@ -1,4 +1,4 @@
-```xml title="examples/components/cards/weather/location.xml" source="https://github.com/lvgl/lvgl/blob/21fd4f656bda1d61cc57d91f3ef7a0595611fe7f/examples/components/cards/weather/location.xml"
+```xml title="examples/components/cards/weather/location.xml" source="https://github.com/lvgl/lvgl/blob/d8e8c86508ddcabc4bf27676b63fa2ad0a7626fb/examples/components/cards/weather/location.xml"
 <component>
 	<previews>
 		<preview width="240" height="180" style_bg_color="0x222" />

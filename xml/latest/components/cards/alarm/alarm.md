@@ -1,4 +1,4 @@
-```xml title="examples/components/cards/alarm/alarm.xml" source="https://github.com/lvgl/lvgl/blob/21fd4f656bda1d61cc57d91f3ef7a0595611fe7f/examples/components/cards/alarm/alarm.xml"
+```xml title="examples/components/cards/alarm/alarm.xml" source="https://github.com/lvgl/lvgl/blob/d8e8c86508ddcabc4bf27676b63fa2ad0a7626fb/examples/components/cards/alarm/alarm.xml"
 <component>
 	<previews>
 		<preview width="320" height="400" style_bg_color="0x888" />
@@ -51,9 +51,17 @@
 				delay="100"
 				early_apply="true"
 			/>
-			<animation target="div_1" prop="opa" start="0" end="255" duration="200" early_apply="true" delay="100" />
 			<animation
-				target="div_1"
+				target="div_bottom"
+				prop="opa"
+				start="0"
+				end="255"
+				duration="200"
+				early_apply="true"
+				delay="100"
+			/>
+			<animation
+				target="div_bottom"
 				prop="translate_y"
 				start="-40"
 				end="0"
@@ -70,14 +78,14 @@
 		</card_header>
 
 		<div flex_flow="row" style_flex_main_place="space_between" style_flex_cross_place="center" scrollable="false">
-			<roller options="#hours_string" subject_enable="alarm_on" bind_value="alarm_hour" />
+			<roller name="roller_0" options="#hours_string" subject_enable="alarm_on" bind_value="alarm_hour" />
 			<lv_label text=":" style_text_font="geist_light_60">
 				<bind_style subject="alarm_on" ref_value="0" name="style_disabled" />
 			</lv_label>
-			<roller options="#mins_string" subject_enable="alarm_on" bind_value="alarm_min" />
+			<roller name="roller_1" options="#mins_string" subject_enable="alarm_on" bind_value="alarm_min" />
 		</div>
 
-		<div flex_flow="column">
+		<div name="div_bottom" flex_flow="column">
 			<style name="settings" />
 			<bind_style subject="dark_theme" name="settings_dark" ref_value="1" />
 			<div flex_flow="row" style_flex_main_place="space_between" style_pad_hor="20" style_pad_ver="12">

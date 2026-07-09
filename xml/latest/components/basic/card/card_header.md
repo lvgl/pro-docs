@@ -1,4 +1,4 @@
-```xml title="examples/components/basic/card/card_header.xml" source="https://github.com/lvgl/lvgl/blob/21fd4f656bda1d61cc57d91f3ef7a0595611fe7f/examples/components/basic/card/card_header.xml"
+```xml title="examples/components/basic/card/card_header.xml" source="https://github.com/lvgl/lvgl/blob/d8e8c86508ddcabc4bf27676b63fa2ad0a7626fb/examples/components/basic/card/card_header.xml"
 <!-- This component is not visible as it has zero size by default -->
 <component>
 	<api>
