@@ -1,4 +1,4 @@
-```xml title="tutorials/screens/new_widget/screen_widgets/screen_widgets.xml" source="https://github.com/lvgl/lvgl_pro/blob/64ebc7a7b6db60ed63db7ca4dae1573c702c882a/tutorials/screens/new_widget/screen_widgets/screen_widgets.xml"
+```xml title="tutorials/screens/new_widget/screen_widgets/screen_widgets.xml" source="https://github.com/lvgl/lvgl_pro/blob/9bccbd4302cf1f425d2a9790d8b6133170e81650/tutorials/screens/new_widget/screen_widgets/screen_widgets.xml"
 <screen>
 	<view extends="lv_obj">
 		<!-- Add your code here -->

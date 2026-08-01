@@ -1,4 +1,4 @@
-```xml title="tutorials/components/section.xml" source="https://github.com/lvgl/lvgl_pro/blob/64ebc7a7b6db60ed63db7ca4dae1573c702c882a/tutorials/components/section.xml"
+```xml title="tutorials/components/section.xml" source="https://github.com/lvgl/lvgl_pro/blob/9bccbd4302cf1f425d2a9790d8b6133170e81650/tutorials/components/section.xml"
 <!-- A simple label like component that acts as an lv_label but has some custom styles
      For the sake of simplicity inline styles were used instead of a <style> tag -->
 <component>

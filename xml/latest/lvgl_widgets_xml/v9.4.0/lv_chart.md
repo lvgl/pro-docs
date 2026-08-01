@@ -1,4 +1,4 @@
-```xml title="lvgl_widgets_xml/v9.4.0/lv_chart.xml" source="https://github.com/lvgl/lvgl_pro/blob/64ebc7a7b6db60ed63db7ca4dae1573c702c882a/lvgl_widgets_xml/v9.4.0/lv_chart.xml"
+```xml title="lvgl_widgets_xml/v9.4.0/lv_chart.xml" source="https://github.com/lvgl/lvgl_pro/blob/9bccbd4302cf1f425d2a9790d8b6133170e81650/lvgl_widgets_xml/v9.4.0/lv_chart.xml"
 <!--
 <lv_chart type="bar" point_count="30">
     <lv_chart-series color="0xff0000" axis="primary_y" values="10, 20, 10, 33"/>

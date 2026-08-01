@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/scroll/lv_example_scroll_scrollable.xml" source="https://github.com/lvgl/lvgl_pro/blob/64ebc7a7b6db60ed63db7ca4dae1573c702c882a/examples/lvgl_open/screens/scroll/lv_example_scroll_scrollable.xml"
+```xml title="examples/lvgl_open/screens/scroll/lv_example_scroll_scrollable.xml" source="https://github.com/lvgl/lvgl_pro/blob/9bccbd4302cf1f425d2a9790d8b6133170e81650/examples/lvgl_open/screens/scroll/lv_example_scroll_scrollable.xml"
 <!--
  @title Disabling scrolling
  @brief Clearing the SCROLLABLE flag clips overflowing content instead of scrolling it.

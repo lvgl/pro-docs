@@ -1,4 +1,4 @@
-```xml title="lvgl_widgets_xml/v9.5.0/lv_buttonmatrix.xml" source="https://github.com/lvgl/lvgl_pro/blob/64ebc7a7b6db60ed63db7ca4dae1573c702c882a/lvgl_widgets_xml/v9.5.0/lv_buttonmatrix.xml"
+```xml title="lvgl_widgets_xml/v9.5.0/lv_buttonmatrix.xml" source="https://github.com/lvgl/lvgl_pro/blob/9bccbd4302cf1f425d2a9790d8b6133170e81650/lvgl_widgets_xml/v9.5.0/lv_buttonmatrix.xml"
 <!--
 Example
 <lv_buttonmatrix map="'1' '2' '\n' '3'" ctrl_map="checked|width_3 none disabled"/>

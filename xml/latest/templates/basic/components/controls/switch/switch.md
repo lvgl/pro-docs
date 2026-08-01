@@ -1,4 +1,4 @@
-```xml title="templates/basic/components/controls/switch/switch.xml" source="https://github.com/lvgl/lvgl_pro/blob/64ebc7a7b6db60ed63db7ca4dae1573c702c882a/templates/basic/components/controls/switch/switch.xml"
+```xml title="templates/basic/components/controls/switch/switch.xml" source="https://github.com/lvgl/lvgl_pro/blob/9bccbd4302cf1f425d2a9790d8b6133170e81650/templates/basic/components/controls/switch/switch.xml"
 <component>
 	<previews>
 		<preview name="default" width="120" style_pad_all="10" />

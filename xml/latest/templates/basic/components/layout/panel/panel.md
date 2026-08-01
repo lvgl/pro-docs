@@ -1,4 +1,4 @@
-```xml title="templates/basic/components/layout/panel/panel.xml" source="https://github.com/lvgl/lvgl_pro/blob/64ebc7a7b6db60ed63db7ca4dae1573c702c882a/templates/basic/components/layout/panel/panel.xml"
+```xml title="templates/basic/components/layout/panel/panel.xml" source="https://github.com/lvgl/lvgl_pro/blob/9bccbd4302cf1f425d2a9790d8b6133170e81650/templates/basic/components/layout/panel/panel.xml"
 <component>
 	<previews>
 		<preview name="light" width="240" height="140" />

@@ -1,4 +1,4 @@
-```xml title="tutorials/screens/screens/screen_about.xml" source="https://github.com/lvgl/lvgl_pro/blob/64ebc7a7b6db60ed63db7ca4dae1573c702c882a/tutorials/screens/screens/screen_about.xml"
+```xml title="tutorials/screens/screens/screen_about.xml" source="https://github.com/lvgl/lvgl_pro/blob/9bccbd4302cf1f425d2a9790d8b6133170e81650/tutorials/screens/screens/screen_about.xml"
 <!-- If the permanent is not set, the default "false" will be applied.
      It means the screen is created dynamically when it's opened
      and deleted when it's closed.

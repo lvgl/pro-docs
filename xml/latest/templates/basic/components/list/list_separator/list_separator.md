@@ -1,4 +1,4 @@
-```xml title="templates/basic/components/list/list_separator/list_separator.xml" source="https://github.com/lvgl/lvgl_pro/blob/64ebc7a7b6db60ed63db7ca4dae1573c702c882a/templates/basic/components/list/list_separator/list_separator.xml"
+```xml title="templates/basic/components/list/list_separator/list_separator.xml" source="https://github.com/lvgl/lvgl_pro/blob/9bccbd4302cf1f425d2a9790d8b6133170e81650/templates/basic/components/list/list_separator/list_separator.xml"
 <component>
 	<previews>
 		<preview name="default" width="320" height="20" />

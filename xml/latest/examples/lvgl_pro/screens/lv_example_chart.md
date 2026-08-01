@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_pro/screens/lv_example_chart.xml" source="https://github.com/lvgl/lvgl_pro/blob/64ebc7a7b6db60ed63db7ca4dae1573c702c882a/examples/lvgl_pro/screens/lv_example_chart.xml"
+```xml title="examples/lvgl_pro/screens/lv_example_chart.xml" source="https://github.com/lvgl/lvgl_pro/blob/9bccbd4302cf1f425d2a9790d8b6133170e81650/examples/lvgl_pro/screens/lv_example_chart.xml"
 <!--
  @title Chart
  @brief A line chart with two series, division lines, an axis range and a cursor.
