@@ -1,0 +1,40 @@
+```xml title="examples/lvgl_pro/screens/lv_example_arc.xml" source="https://github.com/lvgl/lvgl_pro/blob/64ebc7a7b6db60ed63db7ca4dae1573c702c882a/examples/lvgl_pro/screens/lv_example_arc.xml"
+<!--
+ @title Arc
+ @brief A bound arc with named styles on its main, indicator and knob parts.
+
+ The arc uses `bind_value` so dragging it updates `subject_value`, which the
+ centered label reads back live. Named styles target the MAIN ring, the
+ INDICATOR sweep and the KNOB separately via the `selector` attribute.
+-->
+<screen>
+	<styles>
+		<!-- Background ring -->
+		<style name="style_arc_main" arc_color="0x334155" arc_width="10" />
+		<!-- Active sweep -->
+		<style name="style_arc_ind" arc_color="0x3b82f6" arc_width="10" />
+		<!-- Knob -->
+		<style
+			name="style_arc_knob"
+			bg_color="0x3b82f6"
+			pad_all="6"
+			border_width="2"
+			border_color="0xfff"
+			shadow_offset_y="2"
+			shadow_opa="50%"
+			shadow_width="10"
+		/>
+	</styles>
+
+	<view>
+		<!-- 💡 Drag the arc — the label tracks subject_value live. -->
+
+		<lv_arc width="120" height="120" align="center" bind_value="subject_value">
+			<style name="style_arc_main" />
+			<style name="style_arc_ind" selector="indicator" />
+			<style name="style_arc_knob" selector="knob" />
+			<lv_label bind_text="subject_value" bind_text-fmt="value: %d" align="center" />
+		</lv_arc>
+	</view>
+</screen>
+```

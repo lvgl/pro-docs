@@ -1,8 +1,8 @@
-# Install script for directory: /home/runner/work/lvgl_editor/emscripten_builder
+# Install script for directory: /home/runner/work/lvgl_pro/emscripten_builder
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/runner/work/lvgl_editor/lvgl_editor/emsdk-cache/emsdk-main/upstream/emscripten/cache/sysroot")
+  set(CMAKE_INSTALL_PREFIX "/home/runner/work/lvgl_pro/lvgl_pro/emsdk-cache/emsdk-main/upstream/emscripten/cache/sysroot")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,14 +39,14 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/runner/work/lvgl_editor/emscripten_builder/cmbuild/lvgl/cmake_install.cmake")
+  include("/home/runner/work/lvgl_pro/emscripten_builder/cmbuild/lvgl/cmake_install.cmake")
 
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/runner/work/lvgl_editor/emscripten_builder/cmbuild/install_local_manifest.txt"
+  file(WRITE "/home/runner/work/lvgl_pro/emscripten_builder/cmbuild/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -62,6 +62,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/runner/work/lvgl_editor/emscripten_builder/cmbuild/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/home/runner/work/lvgl_pro/emscripten_builder/cmbuild/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

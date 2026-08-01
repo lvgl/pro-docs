@@ -1,0 +1,35 @@
+```xml title="tutorials/screens/animations/screen_animations.xml" source="https://github.com/lvgl/lvgl_pro/blob/64ebc7a7b6db60ed63db7ca4dae1573c702c882a/tutorials/screens/animations/screen_animations.xml"
+<screen>
+	<!-- Create a timeline for the screen that consists of other timelines.
+	     It will be played when the screen is loaded -->
+	<animations>
+		<timeline name="screen_open">
+			<!-- Use <button_normal>'s timeline to show_up the Show and Hide buttons -->
+			<include_timeline target="show" timeline="show_up" />
+			<include_timeline target="hide" timeline="show_up" />
+
+			<!-- The list also defines its own timeline to show it up. Use that here too -->
+			<include_timeline target="button_list" timeline="list_open" />
+		</timeline>
+	</animations>
+
+	<view>
+		<!-- Play the "screen_open" timeline on "self" (this screen) when it's loaded -->
+		<play_timeline_event target="self" timeline="screen_open" trigger="screen_loaded" />
+
+		<!-- Just create the list as it is.
+		     Give it a name so that it can be easily referenced in the timeline target. -->
+		<list name="button_list" />
+
+		<!-- A Show button play the open animation of the list -->
+		<button_normal label_text="Show" name="show" align="top_right" x="-10" y="10">
+			<play_timeline_event target="button_list" timeline="list_open" />
+		</button_normal>
+
+		<!-- A Hide button plays the open animation in reverse, so it looks like a closing -->
+		<button_normal label_text="Hide" name="hide" align="top_right" x="-10" y="70">
+			<play_timeline_event target="button_list" timeline="list_open" reverse="true" />
+		</button_normal>
+	</view>
+</screen>
+```

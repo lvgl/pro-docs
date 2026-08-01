@@ -1,4 +1,4 @@
-prefix=/home/runner/work/lvgl_editor/lvgl_editor/emsdk-cache/emsdk-main/upstream/emscripten/cache/sysroot
+prefix=/home/runner/work/lvgl_pro/lvgl_pro/emsdk-cache/emsdk-main/upstream/emscripten/cache/sysroot
 includedir=${prefix}/include
 libdir=${prefix}/lib
 
@@ -8,6 +8,6 @@ URL: https://lvgl.io/
 Version: 9.6.0
 Requires: 
 Requires.private: 
-Cflags: -I${includedir}
+Cflags: -I${includedir} -DLV_KCONFIG_IGNORE -DLV_CONF_INCLUDE_SIMPLE
 Libs: -L${libdir} -llvgl 
 Libs.private: -lm -llvgl_thorvg

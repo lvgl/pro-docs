@@ -1,0 +1,31 @@
+```xml title="examples/lvgl_pro/screens/lv_example_spangroup.xml" source="https://github.com/lvgl/lvgl_pro/blob/64ebc7a7b6db60ed63db7ca4dae1573c702c882a/examples/lvgl_pro/screens/lv_example_spangroup.xml"
+<!--
+ @title Span group
+ @brief Rich text built from spans with different fonts, colours and sizes.
+
+ Each `<lv_spangroup-span>` element carries its own `text` and a named
+ `style`, so one paragraph mixes colours and sizes. `overflow="ellipsis"`
+ and `max_lines` clip the block gracefully, and `indent` offsets the first
+ line.
+-->
+<screen>
+	<styles>
+		<style name="style_normal" text_color="0xe5e7eb" />
+		<style name="style_accent" text_color="0x3b82f6" />
+		<style name="style_big" text_color="0xf59e0b" text_font="font_large" />
+		<style name="style_panel" bg_color="0x0f172a" bg_opa="100%" radius="8" pad_all="12" />
+	</styles>
+
+	<view>
+		<lv_spangroup width="260" height="content" overflow="ellipsis" max_lines="3" indent="16" align="center">
+			<style name="style_panel" />
+
+			<lv_spangroup-span text="LVGL " style="style_normal" />
+			<lv_spangroup-span text="Pro" style="style_big" />
+			<lv_spangroup-span text=" lets you mix " style="style_normal" />
+			<lv_spangroup-span text="colours" style="style_accent" />
+			<lv_spangroup-span text=" and sizes in a single block of text." style="style_normal" />
+		</lv_spangroup>
+	</view>
+</screen>
+```

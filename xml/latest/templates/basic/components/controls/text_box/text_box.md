@@ -1,0 +1,20 @@
+```xml title="templates/basic/components/controls/text_box/text_box.xml" source="https://github.com/lvgl/lvgl_pro/blob/64ebc7a7b6db60ed63db7ca4dae1573c702c882a/templates/basic/components/controls/text_box/text_box.xml"
+<component>
+	<previews>
+		<preview name="default" width="300" height="200" style_pad_all="10" />
+	</previews>
+
+	<api>
+		<prop name="text" type="string" default="" help="Initial text" />
+		<prop name="placeholder" type="string" default="Write here..." help="Greyed-out hint shown while empty" />
+	</api>
+
+	<!-- Multi-line text field. Wraps and scrolls on overflow.
+	     Override its default size where you use it. -->
+	<view extends="lv_textarea" width="260" height="120" text="$text" placeholder_text="$placeholder">
+		<style name="style_panel_light" />
+		<bind_style name="style_panel_dark" subject="subject_theme_dark" ref_value="1" />
+		<style name="style_text_muted" selector="textarea_placeholder" />
+	</view>
+</component>
+```

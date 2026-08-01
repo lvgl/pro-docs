@@ -1,0 +1,41 @@
+```xml title="tutorials/components/buttons/button_normal.xml" source="https://github.com/lvgl/lvgl_pro/blob/64ebc7a7b6db60ed63db7ca4dae1573c702c882a/tutorials/components/buttons/button_normal.xml"
+<!-- A simple button that defines a show up animation for itself -->
+<component>
+	<api>
+		<prop name="label_text" type="string" default="Click me" />
+	</api>
+
+	<styles>
+		<style
+			name="style_base"
+			bg_opa="100%"
+			bg_color="#dark_blue"
+			width="content"
+			height="content"
+			radius="#unit_medium"
+			pad_hor="#unit_large"
+			pad_ver="#unit_medium"
+			text_color="0xfff"
+		/>
+
+		<style name="style_pressed" recolor="0xfff" recolor_opa="20%" />
+	</styles>
+
+	<animations>
+		<!-- Fade in and move up 
+		     This animation can be played later in an event by a parent component or screen -->
+		<timeline name="show_up">
+			<animation target="self" prop="opa" start="0" end="255" duration="200" early_apply="true" />
+			<animation target="self" prop="translate_y" start="20" end="0" duration="200" early_apply="true" />
+		</timeline>
+	</animations>
+
+	<view extends="lv_button">
+		<remove_style_all />
+		<style name="style_base" />
+		<style name="style_pressed" selector="pressed" />
+
+		<lv_label text="$label_text" align="center" />
+	</view>
+</component>
+```

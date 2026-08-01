@@ -1,0 +1,34 @@
+```xml title="templates/basic/components/controls/bar/bar.xml" source="https://github.com/lvgl/lvgl_pro/blob/64ebc7a7b6db60ed63db7ca4dae1573c702c882a/templates/basic/components/controls/bar/bar.xml"
+<component>
+	<previews>
+		<preview name="default" width="240" style_pad_all="20" />
+	</previews>
+	<api>
+		<prop name="subject" type="subject" help="Int subject the bar follows" />
+		<prop name="min" type="int" default="0" help="Lowest value" />
+		<prop name="max" type="int" default="100" help="Highest value" />
+		<prop name="color" type="color" default="#color_accent" help="Filled indicator color" />
+	</api>
+
+	<!-- Read-only progress bar following $subject (no knob, not draggable).
+	     Give it a width where you use it. -->
+	<styles>
+		<style name="style_bar_track" bg_color="#color_track" bg_opa="#opa_muted" radius="#radius_default" />
+		<style name="style_bar_indicator" bg_opa="100%" />
+	</styles>
+
+	<view
+		extends="lv_bar"
+		width="200"
+		height="#space_md"
+		min_value="$min"
+		max_value="$max"
+		bind_value="$subject"
+		style_bg_color-indicator="$color"
+	>
+		<style name="style_bar_track" />
+		<style name="style_bar_track" selector="indicator" />
+		<style name="style_bar_indicator" selector="indicator" />
+	</view>
+</component>
+```

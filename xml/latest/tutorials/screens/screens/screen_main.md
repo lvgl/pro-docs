@@ -1,0 +1,29 @@
+```xml title="tutorials/screens/screens/screen_main.xml" source="https://github.com/lvgl/lvgl_pro/blob/64ebc7a7b6db60ed63db7ca4dae1573c702c882a/tutorials/screens/screens/screen_main.xml"
+<!--Make the main screen permanent.
+    It means it's created only once when the UI is created and never deleted. -->
+<screen permanent="true">
+	<view>
+		<lv_label text="Main screen  (permanent)" align="top_mid" y="10" />
+
+		<!-- If set value on this slider, go to About screen and come back here
+		     the value will remain as the "permanent" screens are not recreated. -->
+		<lv_slider align="center" />
+
+		<!-- Just to explain what should happen -->
+		<lv_label
+			text="I'm on a permanent screen,&#10; so my state will stay"
+			y="-30"
+			align="center"
+			style_text_align="center"
+		/>
+
+		<!-- This button should open the About screen  -->
+		<lv_button align="bottom_mid" y="-10">
+			<lv_label text="About" />
+			<!-- Since the About screen is not permanent <screen_create_event>
+			     shall be used to create it dynamically.  -->
+			<screen_create_event screen="screen_about" anim_type="move_top" duration="500" />
+		</lv_button>
+	</view>
+</screen>
+```

@@ -1,0 +1,42 @@
+```xml title="examples/lvgl_open/screens/widgets/roller/lv_example_roller_options.xml" source="https://github.com/lvgl/lvgl_pro/blob/64ebc7a7b6db60ed63db7ca4dae1573c702c882a/examples/lvgl_open/screens/widgets/roller/lv_example_roller_options.xml"
+<!--
+ @title Roller options and mode
+ @brief Define the option list and choose between normal and infinite scrolling.
+
+ `options` is a newline-separated list of items, written with `&#10;` between
+ entries because raw `\n` inside an attribute survives as the literal two
+ characters. `options-mode` controls scroll behaviour: `normal` stops at the
+ first/last entry; `infinite` wraps around so the user can keep scrolling in
+ either direction. `selected` picks the initially focused index.
+-->
+<screen>
+	<view
+		flex_flow="row"
+		style_flex_main_place="space_evenly"
+		style_flex_cross_place="center"
+		style_flex_track_place="center"
+	>
+		<!-- 💡 Switch one of the rollers to `options-mode="normal"` to compare its end-of-list behaviour. -->
+
+		<!-- Normal: bounded scrolling -->
+		<lv_roller
+			name="roller_1"
+			width="120"
+			visible_row_count="3"
+			options="Mon&#10;Tue&#10;Wed&#10;Thu&#10;Fri&#10;Sat&#10;Sun"
+			options-mode="normal"
+			selected="0"
+		/>
+
+		<!-- Infinite: wraps endlessly -->
+		<lv_roller
+			name="roller_2"
+			width="120"
+			visible_row_count="3"
+			options="Mon&#10;Tue&#10;Wed&#10;Thu&#10;Fri&#10;Sat&#10;Sun"
+			options-mode="infinite"
+			selected="2"
+		/>
+	</view>
+</screen>
+```

@@ -1,0 +1,25 @@
+```xml title="lvgl_widgets_xml/v9.4.0/lv_keyboard.xml" source="https://github.com/lvgl/lvgl_pro/blob/64ebc7a7b6db60ed63db7ca4dae1573c702c882a/lvgl_widgets_xml/v9.4.0/lv_keyboard.xml"
+<!--
+Example
+<lv_keyboard mode="text_upper" popovers="true"/>
+-->
+
+<widget>
+    <api>
+        <enumdef name="lv_keyboard_mode" help="Keyboard layout modes">
+            <enum name="text_upper" help="Show uppercase letters"/>
+            <enum name="text_lower" help="Show lowercase letters"/>
+            <enum name="text_arabic" help="Show Arabic characters"/>
+            <enum name="special" help="Show special characters and symbols"/>
+            <enum name="number" help="Show numeric keys"/>
+            <enum name="user_1" help="User-defined layout 1"/>
+            <enum name="user_2" help="User-defined layout 2"/>
+            <enum name="user_3" help="User-defined layout 3"/>
+            <enum name="user_4" help="User-defined layout 4"/>
+        </enumdef>
+
+        <prop name="mode" type="enum:lv_keyboard_mode" help="Set the keyboard layout"/>
+        <prop name="popovers" type="bool" help="Show enlarged key previews on press"/>
+    </api>
+</widget>
+```

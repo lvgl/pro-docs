@@ -1,0 +1,27 @@
+```xml title="lvgl_widgets_xml/v9.4.0/lv_label.xml" source="https://github.com/lvgl/lvgl_pro/blob/64ebc7a7b6db60ed63db7ca4dae1573c702c882a/lvgl_widgets_xml/v9.4.0/lv_label.xml"
+<!--
+Example
+<lv_label text="Hello"/>
+-->
+
+<widget>
+    <api>
+        <enumdef name="lv_label_long_mode" help="How to handle text that doesn’t fit">
+            <enum name="wrap" help="Wrap to next line"/>
+            <enum name="scroll" help="Scroll horizontally"/>
+            <enum name="scroll_circular" help="Scroll continuously in a loop"/>
+            <enum name="clip" help="Clip at the boundary"/>
+            <enum name="dots" help="Show dots (…) at the end"/>
+        </enumdef>
+
+        <prop name="text" type="string" help="Set label text"/>
+        <prop name="translation_tag" type="string" help="Set translation tag"/>
+        <prop name="long_mode" type="enum:lv_label_long_mode" help="Choose overflow mode"/>
+
+        <prop name="bind_text" help="Bind text to a subject">
+            <param name="bind_text" type="subject" help="Subject that provides text"/>
+            <param name="fmt" type="string" default="NULL" help="Format string for bound text (printf style)"/>
+        </prop>
+    </api>
+</widget>
+```

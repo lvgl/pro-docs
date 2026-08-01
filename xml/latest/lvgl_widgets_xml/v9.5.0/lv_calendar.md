@@ -1,0 +1,26 @@
+```xml title="lvgl_widgets_xml/v9.5.0/lv_calendar.xml" source="https://github.com/lvgl/lvgl_pro/blob/64ebc7a7b6db60ed63db7ca4dae1573c702c882a/lvgl_widgets_xml/v9.5.0/lv_calendar.xml"
+<!--
+Example
+<lv_calendar src="img1 img2" duration="300" repeat_count="3"/>
+-->
+
+<widget>
+    <api>
+        <prop name="today_year" type="int" help="Mark today’s year in the calendar"/>
+        <prop name="today_month" type="int" help="Mark today’s month in the calendar"/>
+        <prop name="today_day" type="int" help="Mark today’s day in the calendar"/>
+
+        <prop name="shown_year" type="int" help="Show this year in the calendar"/>
+        <prop name="shown_month" type="int" help="Show this month in the calendar"/>
+        <prop name="chinese_mode" type="bool" help="Show a Chinese calendar"/>
+
+        <element name="header_arrow" access="add" help="Add arrow buttons for navigating months"/>
+        <element name="header_dropdown" access="add" help="Add a dropdown for selecting months or years"/>
+
+        <parts>
+            <part name="main" help="The calendar background: background and padding properties."/>
+            <part name="items" help="The day cells and weekday names (built on a button matrix): background and text properties. Weekday names and days outside the shown month (disabled) are drawn without background/border. Today's thicker border and the highlighted days' fill/border are forced to the theme's primary color in code, so they are not set via style properties."/>
+        </parts>
+    </api>
+</widget>
+```

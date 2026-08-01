@@ -1,8 +1,8 @@
-# Install script for directory: /home/runner/work/lvgl_editor/emscripten_builder/lvgl
+# Install script for directory: /home/runner/work/lvgl_pro/emscripten_builder/lvgl
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/runner/work/lvgl_editor/lvgl_editor/emsdk-cache/emsdk-main/upstream/emscripten/cache/sysroot")
+  set(CMAKE_INSTALL_PREFIX "/home/runner/work/lvgl_pro/lvgl_pro/emsdk-cache/emsdk-main/upstream/emscripten/cache/sysroot")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,29 +38,33 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/runner/work/lvgl_editor/emscripten_builder/lvgl/include/lvgl")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/runner/work/lvgl_pro/emscripten_builder/lvgl/include/lvgl")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/runner/work/lvgl_editor/emscripten_builder/cmbuild/lvgl/lvgl.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/lvgl/config" TYPE FILE RENAME "lv_conf.h" FILES "/home/runner/work/lvgl_pro/emscripten_builder/lvgl/configs/ci/docs/lv_conf_docs.h")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/runner/work/lvgl_pro/emscripten_builder/cmbuild/lvgl/lvgl.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/lvgl" TYPE FILE FILES
-    "/home/runner/work/lvgl_editor/emscripten_builder/cmbuild/lvgl/lvglConfig.cmake"
-    "/home/runner/work/lvgl_editor/emscripten_builder/cmbuild/lvgl/lvglConfigVersion.cmake"
+    "/home/runner/work/lvgl_pro/emscripten_builder/cmbuild/lvgl/lvglConfig.cmake"
+    "/home/runner/work/lvgl_pro/emscripten_builder/cmbuild/lvgl/lvglConfigVersion.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/runner/work/lvgl_editor/emscripten_builder/cmbuild/lvgl/liblvgl.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/runner/work/lvgl_pro/emscripten_builder/cmbuild/lvgl/liblvgl.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/lvgl/lvglTargets.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/lvgl/lvglTargets.cmake"
-         "/home/runner/work/lvgl_editor/emscripten_builder/cmbuild/lvgl/CMakeFiles/Export/dd984d6d4882ae81031482330785511f/lvglTargets.cmake")
+         "/home/runner/work/lvgl_pro/emscripten_builder/cmbuild/lvgl/CMakeFiles/Export/dd984d6d4882ae81031482330785511f/lvglTargets.cmake")
     if(_cmake_export_file_changed)
       file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/lvgl/lvglTargets-*.cmake")
       if(_cmake_old_config_files)
@@ -73,29 +77,29 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/lvgl" TYPE FILE FILES "/home/runner/work/lvgl_editor/emscripten_builder/cmbuild/lvgl/CMakeFiles/Export/dd984d6d4882ae81031482330785511f/lvglTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/lvgl" TYPE FILE FILES "/home/runner/work/lvgl_pro/emscripten_builder/cmbuild/lvgl/CMakeFiles/Export/dd984d6d4882ae81031482330785511f/lvglTargets.cmake")
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/lvgl" TYPE FILE FILES "/home/runner/work/lvgl_editor/emscripten_builder/cmbuild/lvgl/CMakeFiles/Export/dd984d6d4882ae81031482330785511f/lvglTargets-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/lvgl" TYPE FILE FILES "/home/runner/work/lvgl_pro/emscripten_builder/cmbuild/lvgl/CMakeFiles/Export/dd984d6d4882ae81031482330785511f/lvglTargets-noconfig.cmake")
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/runner/work/lvgl_editor/emscripten_builder/cmbuild/lvgl/lib/liblvgl_thorvg.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/runner/work/lvgl_pro/emscripten_builder/cmbuild/lvgl/lib/liblvgl_thorvg.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/lvgl" TYPE DIRECTORY FILES "/home/runner/work/lvgl_editor/emscripten_builder/lvgl/demos" FILES_MATCHING REGEX "/[^/]*\\.h$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/lvgl" TYPE DIRECTORY FILES "/home/runner/work/lvgl_pro/emscripten_builder/lvgl/demos" FILES_MATCHING REGEX "/[^/]*\\.h$")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/runner/work/lvgl_editor/emscripten_builder/cmbuild/lvgl/liblvgl_demos.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/runner/work/lvgl_pro/emscripten_builder/cmbuild/lvgl/liblvgl_demos.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/lvgl/lvglDemosTargets.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/lvgl/lvglDemosTargets.cmake"
-         "/home/runner/work/lvgl_editor/emscripten_builder/cmbuild/lvgl/CMakeFiles/Export/dd984d6d4882ae81031482330785511f/lvglDemosTargets.cmake")
+         "/home/runner/work/lvgl_pro/emscripten_builder/cmbuild/lvgl/CMakeFiles/Export/dd984d6d4882ae81031482330785511f/lvglDemosTargets.cmake")
     if(_cmake_export_file_changed)
       file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/lvgl/lvglDemosTargets-*.cmake")
       if(_cmake_old_config_files)
@@ -108,25 +112,25 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/lvgl" TYPE FILE FILES "/home/runner/work/lvgl_editor/emscripten_builder/cmbuild/lvgl/CMakeFiles/Export/dd984d6d4882ae81031482330785511f/lvglDemosTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/lvgl" TYPE FILE FILES "/home/runner/work/lvgl_pro/emscripten_builder/cmbuild/lvgl/CMakeFiles/Export/dd984d6d4882ae81031482330785511f/lvglDemosTargets.cmake")
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/lvgl" TYPE FILE FILES "/home/runner/work/lvgl_editor/emscripten_builder/cmbuild/lvgl/CMakeFiles/Export/dd984d6d4882ae81031482330785511f/lvglDemosTargets-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/lvgl" TYPE FILE FILES "/home/runner/work/lvgl_pro/emscripten_builder/cmbuild/lvgl/CMakeFiles/Export/dd984d6d4882ae81031482330785511f/lvglDemosTargets-noconfig.cmake")
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/lvgl" TYPE DIRECTORY FILES "/home/runner/work/lvgl_editor/emscripten_builder/lvgl/examples" FILES_MATCHING REGEX "/[^/]*\\.h$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/lvgl" TYPE DIRECTORY FILES "/home/runner/work/lvgl_pro/emscripten_builder/lvgl/examples" FILES_MATCHING REGEX "/[^/]*\\.h$")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/runner/work/lvgl_editor/emscripten_builder/cmbuild/lvgl/liblvgl_examples.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/runner/work/lvgl_pro/emscripten_builder/cmbuild/lvgl/liblvgl_examples.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/lvgl/lvglExamplesTargets.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/lvgl/lvglExamplesTargets.cmake"
-         "/home/runner/work/lvgl_editor/emscripten_builder/cmbuild/lvgl/CMakeFiles/Export/dd984d6d4882ae81031482330785511f/lvglExamplesTargets.cmake")
+         "/home/runner/work/lvgl_pro/emscripten_builder/cmbuild/lvgl/CMakeFiles/Export/dd984d6d4882ae81031482330785511f/lvglExamplesTargets.cmake")
     if(_cmake_export_file_changed)
       file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/lvgl/lvglExamplesTargets-*.cmake")
       if(_cmake_old_config_files)
@@ -139,15 +143,15 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/lvgl" TYPE FILE FILES "/home/runner/work/lvgl_editor/emscripten_builder/cmbuild/lvgl/CMakeFiles/Export/dd984d6d4882ae81031482330785511f/lvglExamplesTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/lvgl" TYPE FILE FILES "/home/runner/work/lvgl_pro/emscripten_builder/cmbuild/lvgl/CMakeFiles/Export/dd984d6d4882ae81031482330785511f/lvglExamplesTargets.cmake")
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/lvgl" TYPE FILE FILES "/home/runner/work/lvgl_editor/emscripten_builder/cmbuild/lvgl/CMakeFiles/Export/dd984d6d4882ae81031482330785511f/lvglExamplesTargets-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/lvgl" TYPE FILE FILES "/home/runner/work/lvgl_pro/emscripten_builder/cmbuild/lvgl/CMakeFiles/Export/dd984d6d4882ae81031482330785511f/lvglExamplesTargets-noconfig.cmake")
   endif()
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/runner/work/lvgl_editor/emscripten_builder/cmbuild/lvgl/install_local_manifest.txt"
+  file(WRITE "/home/runner/work/lvgl_pro/emscripten_builder/cmbuild/lvgl/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
