@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/layouts/flex/lv_example_flex_grow.xml" source="https://github.com/lvgl/lvgl_pro/blob/3514c1eb6b7075d42b1ef8bd36931a525c3d56f3/examples/lvgl_open/screens/layouts/flex/lv_example_flex_grow.xml"
+```xml title="examples/lvgl_open/screens/layouts/flex/lv_example_flex_grow.xml" source="https://github.com/lvgl/lvgl_pro/blob/4d05fc79f26b1a8daf2c0134018f3d07c6f19286/examples/lvgl_open/screens/layouts/flex/lv_example_flex_grow.xml"
 <!--
  @title Flex grow
  @brief Distribute leftover row space by weight.

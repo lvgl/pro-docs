@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/image/lv_example_image_transformations.xml" source="https://github.com/lvgl/lvgl_pro/blob/3514c1eb6b7075d42b1ef8bd36931a525c3d56f3/examples/lvgl_open/screens/widgets/image/lv_example_image_transformations.xml"
+```xml title="examples/lvgl_open/screens/widgets/image/lv_example_image_transformations.xml" source="https://github.com/lvgl/lvgl_pro/blob/4d05fc79f26b1a8daf2c0134018f3d07c6f19286/examples/lvgl_open/screens/widgets/image/lv_example_image_transformations.xml"
 <!--
  @title Image transformations
  @brief Rotate and scale a single image source by setting widget attributes.

@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_pro/globals.xml" source="https://github.com/lvgl/lvgl_pro/blob/3514c1eb6b7075d42b1ef8bd36931a525c3d56f3/examples/lvgl_pro/globals.xml"
+```xml title="examples/lvgl_pro/globals.xml" source="https://github.com/lvgl/lvgl_pro/blob/4d05fc79f26b1a8daf2c0134018f3d07c6f19286/examples/lvgl_pro/globals.xml"
 <globals>
 	<api>
 		<!-- No project-wide enums needed by the doc examples. -->
@@ -9,10 +9,6 @@
 		     (bar, slider) where the default text color would be hard to read. -->
 		<color name="color_text_on_fill" value="0x013992" help="Label color over filled widgets" />
 	</consts>
-
-	<styles>
-		<!-- Add shared <style> tags here when 2+ examples need the same look. -->
-	</styles>
 
 	<subjects>
 		<!-- Generic subjects reused by every data-binding example so each
@@ -37,5 +33,9 @@
 	<fonts>
 		<bin name="font_large" src_path="fonts/Montserrat-Medium.ttf" size="28" bpp="4" as_file="false" />
 	</fonts>
+
+	<styles>
+		<!-- Add shared <style> tags here when 2+ examples need the same look. -->
+	</styles>
 </globals>
 ```
