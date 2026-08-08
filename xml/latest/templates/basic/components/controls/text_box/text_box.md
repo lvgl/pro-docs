@@ -1,4 +1,4 @@
-```xml title="templates/basic/components/controls/text_box/text_box.xml" source="https://github.com/lvgl/lvgl_pro/blob/9bccbd4302cf1f425d2a9790d8b6133170e81650/templates/basic/components/controls/text_box/text_box.xml"
+```xml title="templates/basic/components/controls/text_box/text_box.xml" source="https://github.com/lvgl/lvgl_pro/blob/3514c1eb6b7075d42b1ef8bd36931a525c3d56f3/templates/basic/components/controls/text_box/text_box.xml"
 <component>
 	<previews>
 		<preview name="default" width="300" height="200" style_pad_all="10" />

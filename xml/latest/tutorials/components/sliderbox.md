@@ -1,4 +1,4 @@
-```xml title="tutorials/components/sliderbox.xml" source="https://github.com/lvgl/lvgl_pro/blob/9bccbd4302cf1f425d2a9790d8b6133170e81650/tutorials/components/sliderbox.xml"
+```xml title="tutorials/components/sliderbox.xml" source="https://github.com/lvgl/lvgl_pro/blob/3514c1eb6b7075d42b1ef8bd36931a525c3d56f3/tutorials/components/sliderbox.xml"
 <!-- A title + and - buttons + a slider, all bound to one subject. Shows light/dark previews. -->
 <component>
 	<previews>
@@ -14,13 +14,13 @@
 		<prop name="unit" type="string" default="%d" />
 	</api>
 
-	<styles>
-		<style name="style_dark" bg_color="0x333" text_color="0xfff" border_color="0x111" />
-	</styles>
-
 	<consts>
 		<int name="width" value="200" help="Width of the whole slider box" />
 	</consts>
+
+	<styles>
+		<style name="style_dark" bg_color="0x333" text_color="0xfff" border_color="0x111" />
+	</styles>
 
 	<view width="#width" height="content" flex_flow="row" style_flex_cross_place="center">
 		<bind_style name="style_dark" subject="subject_dark_mode" ref_value="1" />

@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/globals.xml" source="https://github.com/lvgl/lvgl_pro/blob/9bccbd4302cf1f425d2a9790d8b6133170e81650/examples/lvgl_open/globals.xml"
+```xml title="examples/lvgl_open/globals.xml" source="https://github.com/lvgl/lvgl_pro/blob/3514c1eb6b7075d42b1ef8bd36931a525c3d56f3/examples/lvgl_open/globals.xml"
 <globals>
 	<api>
 		<!-- Add <enumdefs> here -->
@@ -7,10 +7,6 @@
 	<consts>
 		<!-- Add <px>, <int>, <color> etc here -->
 	</consts>
-
-	<styles>
-		<!-- Add <style> tags here -->
-	</styles>
 
 	<subjects>
 		<!-- Generic subjects used by the data-binding examples. Each binding
@@ -43,5 +39,9 @@
 		<!-- Add <bin> , <tiny_ttf>, <freetype> tags here -->
 		<bin name="font_example_large" src_path="fonts/Montserrat-Medium.ttf" size="32" bpp="4" as_file="false" />
 	</fonts>
+
+	<styles>
+		<!-- Add <style> tags here -->
+	</styles>
 </globals>
 ```

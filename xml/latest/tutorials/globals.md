@@ -1,4 +1,4 @@
-```xml title="tutorials/globals.xml" source="https://github.com/lvgl/lvgl_pro/blob/9bccbd4302cf1f425d2a9790d8b6133170e81650/tutorials/globals.xml"
+```xml title="tutorials/globals.xml" source="https://github.com/lvgl/lvgl_pro/blob/3514c1eb6b7075d42b1ef8bd36931a525c3d56f3/tutorials/globals.xml"
 <!-- Project-wide definitions: shared constants, styles, subjects, images and fonts.
      Anything defined here can be referenced from any screen or component. -->
 <globals>
@@ -14,11 +14,6 @@
 		<color name="dark_blue" value="0x035391" />
 		<color name="yellow" value="0xda9d19" />
 	</consts>
-
-	<styles>
-		<!-- Add <style> tags here -->
-	</styles>
-
 	<subjects>
 		<!-- Add <int>, <string>, or <float> subjects here -->
 		<int name="subject_dark_mode" value="0" />
@@ -67,5 +62,10 @@
 		     Characters will be rendered at runtime from the TTF file./> -->
 		<tiny_ttf name="montserrat_20_tiny_ttf_file" as_file="true" size="20" src_path="fonts/Montserrat_Medium.ttf" />
 	</fonts>
+
+	<styles>
+		<!-- Add <style> tags here -->
+	</styles>
+
 </globals>
 ```
