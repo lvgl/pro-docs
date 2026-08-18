@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/button/lv_example_button_styling.xml" source="https://github.com/lvgl/lvgl_pro/blob/4d05fc79f26b1a8daf2c0134018f3d07c6f19286/examples/lvgl_open/screens/widgets/button/lv_example_button_styling.xml"
+```xml title="examples/lvgl_open/screens/widgets/button/lv_example_button_styling.xml" source="https://github.com/lvgl/lvgl_pro/blob/c4a99074ccc701fd983c2e1e0b01b1ba7645abe7/examples/lvgl_open/screens/widgets/button/lv_example_button_styling.xml"
 <!--
  @title Button styling
  @brief State-aware colors, rounded corners, shadow, and a pressed outline.

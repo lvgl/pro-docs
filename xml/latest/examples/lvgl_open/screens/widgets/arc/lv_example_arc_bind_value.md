@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/arc/lv_example_arc_bind_value.xml" source="https://github.com/lvgl/lvgl_pro/blob/4d05fc79f26b1a8daf2c0134018f3d07c6f19286/examples/lvgl_open/screens/widgets/arc/lv_example_arc_bind_value.xml"
+```xml title="examples/lvgl_open/screens/widgets/arc/lv_example_arc_bind_value.xml" source="https://github.com/lvgl/lvgl_pro/blob/c4a99074ccc701fd983c2e1e0b01b1ba7645abe7/examples/lvgl_open/screens/widgets/arc/lv_example_arc_bind_value.xml"
 <screen>
 	<animations>
 		<timeline name="t1">
@@ -26,7 +26,7 @@
 			height="130"
 		>
 			<bind_flag_if_gt flag="hidden" subject="subject_value" ref_value="60" />
-			<lv_label align="center" text="{base}" />
+			<lv_label align="center" text="{'' . base}" />
 		</lv_arc>
 
 		<lv_slider name="slider" width="220" bind_value="subject_value" y="200" />

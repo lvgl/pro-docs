@@ -1,4 +1,4 @@
-```xml title="lvgl_widgets_xml/v9.4.0/lv_arc.xml" source="https://github.com/lvgl/lvgl_pro/blob/4d05fc79f26b1a8daf2c0134018f3d07c6f19286/lvgl_widgets_xml/v9.4.0/lv_arc.xml"
+```xml title="lvgl_widgets_xml/v9.4.0/lv_arc.xml" source="https://github.com/lvgl/lvgl_pro/blob/c4a99074ccc701fd983c2e1e0b01b1ba7645abe7/lvgl_widgets_xml/v9.4.0/lv_arc.xml"
 <!--
 Example
 <lv_arc mode="reverse" bg_start_angle="30" bg_end_ange="150"

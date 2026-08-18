@@ -1,4 +1,4 @@
-```xml title="lvgl_widgets_xml/v9.4.0/lv_roller.xml" source="https://github.com/lvgl/lvgl_pro/blob/4d05fc79f26b1a8daf2c0134018f3d07c6f19286/lvgl_widgets_xml/v9.4.0/lv_roller.xml"
+```xml title="lvgl_widgets_xml/v9.4.0/lv_roller.xml" source="https://github.com/lvgl/lvgl_pro/blob/c4a99074ccc701fd983c2e1e0b01b1ba7645abe7/lvgl_widgets_xml/v9.4.0/lv_roller.xml"
 <!--
 Example
 <lv_roller options="'a\nb\nc\nd' infinite" selected="2 true" visible_row_count="3"/>

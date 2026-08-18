@@ -1,4 +1,4 @@
-```xml title="templates/basic/components/controls/checkbox/checkbox.xml" source="https://github.com/lvgl/lvgl_pro/blob/4d05fc79f26b1a8daf2c0134018f3d07c6f19286/templates/basic/components/controls/checkbox/checkbox.xml"
+```xml title="templates/basic/components/controls/checkbox/checkbox.xml" source="https://github.com/lvgl/lvgl_pro/blob/c4a99074ccc701fd983c2e1e0b01b1ba7645abe7/templates/basic/components/controls/checkbox/checkbox.xml"
 <component>
 	<previews>
 		<preview name="default" width="180" style_pad_all="10" />
