@@ -1,4 +1,4 @@
-```xml title="templates/basic/components/layout/container/container.xml" source="https://github.com/lvgl/lvgl_pro/blob/c4a99074ccc701fd983c2e1e0b01b1ba7645abe7/templates/basic/components/layout/container/container.xml"
+```xml title="templates/basic/components/layout/container/container.xml" source="https://github.com/lvgl/lvgl_pro/blob/ccb93b776a23f6112f664d039e9d9181ef18a761/templates/basic/components/layout/container/container.xml"
 <component>
 	<!-- Transparent, theme-free flex box for grouping children. Extends
 	     base_box, so these locals apply after remove_style_all and stick.

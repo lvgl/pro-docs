@@ -1,10 +1,10 @@
-```xml title="examples/lvgl_pro/screens/lv_example_label.xml" source="https://github.com/lvgl/lvgl_pro/blob/c4a99074ccc701fd983c2e1e0b01b1ba7645abe7/examples/lvgl_pro/screens/lv_example_label.xml"
+```xml title="examples/lvgl_pro/screens/lv_example_label.xml" source="https://github.com/lvgl/lvgl_pro/blob/ccb93b776a23f6112f664d039e9d9181ef18a761/examples/lvgl_pro/screens/lv_example_label.xml"
 <!--
  @title Label
  @brief Recoloring, a long-text mode and a value bound to a subject.
 
- A plain heading sits on top. Below it, one label uses `recolor="true"` so
- `#hex text#` spans change colour inline. The next is given a fixed width with
+ Three labels. The first uses `recolor="true"` so `#hex text#` spans change
+ colour inline. The second is given a fixed width with
  `long_mode="scroll_circular"` so the over-long text scrolls continuously. The
  last uses `bind_text` with a `bind_text-fmt` printf string to track
  `subject_value` live.

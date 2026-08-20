@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_pro/screens/lv_example_textarea.xml" source="https://github.com/lvgl/lvgl_pro/blob/c4a99074ccc701fd983c2e1e0b01b1ba7645abe7/examples/lvgl_pro/screens/lv_example_textarea.xml"
+```xml title="examples/lvgl_pro/screens/lv_example_textarea.xml" source="https://github.com/lvgl/lvgl_pro/blob/ccb93b776a23f6112f664d039e9d9181ef18a761/examples/lvgl_pro/screens/lv_example_textarea.xml"
 <!--
  @title Text area
  @brief A one-line field, a password field, and a multi-line area.

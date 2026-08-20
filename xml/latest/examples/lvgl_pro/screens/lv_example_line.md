@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_pro/screens/lv_example_line.xml" source="https://github.com/lvgl/lvgl_pro/blob/c4a99074ccc701fd983c2e1e0b01b1ba7645abe7/examples/lvgl_pro/screens/lv_example_line.xml"
+```xml title="examples/lvgl_pro/screens/lv_example_line.xml" source="https://github.com/lvgl/lvgl_pro/blob/ccb93b776a23f6112f664d039e9d9181ef18a761/examples/lvgl_pro/screens/lv_example_line.xml"
 <!--
  @title Line
  @brief A styled poly-line, and the same points with y_invert.
@@ -15,8 +15,14 @@
 		<style name="style_panel" bg_color="0x0f172a" bg_opa="100%" radius="8" />
 	</styles>
 
-	<view flex_flow="column" style_pad_row="14" style_pad_all="16" style_flex_cross_place="center">
-		<!--
+	<view
+		flex_flow="column"
+		style_pad_row="14"
+		style_pad_all="16"
+		style_flex_cross_place="center"
+		style_flex_main_place="center"
+		style_flex_track_place="center"
+	>
 		<lv_line width="220" height="70" points="(0 10) (60 50) (120 5) (200 45)">
 			<style name="style_panel" />
 			<style name="style_line" />
@@ -27,7 +33,6 @@
 			<style name="style_panel" />
 			<style name="style_line2" />
 		</lv_line>
-	-->
 	</view>
 </screen>
 ```

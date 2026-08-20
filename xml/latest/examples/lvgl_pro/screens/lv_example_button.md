@@ -1,12 +1,13 @@
-```xml title="examples/lvgl_pro/screens/lv_example_button.xml" source="https://github.com/lvgl/lvgl_pro/blob/c4a99074ccc701fd983c2e1e0b01b1ba7645abe7/examples/lvgl_pro/screens/lv_example_button.xml"
+```xml title="examples/lvgl_pro/screens/lv_example_button.xml" source="https://github.com/lvgl/lvgl_pro/blob/ccb93b776a23f6112f664d039e9d9181ef18a761/examples/lvgl_pro/screens/lv_example_button.xml"
 <!--
  @title Button
  @brief A normal, a toggleable and a disabled button with per-state styling.
 
  Button itself adds no properties over the Base Widget — its behaviour comes
- from flags and styling. The middle button uses `checked="true"` so it stays
- toggled, and a `selector="checked"` style recolours it. The third uses
- `disabled="true"` to show the muted, non-interactive state.
+ from flags and styling. The middle button is `checkable="true"` so a tap
+ toggles it, starts `checked="true"`, and a `selector="checked"` style
+ recolours it. The third uses `disabled="true"` to show the muted,
+ non-interactive state.
 -->
 <screen>
 	<styles>
@@ -43,7 +44,7 @@
 		</lv_button>
 
 		<!-- Toggle button: starts checked, keeps its state -->
-		<lv_button checked="true">
+		<lv_button checkable="true" checked="true">
 			<style name="style_btn" />
 			<style name="style_btn_pressed" selector="pressed" />
 			<style name="style_btn_checked" selector="checked" />
