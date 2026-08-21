@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/styles/lv_example_style_size_position.xml" source="https://github.com/lvgl/lvgl_pro/blob/ccb93b776a23f6112f664d039e9d9181ef18a761/examples/lvgl_open/screens/styles/lv_example_style_size_position.xml"
+```xml title="examples/lvgl_open/screens/styles/lv_example_style_size_position.xml" source="https://github.com/lvgl/lvgl_pro/blob/91553dccc827bdbb5d49302579f6a8df95e2db84/examples/lvgl_open/screens/styles/lv_example_style_size_position.xml"
 <!--
  @title Size and padding
  @brief Set a Widget's width and padding; its height follows the content.

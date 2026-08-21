@@ -1,4 +1,4 @@
-```xml title="templates/basic/tests/test_slider_drag.xml" source="https://github.com/lvgl/lvgl_pro/blob/ccb93b776a23f6112f664d039e9d9181ef18a761/templates/basic/tests/test_slider_drag.xml"
+```xml title="templates/basic/tests/test_slider_drag.xml" source="https://github.com/lvgl/lvgl_pro/blob/91553dccc827bdbb5d49302579f6a8df95e2db84/templates/basic/tests/test_slider_drag.xml"
 <!-- Dragging a slider writes its bound subject.
 
      Where test_theme_toggle.xml extends a real screen, this one builds a small

@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/spinbox/lv_example_spinbox_format.xml" source="https://github.com/lvgl/lvgl_pro/blob/ccb93b776a23f6112f664d039e9d9181ef18a761/examples/lvgl_open/screens/widgets/spinbox/lv_example_spinbox_format.xml"
+```xml title="examples/lvgl_open/screens/widgets/spinbox/lv_example_spinbox_format.xml" source="https://github.com/lvgl/lvgl_pro/blob/91553dccc827bdbb5d49302579f6a8df95e2db84/examples/lvgl_open/screens/widgets/spinbox/lv_example_spinbox_format.xml"
 <!--
  @title Spinbox digit count and decimal point
  @brief Control how the number is displayed: how many digits, and where the dot goes.

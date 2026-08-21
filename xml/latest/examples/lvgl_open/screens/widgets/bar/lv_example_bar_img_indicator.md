@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/bar/lv_example_bar_img_indicator.xml" source="https://github.com/lvgl/lvgl_pro/blob/ccb93b776a23f6112f664d039e9d9181ef18a761/examples/lvgl_open/screens/widgets/bar/lv_example_bar_img_indicator.xml"
+```xml title="examples/lvgl_open/screens/widgets/bar/lv_example_bar_img_indicator.xml" source="https://github.com/lvgl/lvgl_pro/blob/91553dccc827bdbb5d49302579f6a8df95e2db84/examples/lvgl_open/screens/widgets/bar/lv_example_bar_img_indicator.xml"
 <!--
  @title Bar image indicator
  @brief Use bitmaps as the bar track and indicator — the bar clips each image to its part.

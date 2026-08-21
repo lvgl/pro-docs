@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_pro/screens/lv_example_buttonmatrix.xml" source="https://github.com/lvgl/lvgl_pro/blob/ccb93b776a23f6112f664d039e9d9181ef18a761/examples/lvgl_pro/screens/lv_example_buttonmatrix.xml"
+```xml title="examples/lvgl_pro/screens/lv_example_buttonmatrix.xml" source="https://github.com/lvgl/lvgl_pro/blob/91553dccc827bdbb5d49302579f6a8df95e2db84/examples/lvgl_pro/screens/lv_example_buttonmatrix.xml"
 <!--
  @title Button matrix
  @brief A keypad from a single map, with per-button width and a disabled key.

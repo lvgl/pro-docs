@@ -1,4 +1,4 @@
-```xml title="tutorials/components/round_button.xml" source="https://github.com/lvgl/lvgl_pro/blob/ccb93b776a23f6112f664d039e9d9181ef18a761/tutorials/components/round_button.xml"
+```xml title="tutorials/components/round_button.xml" source="https://github.com/lvgl/lvgl_pro/blob/91553dccc827bdbb5d49302579f6a8df95e2db84/tutorials/components/round_button.xml"
 <!-- A small round button that increments a subject on press and long-press repeat. -->
 <component>
 	<api>
