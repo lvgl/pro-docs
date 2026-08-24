@@ -1,4 +1,4 @@
-```xml title="templates/basic/components/list/list_item/list_item.xml" source="https://github.com/lvgl/lvgl_pro/blob/91553dccc827bdbb5d49302579f6a8df95e2db84/templates/basic/components/list/list_item/list_item.xml"
+```xml title="templates/basic/components/list/list_item/list_item.xml" source="https://github.com/lvgl/lvgl_pro/blob/b50910a3acc7ed2355e2e41eabaca2630a9e383d/templates/basic/components/list/list_item/list_item.xml"
 <component>
 	<previews>
 		<preview name="default" width="320" />

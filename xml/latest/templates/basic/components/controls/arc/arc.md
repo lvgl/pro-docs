@@ -1,4 +1,4 @@
-```xml title="templates/basic/components/controls/arc/arc.xml" source="https://github.com/lvgl/lvgl_pro/blob/91553dccc827bdbb5d49302579f6a8df95e2db84/templates/basic/components/controls/arc/arc.xml"
+```xml title="templates/basic/components/controls/arc/arc.xml" source="https://github.com/lvgl/lvgl_pro/blob/b50910a3acc7ed2355e2e41eabaca2630a9e383d/templates/basic/components/controls/arc/arc.xml"
 <component>
 	<previews>
 		<preview name="default" width="220" height="220" style_pad_all="20" />

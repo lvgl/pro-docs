@@ -1,4 +1,4 @@
-```xml title="tutorials/components/buttons/button_normal.xml" source="https://github.com/lvgl/lvgl_pro/blob/91553dccc827bdbb5d49302579f6a8df95e2db84/tutorials/components/buttons/button_normal.xml"
+```xml title="tutorials/components/buttons/button_normal.xml" source="https://github.com/lvgl/lvgl_pro/blob/b50910a3acc7ed2355e2e41eabaca2630a9e383d/tutorials/components/buttons/button_normal.xml"
 <!-- A simple button that defines a show up animation for itself -->
 <component>
 	<api>

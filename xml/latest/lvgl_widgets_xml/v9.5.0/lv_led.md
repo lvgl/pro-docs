@@ -1,4 +1,4 @@
-```xml title="lvgl_widgets_xml/v9.5.0/lv_led.xml" source="https://github.com/lvgl/lvgl_pro/blob/91553dccc827bdbb5d49302579f6a8df95e2db84/lvgl_widgets_xml/v9.5.0/lv_led.xml"
+```xml title="lvgl_widgets_xml/v9.5.0/lv_led.xml" source="https://github.com/lvgl/lvgl_pro/blob/b50910a3acc7ed2355e2e41eabaca2630a9e383d/lvgl_widgets_xml/v9.5.0/lv_led.xml"
 <!--
 Example
 <lv_led color="0xff0000" brightness="70%" />

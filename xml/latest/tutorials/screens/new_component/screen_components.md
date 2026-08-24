@@ -1,4 +1,4 @@
-```xml title="tutorials/screens/new_component/screen_components.xml" source="https://github.com/lvgl/lvgl_pro/blob/91553dccc827bdbb5d49302579f6a8df95e2db84/tutorials/screens/new_component/screen_components.xml"
+```xml title="tutorials/screens/new_component/screen_components.xml" source="https://github.com/lvgl/lvgl_pro/blob/b50910a3acc7ed2355e2e41eabaca2630a9e383d/tutorials/screens/new_component/screen_components.xml"
 <!-- Use all our components to create a screen with a column layout -->
 <screen>
 	<view flex_flow="column" style_pad_all="#unit_small" style_flex_cross_place="center">

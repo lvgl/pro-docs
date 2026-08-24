@@ -1,4 +1,4 @@
-```xml title="tutorials/components/widget_items/segment_item/segment_item.xml" source="https://github.com/lvgl/lvgl_pro/blob/91553dccc827bdbb5d49302579f6a8df95e2db84/tutorials/components/widget_items/segment_item/segment_item.xml"
+```xml title="tutorials/components/widget_items/segment_item/segment_item.xml" source="https://github.com/lvgl/lvgl_pro/blob/b50910a3acc7ed2355e2e41eabaca2630a9e383d/tutorials/components/widget_items/segment_item/segment_item.xml"
 <!-- A single selectable item used by the wd_segment custom widget. -->
 <component>
 	<previews>
