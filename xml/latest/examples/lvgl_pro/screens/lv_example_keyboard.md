@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_pro/screens/lv_example_keyboard.xml" source="https://github.com/lvgl/lvgl_pro/blob/6d04ae8c667ee14d83198e659f3f199a1cc99fec/examples/lvgl_pro/screens/lv_example_keyboard.xml"
+```xml title="examples/lvgl_pro/screens/lv_example_keyboard.xml" source="https://github.com/lvgl/lvgl_pro/blob/265736d202455b16b44f0ce9f8ce8a1be1c5ed5e/examples/lvgl_pro/screens/lv_example_keyboard.xml"
 <!--
  @title Keyboard
  @brief A keyboard paired with a text area, with key popovers enabled.

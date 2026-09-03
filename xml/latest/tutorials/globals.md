@@ -1,4 +1,4 @@
-```xml title="tutorials/globals.xml" source="https://github.com/lvgl/lvgl_pro/blob/6d04ae8c667ee14d83198e659f3f199a1cc99fec/tutorials/globals.xml"
+```xml title="tutorials/globals.xml" source="https://github.com/lvgl/lvgl_pro/blob/265736d202455b16b44f0ce9f8ce8a1be1c5ed5e/tutorials/globals.xml"
 <!-- Project-wide definitions: shared constants, styles, subjects, images and fonts.
      Anything defined here can be referenced from any screen or component. -->
 <globals>
@@ -44,7 +44,8 @@
 			symbols="°äü"
 		/>
 
-		<!-- <bin as_file="true"> means to create bin file they can be loaded at runtime-->
+		<!-- <bin as_file="true"> means to create a bin file that can be loaded at runtime.
+		     Kept "false" here because the .bin is not shipped with this project. -->
 		<bin
 			name="montserrat_16_bin_file"
 			as_file="false"
