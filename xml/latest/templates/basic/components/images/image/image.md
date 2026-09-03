@@ -1,4 +1,4 @@
-```xml title="templates/basic/components/images/image/image.xml" source="https://github.com/lvgl/lvgl_pro/blob/b50910a3acc7ed2355e2e41eabaca2630a9e383d/templates/basic/components/images/image/image.xml"
+```xml title="templates/basic/components/images/image/image.xml" source="https://github.com/lvgl/lvgl_pro/blob/6d04ae8c667ee14d83198e659f3f199a1cc99fec/templates/basic/components/images/image/image.xml"
 <component>
 	<previews>
 		<preview name="default" width="120" height="120" />

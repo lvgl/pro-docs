@@ -1,4 +1,4 @@
-```xml title="templates/basic/components/layout/column/column.xml" source="https://github.com/lvgl/lvgl_pro/blob/b50910a3acc7ed2355e2e41eabaca2630a9e383d/templates/basic/components/layout/column/column.xml"
+```xml title="templates/basic/components/layout/column/column.xml" source="https://github.com/lvgl/lvgl_pro/blob/6d04ae8c667ee14d83198e659f3f199a1cc99fec/templates/basic/components/layout/column/column.xml"
 <component>
 	<api>
 		<prop name="pad" type="int" default="0" help="Inner padding on all sides" />

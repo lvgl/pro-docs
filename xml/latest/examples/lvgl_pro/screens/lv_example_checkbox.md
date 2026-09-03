@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_pro/screens/lv_example_checkbox.xml" source="https://github.com/lvgl/lvgl_pro/blob/b50910a3acc7ed2355e2e41eabaca2630a9e383d/examples/lvgl_pro/screens/lv_example_checkbox.xml"
+```xml title="examples/lvgl_pro/screens/lv_example_checkbox.xml" source="https://github.com/lvgl/lvgl_pro/blob/6d04ae8c667ee14d83198e659f3f199a1cc99fec/examples/lvgl_pro/screens/lv_example_checkbox.xml"
 <!--
  @title Checkbox
  @brief A checked and a disabled checkbox, plus a two-way bound pair.

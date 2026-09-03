@@ -21,7 +21,7 @@ BUILD_SHARED_LIBS:BOOL=OFF
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
 
 //ASM compiler
-CMAKE_ASM_COMPILER:FILEPATH=/home/runner/work/lvgl_pro/lvgl_pro/emsdk-cache/emsdk-main/upstream/emscripten/emcc
+CMAKE_ASM_COMPILER:FILEPATH=/home/runner/work/_temp/3ee0f7e4-ee4c-4278-bb94-301bb986cbdc/emsdk-main/upstream/emscripten/emcc
 
 //Flags used by the ASM compiler during all build types.
 CMAKE_ASM_FLAGS:STRING=
@@ -43,7 +43,7 @@ CMAKE_ASM_FLAGS_RELWITHDEBINFO:STRING=
 CMAKE_BUILD_TYPE:STRING=
 
 //No help, variable specified on the command line.
-CMAKE_CROSSCOMPILING_EMULATOR:UNINITIALIZED=/home/runner/work/lvgl_pro/lvgl_pro/emsdk-cache/emsdk-main/node/22.16.0_64bit/bin/node
+CMAKE_CROSSCOMPILING_EMULATOR:UNINITIALIZED=/home/runner/work/_temp/3ee0f7e4-ee4c-4278-bb94-301bb986cbdc/emsdk-main/node/22.16.0_64bit/bin/node
 
 //No help, variable specified on the command line.
 CMAKE_CXX_COMPILER_LAUNCHER:UNINITIALIZED=ccache
@@ -148,7 +148,7 @@ CMAKE_INSTALL_MANDIR:PATH=
 CMAKE_INSTALL_OLDINCLUDEDIR:PATH=/usr/include
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=/home/runner/work/lvgl_pro/lvgl_pro/emsdk-cache/emsdk-main/upstream/emscripten/cache/sysroot
+CMAKE_INSTALL_PREFIX:PATH=/home/runner/work/_temp/3ee0f7e4-ee4c-4278-bb94-301bb986cbdc/emsdk-main/upstream/emscripten/cache/sysroot
 
 //Run-time variable data (LOCALSTATEDIR/run)
 CMAKE_INSTALL_RUNSTATEDIR:PATH=
@@ -260,7 +260,7 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 
 //The CMake toolchain file
-CMAKE_TOOLCHAIN_FILE:FILEPATH=/home/runner/work/lvgl_pro/lvgl_pro/emsdk-cache/emsdk-main/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake
+CMAKE_TOOLCHAIN_FILE:FILEPATH=/home/runner/work/_temp/3ee0f7e4-ee4c-4278-bb94-301bb986cbdc/emsdk-main/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake
 
 //If this value is on, makefiles will be generated without the
 // .SILENT directive, and all commands will be echoed to the console
@@ -276,6 +276,9 @@ CONFIG_LV_BUILD_EXAMPLES:BOOL=ON
 
 //If set - install the private headers
 CONFIG_LV_USE_PRIVATE_API:BOOL=OFF
+
+//Enable ThorVG
+CONFIG_LV_USE_THORVG:BOOL=ON
 
 //Use the internal version of ThorVG
 CONFIG_LV_USE_THORVG_INTERNAL:BOOL=ON
@@ -342,6 +345,10 @@ LV_BUILD_TESTS:BOOL=OFF
 
 //Use Kconfig
 LV_BUILD_USE_KCONFIG:BOOL=OFF
+
+//Build without lv_conf.h, using lv_conf_internal.h defaults. Options
+// can still be set via compiler definitions
+LV_CONF_SKIP:BOOL=OFF
 
 //Fetch dependencies from source if not found on the system
 LV_FETCH_DEPENDENCIES:BOOL=ON
@@ -554,5 +561,5 @@ PKG_CONFIG_ARGN-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
 PKG_CONFIG_EXECUTABLE-ADVANCED:INTERNAL=1
 //CMAKE_INSTALL_PREFIX during last run
-_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/home/runner/work/lvgl_pro/lvgl_pro/emsdk-cache/emsdk-main/upstream/emscripten/cache/sysroot
+_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/home/runner/work/_temp/3ee0f7e4-ee4c-4278-bb94-301bb986cbdc/emsdk-main/upstream/emscripten/cache/sysroot
 

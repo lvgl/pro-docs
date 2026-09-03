@@ -1,4 +1,4 @@
-```xml title="templates/basic/components/typography/text/text.xml" source="https://github.com/lvgl/lvgl_pro/blob/b50910a3acc7ed2355e2e41eabaca2630a9e383d/templates/basic/components/typography/text/text.xml"
+```xml title="templates/basic/components/typography/text/text.xml" source="https://github.com/lvgl/lvgl_pro/blob/6d04ae8c667ee14d83198e659f3f199a1cc99fec/templates/basic/components/typography/text/text.xml"
 <component>
 	<api>
 		<prop name="text" type="string" default="Body text" help="The paragraph / body text" />

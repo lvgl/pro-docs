@@ -1,4 +1,4 @@
-```xml title="templates/basic/components/images/monoicon/monoicon.xml" source="https://github.com/lvgl/lvgl_pro/blob/b50910a3acc7ed2355e2e41eabaca2630a9e383d/templates/basic/components/images/monoicon/monoicon.xml"
+```xml title="templates/basic/components/images/monoicon/monoicon.xml" source="https://github.com/lvgl/lvgl_pro/blob/6d04ae8c667ee14d83198e659f3f199a1cc99fec/templates/basic/components/images/monoicon/monoicon.xml"
 <component>
 	<previews>
 		<preview name="light" width="80" height="80" style_bg_color="0xffffff" />
