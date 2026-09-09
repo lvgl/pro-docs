@@ -1,4 +1,4 @@
-```xml title="lvgl_widgets_xml/v9.5.0/lv_animimg.xml" source="https://github.com/lvgl/lvgl_pro/blob/265736d202455b16b44f0ce9f8ce8a1be1c5ed5e/lvgl_widgets_xml/v9.5.0/lv_animimg.xml"
+```xml title="lvgl_widgets_xml/v9.5.0/lv_animimg.xml" source="https://github.com/lvgl/lvgl_pro/blob/1e258c39bf97464dd96315bee27447584e402829/lvgl_widgets_xml/v9.5.0/lv_animimg.xml"
 <!--
 Example
 <lv_animimg src="img1 img2" duration="300" repeat_count="3"/>

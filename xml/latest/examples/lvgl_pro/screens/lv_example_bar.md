@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_pro/screens/lv_example_bar.xml" source="https://github.com/lvgl/lvgl_pro/blob/265736d202455b16b44f0ce9f8ce8a1be1c5ed5e/examples/lvgl_pro/screens/lv_example_bar.xml"
+```xml title="examples/lvgl_pro/screens/lv_example_bar.xml" source="https://github.com/lvgl/lvgl_pro/blob/1e258c39bf97464dd96315bee27447584e402829/examples/lvgl_pro/screens/lv_example_bar.xml"
 <!--
  @title Bar
  @brief Bound, range, reversed-with-gradient and vertical bars.

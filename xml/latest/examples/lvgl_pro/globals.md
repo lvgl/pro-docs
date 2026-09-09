@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_pro/globals.xml" source="https://github.com/lvgl/lvgl_pro/blob/265736d202455b16b44f0ce9f8ce8a1be1c5ed5e/examples/lvgl_pro/globals.xml"
+```xml title="examples/lvgl_pro/globals.xml" source="https://github.com/lvgl/lvgl_pro/blob/1e258c39bf97464dd96315bee27447584e402829/examples/lvgl_pro/globals.xml"
 <globals>
 	<api>
 		<!-- No project-wide enums needed by the doc examples. -->

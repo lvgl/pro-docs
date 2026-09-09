@@ -1,4 +1,4 @@
-```xml title="tutorials/screens/styles/screen_styles.xml" source="https://github.com/lvgl/lvgl_pro/blob/265736d202455b16b44f0ce9f8ce8a1be1c5ed5e/tutorials/screens/styles/screen_styles.xml"
+```xml title="tutorials/screens/styles/screen_styles.xml" source="https://github.com/lvgl/lvgl_pro/blob/1e258c39bf97464dd96315bee27447584e402829/tutorials/screens/styles/screen_styles.xml"
 <!-- Shows reusable style sheets, per-part selectors, local style overrides and bind_style. -->
 <screen>
 	<consts>
