@@ -1,4 +1,4 @@
-```xml title="tutorials/widgets/wd_segment/wd_segment.xml" source="https://github.com/lvgl/lvgl_pro/blob/4d7ba569dca8c4f02e925c92a83dad5beedb3ad9/tutorials/widgets/wd_segment/wd_segment.xml"
+```xml title="tutorials/widgets/wd_segment/wd_segment.xml" source="https://github.com/lvgl/lvgl_pro/blob/9380417dde7ec0a2aaae1063c95b7524342b6270/tutorials/widgets/wd_segment/wd_segment.xml"
 <widget>
 	<!--
 		This is a widget with custom C code.
@@ -15,7 +15,7 @@
 	</previews>
 
 	<api>
-		<prop name="selected" type="int" help="The current selected item, -1 for none" />
+		<prop name="selected" type="int" default="-1" help="The current selected item, -1 for none" />
 		<prop name="bind_value" type="subject" help="The subject to bind the selected item" />
 		<element name="button" access="add" type="lv_obj" help="Add buttons to the segment">
 			<arg name="text" type="string" />

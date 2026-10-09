@@ -1,4 +1,4 @@
-```xml title="templates/basic/screens/screen_components.xml" source="https://github.com/lvgl/lvgl_pro/blob/4d7ba569dca8c4f02e925c92a83dad5beedb3ad9/templates/basic/screens/screen_components.xml"
+```xml title="templates/basic/screens/screen_components.xml" source="https://github.com/lvgl/lvgl_pro/blob/9380417dde7ec0a2aaae1063c95b7524342b6270/templates/basic/screens/screen_components.xml"
 <screen permanent="true">
 	<view extends="lv_obj">
 		<style name="style_screen_light" />

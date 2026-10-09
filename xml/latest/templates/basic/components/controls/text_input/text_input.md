@@ -1,4 +1,4 @@
-```xml title="templates/basic/components/controls/text_input/text_input.xml" source="https://github.com/lvgl/lvgl_pro/blob/4d7ba569dca8c4f02e925c92a83dad5beedb3ad9/templates/basic/components/controls/text_input/text_input.xml"
+```xml title="templates/basic/components/controls/text_input/text_input.xml" source="https://github.com/lvgl/lvgl_pro/blob/9380417dde7ec0a2aaae1063c95b7524342b6270/templates/basic/components/controls/text_input/text_input.xml"
 <component>
 	<previews>
 		<preview name="default" width="260" style_pad_all="10" />

@@ -1,4 +1,4 @@
-```xml title="templates/basic/globals.xml" source="https://github.com/lvgl/lvgl_pro/blob/4d7ba569dca8c4f02e925c92a83dad5beedb3ad9/templates/basic/globals.xml"
+```xml title="templates/basic/globals.xml" source="https://github.com/lvgl/lvgl_pro/blob/9380417dde7ec0a2aaae1063c95b7524342b6270/templates/basic/globals.xml"
 <globals>
 	<!-- DESIGN SYSTEM — single source of truth for spacing, colors, fonts,
 	     the light/dark styles and the observable subjects.

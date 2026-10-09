@@ -1,4 +1,4 @@
-```xml title="templates/basic/components/controls/dropdown/dropdown.xml" source="https://github.com/lvgl/lvgl_pro/blob/4d7ba569dca8c4f02e925c92a83dad5beedb3ad9/templates/basic/components/controls/dropdown/dropdown.xml"
+```xml title="templates/basic/components/controls/dropdown/dropdown.xml" source="https://github.com/lvgl/lvgl_pro/blob/9380417dde7ec0a2aaae1063c95b7524342b6270/templates/basic/components/controls/dropdown/dropdown.xml"
 <component>
 	<previews>
 		<preview name="default" width="300" style_pad_all="10" />

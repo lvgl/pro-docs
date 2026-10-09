@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/dropdown/lv_example_dropdown_bind_value.xml" source="https://github.com/lvgl/lvgl_pro/blob/4d7ba569dca8c4f02e925c92a83dad5beedb3ad9/examples/lvgl_open/screens/widgets/dropdown/lv_example_dropdown_bind_value.xml"
+```xml title="examples/lvgl_open/screens/widgets/dropdown/lv_example_dropdown_bind_value.xml" source="https://github.com/lvgl/lvgl_pro/blob/9380417dde7ec0a2aaae1063c95b7524342b6270/examples/lvgl_open/screens/widgets/dropdown/lv_example_dropdown_bind_value.xml"
 <!--
  @title Roller bind value
  @brief Roller bound to a subject; a button jumps it programmatically.

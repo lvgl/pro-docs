@@ -1,4 +1,4 @@
-```xml title="templates/basic/components/layout/base_box/base_box.xml" source="https://github.com/lvgl/lvgl_pro/blob/4d7ba569dca8c4f02e925c92a83dad5beedb3ad9/templates/basic/components/layout/base_box/base_box.xml"
+```xml title="templates/basic/components/layout/base_box/base_box.xml" source="https://github.com/lvgl/lvgl_pro/blob/9380417dde7ec0a2aaae1063c95b7524342b6270/templates/basic/components/layout/base_box/base_box.xml"
 <component>
 	<!-- INTERNAL — use `container`/`panel` instead. The one place
 	     <remove_style_all/> runs, so the screen's bound text_color can

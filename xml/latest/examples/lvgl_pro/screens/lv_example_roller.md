@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_pro/screens/lv_example_roller.xml" source="https://github.com/lvgl/lvgl_pro/blob/4d7ba569dca8c4f02e925c92a83dad5beedb3ad9/examples/lvgl_pro/screens/lv_example_roller.xml"
+```xml title="examples/lvgl_pro/screens/lv_example_roller.xml" source="https://github.com/lvgl/lvgl_pro/blob/9380417dde7ec0a2aaae1063c95b7524342b6270/examples/lvgl_pro/screens/lv_example_roller.xml"
 <!--
  @title Roller
  @brief Infinite scrolling, a visible row count, and subject binding.
