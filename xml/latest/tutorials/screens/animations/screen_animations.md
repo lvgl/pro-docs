@@ -1,4 +1,4 @@
-```xml title="tutorials/screens/animations/screen_animations.xml" source="https://github.com/lvgl/lvgl_pro/blob/1e258c39bf97464dd96315bee27447584e402829/tutorials/screens/animations/screen_animations.xml"
+```xml title="tutorials/screens/animations/screen_animations.xml" source="https://github.com/lvgl/lvgl_pro/blob/4d7ba569dca8c4f02e925c92a83dad5beedb3ad9/tutorials/screens/animations/screen_animations.xml"
 <screen>
 	<!-- Create a timeline for the screen that consists of other timelines.
 	     It will be played when the screen is loaded -->

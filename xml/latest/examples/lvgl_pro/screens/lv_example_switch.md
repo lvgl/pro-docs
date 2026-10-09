@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_pro/screens/lv_example_switch.xml" source="https://github.com/lvgl/lvgl_pro/blob/1e258c39bf97464dd96315bee27447584e402829/examples/lvgl_pro/screens/lv_example_switch.xml"
+```xml title="examples/lvgl_pro/screens/lv_example_switch.xml" source="https://github.com/lvgl/lvgl_pro/blob/4d7ba569dca8c4f02e925c92a83dad5beedb3ad9/examples/lvgl_pro/screens/lv_example_switch.xml"
 <!--
  @title Switch
  @brief A checked and a disabled switch, plus a two-way bound pair.

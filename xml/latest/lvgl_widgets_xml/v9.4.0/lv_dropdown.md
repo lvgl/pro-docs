@@ -1,4 +1,4 @@
-```xml title="lvgl_widgets_xml/v9.4.0/lv_dropdown.xml" source="https://github.com/lvgl/lvgl_pro/blob/1e258c39bf97464dd96315bee27447584e402829/lvgl_widgets_xml/v9.4.0/lv_dropdown.xml"
+```xml title="lvgl_widgets_xml/v9.4.0/lv_dropdown.xml" source="https://github.com/lvgl/lvgl_pro/blob/4d7ba569dca8c4f02e925c92a83dad5beedb3ad9/lvgl_widgets_xml/v9.4.0/lv_dropdown.xml"
 <!--
 Example
 <lv_dropdown options="option1\noption2" dir="left">

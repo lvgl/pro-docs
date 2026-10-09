@@ -1,4 +1,4 @@
-```xml title="tutorials/components/column/column.xml" source="https://github.com/lvgl/lvgl_pro/blob/1e258c39bf97464dd96315bee27447584e402829/tutorials/components/column/column.xml"
+```xml title="tutorials/components/column/column.xml" source="https://github.com/lvgl/lvgl_pro/blob/4d7ba569dca8c4f02e925c92a83dad5beedb3ad9/tutorials/components/column/column.xml"
 <!-- Just place the children below each other.
      The container's size will be according to the content -->
 <component>
