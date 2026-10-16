@@ -1,4 +1,4 @@
-```xml title="tutorials/screens/layout/screen_layouts.xml" source="https://github.com/lvgl/lvgl_pro/blob/4411bce793c8d14a40694953502f8f6a168cb348/tutorials/screens/layout/screen_layouts.xml"
+```xml title="tutorials/screens/layout/screen_layouts.xml" source="https://github.com/lvgl/lvgl_pro/blob/0ac641547f16b87445de3e2c998c17b340844964/tutorials/screens/layout/screen_layouts.xml"
 <!-- This screen contains many nested layouts.
      By pressing Alt you can visualize the bounding box of the UI elements -->
 <screen>

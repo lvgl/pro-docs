@@ -1,4 +1,4 @@
-```xml title="lvgl_widgets_xml/v9.4.0/lv_table.xml" source="https://github.com/lvgl/lvgl_pro/blob/4411bce793c8d14a40694953502f8f6a168cb348/lvgl_widgets_xml/v9.4.0/lv_table.xml"
+```xml title="lvgl_widgets_xml/v9.4.0/lv_table.xml" source="https://github.com/lvgl/lvgl_pro/blob/0ac641547f16b87445de3e2c998c17b340844964/lvgl_widgets_xml/v9.4.0/lv_table.xml"
 <!--
 <lv_table column_count="4">
     <lv_table-column column="2" width="30px"/>

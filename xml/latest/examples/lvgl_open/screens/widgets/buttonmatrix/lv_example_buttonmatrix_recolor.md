@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/buttonmatrix/lv_example_buttonmatrix_recolor.xml" source="https://github.com/lvgl/lvgl_pro/blob/4411bce793c8d14a40694953502f8f6a168cb348/examples/lvgl_open/screens/widgets/buttonmatrix/lv_example_buttonmatrix_recolor.xml"
+```xml title="examples/lvgl_open/screens/widgets/buttonmatrix/lv_example_buttonmatrix_recolor.xml" source="https://github.com/lvgl/lvgl_pro/blob/0ac641547f16b87445de3e2c998c17b340844964/examples/lvgl_open/screens/widgets/buttonmatrix/lv_example_buttonmatrix_recolor.xml"
 <!--
  @title Button matrix per-button text recolor
  @brief Color parts of a button label inline with `#RRGGBB ... #` tags.

@@ -1,4 +1,4 @@
-```xml title="tutorials/components/buttons/button_warning.xml" source="https://github.com/lvgl/lvgl_pro/blob/4411bce793c8d14a40694953502f8f6a168cb348/tutorials/components/buttons/button_warning.xml"
+```xml title="tutorials/components/buttons/button_warning.xml" source="https://github.com/lvgl/lvgl_pro/blob/0ac641547f16b87445de3e2c998c17b340844964/tutorials/components/buttons/button_warning.xml"
 <!-- Create a new button variant based on the normal button
 	 just by overwriting a single color.  -->
 <component>

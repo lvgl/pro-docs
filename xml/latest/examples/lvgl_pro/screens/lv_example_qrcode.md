@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_pro/screens/lv_example_qrcode.xml" source="https://github.com/lvgl/lvgl_pro/blob/4411bce793c8d14a40694953502f8f6a168cb348/examples/lvgl_pro/screens/lv_example_qrcode.xml"
+```xml title="examples/lvgl_pro/screens/lv_example_qrcode.xml" source="https://github.com/lvgl/lvgl_pro/blob/0ac641547f16b87445de3e2c998c17b340844964/examples/lvgl_pro/screens/lv_example_qrcode.xml"
 <!--
  @title QR code
  @brief Two QR codes with custom colours, size and quiet zone.

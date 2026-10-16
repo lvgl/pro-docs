@@ -1,4 +1,4 @@
-```xml title="lvgl_widgets_xml/v9.4.0/lv_tabview.xml" source="https://github.com/lvgl/lvgl_pro/blob/4411bce793c8d14a40694953502f8f6a168cb348/lvgl_widgets_xml/v9.4.0/lv_tabview.xml"
+```xml title="lvgl_widgets_xml/v9.4.0/lv_tabview.xml" source="https://github.com/lvgl/lvgl_pro/blob/0ac641547f16b87445de3e2c998c17b340844964/lvgl_widgets_xml/v9.4.0/lv_tabview.xml"
 <!--
 Example
 <lv_tabview active="3">

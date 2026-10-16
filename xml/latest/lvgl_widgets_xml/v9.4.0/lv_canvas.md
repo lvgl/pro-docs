@@ -1,4 +1,4 @@
-```xml title="lvgl_widgets_xml/v9.4.0/lv_canvas.xml" source="https://github.com/lvgl/lvgl_pro/blob/4411bce793c8d14a40694953502f8f6a168cb348/lvgl_widgets_xml/v9.4.0/lv_canvas.xml"
+```xml title="lvgl_widgets_xml/v9.4.0/lv_canvas.xml" source="https://github.com/lvgl/lvgl_pro/blob/0ac641547f16b87445de3e2c998c17b340844964/lvgl_widgets_xml/v9.4.0/lv_canvas.xml"
 <!--
 Example (the buffer needs to be set by the user)
 <lv_canvas width="100" height="100"/>
