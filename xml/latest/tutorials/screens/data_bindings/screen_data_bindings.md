@@ -1,4 +1,4 @@
-```xml title="tutorials/screens/data_bindings/screen_data_bindings.xml" source="https://github.com/lvgl/lvgl_pro/blob/9380417dde7ec0a2aaae1063c95b7524342b6270/tutorials/screens/data_bindings/screen_data_bindings.xml"
+```xml title="tutorials/screens/data_bindings/screen_data_bindings.xml" source="https://github.com/lvgl/lvgl_pro/blob/4411bce793c8d14a40694953502f8f6a168cb348/tutorials/screens/data_bindings/screen_data_bindings.xml"
 <screen>
 	<view flex_flow="column" style_flex_track_place="center">
 		<!-- Just the components with the simple API

@@ -1,4 +1,4 @@
-```xml title="templates/basic/tests/test_theme_toggle.xml" source="https://github.com/lvgl/lvgl_pro/blob/9380417dde7ec0a2aaae1063c95b7524342b6270/templates/basic/tests/test_theme_toggle.xml"
+```xml title="templates/basic/tests/test_theme_toggle.xml" source="https://github.com/lvgl/lvgl_pro/blob/4411bce793c8d14a40694953502f8f6a168cb348/templates/basic/tests/test_theme_toggle.xml"
 <!-- Toggling the theme switch flips subject_theme_dark and restyles the screen.
 
      A test's <view> is built exactly like a component's, so it can `extends` a
