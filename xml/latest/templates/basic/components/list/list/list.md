@@ -1,4 +1,4 @@
-```xml title="templates/basic/components/list/list/list.xml" source="https://github.com/lvgl/lvgl_pro/blob/0ac641547f16b87445de3e2c998c17b340844964/templates/basic/components/list/list/list.xml"
+```xml title="templates/basic/components/list/list/list.xml" source="https://github.com/lvgl/lvgl_pro/blob/521c6cf8b209faecc21d3ffcf59fede7cb5d01c2/templates/basic/components/list/list/list.xml"
 <component>
 	<previews>
 		<preview name="default" width="320" />
@@ -17,6 +17,6 @@
 	<!-- A panel that stacks list rows in a column. pad defaults to 0 so rows
 	     and dividers span full width (each row brings its own padding).
 	     Drop list_section / list_item / list_separator children in. -->
-	<view extends="panel" pad="$pad" gap="0" grow="$grow" width="200" />
+	<view extends="panel" pad="{pad}" gap="0" grow="{grow}" width="200" />
 </component>
 ```

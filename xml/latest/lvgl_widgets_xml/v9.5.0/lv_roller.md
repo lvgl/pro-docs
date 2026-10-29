@@ -1,4 +1,4 @@
-```xml title="lvgl_widgets_xml/v9.5.0/lv_roller.xml" source="https://github.com/lvgl/lvgl_pro/blob/0ac641547f16b87445de3e2c998c17b340844964/lvgl_widgets_xml/v9.5.0/lv_roller.xml"
+```xml title="lvgl_widgets_xml/v9.5.0/lv_roller.xml" source="https://github.com/lvgl/lvgl_pro/blob/521c6cf8b209faecc21d3ffcf59fede7cb5d01c2/lvgl_widgets_xml/v9.5.0/lv_roller.xml"
 <!--
 Example
 <lv_roller options="'a\nb\nc\nd' infinite" selected="2 true" visible_row_count="3"/>
@@ -7,8 +7,8 @@ Example
 <widget>
     <api>
         <enumdef name="lv_roller_mode" help="How the roller scrolls">
-            <enum name="normal" help="Stop at first and last option"/>
-            <enum name="infinite" help="Scroll endlessly in a loop"/>
+            <enum name="normal" value="0" help="Stop at first and last option"/>
+            <enum name="infinite" value="1" help="Scroll endlessly in a loop"/>
         </enumdef>
 
         <prop name="options" help="Set the roller options">

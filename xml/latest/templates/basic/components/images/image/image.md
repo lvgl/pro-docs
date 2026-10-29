@@ -1,4 +1,4 @@
-```xml title="templates/basic/components/images/image/image.xml" source="https://github.com/lvgl/lvgl_pro/blob/0ac641547f16b87445de3e2c998c17b340844964/templates/basic/components/images/image/image.xml"
+```xml title="templates/basic/components/images/image/image.xml" source="https://github.com/lvgl/lvgl_pro/blob/521c6cf8b209faecc21d3ffcf59fede7cb5d01c2/templates/basic/components/images/image/image.xml"
 <component>
 	<previews>
 		<preview name="default" width="120" height="120" />
@@ -9,6 +9,6 @@
 	</api>
 
 	<!-- Plain image. Set only its source; the size follows the image. -->
-	<view extends="lv_image" src="$src" />
+	<view extends="lv_image" src="{src}" />
 </component>
 ```

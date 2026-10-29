@@ -1,4 +1,4 @@
-```xml title="templates/basic/components/typography/text/text.xml" source="https://github.com/lvgl/lvgl_pro/blob/0ac641547f16b87445de3e2c998c17b340844964/templates/basic/components/typography/text/text.xml"
+```xml title="templates/basic/components/typography/text/text.xml" source="https://github.com/lvgl/lvgl_pro/blob/521c6cf8b209faecc21d3ffcf59fede7cb5d01c2/templates/basic/components/typography/text/text.xml"
 <component>
 	<api>
 		<prop name="text" type="string" default="Body text" help="The paragraph / body text" />
@@ -10,7 +10,7 @@
 
 	<!-- Body copy. Text color is inherited.
 	     Give it a width to make it wrap: <text text="..." width="100%" /> -->
-	<view extends="lv_label" text="$text" long_mode="wrap">
+	<view extends="lv_label" text="{text}" long_mode="wrap">
 		<style name="style_text" />
 	</view>
 </component>

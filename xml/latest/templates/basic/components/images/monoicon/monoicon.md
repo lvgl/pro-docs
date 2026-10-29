@@ -1,25 +1,43 @@
-```xml title="templates/basic/components/images/monoicon/monoicon.xml" source="https://github.com/lvgl/lvgl_pro/blob/0ac641547f16b87445de3e2c998c17b340844964/templates/basic/components/images/monoicon/monoicon.xml"
+```xml title="templates/basic/components/images/monoicon/monoicon.xml" source="https://github.com/lvgl/lvgl_pro/blob/521c6cf8b209faecc21d3ffcf59fede7cb5d01c2/templates/basic/components/images/monoicon/monoicon.xml"
 <component>
 	<previews>
-		<preview name="light" width="80" height="80" style_bg_color="0xffffff" />
+		<preview
+			name="light"
+			width="80"
+			height="80"
+			style_bg_color="0xffffff"
+		/>
 		<preview name="dark" width="80" height="80" style_bg_color="0x000000">
 			<set_subject name="subject_theme_dark" value="1" />
 		</preview>
 	</previews>
 
 	<api>
-		<prop name="src" type="image" default="icon_star" help="Icon source; recolored to match the theme" />
+		<prop
+			name="src"
+			type="image"
+			default="icon_star"
+			help="Icon source; recolored to match the theme"
+		/>
 	</api>
 
 	<styles>
-		<style name="style_monoicon_light" image_recolor="#color_light_text" image_recolor_opa="100%" />
-		<style name="style_monoicon_dark" image_recolor="#color_dark_text" image_recolor_opa="100%" />
+		<style
+			name="style_monoicon_light"
+			image_recolor="{color_light_text}"
+			image_recolor_opa="100%"
+		/>
+		<style
+			name="style_monoicon_dark"
+			image_recolor="{color_dark_text}"
+			image_recolor_opa="100%"
+		/>
 	</styles>
 
 	<!-- Single-color icon that flips black in light theme, white in dark. -->
-	<view extends="image" src="$src">
+	<view extends="image" src="{src}">
 		<style name="style_monoicon_light" />
-		<bind_style name="style_monoicon_dark" subject="subject_theme_dark" ref_value="1" />
+		<style name="style_monoicon_dark" enabled="{subject_theme_dark == 1}" />
 	</view>
 </component>
 ```

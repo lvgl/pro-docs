@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_pro/screens/lv_example_imagebutton.xml" source="https://github.com/lvgl/lvgl_pro/blob/0ac641547f16b87445de3e2c998c17b340844964/examples/lvgl_pro/screens/lv_example_imagebutton.xml"
+```xml title="examples/lvgl_pro/screens/lv_example_imagebutton.xml" source="https://github.com/lvgl/lvgl_pro/blob/521c6cf8b209faecc21d3ffcf59fede7cb5d01c2/examples/lvgl_pro/screens/lv_example_imagebutton.xml"
 <!--
  @title Image button
  @brief A button drawn from per-state images instead of a styled rectangle.
@@ -10,16 +10,29 @@
 -->
 <screen>
 	<styles>
-		<style name="style_pressed" transform_width="10" image_recolor="0x000" image_recolor_opa="20%" />
+		<style
+			name="style_pressed"
+			transform_width="10"
+			image_recolor="0x000"
+			image_recolor_opa="20%"
+		/>
 	</styles>
 	<view>
 		<lv_imagebutton width="160" align="center">
 			<style name="style_pressed" selector="pressed" />
-			<lv_imagebutton-src_left state="released" src="imgbtn_left" />
-			<lv_imagebutton-src_mid state="released" src="imgbtn_mid" />
-			<lv_imagebutton-src_right state="released" src="imgbtn_right" />
+			<lv_imagebutton-src
+				left="imgbtn_left"
+				right="imgbtn_right"
+				mid="imgbtn_mid"
+				state="released"
+			/>
 
-			<lv_label align="center" text="Press" style_text_color="0xffffff" y="-3" />
+			<lv_label
+				align="center"
+				text="Press Me"
+				style_text_color="0xffffff"
+				y="-3"
+			/>
 		</lv_imagebutton>
 	</view>
 </screen>

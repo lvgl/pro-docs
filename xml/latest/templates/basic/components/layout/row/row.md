@@ -1,4 +1,4 @@
-```xml title="templates/basic/components/layout/row/row.xml" source="https://github.com/lvgl/lvgl_pro/blob/0ac641547f16b87445de3e2c998c17b340844964/templates/basic/components/layout/row/row.xml"
+```xml title="templates/basic/components/layout/row/row.xml" source="https://github.com/lvgl/lvgl_pro/blob/521c6cf8b209faecc21d3ffcf59fede7cb5d01c2/templates/basic/components/layout/row/row.xml"
 <component>
 	<api>
 		<prop name="pad" type="int" default="0" help="Inner padding on all sides" />
@@ -29,12 +29,12 @@
 	<view
 		extends="container"
 		flow="row"
-		pad="$pad"
-		gap="$gap"
-		grow="$grow"
-		style_flex_main_place="$horizontal_align"
-		style_flex_cross_place="$vertical_align"
-		style_flex_track_place="$content_align"
+		pad="{pad}"
+		gap="{gap}"
+		grow="{grow}"
+		style_flex_main_place="{horizontal_align}"
+		style_flex_cross_place="{vertical_align}"
+		style_flex_track_place="{content_align}"
 	/>
 </component>
 ```

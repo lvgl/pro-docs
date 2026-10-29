@@ -1,4 +1,4 @@
-```xml title="lvgl_widgets_xml/v9.5.0/lv_table.xml" source="https://github.com/lvgl/lvgl_pro/blob/0ac641547f16b87445de3e2c998c17b340844964/lvgl_widgets_xml/v9.5.0/lv_table.xml"
+```xml title="lvgl_widgets_xml/v9.5.0/lv_table.xml" source="https://github.com/lvgl/lvgl_pro/blob/521c6cf8b209faecc21d3ffcf59fede7cb5d01c2/lvgl_widgets_xml/v9.5.0/lv_table.xml"
 <!--
 <lv_table column_count="4">
     <lv_table-column column="2" width="30px"/>
@@ -10,12 +10,12 @@
 <widget>
     <api>
         <enumdef name="lv_table_cell_ctrl" help="Cell control flags">
-            <enum name="merge_right" help="Merge with right cell"/>
-            <enum name="text_crop" help="Crop text if too long"/>
-            <enum name="custom_1" help="User flag 1"/>
-            <enum name="custom_2" help="User flag 2"/>
-            <enum name="custom_3" help="User flag 3"/>
-            <enum name="custom_4" help="User flag 4"/>
+            <enum name="merge_right" value="1" help="Merge with right cell"/>
+            <enum name="text_crop" value="2" help="Crop text if too long"/>
+            <enum name="custom_1" value="16" help="User flag 1"/>
+            <enum name="custom_2" value="32" help="User flag 2"/>
+            <enum name="custom_3" value="64" help="User flag 3"/>
+            <enum name="custom_4" value="128" help="User flag 4"/>
         </enumdef>
 
         <prop name="row_count" type="int" help="Set row count"/>

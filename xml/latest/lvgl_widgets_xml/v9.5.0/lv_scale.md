@@ -1,4 +1,4 @@
-```xml title="lvgl_widgets_xml/v9.5.0/lv_scale.xml" source="https://github.com/lvgl/lvgl_pro/blob/0ac641547f16b87445de3e2c998c17b340844964/lvgl_widgets_xml/v9.5.0/lv_scale.xml"
+```xml title="lvgl_widgets_xml/v9.5.0/lv_scale.xml" source="https://github.com/lvgl/lvgl_pro/blob/521c6cf8b209faecc21d3ffcf59fede7cb5d01c2/lvgl_widgets_xml/v9.5.0/lv_scale.xml"
 <!--
 <lv_scale total_tick_count="30">
     <lv_scale-section column="2" range="30 40" style_indicator="scale_style"/>
@@ -8,12 +8,12 @@
 <widget>
     <api>
         <enumdef name="lv_scale_mode" help="How the scale is drawn">
-            <enum name="horizontal_top" help="Ticks on top"/>
-            <enum name="horizontal_bottom" help="Ticks on bottom"/>
-            <enum name="vertical_left" help="Ticks on left"/>
-            <enum name="vertical_right" help="Ticks on right"/>
-            <enum name="round_inner" help="Circular, ticks inside"/>
-            <enum name="round_outer" help="Circular, ticks outside"/>
+            <enum name="horizontal_top" value="0" help="Ticks on top"/>
+            <enum name="horizontal_bottom" value="1" help="Ticks on bottom"/>
+            <enum name="vertical_left" value="2" help="Ticks on left"/>
+            <enum name="vertical_right" value="4" help="Ticks on right"/>
+            <enum name="round_inner" value="8" help="Circular, ticks inside"/>
+            <enum name="round_outer" value="16" help="Circular, ticks outside"/>
         </enumdef>
 
         <prop name="mode" type="enum:lv_scale_mode" help="Set the scale mode"/>

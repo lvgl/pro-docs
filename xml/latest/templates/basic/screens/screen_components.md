@@ -1,11 +1,17 @@
-```xml title="templates/basic/screens/screen_components.xml" source="https://github.com/lvgl/lvgl_pro/blob/0ac641547f16b87445de3e2c998c17b340844964/templates/basic/screens/screen_components.xml"
+```xml title="templates/basic/screens/screen_components.xml" source="https://github.com/lvgl/lvgl_pro/blob/521c6cf8b209faecc21d3ffcf59fede7cb5d01c2/templates/basic/screens/screen_components.xml"
 <screen permanent="true">
 	<view extends="lv_obj">
 		<style name="style_screen_light" />
-		<bind_style name="style_screen_dark" subject="subject_theme_dark" ref_value="1" />
+		<style name="style_screen_dark" enabled="{subject_theme_dark == 1}" />
 		<style name="style_scrollbar" selector="scrollbar" />
 
-		<column name="content" width="100%" height="content" pad="#space_lg" gap="#space_md">
+		<column
+			name="content"
+			width="100%"
+			height="content"
+			pad="#space_lg"
+			gap="#space_md"
+		>
 			<row width="100%" gap="#space_md" vertical_align="center">
 				<h5 translation_tag="dark_theme" />
 				<container grow="1" />
@@ -18,7 +24,10 @@
 				<h3 text="Heading 3" />
 				<h4 text="Heading 4" />
 				<h5 text="Heading 5" />
-				<text text="Body text. Give it a width and it wraps across the panel." width="100%" />
+				<text
+					text="Body text. Give it a width and it wraps across the panel."
+					width="100%"
+				/>
 			</panel>
 
 			<panel width="100%" gap="#space_lg">
@@ -26,7 +35,11 @@
 				<row gap="#space_sm">
 					<button text="Primary" />
 					<button text="Add" icon="icon_plus" />
-					<button text="Delete" icon="icon_trash" bg_color="#color_danger" />
+					<button
+						text="Delete"
+						icon="icon_trash"
+						bg_color="#color_danger"
+					/>
 				</row>
 			</panel>
 
@@ -37,8 +50,7 @@
 				<arc subject="subject_brightness">
 					<lv_label
 						align="center"
-						bind_text="subject_brightness"
-						bind_text-fmt="%d%%"
+						text="{subject_brightness . '%'}"
 						style_text_color="#color_accent"
 					/>
 				</arc>
@@ -46,17 +58,37 @@
 
 			<panel width="100%" gap="#space_lg">
 				<h4 translation_tag="text_inputs" />
-				<text_input name="text_innput_user_name" placeholder="Single line" width="100%">
-					<subject_set_int_event subject="subject_show_keyboard" trigger="focused" value="1" />
-					<subject_set_int_event subject="subject_show_keyboard" trigger="defocused" value="0" />
+				<text_input
+					name="text_innput_user_name"
+					placeholder="Single line"
+					width="100%"
+				>
+					<subject_set_int_event
+						subject="subject_show_keyboard"
+						trigger="focused"
+						value="1"
+					/>
+					<subject_set_int_event
+						subject="subject_show_keyboard"
+						trigger="defocused"
+						value="0"
+					/>
 				</text_input>
-				<text_input placeholder="Password" password="true" width="100%" />
+				<text_input
+					placeholder="Password"
+					password="true"
+					width="100%"
+				/>
 				<text_box placeholder="Multi-line text box" width="100%" />
 			</panel>
 
 			<panel width="100%" gap="#space_lg">
 				<h4 translation_tag="selection" />
-				<dropdown options="Low&#10;Medium&#10;High" width="100%" subject="subject_brightness" />
+				<dropdown
+					options="Low&#10;Medium&#10;High"
+					width="100%"
+					subject="subject_brightness"
+				/>
 				<checkbox text="Enable feature" subject="subject_brightness" />
 				<checkbox text="Subscribe" subject="subject_brightness" />
 				<switch subject="subject_theme_dark" />
@@ -71,21 +103,42 @@
 						<switch subject="subject_theme_dark" />
 					</list_item-trailing>
 				</list_item>
-				<list_item title="Brightness" subtitle="Backlight" icon="icon_sun">
+				<list_item
+					title="Brightness"
+					subtitle="Backlight"
+					icon="icon_sun"
+				>
 					<list_item-trailing>
-						<lv_label bind_text="subject_brightness" bind_text-fmt="%d%%">
+						<lv_label text="{subject_brightness . '%'}">
 							<style name="style_text_accent" />
 						</lv_label>
 					</list_item-trailing>
 				</list_item>
 				<list_separator />
-				<list_item title="About" subtitle="Version 1.0" icon="icon_info" />
+				<list_item
+					title="About"
+					subtitle="Version 1.0"
+					icon="icon_info"
+				/>
 			</list>
 		</column>
-		<keyboard name="keyboard" textarea="text_innput_user_name" floating="true" align="bottom_mid">
-			<bind_flag_if_eq flag="hidden" subject="subject_show_keyboard" ref_value="0" />
-			<subject_set_int_event trigger="cancel" value="0" subject="subject_show_keyboard" />
-			<subject_set_int_event trigger="ready" value="0" subject="subject_show_keyboard" />
+		<keyboard
+			name="keyboard"
+			textarea="text_innput_user_name"
+			floating="true"
+			align="bottom_mid"
+			hidden="{!subject_show_keyboard}"
+		>
+			<set_subject_event
+				trigger="cancel"
+				value="0"
+				subject="subject_show_keyboard"
+			/>
+			<set_subject_event
+				trigger="ready"
+				value="0"
+				subject="subject_show_keyboard"
+			/>
 		</keyboard>
 	</view>
 </screen>

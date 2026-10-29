@@ -1,4 +1,4 @@
-```xml title="templates/basic/components/controls/switch/switch.xml" source="https://github.com/lvgl/lvgl_pro/blob/0ac641547f16b87445de3e2c998c17b340844964/templates/basic/components/controls/switch/switch.xml"
+```xml title="templates/basic/components/controls/switch/switch.xml" source="https://github.com/lvgl/lvgl_pro/blob/521c6cf8b209faecc21d3ffcf59fede7cb5d01c2/templates/basic/components/controls/switch/switch.xml"
 <component>
 	<previews>
 		<preview name="default" width="120" style_pad_all="10" />
@@ -10,14 +10,14 @@
 	</api>
 
 	<styles>
-		<style name="style_main" radius="100" bg_color="#color_track" bg_opa="#opa_muted" />
+		<style name="style_main" radius="100" bg_color="{color_track}" bg_opa="{opa_muted}" />
 		<style name="style_checked" radius="100" bg_opa="100%" />
-		<style name="style_knob" radius="100" bg_color="#color_accent_text" pad_all="-2" />
+		<style name="style_knob" radius="100" bg_color="{color_accent_text}" pad_all="-2" />
 	</styles>
 
 	<!-- On/off switch, two-way bound to a 0/1 subject.
 	     $color is the 'on' track; the knob stays light for contrast. -->
-	<view extends="lv_switch" bind_checked="$subject" style_bg_color-indicator-checked="$color" width="55" height="30">
+	<view extends="lv_switch" bind_checked="{subject}" style_bg_color-indicator-checked="{color}" width="55" height="30">
 		<style name="style_main" />
 		<style name="style_checked" selector="checked|indicator" />
 		<style name="style_knob" selector="knob" />

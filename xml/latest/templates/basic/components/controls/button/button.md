@@ -1,21 +1,55 @@
-```xml title="templates/basic/components/controls/button/button.xml" source="https://github.com/lvgl/lvgl_pro/blob/0ac641547f16b87445de3e2c998c17b340844964/templates/basic/components/controls/button/button.xml"
+```xml title="templates/basic/components/controls/button/button.xml" source="https://github.com/lvgl/lvgl_pro/blob/521c6cf8b209faecc21d3ffcf59fede7cb5d01c2/templates/basic/components/controls/button/button.xml"
 <component>
 	<previews>
 		<preview name="default" width="200" />
 	</previews>
 
 	<api>
-		<prop name="text" type="string" default="Button" help="Button caption" />
+		<prop
+			name="text"
+			type="string"
+			default="Button"
+			help="Button caption"
+		/>
 		<prop name="icon" type="image" default="" />
-		<prop name="bg_color" type="color" default="#color_accent" help="Button background color" />
-		<prop name="text_color" type="color" default="#color_accent_text" help="Caption color" />
-		<prop name="radius" type="int" default="#radius_default" help="Corner radius" />
+		<prop
+			name="bg_color"
+			type="color"
+			default="#color_accent"
+			help="Button background color"
+		/>
+		<prop
+			name="text_color"
+			type="color"
+			default="#color_accent_text"
+			help="Caption color"
+		/>
+		<prop
+			name="radius"
+			type="int"
+			default="#radius_default"
+			help="Corner radius"
+		/>
 	</api>
 
 	<styles>
-		<style name="style_button" pad_hor="#space_lg" pad_ver="#space_md" flex_cross_place="center" pad_gap="#space_sm" />
-		<style name="style_button_pressed" recolor="#color_track" recolor_opa="40%" />
-		<style name="style_button_icon" image_recolor_opa="100%" translate_y="-2" />
+		<style
+			name="style_button"
+			pad_hor="{space_lg}"
+			pad_ver="{space_md}"
+			flex_cross_place="center"
+			pad_gap="{space_sm}"
+		/>
+		<style
+			name="style_button_pressed"
+			recolor="{color_track}"
+			recolor_opa="40%"
+		/>
+		<style
+			name="style_button_icon"
+			image_recolor_opa="100%"
+			translate_y="-2"
+		/>
 	</styles>
 
 	<!-- Button with optional icon + centered caption.
@@ -24,21 +58,21 @@
 	     Pressed state darkens via recolor. -->
 	<view
 		extends="lv_button"
-		style_bg_color="$bg_color"
-		style_text_color="$text_color"
-		style_radius="$radius"
+		style_bg_color="{bg_color}"
+		style_text_color="{text_color}"
+		style_radius="{radius}"
 		flex_flow="row"
 	>
 		<style name="style_button" />
 		<style name="style_button_pressed" selector="pressed" />
 		<lv_image
-			src="$icon"
+			src="{icon}"
 			hidden="{!icon}"
-			style_image_recolor="$text_color"
+			style_image_recolor="{text_color}"
 		>
 			<style name="style_button_icon" />
 		</lv_image>
-		<lv_label align="center" text="$text" hidden="{!text}" />
+		<lv_label align="center" text="{text}" hidden="{!text}" />
 	</view>
 </component>
 ```

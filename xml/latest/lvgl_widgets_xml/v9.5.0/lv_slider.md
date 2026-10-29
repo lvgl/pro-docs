@@ -1,4 +1,4 @@
-```xml title="lvgl_widgets_xml/v9.5.0/lv_slider.xml" source="https://github.com/lvgl/lvgl_pro/blob/0ac641547f16b87445de3e2c998c17b340844964/lvgl_widgets_xml/v9.5.0/lv_slider.xml"
+```xml title="lvgl_widgets_xml/v9.5.0/lv_slider.xml" source="https://github.com/lvgl/lvgl_pro/blob/521c6cf8b209faecc21d3ffcf59fede7cb5d01c2/lvgl_widgets_xml/v9.5.0/lv_slider.xml"
 <!--
 Example
 <lv_slider mode="range" value="30"/>
@@ -7,15 +7,15 @@ Example
 <widget>
     <api>
         <enumdef name="lv_slider_mode" help="How the slider behaves">
-            <enum name="normal" help="One knob, grows left to right"/>
-            <enum name="range" help="Two knobs, select a range"/>
-            <enum name="symmetrical" help="Indicator grows from zero"/>
+            <enum name="normal" value="0" help="One knob, grows left to right"/>
+            <enum name="symmetrical" value="1" help="Indicator grows from zero"/>
+            <enum name="range" value="2" help="Two knobs, select a range"/>
         </enumdef>
 
         <enumdef name="lv_slider_orientation" help="How the slider oriented">
-            <enum name="auto" help="Decide based on width an height"/>
-            <enum name="horizontal" help="Always horizontally"/>
-            <enum name="vertical" help="Always vertical"/>
+            <enum name="auto" value="0" help="Decide based on width an height"/>
+            <enum name="horizontal" value="1" help="Always horizontally"/>
+            <enum name="vertical" value="2" help="Always vertical"/>
         </enumdef>
 
         <prop name="min_value" type="int" help="Set minimum value. If `min_value` > `max_value` fills from the right"/>

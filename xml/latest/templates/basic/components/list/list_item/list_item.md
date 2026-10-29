@@ -1,4 +1,4 @@
-```xml title="templates/basic/components/list/list_item/list_item.xml" source="https://github.com/lvgl/lvgl_pro/blob/0ac641547f16b87445de3e2c998c17b340844964/templates/basic/components/list/list_item/list_item.xml"
+```xml title="templates/basic/components/list/list_item/list_item.xml" source="https://github.com/lvgl/lvgl_pro/blob/521c6cf8b209faecc21d3ffcf59fede7cb5d01c2/templates/basic/components/list/list_item/list_item.xml"
 <component>
 	<previews>
 		<preview name="default" width="320" />
@@ -26,33 +26,33 @@
 			flex_cross_place="center"
 			border_side="bottom"
 			border_width="1"
-			border_color="#color_track"
+			border_color="{color_track}"
 			border_opa="25%"
 		/>
-		<style name="style_icon_light" image_recolor="#color_light_text" image_recolor_opa="100%" />
-		<style name="style_icon_dark" image_recolor="#color_dark_text" image_recolor_opa="100%" />
-		<style name="style_list_row_pressed" bg_color="#color_track" bg_opa="40%" />
+		<style name="style_icon_light" image_recolor="{color_light_text}" image_recolor_opa="100%" />
+		<style name="style_icon_dark" image_recolor="{color_dark_text}" image_recolor_opa="100%" />
+		<style name="style_list_row_pressed" bg_color="{color_track}" bg_opa="40%" />
 	</styles>
 
 	<!-- One list row: [icon] title / subtitle [trailing].
 	     Transparent by default, and gets gray on. -->
-	<view extends="container" flow="row" pad="#space_md" gap="#space_md" clickable="true">
+	<view extends="container" flow="row" pad="{space_md}" gap="{space_md}" clickable="true">
 		<style name="style_list_row" />
 		<style name="style_list_row_pressed" selector="pressed" />
 
 		<!-- slot target: left icon -->
-		<monoicon src="$icon" hidden="{!icon}" />
+		<monoicon src="{icon}" hidden="{!icon}" />
 
 		<!-- title + subtitle stacked, taking the remaining width -->
-		<container grow="1" gap="#space_xs" clickable="false" pad="0">
-			<h5 text="$title" />
-			<text text="$subtitle" hidden="{!subtitle}">
+		<container grow="1" gap="{space_xs}" clickable="false" pad="0">
+			<h5 text="{title}" />
+			<text text="{subtitle}" hidden="{!subtitle}">
 				<style name="style_text_muted" />
 			</text>
 		</container>
 
 		<!-- slot target: trailing content -->
-		<container name="trailing" flow="row" pad="0" gap="#space_sm" />
+		<container name="trailing" flow="row" pad="0" gap="{space_sm}" />
 	</view>
 </component>
 ```

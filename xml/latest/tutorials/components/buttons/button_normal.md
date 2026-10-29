@@ -1,4 +1,4 @@
-```xml title="tutorials/components/buttons/button_normal.xml" source="https://github.com/lvgl/lvgl_pro/blob/0ac641547f16b87445de3e2c998c17b340844964/tutorials/components/buttons/button_normal.xml"
+```xml title="tutorials/components/buttons/button_normal.xml" source="https://github.com/lvgl/lvgl_pro/blob/521c6cf8b209faecc21d3ffcf59fede7cb5d01c2/tutorials/components/buttons/button_normal.xml"
 <!-- A simple button that defines a show up animation for itself -->
 <component>
 	<api>
@@ -9,12 +9,12 @@
 		<style
 			name="style_base"
 			bg_opa="100%"
-			bg_color="#dark_blue"
+			bg_color="{dark_blue}"
 			width="content"
 			height="content"
-			radius="#unit_medium"
-			pad_hor="#unit_large"
-			pad_ver="#unit_medium"
+			radius="{unit_medium}"
+			pad_hor="{unit_large}"
+			pad_ver="{unit_medium}"
 			text_color="0xfff"
 		/>
 
@@ -25,8 +25,22 @@
 		<!-- Fade in and move up 
 		     This animation can be played later in an event by a parent component or screen -->
 		<timeline name="show_up">
-			<animation target="self" prop="opa" start="0" end="255" duration="200" early_apply="true" />
-			<animation target="self" prop="translate_y" start="20" end="0" duration="200" early_apply="true" />
+			<animation
+				target="self"
+				prop="opa"
+				start="0"
+				end="255"
+				duration="200"
+				early_apply="true"
+			/>
+			<animation
+				target="self"
+				prop="translate_y"
+				start="20"
+				end="0"
+				duration="200"
+				early_apply="true"
+			/>
 		</timeline>
 	</animations>
 
@@ -35,7 +49,7 @@
 		<style name="style_base" />
 		<style name="style_pressed" selector="pressed" />
 
-		<lv_label text="$label_text" align="center" />
+		<lv_label text="{label_text}" align="center" />
 	</view>
 </component>
 ```

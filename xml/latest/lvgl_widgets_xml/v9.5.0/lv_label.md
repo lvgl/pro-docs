@@ -1,4 +1,4 @@
-```xml title="lvgl_widgets_xml/v9.5.0/lv_label.xml" source="https://github.com/lvgl/lvgl_pro/blob/0ac641547f16b87445de3e2c998c17b340844964/lvgl_widgets_xml/v9.5.0/lv_label.xml"
+```xml title="lvgl_widgets_xml/v9.5.0/lv_label.xml" source="https://github.com/lvgl/lvgl_pro/blob/521c6cf8b209faecc21d3ffcf59fede7cb5d01c2/lvgl_widgets_xml/v9.5.0/lv_label.xml"
 <!--
 Example
 <lv_label text="Hello"/>
@@ -7,11 +7,11 @@ Example
 <widget>
     <api>
         <enumdef name="lv_label_long_mode" help="How to handle text that doesn’t fit">
-            <enum name="wrap" help="Wrap to next line"/>
-            <enum name="scroll" help="Scroll horizontally"/>
-            <enum name="scroll_circular" help="Scroll continuously in a loop"/>
-            <enum name="clip" help="Clip at the boundary"/>
-            <enum name="dots" help="Show dots (…) at the end"/>
+            <enum name="wrap" value="0" help="Wrap to next line"/>
+            <enum name="dots" value="1" help="Show dots (…) at the end"/>
+            <enum name="scroll" value="2" help="Scroll horizontally"/>
+            <enum name="scroll_circular" value="3" help="Scroll continuously in a loop"/>
+            <enum name="clip" value="4" help="Clip at the boundary"/>
         </enumdef>
 
         <prop name="text" type="string" help="Set label text"/>

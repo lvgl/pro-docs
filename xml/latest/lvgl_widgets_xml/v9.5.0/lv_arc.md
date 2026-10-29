@@ -1,4 +1,4 @@
-```xml title="lvgl_widgets_xml/v9.5.0/lv_arc.xml" source="https://github.com/lvgl/lvgl_pro/blob/0ac641547f16b87445de3e2c998c17b340844964/lvgl_widgets_xml/v9.5.0/lv_arc.xml"
+```xml title="lvgl_widgets_xml/v9.5.0/lv_arc.xml" source="https://github.com/lvgl/lvgl_pro/blob/521c6cf8b209faecc21d3ffcf59fede7cb5d01c2/lvgl_widgets_xml/v9.5.0/lv_arc.xml"
 <!--
 Example
 <lv_arc mode="reverse" bg_start_angle="30" bg_end_ange="150"
@@ -9,9 +9,9 @@ Example
 <widget>
     <api>
         <enumdef name="lv_arc_mode" help="How the arc’s indicator grows">
-            <enum name="normal" help="Make the indicator grow clockwise"/>
-            <enum name="symmetrical" help="Make the indicator grow symmetrically left and right from the midpoint"/>
-            <enum name="reverse" help="Make the indicator grow counterclockwise"/>
+            <enum name="normal" value="0" help="Make the indicator grow clockwise"/>
+            <enum name="symmetrical" value="1" help="Make the indicator grow symmetrically left and right from the midpoint"/>
+            <enum name="reverse" value="2" help="Make the indicator grow counterclockwise"/>
         </enumdef>
 
         <prop name="start_angle" type="int" help="Set the start angle of the indicator"/>

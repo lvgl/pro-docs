@@ -1,4 +1,4 @@
-```xml title="lvgl_widgets_xml/v9.4.0/lv_image.xml" source="https://github.com/lvgl/lvgl_pro/blob/0ac641547f16b87445de3e2c998c17b340844964/lvgl_widgets_xml/v9.4.0/lv_image.xml"
+```xml title="lvgl_widgets_xml/v9.4.0/lv_image.xml" source="https://github.com/lvgl/lvgl_pro/blob/521c6cf8b209faecc21d3ffcf59fede7cb5d01c2/lvgl_widgets_xml/v9.4.0/lv_image.xml"
 <!--
 Example
 <lv_image src="logo" scale="300" rotate="30"/>
@@ -28,8 +28,8 @@ Example
         <prop name="rotation" type="int" help="Rotate the image (degrees)"/>
         <prop name="scale_x" type="int" help="Scale horizontally (100 = original)"/>
         <prop name="scale_y" type="int" help="Scale vertically (100 = original)"/>
-        <prop name="pivot_x" type="int|%" help="Set the pivot X for rotation/scaling"/>
-        <prop name="pivot_y" type="int|%" help="Set the pivot Y for rotation/scaling"/>
+        <prop name="pivot_x" type="px|%" help="Set the pivot X for rotation/scaling"/>
+        <prop name="pivot_y" type="px|%" help="Set the pivot Y for rotation/scaling"/>
         <prop name="bind_src" type="subject:pointer" help="Bind the image source to a pointer subject"/>
     </api>
 </widget>

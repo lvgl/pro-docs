@@ -1,18 +1,33 @@
-```xml title="templates/basic/components/controls/arc/arc.xml" source="https://github.com/lvgl/lvgl_pro/blob/0ac641547f16b87445de3e2c998c17b340844964/templates/basic/components/controls/arc/arc.xml"
+```xml title="templates/basic/components/controls/arc/arc.xml" source="https://github.com/lvgl/lvgl_pro/blob/521c6cf8b209faecc21d3ffcf59fede7cb5d01c2/templates/basic/components/controls/arc/arc.xml"
 <component>
 	<previews>
 		<preview name="default" width="220" height="220" style_pad_all="20" />
 	</previews>
 
 	<api>
-		<prop name="subject" type="subject" help="Int subject the arc reads and writes; drag the arc to change it" />
+		<prop
+			name="subject"
+			type="subject"
+			help="Int subject the arc reads and writes; drag the arc to change it"
+		/>
 		<prop name="min" type="int" default="0" help="Lowest value" />
 		<prop name="max" type="int" default="100" help="Highest value" />
-		<prop name="color" type="color" default="#color_accent" help="Indicator and knob color" />
+		<prop
+			name="color"
+			type="color"
+			default="#color_accent"
+			help="Indicator and knob color"
+		/>
 	</api>
 
 	<styles>
-		<style name="style_arc_track" arc_width="#space_md" arc_color="#color_track" arc_opa="35%" arc_rounded="true" />
+		<style
+			name="style_arc_track"
+			arc_width="#space_md"
+			arc_color="#color_track"
+			arc_opa="35%"
+			arc_rounded="true"
+		/>
 		<style name="style_arc_ind" arc_width="#space_md" arc_rounded="true" />
 		<style name="style_arc_knob" pad_all="#space_sm" radius="100" />
 	</styles>
@@ -23,11 +38,11 @@
 		extends="lv_arc"
 		width="100"
 		height="100"
-		min_value="$min"
-		max_value="$max"
-		bind_value="$subject"
-		style_arc_color-indicator="$color"
-		style_bg_color-knob="$color"
+		min_value="{min}"
+		max_value="{max}"
+		bind_value="{subject}"
+		style_arc_color-indicator="{color}"
+		style_bg_color-knob="{color}"
 	>
 		<style name="style_arc_track" />
 		<style name="style_arc_ind" selector="indicator" />

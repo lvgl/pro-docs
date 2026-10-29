@@ -1,4 +1,4 @@
-```xml title="templates/basic/components/controls/text_box/text_box.xml" source="https://github.com/lvgl/lvgl_pro/blob/0ac641547f16b87445de3e2c998c17b340844964/templates/basic/components/controls/text_box/text_box.xml"
+```xml title="templates/basic/components/controls/text_box/text_box.xml" source="https://github.com/lvgl/lvgl_pro/blob/521c6cf8b209faecc21d3ffcf59fede7cb5d01c2/templates/basic/components/controls/text_box/text_box.xml"
 <component>
 	<previews>
 		<preview name="default" width="300" height="200" style_pad_all="10" />
@@ -6,14 +6,25 @@
 
 	<api>
 		<prop name="text" type="string" default="" help="Initial text" />
-		<prop name="placeholder" type="string" default="Write here..." help="Greyed-out hint shown while empty" />
+		<prop
+			name="placeholder"
+			type="string"
+			default="Write here..."
+			help="Greyed-out hint shown while empty"
+		/>
 	</api>
 
 	<!-- Multi-line text field. Wraps and scrolls on overflow.
 	     Override its default size where you use it. -->
-	<view extends="lv_textarea" width="260" height="120" text="$text" placeholder_text="$placeholder">
+	<view
+		extends="lv_textarea"
+		width="260"
+		height="120"
+		text="{text}"
+		placeholder_text="{placeholder}"
+	>
 		<style name="style_panel_light" />
-		<bind_style name="style_panel_dark" subject="subject_theme_dark" ref_value="1" />
+		<style name="style_panel_dark" enabled="{subject_theme_dark == 1}" />
 		<style name="style_text_muted" selector="textarea_placeholder" />
 	</view>
 </component>

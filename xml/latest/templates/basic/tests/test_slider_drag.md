@@ -1,13 +1,13 @@
-```xml title="templates/basic/tests/test_slider_drag.xml" source="https://github.com/lvgl/lvgl_pro/blob/0ac641547f16b87445de3e2c998c17b340844964/templates/basic/tests/test_slider_drag.xml"
+```xml title="templates/basic/tests/test_slider_drag.xml" source="https://github.com/lvgl/lvgl_pro/blob/521c6cf8b209faecc21d3ffcf59fede7cb5d01c2/templates/basic/tests/test_slider_drag.xml"
 <!-- Dragging a slider writes its bound subject.
 
      Where test_theme_toggle.xml extends a real screen, this one builds a small
      view of its own — useful for exercising a single component without
      depending on where it happens to sit on a screen.
      Docs: https://lvgl.io/docs/pro/syntax/testing -->
-<test width="480" height="320">
+<test>
 	<view width="100%" height="100%" flex_flow="column" style_pad_all="20">
-		<!-- Track spans x=20..220 and is #space_md tall, so its centre is y=24. -->
+		<!-- Track spans x=20..220 and is space_md tall, so its centre is y=24. -->
 		<slider subject="subject_brightness" width="200" />
 	</view>
 

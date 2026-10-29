@@ -1,21 +1,52 @@
-```xml title="templates/basic/components/layout/panel/panel.xml" source="https://github.com/lvgl/lvgl_pro/blob/0ac641547f16b87445de3e2c998c17b340844964/templates/basic/components/layout/panel/panel.xml"
+```xml title="templates/basic/components/layout/panel/panel.xml" source="https://github.com/lvgl/lvgl_pro/blob/521c6cf8b209faecc21d3ffcf59fede7cb5d01c2/templates/basic/components/layout/panel/panel.xml"
 <component>
 	<previews>
 		<preview name="light" width="240" height="140" />
-		<preview name="dark" width="240" height="140" style_bg_color="#color_dark_bg" />
+		<preview
+			name="dark"
+			width="240"
+			height="140"
+			style_bg_color="#color_dark_bg"
+		/>
 	</previews>
 
 	<api>
-		<prop name="pad" type="int" default="#space_lg" help="Inner padding on all sides" />
-		<prop name="gap" type="int" default="#space_md" help="Space between children along the flow direction" />
-		<prop name="flow" type="enum:lv_flex_flow" default="column" help="Child layout direction: column or row" />
-		<prop name="grow" type="int" default="0" help="flex_grow when placed in a flex row; NULL = natural size" />
+		<prop
+			name="pad"
+			type="int"
+			default="#space_lg"
+			help="Inner padding on all sides"
+		/>
+		<prop
+			name="gap"
+			type="int"
+			default="#space_md"
+			help="Space between children along the flow direction"
+		/>
+		<prop
+			name="flow"
+			type="enum:lv_flex_flow"
+			default="column"
+			help="Child layout direction: column or row"
+		/>
+		<prop
+			name="grow"
+			type="int"
+			default="0"
+			help="flex_grow when placed in a flex row; NULL = natural size"
+		/>
 	</api>
 
 	<!-- Visible card surface over a container; pad/gap/flow/grow pass through. -->
-	<view extends="container" pad="$pad" gap="$gap" flow="$flow" grow="$grow">
+	<view
+		extends="container"
+		pad="{pad}"
+		gap="{gap}"
+		flow="{flow}"
+		grow="{grow}"
+	>
 		<style name="style_panel_light" />
-		<bind_style name="style_panel_dark" subject="subject_theme_dark" ref_value="1" />
+		<style name="style_panel_dark" enabled="{subject_theme_dark == 1}" />
 	</view>
 </component>
 ```

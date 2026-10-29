@@ -1,23 +1,37 @@
-```xml title="templates/basic/components/controls/checkbox/checkbox.xml" source="https://github.com/lvgl/lvgl_pro/blob/0ac641547f16b87445de3e2c998c17b340844964/templates/basic/components/controls/checkbox/checkbox.xml"
+```xml title="templates/basic/components/controls/checkbox/checkbox.xml" source="https://github.com/lvgl/lvgl_pro/blob/521c6cf8b209faecc21d3ffcf59fede7cb5d01c2/templates/basic/components/controls/checkbox/checkbox.xml"
 <component>
 	<previews>
 		<preview name="default" width="180" style_pad_all="10" />
 	</previews>
 
 	<api>
-		<prop name="text" type="string" default="Checkbox" help="Label shown next to the box" />
-		<prop name="subject" type="subject" help="Optional 0/1 subject bound two-way to the checked state" />
-		<prop name="color" type="color" default="#color_accent" help="Box fill color when checked" />
+		<prop
+			name="text"
+			type="string"
+			default="Checkbox"
+			help="Label shown next to the box"
+		/>
+		<prop
+			name="subject"
+			type="subject"
+			help="Optional 0/1 subject bound two-way to the checked state"
+		/>
+		<prop
+			name="color"
+			type="color"
+			default="#color_accent"
+			help="Box fill color when checked"
+		/>
 	</api>
 
 	<styles>
-		<style name="style_checkbox" pad_column="#space_sm" />
+		<style name="style_checkbox" pad_column="{space_sm}" />
 		<!-- Outline box; fills with the accent color once checked. -->
 		<style
 			name="style_box"
-			radius="#space_sm"
-			border_width="#border_width"
-			border_color="#color_track"
+			radius="{space_sm}"
+			border_width="{border_width}"
+			border_color="{color_track}"
 			bg_opa="0%"
 			pad_all="2"
 		/>
@@ -33,10 +47,10 @@
 	<!-- Checkbox + label. Toggles on click; pass a subject to bind it two-way. -->
 	<view
 		extends="lv_checkbox"
-		text="$text"
-		bind_checked="$subject"
-		style_bg_color-indicator-checked="$color"
-		style_border_color-indicator-checked="$color"
+		text="{text}"
+		bind_checked="{subject}"
+		style_bg_color-indicator-checked="{color}"
+		style_border_color-indicator-checked="{color}"
 	>
 		<style name="style_checkbox" />
 		<style name="style_box" selector="indicator" />

@@ -1,4 +1,4 @@
-```xml title="lvgl_widgets_xml/v9.5.0/lv_bar.xml" source="https://github.com/lvgl/lvgl_pro/blob/0ac641547f16b87445de3e2c998c17b340844964/lvgl_widgets_xml/v9.5.0/lv_bar.xml"
+```xml title="lvgl_widgets_xml/v9.5.0/lv_bar.xml" source="https://github.com/lvgl/lvgl_pro/blob/521c6cf8b209faecc21d3ffcf59fede7cb5d01c2/lvgl_widgets_xml/v9.5.0/lv_bar.xml"
 <!--
 Example
 <lv_bar mode="symmetrical" range="-40 100" value="60"/>
@@ -7,15 +7,15 @@ Example
 <widget>
     <api>
         <enumdef name="lv_bar_mode" help="How the bar grows with values">
-            <enum name="normal" help="Make the bar grow from minimum toward maximum"/>
-            <enum name="symmetrical" help="Make the bar grow symmetrically from the midpoint"/>
-            <enum name="range" help="Make the bar show values between start and end points"/>
+            <enum name="normal" value="0" help="Make the bar grow from minimum toward maximum"/>
+            <enum name="symmetrical" value="1" help="Make the bar grow symmetrically from the midpoint"/>
+            <enum name="range" value="2" help="Make the bar show values between start and end points"/>
         </enumdef>
 
         <enumdef name="lv_bar_orientation" help="How the bar is oriented">
-            <enum name="auto" help="Choose orientation automatically based on widget size"/>
-            <enum name="horizontal" help="Make the bar fill left to right"/>
-            <enum name="vertical" help="Make the bar fill bottom to top"/>
+            <enum name="auto" value="0" help="Choose orientation automatically based on widget size"/>
+            <enum name="horizontal" value="1" help="Make the bar fill left to right"/>
+            <enum name="vertical" value="2" help="Make the bar fill bottom to top"/>
         </enumdef>
 
         <prop name="min_value" type="int" help="Set the minimum value of the bar. . If `min_value` > `max_value` fills from the right."/>

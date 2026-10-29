@@ -1,4 +1,4 @@
-```xml title="tutorials/components/buttons/button_warning.xml" source="https://github.com/lvgl/lvgl_pro/blob/0ac641547f16b87445de3e2c998c17b340844964/tutorials/components/buttons/button_warning.xml"
+```xml title="tutorials/components/buttons/button_warning.xml" source="https://github.com/lvgl/lvgl_pro/blob/521c6cf8b209faecc21d3ffcf59fede7cb5d01c2/tutorials/components/buttons/button_warning.xml"
 <!-- Create a new button variant based on the normal button
 	 just by overwriting a single color.  -->
 <component>
@@ -9,6 +9,10 @@
 	</api>
 
 	<!-- Extend the normal button, and use its API to pass properties -->
-	<view extends="button_normal" style_bg_color="#yellow" label_text="$label_text" />
+	<view
+		extends="button_normal"
+		style_bg_color="{yellow}"
+		label_text="{label_text}"
+	/>
 </component>
 ```

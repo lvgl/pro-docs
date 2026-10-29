@@ -1,4 +1,4 @@
-```xml title="templates/basic/components/layout/container/container.xml" source="https://github.com/lvgl/lvgl_pro/blob/0ac641547f16b87445de3e2c998c17b340844964/templates/basic/components/layout/container/container.xml"
+```xml title="templates/basic/components/layout/container/container.xml" source="https://github.com/lvgl/lvgl_pro/blob/521c6cf8b209faecc21d3ffcf59fede7cb5d01c2/templates/basic/components/layout/container/container.xml"
 <component>
 	<!-- Transparent, theme-free flex box for grouping children. Extends
 	     base_box, so these locals apply after remove_style_all and stick.
@@ -18,11 +18,11 @@
 
 	<view
 		extends="base_box"
-		flex_grow="$grow"
-		style_pad_all="$pad"
-		style_pad_row="$gap"
-		style_pad_column="$gap"
-		flex_flow="$flow"
+		flex_grow="{grow}"
+		style_pad_all="{pad}"
+		style_pad_row="{gap}"
+		style_pad_column="{gap}"
+		flex_flow="{flow}"
 	/>
 </component>
 ```

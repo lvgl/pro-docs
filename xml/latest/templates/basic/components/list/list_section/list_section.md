@@ -1,4 +1,4 @@
-```xml title="templates/basic/components/list/list_section/list_section.xml" source="https://github.com/lvgl/lvgl_pro/blob/0ac641547f16b87445de3e2c998c17b340844964/templates/basic/components/list/list_section/list_section.xml"
+```xml title="templates/basic/components/list/list_section/list_section.xml" source="https://github.com/lvgl/lvgl_pro/blob/521c6cf8b209faecc21d3ffcf59fede7cb5d01c2/templates/basic/components/list/list_section/list_section.xml"
 <component>
 	<previews>
 		<preview name="default" width="320" />
@@ -13,16 +13,16 @@
 			name="style_list_section"
 			text_font="font_body"
 			text_opa="50%"
-			pad_hor="#space_md"
-			pad_top="#space_md"
-			pad_bottom="#space_xs"
+			pad_hor="{space_md}"
+			pad_top="{space_md}"
+			pad_bottom="{space_xs}"
 		/>
 	</styles>
 
 	<!-- A small, muted section header to group rows in a list. It is a plain
 	     label (inherits the theme text color, then dims it via opacity) with
 	     padding so it lines up with the rows above/below. -->
-	<view extends="lv_label" text="$text" width="100%">
+	<view extends="lv_label" text="{text}" width="100%">
 		<style name="style_list_section" />
 	</view>
 </component>

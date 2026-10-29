@@ -1,4 +1,4 @@
-```xml title="tutorials/components/round_button.xml" source="https://github.com/lvgl/lvgl_pro/blob/0ac641547f16b87445de3e2c998c17b340844964/tutorials/components/round_button.xml"
+```xml title="tutorials/components/round_button.xml" source="https://github.com/lvgl/lvgl_pro/blob/521c6cf8b209faecc21d3ffcf59fede7cb5d01c2/tutorials/components/round_button.xml"
 <!-- A small round button that increments a subject on press and long-press repeat. -->
 <component>
 	<api>
@@ -11,11 +11,25 @@
 		<int name="size" value="36" />
 	</consts>
 
-	<view extends="lv_button" width="#size" height="#size" style_radius="#size" ext_click_area="8">
-		<lv_label text="$text" align="center" />
+	<view
+		extends="lv_button"
+		width="{size}"
+		height="{size}"
+		style_radius="{size / 2}"
+		ext_click_area="8"
+	>
+		<lv_label text="{text}" align="center" />
 
-		<subject_increment_event subject="$subject" step="$step" trigger="pressed" />
-		<subject_increment_event subject="$subject" step="$step" trigger="long_pressed_repeat" />
+		<set_subject_event
+			subject="{subject}"
+			value="{subject + step}"
+			trigger="pressed"
+		/>
+		<set_subject_event
+			subject="{subject}"
+			value="{subject + step}"
+			trigger="long_pressed_repeat"
+		/>
 	</view>
 </component>
 ```

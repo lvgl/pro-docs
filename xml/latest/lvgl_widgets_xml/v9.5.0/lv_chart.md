@@ -1,4 +1,4 @@
-```xml title="lvgl_widgets_xml/v9.5.0/lv_chart.xml" source="https://github.com/lvgl/lvgl_pro/blob/0ac641547f16b87445de3e2c998c17b340844964/lvgl_widgets_xml/v9.5.0/lv_chart.xml"
+```xml title="lvgl_widgets_xml/v9.5.0/lv_chart.xml" source="https://github.com/lvgl/lvgl_pro/blob/521c6cf8b209faecc21d3ffcf59fede7cb5d01c2/lvgl_widgets_xml/v9.5.0/lv_chart.xml"
 <!--
 <lv_chart type="bar" point_count="30">
     <lv_chart-series color="0xff0000" axis="primary_y" values="10, 20, 10, 33"/>
@@ -11,23 +11,23 @@
 <widget>
     <api>
         <enumdef name="lv_chart_type" help="How the chart draws its data series">
-            <enum name="none" help="Draw nothing"/>
-            <enum name="line" help="Draw data points as connected lines"/>
-            <enum name="bar" help="Draw data points as bars"/>
-            <enum name="stacked" help="Draw series as stacked bars on top of each other"/>
-            <enum name="scatter" help="Draw data points as unconnected dots"/>
+            <enum name="none" value="0" help="Draw nothing"/>
+            <enum name="line" value="1" help="Draw data points as connected lines"/>
+            <enum name="bar" value="3" help="Draw data points as bars"/>
+            <enum name="stacked" value="4" help="Draw series as stacked bars on top of each other"/>
+            <enum name="scatter" value="5" help="Draw data points as unconnected dots"/>
         </enumdef>
 
         <enumdef name="lv_chart_update_mode" help="How the chart handles new data points">
-            <enum name="shift" help="Shift old data to the left when new points are added"/>
-            <enum name="circular" help="Overwrite the oldest data in a circular buffer style"/>
+            <enum name="shift" value="0" help="Shift old data to the left when new points are added"/>
+            <enum name="circular" value="1" help="Overwrite the oldest data in a circular buffer style"/>
         </enumdef>
 
         <enumdef name="lv_chart_axis" help="Which axis a series belongs to">
-            <enum name="primary_x" help="Use the primary X axis"/>
-            <enum name="primary_y" help="Use the primary Y axis"/>
-            <enum name="secondary_x" help="Use the secondary X axis"/>
-            <enum name="secondary_y" help="Use the secondary Y axis"/>
+            <enum name="primary_y" value="0" help="Use the primary Y axis"/>
+            <enum name="secondary_y" value="1" help="Use the secondary Y axis"/>
+            <enum name="primary_x" value="2" help="Use the primary X axis"/>
+            <enum name="secondary_x" value="4" help="Use the secondary X axis"/>
         </enumdef>
 
         <prop name="type" type="enum:lv_chart_type" help="Choose how the chart should draw its data"/>

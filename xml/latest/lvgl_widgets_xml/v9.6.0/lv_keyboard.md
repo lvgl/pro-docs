@@ -1,0 +1,31 @@
+```xml title="lvgl_widgets_xml/v9.6.0/lv_keyboard.xml" source="https://github.com/lvgl/lvgl_pro/blob/521c6cf8b209faecc21d3ffcf59fede7cb5d01c2/lvgl_widgets_xml/v9.6.0/lv_keyboard.xml"
+<!--
+Example
+<lv_keyboard mode="text_upper" popover="true"/>
+-->
+
+<widget>
+    <api>
+        <enumdef name="lv_keyboard_mode" help="Keyboard layout modes">
+            <enum name="text_lower" value="0" help="Show lowercase letters"/>
+            <enum name="text_upper" value="1" help="Show uppercase letters"/>
+            <enum name="special" value="2" help="Show special characters and symbols"/>
+            <enum name="number" value="3" help="Show numeric keys"/>
+            <enum name="user_1" value="4" help="User-defined layout 1"/>
+            <enum name="user_2" value="5" help="User-defined layout 2"/>
+            <enum name="user_3" value="6" help="User-defined layout 3"/>
+            <enum name="user_4" value="7" help="User-defined layout 4"/>
+            <enum name="text_arabic" value="8" help="Show Arabic characters"/>
+        </enumdef>
+
+        <prop name="mode" type="enum:lv_keyboard_mode" help="Set the keyboard layout"/>
+        <prop name="popovers" type="bool" help="Show enlarged key previews on press"/>
+        <prop name="textarea" type="lv_obj" help="Connect a textare to the keyboard"/>
+
+        <parts>
+            <part name="main" help="The background behind the keys (extends lv_buttonmatrix): background properties. `pad_row` and `pad_column` set the gaps between keys."/>
+            <part name="items" help="The keys: text and background properties. Combine with the 'checked', 'pressed', 'focused' and 'disabled' states, e.g. items|pressed."/>
+        </parts>
+    </api>
+</widget>
+```

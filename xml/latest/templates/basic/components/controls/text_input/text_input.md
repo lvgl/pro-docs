@@ -1,4 +1,4 @@
-```xml title="templates/basic/components/controls/text_input/text_input.xml" source="https://github.com/lvgl/lvgl_pro/blob/0ac641547f16b87445de3e2c998c17b340844964/templates/basic/components/controls/text_input/text_input.xml"
+```xml title="templates/basic/components/controls/text_input/text_input.xml" source="https://github.com/lvgl/lvgl_pro/blob/521c6cf8b209faecc21d3ffcf59fede7cb5d01c2/templates/basic/components/controls/text_input/text_input.xml"
 <component>
 	<previews>
 		<preview name="default" width="260" style_pad_all="10" />
@@ -11,7 +11,7 @@
 	</api>
 
 	<styles>
-		<style name="style_text_input" radius="#radius_default" />
+		<style name="style_text_input" radius="{radius_default}" />
 	</styles>
 
 	<!-- Single-line text field. Read its text from C via the name you give it.
@@ -20,9 +20,9 @@
 		extends="text_box"
 		one_line="true"
 		width="200"
-		text="$text"
-		placeholder_text="$placeholder"
-		password_mode="$password"
+		text="{text}"
+		placeholder_text="{placeholder}"
+		password_mode="{password}"
 	>
 		<style name="style_text_input" />
 	</view>

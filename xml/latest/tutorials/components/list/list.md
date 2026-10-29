@@ -1,4 +1,4 @@
-```xml title="tutorials/components/list/list.xml" source="https://github.com/lvgl/lvgl_pro/blob/0ac641547f16b87445de3e2c998c17b340844964/tutorials/components/list/list.xml"
+```xml title="tutorials/components/list/list.xml" source="https://github.com/lvgl/lvgl_pro/blob/521c6cf8b209faecc21d3ffcf59fede7cb5d01c2/tutorials/components/list/list.xml"
 <!-- A simple list component which defines its open animation -->
 <component>
 	<animations>
@@ -23,7 +23,7 @@
 	<!-- The view is very simple: just minor styling and creating the buttons. -->
 	<view
 		flex_flow="column"
-		style_pad_all="#unit_small"
+		style_pad_all="{unit_small}"
 		style_flex_cross_place="center"
 		style_flex_track_place="center"
 		style_bg_color="0x8db4ef"

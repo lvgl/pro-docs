@@ -1,4 +1,4 @@
-```xml title="templates/basic/components/controls/slider/slider.xml" source="https://github.com/lvgl/lvgl_pro/blob/0ac641547f16b87445de3e2c998c17b340844964/templates/basic/components/controls/slider/slider.xml"
+```xml title="templates/basic/components/controls/slider/slider.xml" source="https://github.com/lvgl/lvgl_pro/blob/521c6cf8b209faecc21d3ffcf59fede7cb5d01c2/templates/basic/components/controls/slider/slider.xml"
 <component>
 	<previews>
 		<preview name="default" width="240" style_pad_all="20" />
@@ -16,21 +16,21 @@
 	</api>
 
 	<styles>
-		<style name="style_slider_track" bg_color="#color_track" bg_opa="#opa_muted" radius="100" />
+		<style name="style_slider_track" bg_color="{color_track}" bg_opa="{opa_muted}" radius="100" />
 		<style name="style_slider_indicator" bg_opa="100%" />
-		<style name="style_slider_knob" radius="100" pad_all="#space_sm" />
+		<style name="style_slider_knob" radius="100" pad_all="{space_sm}" />
 	</styles>
 
 	<!-- Two-way bound to $subject. Give it a width to stretch it. -->
 	<view
 		extends="lv_slider"
 		width="200"
-		height="#space_md"
-		min_value="$min"
-		max_value="$max"
-		bind_value="$subject"
-		style_bg_color-indicator="$color"
-		style_bg_color-knob="$color"
+		height="{space_md}"
+		min_value="{min}"
+		max_value="{max}"
+		bind_value="{subject}"
+		style_bg_color-indicator="{color}"
+		style_bg_color-knob="{color}"
 	>
 		<style name="style_slider_track" />
 		<style name="style_slider_track" selector="indicator" />

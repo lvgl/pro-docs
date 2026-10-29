@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/checkbox/lv_example_checkbox_bind_checked.xml" source="https://github.com/lvgl/lvgl_pro/blob/0ac641547f16b87445de3e2c998c17b340844964/examples/lvgl_open/screens/widgets/checkbox/lv_example_checkbox_bind_checked.xml"
+```xml title="examples/lvgl_open/screens/widgets/checkbox/lv_example_checkbox_bind_checked.xml" source="https://github.com/lvgl/lvgl_pro/blob/521c6cf8b209faecc21d3ffcf59fede7cb5d01c2/examples/lvgl_open/screens/widgets/checkbox/lv_example_checkbox_bind_checked.xml"
 <!--
  @title Checkbox bind checked + bind flag
  @brief A checkbox drives an int subject; a sibling label hides when the subject is zero.
@@ -10,11 +10,20 @@
 <screen>
 	<view>
 		<!-- 💡 Toggle the checkbox; the note appears/disappears as `subject_flag` flips between 0 and 1. -->
-		<lv_checkbox name="checkbox" text="Show extra details" align="center" bind_checked="subject_flag" />
+		<lv_checkbox
+			name="checkbox"
+			text="Show extra details"
+			align="center"
+			bind_checked="subject_flag"
+		/>
 
-		<lv_label name="label" text="Extra details only visible while the box is ticked." align="center" y="30">
-			<bind_flag_if_eq subject="subject_flag" flag="hidden" ref_value="0" />
-		</lv_label>
+		<lv_label
+			name="label"
+			text="Extra details only visible while the box is ticked."
+			hidden="{!subject_flag}"
+			align="center"
+			y="30"
+		/>
 	</view>
 </screen>
 ```
