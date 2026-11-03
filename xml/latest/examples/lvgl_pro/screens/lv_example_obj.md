@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_pro/screens/lv_example_obj.xml" source="https://github.com/lvgl/lvgl_pro/blob/521c6cf8b209faecc21d3ffcf59fede7cb5d01c2/examples/lvgl_pro/screens/lv_example_obj.xml"
+```xml title="examples/lvgl_pro/screens/lv_example_obj.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_pro/screens/lv_example_obj.xml"
 <!--
  @title Base widget
  @brief A plain lv_obj used as a styled, scrollable, flex container.

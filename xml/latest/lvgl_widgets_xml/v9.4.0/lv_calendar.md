@@ -1,4 +1,4 @@
-```xml title="lvgl_widgets_xml/v9.4.0/lv_calendar.xml" source="https://github.com/lvgl/lvgl_pro/blob/521c6cf8b209faecc21d3ffcf59fede7cb5d01c2/lvgl_widgets_xml/v9.4.0/lv_calendar.xml"
+```xml title="lvgl_widgets_xml/v9.4.0/lv_calendar.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/lvgl_widgets_xml/v9.4.0/lv_calendar.xml"
 <!--
 Example
 <lv_calendar src="img1 img2" duration="300" repeat_count="3"/>
