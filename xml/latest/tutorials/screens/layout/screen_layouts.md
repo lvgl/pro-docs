@@ -1,4 +1,4 @@
-```xml title="tutorials/screens/layout/screen_layouts.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/tutorials/screens/layout/screen_layouts.xml"
+```xml title="tutorials/screens/layout/screen_layouts.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/tutorials/screens/layout/screen_layouts.xml"
 <!-- This screen contains many nested layouts.
      By pressing Alt you can visualize the bounding box of the UI elements -->
 <screen>
@@ -49,7 +49,13 @@
 		</column>
 
 		<!-- This floating button won't be scrolled -->
-		<button_normal label_text="Floating" floating="true" align="bottom_right" x="-20" y="-12" />
+		<button_normal
+			label_text="Floating"
+			floating="true"
+			align="bottom_right"
+			x="-20"
+			y="-12"
+		/>
 	</view>
 </screen>
 ```

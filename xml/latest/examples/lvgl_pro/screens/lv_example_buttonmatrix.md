@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_pro/screens/lv_example_buttonmatrix.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_pro/screens/lv_example_buttonmatrix.xml"
+```xml title="examples/lvgl_pro/screens/lv_example_buttonmatrix.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_pro/screens/lv_example_buttonmatrix.xml"
 <!--
  @title Button matrix
  @brief A keypad from a single map, with per-button width and a disabled key.
@@ -10,9 +10,21 @@
 -->
 <screen>
 	<styles>
-		<style name="style_bm" bg_color="0x0f172a" bg_opa="100%" radius="8" pad_all="8" />
+		<style
+			name="style_bm"
+			bg_color="0x0f172a"
+			bg_opa="100%"
+			radius="8"
+			pad_all="8"
+		/>
 		<!-- The individual buttons (the "items" part) -->
-		<style name="style_keys" bg_color="0x313d51" text_color="0xe2e8f0" radius="6" shadow_width="4" />
+		<style
+			name="style_keys"
+			bg_color="0x313d51"
+			text_color="0xe2e8f0"
+			radius="6"
+			shadow_width="4"
+		/>
 		<style name="style_keys_pr" bg_color="0x3b82f6" />
 	</styles>
 

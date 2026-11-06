@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/arc/lv_example_arc_change_rate.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/widgets/arc/lv_example_arc_change_rate.xml"
+```xml title="examples/lvgl_open/screens/widgets/arc/lv_example_arc_change_rate.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/widgets/arc/lv_example_arc_change_rate.xml"
 <!--
  @title Arc change rate
  @brief Limit how fast the value can change while dragging.
@@ -8,7 +8,11 @@
  the pointer almost instantly — useful for fine-tuning versus quick-jump knobs.
 -->
 <screen>
-	<view flex_flow="row" style_flex_main_place="space_evenly" style_flex_track_place="center">
+	<view
+		flex_flow="row"
+		style_flex_main_place="space_evenly"
+		style_flex_track_place="center"
+	>
 		<!-- 💡 Drag each arc quickly: lower change_rate responds more slowly, higher change_rate tracks your pointer faster. -->
 		<!-- Slower response arc -->
 		<lv_arc

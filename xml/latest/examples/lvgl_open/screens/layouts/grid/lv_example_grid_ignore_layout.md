@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/layouts/grid/lv_example_grid_ignore_layout.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/layouts/grid/lv_example_grid_ignore_layout.xml"
+```xml title="examples/lvgl_open/screens/layouts/grid/lv_example_grid_ignore_layout.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/layouts/grid/lv_example_grid_ignore_layout.xml"
 <!--
  @title Grid ignore layout
  @brief Detach an item from grid placement.
@@ -10,38 +10,81 @@
 <screen>
 	<styles>
 		<!-- Shared style for grid cells -->
-		<style name="style_cell" bg_opa="100%" text_color="0xffffff" pad_all="6" radius="4" />
+		<style
+			name="style_cell"
+			bg_opa="100%"
+			text_color="0xffffff"
+			pad_all="6"
+			radius="4"
+		/>
 	</styles>
 
-	<view flex_flow="column" style_flex_main_place="center" style_flex_cross_place="center" style_flex_track_place="center" style_pad_row="8">
+	<view
+		flex_flow="column"
+		style_flex_main_place="center"
+		style_flex_cross_place="center"
+		style_flex_track_place="center"
+		style_pad_row="8"
+	>
 		<!-- 💡 Toggle ignore_layout on the FREE tile to see how it leaves the grid flow and floats by its own align. -->
 		<!-- The red item has flag_ignore_layout="true", so grid ignores it.
 		     The other items keep normal grid placement. -->
 		<!-- Main grid container -->
-		<lv_obj name="container"
+		<lv_obj
+			name="container"
 			style_grid_column_dsc_array="54 54 54"
 			style_grid_row_dsc_array="42 42"
 			style_layout="grid"
 			width="280"
 			height="120"
 		>
-			<lv_label name="label_1" style_grid_cell_column_pos="0" style_grid_cell_row_pos="0" style_bg_color="0x3498db" text="A">
+			<lv_label
+				name="label_1"
+				style_grid_cell_column_pos="0"
+				style_grid_cell_row_pos="0"
+				style_bg_color="0x3498db"
+				text="A"
+			>
 				<style name="style_cell" />
 			</lv_label>
 
-			<lv_label name="label_2" style_grid_cell_column_pos="1" style_grid_cell_row_pos="0" style_bg_color="0x2ecc71" text="B">
+			<lv_label
+				name="label_2"
+				style_grid_cell_column_pos="1"
+				style_grid_cell_row_pos="0"
+				style_bg_color="0x2ecc71"
+				text="B"
+			>
 				<style name="style_cell" />
 			</lv_label>
 
-			<lv_label name="label_3" style_grid_cell_column_pos="2" style_grid_cell_row_pos="0" style_bg_color="0xe67e22" text="C">
+			<lv_label
+				name="label_3"
+				style_grid_cell_column_pos="2"
+				style_grid_cell_row_pos="0"
+				style_bg_color="0xe67e22"
+				text="C"
+			>
 				<style name="style_cell" />
 			</lv_label>
 
-			<lv_label name="label_4" style_grid_cell_column_pos="0" style_grid_cell_row_pos="1" style_bg_color="0x8e44ad" text="D">
+			<lv_label
+				name="label_4"
+				style_grid_cell_column_pos="0"
+				style_grid_cell_row_pos="1"
+				style_bg_color="0x8e44ad"
+				text="D"
+			>
 				<style name="style_cell" />
 			</lv_label>
 
-			<lv_label name="label_5" ignore_layout="true" align="center" style_bg_color="0xe74c3c" text="FREE">
+			<lv_label
+				name="label_5"
+				ignore_layout="true"
+				align="center"
+				style_bg_color="0xe74c3c"
+				text="FREE"
+			>
 				<style name="style_cell" />
 			</lv_label>
 		</lv_obj>

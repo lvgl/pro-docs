@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_pro/screens/lv_example_roller.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_pro/screens/lv_example_roller.xml"
+```xml title="examples/lvgl_pro/screens/lv_example_roller.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_pro/screens/lv_example_roller.xml"
 <!--
  @title Roller
  @brief Infinite scrolling, a visible row count, and subject binding.
@@ -10,9 +10,20 @@
 -->
 <screen>
 	<styles>
-		<style name="style_roller" bg_color="0x0f172a" bg_opa="100%" text_color="0x94a3b8" radius="8" pad_all="6" />
+		<style
+			name="style_roller"
+			bg_color="0x0f172a"
+			bg_opa="100%"
+			text_color="0x94a3b8"
+			radius="8"
+			pad_all="6"
+		/>
 		<!-- The centered (selected) row -->
-		<style name="style_roller_sel" bg_color="0x3b82f6" text_color="0xffffff" />
+		<style
+			name="style_roller_sel"
+			bg_color="0x3b82f6"
+			text_color="0xffffff"
+		/>
 	</styles>
 
 	<view>
@@ -27,7 +38,12 @@
 			<style name="style_roller_sel" selector="selected" />
 		</lv_roller>
 
-		<lv_label align="center" y="-70" bind_text="subject_index" bind_text-fmt="Month index: %d" />
+		<lv_label
+			align="center"
+			y="-70"
+			bind_text="subject_index"
+			bind_text-fmt="Month index: %d"
+		/>
 	</view>
 </screen>
 ```

@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/dropdown/lv_example_dropdown_text.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/widgets/dropdown/lv_example_dropdown_text.xml"
+```xml title="examples/lvgl_open/screens/widgets/dropdown/lv_example_dropdown_text.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/widgets/dropdown/lv_example_dropdown_text.xml"
 <!--
  @title Dropdown fixed text
  @brief Pin the dropdown button label regardless of selection.
@@ -11,7 +11,13 @@
 	<view>
 		<!-- 💡 Set text to make the button always show that fixed label, regardless of which option is picked. -->
 		<!-- Without text the button reflects the selected option -->
-		<lv_dropdown name="dropdown_1" align="center" x="-100" width="110" options="Cut&#10;Copy&#10;Paste" />
+		<lv_dropdown
+			name="dropdown_1"
+			align="center"
+			x="-100"
+			width="110"
+			options="Cut&#10;Copy&#10;Paste"
+		/>
 
 		<!-- text='Menu' overrides the displayed option -->
 		<lv_dropdown

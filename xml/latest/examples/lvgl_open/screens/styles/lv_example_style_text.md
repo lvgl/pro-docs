@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/styles/lv_example_style_text.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/styles/lv_example_style_text.xml"
+```xml title="examples/lvgl_open/screens/styles/lv_example_style_text.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/styles/lv_example_style_text.xml"
 <!--
  @title Text styling
  @brief Color text, widen letter/line spacing, and underline it.
@@ -14,7 +14,13 @@
 	</consts>
 	<styles>
 		<!-- Card surface -->
-		<style name="style_card" radius="16" bg_opa="100%" bg_color="0xffffff" pad_all="22" />
+		<style
+			name="style_card"
+			radius="16"
+			bg_opa="100%"
+			bg_color="0xffffff"
+			pad_all="22"
+		/>
 		<!-- The styled type itself -->
 		<style
 			name="style_heading"
@@ -29,7 +35,12 @@
 		<!-- 💡 Tune `text_letter_space`/`text_line_space`, or switch `text_decor` to `strikethrough`. -->
 		<lv_obj name="container" width="240" height="content" align="center">
 			<style name="style_card" />
-			<lv_label name="label" align="center" style_text_align="center" text="Custom&#10;Typography">
+			<lv_label
+				name="label"
+				align="center"
+				style_text_align="center"
+				text="Custom&#10;Typography"
+			>
 				<style name="style_heading" />
 			</lv_label>
 		</lv_obj>

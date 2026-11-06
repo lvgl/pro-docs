@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_pro/screens/lv_example_tabview.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_pro/screens/lv_example_tabview.xml"
+```xml title="examples/lvgl_pro/screens/lv_example_tabview.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_pro/screens/lv_example_tabview.xml"
 <!--
  @title Tab view
  @brief Three tabs with their own content and a bottom tab bar.
@@ -11,8 +11,20 @@
 <screen>
 	<styles>
 		<style name="style_tv" bg_color="0x0f172a" bg_opa="100%" />
-		<style name="style_tabbar_bg" bg_color="0x0f172a" border_side="top" border_width="2" border_color="0x343f5a" />
-		<style name="style_tabbar_btn" bg_color="0x0f172a" text_color="0x3b6ce9" border_width="0" pad_all="0" />
+		<style
+			name="style_tabbar_bg"
+			bg_color="0x0f172a"
+			border_side="top"
+			border_width="2"
+			border_color="0x343f5a"
+		/>
+		<style
+			name="style_tabbar_btn"
+			bg_color="0x0f172a"
+			text_color="0x3b6ce9"
+			border_width="0"
+			pad_all="0"
+		/>
 		<style
 			name="style_tabbar_btn_checked"
 			bg_color="0x192748"
@@ -22,12 +34,25 @@
 			text_color="0xb3c8fc"
 		/>
 
-		<style name="style_card" bg_color="0x1e293b" bg_opa="100%" radius="8" pad_all="12" text_color="0xe2e8f0" />
+		<style
+			name="style_card"
+			bg_color="0x1e293b"
+			bg_opa="100%"
+			radius="8"
+			pad_all="12"
+			text_color="0xe2e8f0"
+		/>
 	</styles>
 
 	<view>
 		<!-- 💡 Switch tabs from the bar at the bottom. -->
-		<lv_tabview width="300" height="210" tab_bar_position="bottom" active="0" align="center">
+		<lv_tabview
+			width="300"
+			height="210"
+			tab_bar_position="bottom"
+			active="0"
+			align="center"
+		>
 			<style name="style_tv" />
 			<lv_tabview-tab_bar height="48">
 				<style name="style_tabbar_bg" />
@@ -45,7 +70,10 @@
 			</lv_tabview-tab>
 
 			<lv_tabview-tab text="About">
-				<lv_label text="Tab view organizes content into pages." width="100%">
+				<lv_label
+					text="Tab view organizes content into pages."
+					width="100%"
+				>
 					<style name="style_card" />
 				</lv_label>
 			</lv_tabview-tab>

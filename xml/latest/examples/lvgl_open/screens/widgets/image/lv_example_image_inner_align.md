@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/image/lv_example_image_inner_align.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/widgets/image/lv_example_image_inner_align.xml"
+```xml title="examples/lvgl_open/screens/widgets/image/lv_example_image_inner_align.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/widgets/image/lv_example_image_inner_align.xml"
 <!--
  @title Image inner align
  @brief When the widget is larger than the image, `inner_align` chooses where it sits.
@@ -11,20 +11,49 @@
 -->
 <screen>
 	<styles>
-		<style name="style_main" bg_color="0xd5d5d5" bg_opa="100%" border_width="2" border_color="0x9429ff" />
+		<style
+			name="style_main"
+			bg_color="0xd5d5d5"
+			bg_opa="100%"
+			border_width="2"
+			border_color="0x9429ff"
+		/>
 	</styles>
-	<view flex_flow="row" style_flex_main_place="space_evenly" style_flex_track_place="center" style_pad_column="16">
+	<view
+		flex_flow="row"
+		style_flex_main_place="space_evenly"
+		style_flex_track_place="center"
+		style_pad_column="16"
+	>
 		<!-- 💡 Switch `inner_align` to `contain`, `cover`, or `stretch` to compare placement vs scaling modes. -->
 
-		<lv_image name="image_1" src="img_example_lvgl_logo" width="80" height="80" inner_align="top_left">
+		<lv_image
+			name="image_1"
+			src="img_example_lvgl_logo"
+			width="80"
+			height="80"
+			inner_align="top_left"
+		>
 			<style name="style_main" />
 		</lv_image>
 
-		<lv_image name="image_2" src="img_example_lvgl_logo" width="80" height="80" inner_align="center">
+		<lv_image
+			name="image_2"
+			src="img_example_lvgl_logo"
+			width="80"
+			height="80"
+			inner_align="center"
+		>
 			<style name="style_main" />
 		</lv_image>
 
-		<lv_image name="image_3" src="img_example_lvgl_logo" width="80" height="80" inner_align="bottom_right">
+		<lv_image
+			name="image_3"
+			src="img_example_lvgl_logo"
+			width="80"
+			height="80"
+			inner_align="bottom_right"
+		>
 			<style name="style_main" />
 		</lv_image>
 	</view>

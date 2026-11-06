@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_pro/screens/lv_example_dropdown.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_pro/screens/lv_example_dropdown.xml"
+```xml title="examples/lvgl_pro/screens/lv_example_dropdown.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_pro/screens/lv_example_dropdown.xml"
 <!--
  @title Drop-down list
  @brief Options, a preselected item, a styled list, and subject binding.
@@ -10,7 +10,14 @@
 -->
 <screen>
 	<styles>
-		<style name="style_dd" bg_color="0x1f2937" bg_opa="100%" text_color="0xf3f4f6" radius="8" pad_all="10" />
+		<style
+			name="style_dd"
+			bg_color="0x1f2937"
+			bg_opa="100%"
+			text_color="0xf3f4f6"
+			radius="8"
+			pad_all="10"
+		/>
 		<!-- The opened list popup -->
 		<style
 			name="style_dd_list"
@@ -19,8 +26,16 @@
 			border_color="0x3b82f6"
 			border_width="1"
 		/>
-		<style name="style_dd_list_selected" bg_color="0xa93bf5" text_color="0xffffff" />
-		<style name="style_dd_list_pressed" bg_color="0xcc98f1" text_color="0xffffff" />
+		<style
+			name="style_dd_list_selected"
+			bg_color="0xa93bf5"
+			text_color="0xffffff"
+		/>
+		<style
+			name="style_dd_list_pressed"
+			bg_color="0xcc98f1"
+			text_color="0xffffff"
+		/>
 	</styles>
 
 	<view>
@@ -34,12 +49,23 @@
 			<style name="style_dd" />
 			<lv_dropdown-list>
 				<style name="style_dd_list" />
-				<style name="style_dd_list_selected" selector="selected|checked" />
-				<style name="style_dd_list_pressed" selector="selected|pressed" />
+				<style
+					name="style_dd_list_selected"
+					selector="selected|checked"
+				/>
+				<style
+					name="style_dd_list_pressed"
+					selector="selected|pressed"
+				/>
 			</lv_dropdown-list>
 		</lv_dropdown>
 
-		<lv_label bind_text="subject_index" bind_text-fmt="Selected index: %d" align="center" y="-40" />
+		<lv_label
+			bind_text="subject_index"
+			bind_text-fmt="Selected index: %d"
+			align="center"
+			y="-40"
+		/>
 	</view>
 </screen>
 ```

@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_pro/screens/lv_example_keyboard.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_pro/screens/lv_example_keyboard.xml"
+```xml title="examples/lvgl_pro/screens/lv_example_keyboard.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_pro/screens/lv_example_keyboard.xml"
 <!--
  @title Keyboard
  @brief A keyboard paired with a text area, with key popovers enabled.
@@ -20,9 +20,19 @@
 			border_width="1"
 		/>
 
-		<style name="style_btn_normal" bg_color="0x515e7b" text_color="0xf3f4f6" radius="6" />
+		<style
+			name="style_btn_normal"
+			bg_color="0x515e7b"
+			text_color="0xf3f4f6"
+			radius="6"
+		/>
 
-		<style name="style_btn_checked" bg_color="0x3b82f6" text_color="0xf3f4f6" radius="6" />
+		<style
+			name="style_btn_checked"
+			bg_color="0x3b82f6"
+			text_color="0xf3f4f6"
+			radius="6"
+		/>
 	</styles>
 
 	<view>
@@ -38,7 +48,14 @@
 			<style name="style_bg" />
 		</lv_textarea>
 
-		<lv_keyboard width="320" height="160" mode="text_lower" popovers="true" textarea="ta_input" align="bottom_mid">
+		<lv_keyboard
+			width="320"
+			height="160"
+			mode="text_lower"
+			popovers="true"
+			textarea="ta_input"
+			align="bottom_mid"
+		>
 			<style name="style_bg" />
 			<style name="style_btn_normal" selector="items" />
 			<style name="style_btn_checked" selector="items|checked" />

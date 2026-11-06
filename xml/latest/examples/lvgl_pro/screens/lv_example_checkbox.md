@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_pro/screens/lv_example_checkbox.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_pro/screens/lv_example_checkbox.xml"
+```xml title="examples/lvgl_pro/screens/lv_example_checkbox.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_pro/screens/lv_example_checkbox.xml"
 <!--
  @title Checkbox
  @brief A checked and a disabled checkbox, plus a two-way bound pair.
@@ -10,12 +10,20 @@
 <screen>
 	<styles>
 		<!-- Recolour the tick box (the INDICATOR part) when checked -->
-		<style name="style_tick_checked"
-			bg_color="0x16a34a" border_color="0x16a34a" />
+		<style
+			name="style_tick_checked"
+			bg_color="0x16a34a"
+			border_color="0x16a34a"
+		/>
 	</styles>
 
-	<view flex_flow="column" style_pad_row="14" style_pad_all="18" style_flex_track_place="center" style_flex_main_place="center">
-
+	<view
+		flex_flow="column"
+		style_pad_row="14"
+		style_pad_all="18"
+		style_flex_track_place="center"
+		style_flex_main_place="center"
+	>
 		<!-- Checked by default -->
 		<lv_checkbox text="Enable feature" checked="true">
 			<style name="style_tick_checked" selector="checked|indicator" />

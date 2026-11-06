@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/arc/lv_example_arc_rotation.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/widgets/arc/lv_example_arc_rotation.xml"
+```xml title="examples/lvgl_open/screens/widgets/arc/lv_example_arc_rotation.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/widgets/arc/lv_example_arc_rotation.xml"
 <!--
  @title Arc rotation offset
  @brief Rotate the whole dial around its center.
@@ -8,15 +8,35 @@
  and value, so only the rotation offset distinguishes them visually.
 -->
 <screen>
-	<view flex_flow="row" style_flex_main_place="space_evenly" style_flex_track_place="center">
+	<view
+		flex_flow="row"
+		style_flex_main_place="space_evenly"
+		style_flex_track_place="center"
+	>
 		<!-- 💡 Adjust rotation while keeping bg_start_angle/bg_end_angle fixed to see the whole dial rotate around its center. -->
 		<!-- Arc rotated by 45 degrees -->
-		<lv_arc name="arc_1" width="120" height="120" bg_start_angle="0" bg_end_angle="270" rotation="45" value="60">
+		<lv_arc
+			name="arc_1"
+			width="120"
+			height="120"
+			bg_start_angle="0"
+			bg_end_angle="270"
+			rotation="45"
+			value="60"
+		>
 			<lv_label name="label_1" align="center" text="rot=45" />
 		</lv_arc>
 
 		<!-- Arc rotated by 135 degrees -->
-		<lv_arc name="arc_2" width="120" height="120" bg_start_angle="0" bg_end_angle="270" rotation="135" value="60">
+		<lv_arc
+			name="arc_2"
+			width="120"
+			height="120"
+			bg_start_angle="0"
+			bg_end_angle="270"
+			rotation="135"
+			value="60"
+		>
 			<lv_label name="label_2" align="center" text="rot=135" />
 		</lv_arc>
 	</view>

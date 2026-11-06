@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/spinbox/lv_example_spinbox_rollover.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/widgets/spinbox/lv_example_spinbox_rollover.xml"
+```xml title="examples/lvgl_open/screens/widgets/spinbox/lv_example_spinbox_rollover.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/widgets/spinbox/lv_example_spinbox_rollover.xml"
 <!--
  @title Spinbox rollover
  @brief Wrap the value around when it hits a bound instead of sticking.
@@ -11,7 +11,11 @@
 <screen>
 	<view>
 		<!-- 💡 Increment past 23; the value wraps to 0 because `rollover="true"`. -->
-		<lv_label text="Use the arrows to change the value" align="center" y="-50" />
+		<lv_label
+			text="Use the arrows to change the value"
+			align="center"
+			y="-50"
+		/>
 		<lv_spinbox
 			name="spinbox"
 			width="160"

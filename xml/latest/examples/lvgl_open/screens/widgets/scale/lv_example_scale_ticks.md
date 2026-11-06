@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/scale/lv_example_scale_ticks.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/widgets/scale/lv_example_scale_ticks.xml"
+```xml title="examples/lvgl_open/screens/widgets/scale/lv_example_scale_ticks.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/widgets/scale/lv_example_scale_ticks.xml"
 <!--
  @title Scale tick configuration
  @brief Tune tick density and which ticks count as "major" (drawn longer with labels).
@@ -12,7 +12,12 @@
 	<styles>
 		<style name="style_major" length="8" line_width="3" />
 	</styles>
-	<view flex_flow="column" style_flex_main_place="space_evenly" style_flex_track_place="center" style_pad_row="20">
+	<view
+		flex_flow="column"
+		style_flex_main_place="space_evenly"
+		style_flex_track_place="center"
+		style_pad_row="20"
+	>
 		<!-- 💡 Bump `total_tick_count` or change `major_tick_every` to see how density and labels reorganise. -->
 		<!-- Sparse: 5 ticks total, every second one major -->
 		<lv_scale

@@ -1,10 +1,25 @@
-```xml title="tutorials/translations.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/tutorials/translations.xml"
+```xml title="tutorials/translations.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/tutorials/translations.xml"
 <!-- Translations for each language. Reference a tag with translation_tag="..." on a widget.
      See screens/translations for a usage example. -->
 <translations languages="en de">
-	<translation tag="dog" char_count="40" en="This is a dog" de="Das ist ein Hund" />
-	<translation tag="cat" char_count="40" en="A curious little cat" de="Eine neugierige kleine Katze" />
-	<translation tag="house" char_count="40" en="The house is cozy and warm" de="Das Haus ist gemütlich und warm" />
+	<translation
+		tag="dog"
+		char_count="40"
+		en="This is a dog"
+		de="Das ist ein Hund"
+	/>
+	<translation
+		tag="cat"
+		char_count="40"
+		en="A curious little cat"
+		de="Eine neugierige kleine Katze"
+	/>
+	<translation
+		tag="house"
+		char_count="40"
+		en="The house is cozy and warm"
+		de="Das Haus ist gemütlich und warm"
+	/>
 	<translation
 		char_count="60"
 		tag="person"

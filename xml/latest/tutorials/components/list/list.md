@@ -1,22 +1,64 @@
-```xml title="tutorials/components/list/list.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/tutorials/components/list/list.xml"
+```xml title="tutorials/components/list/list.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/tutorials/components/list/list.xml"
 <!-- A simple list component which defines its open animation -->
 <component>
 	<animations>
 		<timeline name="list_open">
 			<!-- Fade in the list and translate it from the left.
 			     Translate_x is a good way to animate the X position in a relative way. -->
-			<animation prop="opa" start="0" end="255" duration="300" early_apply="true" target="self" />
-			<animation prop="translate_x" start="-60" end="0" duration="300" early_apply="true" target="self" />
+			<animation
+				prop="opa"
+				start="0"
+				end="255"
+				duration="300"
+				early_apply="true"
+				target="self"
+			/>
+			<animation
+				prop="translate_x"
+				start="-60"
+				end="0"
+				duration="300"
+				early_apply="true"
+				target="self"
+			/>
 
 			<!-- Add the show_up animation of the buttons with increasing delay -->
 			<include_timeline target="button_0" timeline="show_up" delay="0" />
-			<include_timeline target="button_1" timeline="show_up" delay="100" />
-			<include_timeline target="button_2" timeline="show_up" delay="200" />
-			<include_timeline target="button_3" timeline="show_up" delay="300" />
-			<include_timeline target="button_4" timeline="show_up" delay="400" />
-			<include_timeline target="button_5" timeline="show_up" delay="400" />
-			<include_timeline target="button_6" timeline="show_up" delay="400" />
-			<include_timeline target="button_7" timeline="show_up" delay="400" />
+			<include_timeline
+				target="button_1"
+				timeline="show_up"
+				delay="100"
+			/>
+			<include_timeline
+				target="button_2"
+				timeline="show_up"
+				delay="200"
+			/>
+			<include_timeline
+				target="button_3"
+				timeline="show_up"
+				delay="300"
+			/>
+			<include_timeline
+				target="button_4"
+				timeline="show_up"
+				delay="400"
+			/>
+			<include_timeline
+				target="button_5"
+				timeline="show_up"
+				delay="400"
+			/>
+			<include_timeline
+				target="button_6"
+				timeline="show_up"
+				delay="400"
+			/>
+			<include_timeline
+				target="button_7"
+				timeline="show_up"
+				delay="400"
+			/>
 		</timeline>
 	</animations>
 

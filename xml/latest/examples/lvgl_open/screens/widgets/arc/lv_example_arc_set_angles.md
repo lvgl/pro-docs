@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/arc/lv_example_arc_set_angles.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/widgets/arc/lv_example_arc_set_angles.xml"
+```xml title="examples/lvgl_open/screens/widgets/arc/lv_example_arc_set_angles.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/widgets/arc/lv_example_arc_set_angles.xml"
 <!--
  @title Arc with explicit indicator angles
  @brief Drive the indicator directly via start_angle and end_angle.
@@ -9,7 +9,11 @@
  not tied to a numeric value.
 -->
 <screen>
-	<view flex_flow="row" style_flex_main_place="space_evenly" style_flex_track_place="center">
+	<view
+		flex_flow="row"
+		style_flex_main_place="space_evenly"
+		style_flex_track_place="center"
+	>
 		<!-- 💡 Edit start_angle/end_angle directly to draw any indicator span independent of value and mode. -->
 		<!-- Value-driven indicator arc -->
 		<lv_arc

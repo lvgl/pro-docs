@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/slider/lv_example_slider_img_indicator.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/widgets/slider/lv_example_slider_img_indicator.xml"
+```xml title="examples/lvgl_open/screens/widgets/slider/lv_example_slider_img_indicator.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/widgets/slider/lv_example_slider_img_indicator.xml"
 <!--
  @title Slider image indicator
  @brief Use bitmaps as the slider track and indicator — the slider clips each image to its part.
@@ -12,9 +12,19 @@
 <screen>
 	<styles>
 		<!-- Track: dark segmented bitmap -->
-		<style name="style_slider_track" bg_image_src="img_bar_bg" bg_opa="0" radius="0" />
+		<style
+			name="style_slider_track"
+			bg_image_src="img_bar_bg"
+			bg_opa="0"
+			radius="0"
+		/>
 		<!-- Indicator: colour-coded segmented bitmap revealed left-to-right -->
-		<style name="style_slider_indicator" bg_image_src="img_bar_indicator" bg_opa="0" radius="0" />
+		<style
+			name="style_slider_indicator"
+			bg_image_src="img_bar_indicator"
+			bg_opa="0"
+			radius="0"
+		/>
 		<!-- Knob: simple dark circle -->
 		<style
 			name="style_slider_knob"
@@ -28,15 +38,27 @@
 		/>
 	</styles>
 
-	<view flex_flow="column" style_flex_main_place="center" style_flex_cross_place="center" style_flex_track_place="center" style_pad_row="16">
+	<view
+		flex_flow="column"
+		style_flex_main_place="center"
+		style_flex_cross_place="center"
+		style_flex_track_place="center"
+		style_pad_row="16"
+	>
 		<!-- 💡 Drag the knob to reveal the segmented indicator image; cyan segments turn yellow then red near the maximum. -->
-		<lv_slider name="slider" width="280" height="30" min_value="0" max_value="20" bind_value="subject_value2">
+		<lv_slider
+			name="slider"
+			width="280"
+			height="30"
+			min_value="0"
+			max_value="20"
+			bind_value="subject_value2"
+		>
 			<style name="style_slider_track" selector="main" />
 			<style name="style_slider_indicator" selector="indicator" />
 			<style name="style_slider_knob" selector="knob" />
 		</lv_slider>
-		<lv_label name="label" bind_text="subject_value2" bind_text-fmt="%d"/>
-
+		<lv_label name="label" bind_text="subject_value2" bind_text-fmt="%d" />
 	</view>
 </screen>
 ```

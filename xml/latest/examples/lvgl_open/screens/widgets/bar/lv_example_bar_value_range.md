@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/bar/lv_example_bar_value_range.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/widgets/bar/lv_example_bar_value_range.xml"
+```xml title="examples/lvgl_open/screens/widgets/bar/lv_example_bar_value_range.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/widgets/bar/lv_example_bar_value_range.xml"
 <!--
  @title Bar value and custom range
  @brief Drive the indicator with a custom min/max range.
@@ -11,16 +11,46 @@
 	<consts>
 		<color name="text_color" value="0x013992" />
 	</consts>
-	<view flex_flow="column" style_flex_main_place="center" style_flex_cross_place="center" style_flex_track_place="center" style_pad_row="16">
+	<view
+		flex_flow="column"
+		style_flex_main_place="center"
+		style_flex_cross_place="center"
+		style_flex_track_place="center"
+		style_pad_row="16"
+	>
 		<!-- 💡 Edit min_value / max_value / value to see how the indicator scales within the chosen range. -->
 		<!-- Default 0..100 range -->
-		<lv_bar name="bar_1" width="90%" height="20" min_value="0" max_value="100" value="30">
-			<lv_label name="label_1" align="center" text="0..100" style_text_color="#text_color" />
+		<lv_bar
+			name="bar_1"
+			width="90%"
+			height="20"
+			min_value="0"
+			max_value="100"
+			value="30"
+		>
+			<lv_label
+				name="label_1"
+				align="center"
+				text="0..100"
+				style_text_color="#text_color"
+			/>
 		</lv_bar>
 
 		<!-- Custom range that does not start at zero -->
-		<lv_bar name="bar_2" width="90%" height="20" min_value="-20" max_value="80" value="35">
-			<lv_label name="label_2" align="center" text="-20..80" style_text_color="#text_color" />
+		<lv_bar
+			name="bar_2"
+			width="90%"
+			height="20"
+			min_value="-20"
+			max_value="80"
+			value="35"
+		>
+			<lv_label
+				name="label_2"
+				align="center"
+				text="-20..80"
+				style_text_color="#text_color"
+			/>
 		</lv_bar>
 	</view>
 </screen>

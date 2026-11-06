@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/arc/lv_example_arc_mode.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/widgets/arc/lv_example_arc_mode.xml"
+```xml title="examples/lvgl_open/screens/widgets/arc/lv_example_arc_mode.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/widgets/arc/lv_example_arc_mode.xml"
 <!--
  @title Arc indicator modes
  @brief Compare normal, reverse, and symmetrical mode side by side.
@@ -9,7 +9,11 @@
  each mode anchors the indicator.
 -->
 <screen>
-	<view flex_flow="row" style_flex_main_place="space_evenly" style_flex_track_place="center">
+	<view
+		flex_flow="row"
+		style_flex_main_place="space_evenly"
+		style_flex_track_place="center"
+	>
 		<!-- 💡 Switch mode between normal, reverse, and symmetrical to compare where the indicator grows from. -->
 		<!-- Normal mode: clockwise from minimum to current value -->
 		<lv_arc name="arc_1" width="95" height="95" mode="normal" value="75">
@@ -22,7 +26,13 @@
 		</lv_arc>
 
 		<!-- Symmetrical mode: indicator grows from the middle -->
-		<lv_arc name="arc_3" width="95" height="95" mode="symmetrical" value="75">
+		<lv_arc
+			name="arc_3"
+			width="95"
+			height="95"
+			mode="symmetrical"
+			value="75"
+		>
 			<lv_label name="label_3" align="center" text="sym." />
 		</lv_arc>
 	</view>

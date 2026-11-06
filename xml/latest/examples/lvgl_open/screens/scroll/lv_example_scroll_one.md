@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/scroll/lv_example_scroll_one.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/scroll/lv_example_scroll_one.xml"
+```xml title="examples/lvgl_open/screens/scroll/lv_example_scroll_one.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/scroll/lv_example_scroll_one.xml"
 <!--
  @title Scroll one at a time
  @brief Restrict each scroll gesture to a single snappable child.
@@ -27,31 +27,76 @@
 			scroll_snap_x="center"
 			scroll_one="true"
 		>
-			<lv_button name="button_1" width="80" height="100%" scroll_on_focus="false">
+			<lv_button
+				name="button_1"
+				width="80"
+				height="100%"
+				scroll_on_focus="false"
+			>
 				<lv_label name="label_1" align="center" text="Panel 1" />
 			</lv_button>
-			<lv_button name="button_2" width="80" height="100%" scroll_on_focus="false">
+			<lv_button
+				name="button_2"
+				width="80"
+				height="100%"
+				scroll_on_focus="false"
+			>
 				<lv_label name="label_2" align="center" text="Panel 2" />
 			</lv_button>
-			<lv_button name="button_3" width="80" height="100%" scroll_on_focus="false">
+			<lv_button
+				name="button_3"
+				width="80"
+				height="100%"
+				scroll_on_focus="false"
+			>
 				<lv_label name="label_3" align="center" text="Panel 3" />
 			</lv_button>
-			<lv_button name="button_4" width="80" height="100%" scroll_on_focus="false">
+			<lv_button
+				name="button_4"
+				width="80"
+				height="100%"
+				scroll_on_focus="false"
+			>
 				<lv_label name="label_4" align="center" text="Panel 4" />
 			</lv_button>
-			<lv_button name="button_5" width="80" height="100%" scroll_on_focus="false">
+			<lv_button
+				name="button_5"
+				width="80"
+				height="100%"
+				scroll_on_focus="false"
+			>
 				<lv_label name="label_5" align="center" text="Panel 5" />
 			</lv_button>
-			<lv_button name="button_6" width="80" height="100%" scroll_on_focus="false">
+			<lv_button
+				name="button_6"
+				width="80"
+				height="100%"
+				scroll_on_focus="false"
+			>
 				<lv_label name="label_6" align="center" text="Panel 6" />
 			</lv_button>
-			<lv_button name="button_7" width="80" height="100%" scroll_on_focus="false">
+			<lv_button
+				name="button_7"
+				width="80"
+				height="100%"
+				scroll_on_focus="false"
+			>
 				<lv_label name="label_7" align="center" text="Panel 7" />
 			</lv_button>
-			<lv_button name="button_8" width="80" height="100%" scroll_on_focus="false">
+			<lv_button
+				name="button_8"
+				width="80"
+				height="100%"
+				scroll_on_focus="false"
+			>
 				<lv_label name="label_8" align="center" text="Panel 8" />
 			</lv_button>
-			<lv_button name="button_9" width="80" height="100%" scroll_on_focus="false">
+			<lv_button
+				name="button_9"
+				width="80"
+				height="100%"
+				scroll_on_focus="false"
+			>
 				<lv_label name="label_9" align="center" text="Panel 9" />
 			</lv_button>
 		</lv_obj>

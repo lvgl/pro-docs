@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_pro/screens/lv_example_calendar.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_pro/screens/lv_example_calendar.xml"
+```xml title="examples/lvgl_pro/screens/lv_example_calendar.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_pro/screens/lv_example_calendar.xml"
 <!--
  @title Calendar
  @brief A month view with today highlighted and a dropdown month picker.
@@ -10,7 +10,13 @@
 -->
 <screen>
 	<styles>
-		<style name="style_cal" bg_color="0x0f172a" bg_opa="100%" text_color="0xe2e8f0" radius="8" />
+		<style
+			name="style_cal"
+			bg_color="0x0f172a"
+			bg_opa="100%"
+			text_color="0xe2e8f0"
+			radius="8"
+		/>
 	</styles>
 
 	<view>

@@ -1,11 +1,23 @@
-```xml title="tutorials/screens/assets/screen_assets.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/tutorials/screens/assets/screen_assets.xml"
+```xml title="tutorials/screens/assets/screen_assets.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/tutorials/screens/assets/screen_assets.xml"
 <!-- Check out globals.xml for the font and image definitions -->
 <screen>
 	<view flex_flow="column" style_pad_all="8">
-		<lv_label text="I'm from a C array: °" style_text_font="montserrat_14_c_array" />
-		<lv_label text="I'm from a bin file: °" style_text_font="montserrat_16_bin_file" />
-		<lv_label text="I'm TinyTTF from data: Schöne" style_text_font="montserrat_18_tiny_ttf_data" />
-		<lv_label text="I'm TinyTTF from file: Schöne" style_text_font="montserrat_20_tiny_ttf_file" />
+		<lv_label
+			text="I'm from a C array: °"
+			style_text_font="montserrat_14_c_array"
+		/>
+		<lv_label
+			text="I'm from a bin file: °"
+			style_text_font="montserrat_16_bin_file"
+		/>
+		<lv_label
+			text="I'm TinyTTF from data: Schöne"
+			style_text_font="montserrat_18_tiny_ttf_data"
+		/>
+		<lv_label
+			text="I'm TinyTTF from file: Schöne"
+			style_text_font="montserrat_20_tiny_ttf_file"
+		/>
 
 		<lv_obj width="100%" height="content" flex_flow="row">
 			<lv_image src="flower_data" />

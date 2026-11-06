@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/label/lv_example_label_long_mode.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/widgets/label/lv_example_label_long_mode.xml"
+```xml title="examples/lvgl_open/screens/widgets/label/lv_example_label_long_mode.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/widgets/label/lv_example_label_long_mode.xml"
 <!--
  @title Label long modes
  @brief Show every long_mode behavior side by side.
@@ -13,10 +13,17 @@
 		<style name="style_label_bg" bg_opa="100%" radius="6" />
 	</styles>
 
-	<view flex_flow="column" style_flex_main_place="center" style_flex_cross_place="center" style_flex_track_place="center" style_pad_row="12">
+	<view
+		flex_flow="column"
+		style_flex_main_place="center"
+		style_flex_cross_place="center"
+		style_flex_track_place="center"
+		style_pad_row="12"
+	>
 		<!-- 💡 Adjust long_mode, width, and height to compare wrap, dots, scroll, circular scroll, and clip results. -->
 		<!-- Wrap mode example -->
-		<lv_label name="label_1"
+		<lv_label
+			name="label_1"
 			width="170"
 			long_mode="wrap"
 			style_bg_color="0xd6eaf8"
@@ -26,7 +33,8 @@
 		</lv_label>
 
 		<!-- Dots mode example -->
-		<lv_label name="label_2"
+		<lv_label
+			name="label_2"
 			width="170"
 			height="32"
 			long_mode="dots"
@@ -37,7 +45,8 @@
 		</lv_label>
 
 		<!-- Scroll mode example -->
-		<lv_label name="label_3"
+		<lv_label
+			name="label_3"
 			width="170"
 			long_mode="scroll"
 			style_bg_color="0xfdebd0"
@@ -47,7 +56,8 @@
 		</lv_label>
 
 		<!-- Circular scroll mode example -->
-		<lv_label name="label_4"
+		<lv_label
+			name="label_4"
 			width="170"
 			long_mode="scroll_circular"
 			style_bg_color="0xfadbd8"
@@ -57,7 +67,8 @@
 		</lv_label>
 
 		<!-- Clip mode example -->
-		<lv_label name="label_5"
+		<lv_label
+			name="label_5"
 			width="170"
 			long_mode="clip"
 			style_bg_color="0xebdef0"

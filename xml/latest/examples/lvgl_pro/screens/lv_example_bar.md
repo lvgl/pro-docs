@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_pro/screens/lv_example_bar.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_pro/screens/lv_example_bar.xml"
+```xml title="examples/lvgl_pro/screens/lv_example_bar.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_pro/screens/lv_example_bar.xml"
 <!--
  @title Bar
  @brief Bound, range, reversed-with-gradient and vertical bars.
@@ -26,14 +26,34 @@
 
 	<view>
 		<!-- Bound, normal mode, with an overlaid readout -->
-		<lv_bar width="240" height="22" bind_value="subject_value" align="left_mid" y="-40" x="20">
+		<lv_bar
+			width="240"
+			height="22"
+			bind_value="subject_value"
+			align="left_mid"
+			y="-40"
+			x="20"
+		>
 			<style name="style_bar" />
 			<style name="style_bar_ind" selector="indicator" />
-			<lv_label align="center" bind_text="subject_value" bind_text-fmt="%d %%" style_text_color="0x192e4f" />
+			<lv_label
+				align="center"
+				bind_text="subject_value"
+				bind_text-fmt="%d %%"
+				style_text_color="0x192e4f"
+			/>
 		</lv_bar>
 
 		<!-- Range: indicator spans start_value..value -->
-		<lv_bar width="240" height="20" mode="range" value="80" start_value="10" align="left_mid" x="20">
+		<lv_bar
+			width="240"
+			height="20"
+			mode="range"
+			value="80"
+			start_value="10"
+			align="left_mid"
+			x="20"
+		>
 			<style name="style_bar" />
 			<style name="style_bar_ind" selector="indicator" />
 		</lv_bar>
@@ -57,7 +77,15 @@
 		</lv_bar>
 
 		<!-- Vertical orientation -->
-		<lv_bar width="20" height="160" orientation="vertical" value="65" align="right_mid" y="0" x="-60">
+		<lv_bar
+			width="20"
+			height="160"
+			orientation="vertical"
+			value="65"
+			align="right_mid"
+			y="0"
+			x="-60"
+		>
 			<style name="style_bar" />
 			<style name="style_bar_ind" selector="indicator" />
 		</lv_bar>

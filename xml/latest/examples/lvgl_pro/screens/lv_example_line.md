@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_pro/screens/lv_example_line.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_pro/screens/lv_example_line.xml"
+```xml title="examples/lvgl_pro/screens/lv_example_line.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_pro/screens/lv_example_line.xml"
 <!--
  @title Line
  @brief A styled poly-line, and the same points with y_invert.
@@ -10,9 +10,24 @@
 -->
 <screen>
 	<styles>
-		<style name="style_line" line_width="4" line_color="0x3b82f6" line_rounded="true" />
-		<style name="style_line2" line_width="4" line_color="0xf59e0b" line_rounded="true" />
-		<style name="style_panel" bg_color="0x0f172a" bg_opa="100%" radius="8" />
+		<style
+			name="style_line"
+			line_width="4"
+			line_color="0x3b82f6"
+			line_rounded="true"
+		/>
+		<style
+			name="style_line2"
+			line_width="4"
+			line_color="0xf59e0b"
+			line_rounded="true"
+		/>
+		<style
+			name="style_panel"
+			bg_color="0x0f172a"
+			bg_opa="100%"
+			radius="8"
+		/>
 	</styles>
 
 	<view
@@ -23,13 +38,21 @@
 		style_flex_main_place="center"
 		style_flex_track_place="center"
 	>
-		<lv_line width="220" height="70" points="(0 10) (60 50) (120 5) (200 45)">
+		<lv_line
+			width="220"
+			height="70"
+			points="(0 10) (60 50) (120 5) (200 45)"
+		>
 			<style name="style_panel" />
 			<style name="style_line" />
 		</lv_line>
 
-		<lv_line width="220" height="70" y_invert="true"
-			points="(0 10) (60 50) (120 5) (200 45)">
+		<lv_line
+			width="220"
+			height="70"
+			y_invert="true"
+			points="(0 10) (60 50) (120 5) (200 45)"
+		>
 			<style name="style_panel" />
 			<style name="style_line2" />
 		</lv_line>

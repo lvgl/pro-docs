@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_pro/screens/lv_example_chart.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_pro/screens/lv_example_chart.xml"
+```xml title="examples/lvgl_pro/screens/lv_example_chart.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_pro/screens/lv_example_chart.xml"
 <!--
  @title Chart
  @brief A line chart with two series, division lines, an axis range and a cursor.
@@ -19,7 +19,11 @@
 			line_color="0x334155"
 			border_width="0"
 		/>
-		<style name="style_chart_cursor" line_dash_gap="10" line_dash_width="5" />
+		<style
+			name="style_chart_cursor"
+			line_dash_gap="10"
+			line_dash_width="5"
+		/>
 	</styles>
 
 	<view>
@@ -41,8 +45,16 @@
 			<lv_chart-axis axis="primary_y" min_value="0" max_value="100" />
 
 			<!-- Two data series -->
-			<lv_chart-series color="0x3b82f6" axis="primary_y" values="20 45 30 70 55 90" />
-			<lv_chart-series color="0xf59e0b" axis="primary_y" values="80 60 65 40 50 25" />
+			<lv_chart-series
+				color="0x3b82f6"
+				axis="primary_y"
+				values="20 45 30 70 55 90"
+			/>
+			<lv_chart-series
+				color="0xf59e0b"
+				axis="primary_y"
+				values="80 60 65 40 50 25"
+			/>
 
 			<!-- A cursor showing on a line -->
 			<lv_chart-cursor color="0xef4444" dir="hor" pos_y="70" />

@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/styles/lv_example_style_margin.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/styles/lv_example_style_margin.xml"
+```xml title="examples/lvgl_open/screens/styles/lv_example_style_margin.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/styles/lv_example_style_margin.xml"
 <!--
  @title Margin
  @brief Reserve space around one item on top of the layout's own gaps.
@@ -14,7 +14,13 @@
 	</consts>
 	<styles>
 		<!-- Neutral chip -->
-		<style name="style_chip" radius="10" bg_opa="100%" bg_color="0xe2e8f0" pad_all="14" />
+		<style
+			name="style_chip"
+			radius="10"
+			bg_opa="100%"
+			bg_color="0xe2e8f0"
+			pad_all="14"
+		/>
 		<!-- Accent chip carrying the extra margin -->
 		<style
 			name="style_chip_accent"
@@ -26,12 +32,21 @@
 		/>
 	</styles>
 
-	<view flex_flow="row" style_flex_main_place="center" style_flex_track_place="center">
+	<view
+		flex_flow="row"
+		style_flex_main_place="center"
+		style_flex_track_place="center"
+	>
 		<!-- 💡 Change the middle chip's `style_margin_left`/`style_margin_right`; the side chips stay put, the gap grows. -->
 		<lv_label name="label_1" text="A">
 			<style name="style_chip" />
 		</lv_label>
-		<lv_label name="label_2" text="B" style_margin_left="48" style_margin_right="24">
+		<lv_label
+			name="label_2"
+			text="B"
+			style_margin_left="48"
+			style_margin_right="24"
+		>
 			<style name="style_chip_accent" />
 		</lv_label>
 		<lv_label name="label_3" text="C">

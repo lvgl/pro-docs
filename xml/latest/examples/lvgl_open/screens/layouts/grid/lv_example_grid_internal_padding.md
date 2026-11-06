@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/layouts/grid/lv_example_grid_internal_padding.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/layouts/grid/lv_example_grid_internal_padding.xml"
+```xml title="examples/lvgl_open/screens/layouts/grid/lv_example_grid_internal_padding.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/layouts/grid/lv_example_grid_internal_padding.xml"
 <!--
  @title Grid internal padding
  @brief Set horizontal and vertical gaps between grid cells.
@@ -10,7 +10,13 @@
 <screen>
 	<styles>
 		<!-- Shared chip style for all tiles -->
-		<style name="style_chip" bg_opa="100%" text_color="0xffffff" pad_all="6" radius="4" />
+		<style
+			name="style_chip"
+			bg_opa="100%"
+			text_color="0xffffff"
+			pad_all="6"
+			radius="4"
+		/>
 	</styles>
 
 	<view

@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/styles/lv_example_style_parts_states.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/styles/lv_example_style_parts_states.xml"
+```xml title="examples/lvgl_open/screens/styles/lv_example_style_parts_states.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/styles/lv_example_style_parts_states.xml"
 <!--
  @title Parts and states
  @brief Style one part normally and again for a state with `selector`.
@@ -20,14 +20,30 @@
 			radius="10"
 		/>
 		<!-- Indicator, pressed only: soft glow -->
-		<style name="style_indicator_pressed" shadow_color="0xec4899" shadow_width="18" shadow_spread="2" />
+		<style
+			name="style_indicator_pressed"
+			shadow_color="0xec4899"
+			shadow_width="18"
+			shadow_spread="2"
+		/>
 	</styles>
 
 	<view>
 		<!-- 💡 Press and hold the slider: the indicator keeps its gradient but gains the pressed glow. -->
-		<lv_slider name="slider" align="center" width="220" height="16" min_value="0" max_value="100" value="65">
+		<lv_slider
+			name="slider"
+			align="center"
+			width="220"
+			height="16"
+			min_value="0"
+			max_value="100"
+			value="65"
+		>
 			<style name="style_indicator" selector="indicator" />
-			<style name="style_indicator_pressed" selector="pressed|indicator" />
+			<style
+				name="style_indicator_pressed"
+				selector="pressed|indicator"
+			/>
 		</lv_slider>
 	</view>
 </screen>

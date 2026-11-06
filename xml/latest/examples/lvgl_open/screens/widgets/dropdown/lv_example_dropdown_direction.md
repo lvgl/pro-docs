@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/dropdown/lv_example_dropdown_direction.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/widgets/dropdown/lv_example_dropdown_direction.xml"
+```xml title="examples/lvgl_open/screens/widgets/dropdown/lv_example_dropdown_direction.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/widgets/dropdown/lv_example_dropdown_direction.xml"
 <!--
  @title Dropdown open direction
  @brief Open the option list towards a specific edge.
@@ -12,7 +12,12 @@
 	<view>
 		<!-- 💡 Click each dropdown: each list pops toward the screen edge defined by its dir attribute. -->
 		<!-- Default: list opens downward -->
-		<lv_dropdown name="dropdown_1" align="top_mid" y="20" options="Apple&#10;Banana&#10;Orange&#10;Melon" />
+		<lv_dropdown
+			name="dropdown_1"
+			align="top_mid"
+			y="20"
+			options="Apple&#10;Banana&#10;Orange&#10;Melon"
+		/>
 
 		<!-- List opens upward -->
 		<lv_dropdown

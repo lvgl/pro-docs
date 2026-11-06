@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/textarea/lv_example_textarea_placeholder.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/widgets/textarea/lv_example_textarea_placeholder.xml"
+```xml title="examples/lvgl_open/screens/widgets/textarea/lv_example_textarea_placeholder.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/widgets/textarea/lv_example_textarea_placeholder.xml"
 <!--
  @title Text area placeholder
  @brief Show a hint while the text area is empty.
@@ -17,10 +17,21 @@
 	>
 		<!-- 💡 The placeholder only shows while the field is empty; typing replaces it. -->
 		<!-- Empty: placeholder hint is shown -->
-		<lv_textarea name="textarea_1" width="60%" one_line="true" placeholder_text="Search..." />
+		<lv_textarea
+			name="textarea_1"
+			width="60%"
+			one_line="true"
+			placeholder_text="Search..."
+		/>
 
 		<!-- Filled: placeholder is hidden -->
-		<lv_textarea name="textarea_2" width="60%" one_line="true" placeholder_text="Search…" text="Hello world!" />
+		<lv_textarea
+			name="textarea_2"
+			width="60%"
+			one_line="true"
+			placeholder_text="Search…"
+			text="Hello world!"
+		/>
 	</view>
 </screen>
 ```

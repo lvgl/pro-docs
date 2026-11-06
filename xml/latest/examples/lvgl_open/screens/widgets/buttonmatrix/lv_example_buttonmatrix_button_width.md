@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/buttonmatrix/lv_example_buttonmatrix_button_width.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/widgets/buttonmatrix/lv_example_buttonmatrix_button_width.xml"
+```xml title="examples/lvgl_open/screens/widgets/buttonmatrix/lv_example_buttonmatrix_button_width.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/widgets/buttonmatrix/lv_example_buttonmatrix_button_width.xml"
 <!--
  @title Button matrix button widths
  @brief Set per-button relative widths through `ctrl_map`.
@@ -16,7 +16,8 @@
 	<view>
 		<!-- 💡 Change a `width_*` token (1..15) to see the matching button stretch relative to its row neighbors. -->
 		<!-- First row: equal widths. Second row: 1:2:3 split via width_1/2/3 tokens. -->
-		<lv_buttonmatrix name="buttonmatrix"
+		<lv_buttonmatrix
+			name="buttonmatrix"
 			align="center"
 			width="90%"
 			height="140"

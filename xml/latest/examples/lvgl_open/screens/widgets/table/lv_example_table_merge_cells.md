@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/table/lv_example_table_merge_cells.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/widgets/table/lv_example_table_merge_cells.xml"
+```xml title="examples/lvgl_open/screens/widgets/table/lv_example_table_merge_cells.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/widgets/table/lv_example_table_merge_cells.xml"
 <!--
  @title Table merge cells
  @brief Span a cell across two columns by setting the `merge_right` control flag.
@@ -12,11 +12,16 @@
  overflow the merged cell.
 -->
 <screen>
-	<view >
+	<view>
 		<!-- 💡 Add a third column plus another `merge_right` on the header to span it; without the chain the title stops at column 1. -->
 		<lv_table name="table" align="center">
 			<!-- 2-column table; the header spans both columns via a single merge_right -->
-			<lv_table-cell row="0" column="0" value="Quarterly summary" ctrl="merge_right" />
+			<lv_table-cell
+				row="0"
+				column="0"
+				value="Quarterly summary"
+				ctrl="merge_right"
+			/>
 			<lv_table-cell row="1" column="0" value="Q1" />
 			<lv_table-cell row="1" column="1" value="Q2" />
 			<lv_table-cell row="2" column="0" value="120" />

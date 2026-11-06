@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_pro/screens/lv_example_table.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_pro/screens/lv_example_table.xml"
+```xml title="examples/lvgl_pro/screens/lv_example_table.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_pro/screens/lv_example_table.xml"
 <!--
  @title Table
  @brief A small table with a header row, set column widths and a merged cell.
@@ -10,7 +10,13 @@
 -->
 <screen>
 	<styles>
-		<style name="style_table" bg_color="0x111827" bg_opa="100%" radius="8" pad_all="8" />
+		<style
+			name="style_table"
+			bg_color="0x111827"
+			bg_opa="100%"
+			radius="8"
+			pad_all="8"
+		/>
 		<!-- Header row cells (the "items" part in selected/first row) -->
 		<style
 			name="style_items"
@@ -38,7 +44,12 @@
 			<lv_table-cell row="2" column="1" value="48 %" />
 
 			<!-- Footer spanning both columns -->
-			<lv_table-cell row="3" column="0" value="All readings nominal" ctrl="merge_right" />
+			<lv_table-cell
+				row="3"
+				column="0"
+				value="All readings nominal"
+				ctrl="merge_right"
+			/>
 		</lv_table>
 	</view>
 </screen>

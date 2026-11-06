@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/obj/lv_example_obj_bind_style.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/widgets/obj/lv_example_obj_bind_style.xml"
+```xml title="examples/lvgl_open/screens/widgets/obj/lv_example_obj_bind_style.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/widgets/obj/lv_example_obj_bind_style.xml"
 <!--
  @title Obj bind style (theme toggle)
  @brief Apply a named style only when a subject equals a reference value.
@@ -12,16 +12,35 @@
 <screen>
 	<styles>
 		<!-- The dark theme: applied only when subject_flag == 1 -->
-		<style name="style_dark"
+		<style
+			name="style_dark"
 			bg_color="0x1f2937"
 			text_color="0xf9fafb"
-			border_color="0x4b5563" />
+			border_color="0x4b5563"
+		/>
 	</styles>
 
-	<view flex_flow="column" style_flex_main_place="center" style_flex_cross_place="center" style_flex_track_place="center" style_pad_row="16">
+	<view
+		flex_flow="column"
+		style_flex_main_place="center"
+		style_flex_cross_place="center"
+		style_flex_track_place="center"
+		style_pad_row="16"
+	>
 		<!-- 💡 Click the toggle to flip `subject_flag` between 0 and 1; the panel restyles via `bind_style`. -->
-		<lv_obj name="container" width="240" height="120" style_pad_all="16" style_radius="8" style_border_width="1">
-			<bind_style name="style_dark" subject="subject_flag" ref_value="1" />
+		<lv_obj
+			name="container"
+			width="240"
+			height="120"
+			style_pad_all="16"
+			style_radius="8"
+			style_border_width="1"
+		>
+			<bind_style
+				name="style_dark"
+				subject="subject_flag"
+				ref_value="1"
+			/>
 			<lv_label name="label_1" align="center" text="Panel content" />
 		</lv_obj>
 

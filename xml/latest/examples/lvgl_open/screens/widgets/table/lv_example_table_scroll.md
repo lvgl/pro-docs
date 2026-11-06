@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/table/lv_example_table_scroll.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/widgets/table/lv_example_table_scroll.xml"
+```xml title="examples/lvgl_open/screens/widgets/table/lv_example_table_scroll.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/widgets/table/lv_example_table_scroll.xml"
 <!--
  @title Table scrolling
  @brief A table whose content grid is taller than its explicit height becomes scrollable.
@@ -13,7 +13,14 @@
 <screen>
 	<view>
 		<!-- 💡 Drag the table vertically to reveal the lower rows. -->
-		<lv_table name="table" align="center" width="240" height="160" row_count="12" column_count="2">
+		<lv_table
+			name="table"
+			align="center"
+			width="240"
+			height="160"
+			row_count="12"
+			column_count="2"
+		>
 			<lv_table-column column="0" width="70px" />
 			<lv_table-column column="1" width="160px" />
 

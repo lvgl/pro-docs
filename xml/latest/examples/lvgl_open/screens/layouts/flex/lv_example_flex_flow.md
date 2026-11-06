@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/layouts/flex/lv_example_flex_flow.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/layouts/flex/lv_example_flex_flow.xml"
+```xml title="examples/lvgl_open/screens/layouts/flex/lv_example_flex_flow.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/layouts/flex/lv_example_flex_flow.xml"
 <!--
  @title Flex flow
  @brief Arrange children with a flex flow direction.
@@ -12,7 +12,13 @@
 		<!-- 💡 Adjust flex_flow (row, column, row_wrap, row_reverse) to see how item order and wrapping change. -->
 		<!-- Try other values for flex_flow, such as "row", "column", "column_wrap_reverse" -->
 		<!-- Demo container with row wrapping -->
-		<lv_obj align="center" flex_flow="row_wrap" width="90%" height="50%" name="example_flex_flow">
+		<lv_obj
+			align="center"
+			flex_flow="row_wrap"
+			width="90%"
+			height="50%"
+			name="example_flex_flow"
+		>
 			<!-- Item sequence to visualize wrapping -->
 			<lv_button name="button_1">
 				<lv_label name="label_1" text="First" />

@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/bar/lv_example_bar_modes.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/widgets/bar/lv_example_bar_modes.xml"
+```xml title="examples/lvgl_open/screens/widgets/bar/lv_example_bar_modes.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/widgets/bar/lv_example_bar_modes.xml"
 <!--
  @title Bar modes
  @brief Compare normal, symmetrical, and range modes.
@@ -12,21 +12,67 @@
 	<consts>
 		<color name="text_color" value="0x013992" />
 	</consts>
-	<view flex_flow="column" style_flex_main_place="center" style_flex_cross_place="center" style_flex_track_place="center" style_pad_row="16">
+	<view
+		flex_flow="column"
+		style_flex_main_place="center"
+		style_flex_cross_place="center"
+		style_flex_track_place="center"
+		style_pad_row="16"
+	>
 		<!-- 💡 Switch mode and range values together: symmetrical needs negative+positive range, range mode uses start_value + value. -->
 		<!-- Normal mode -->
-		<lv_bar name="bar_1" width="90%" height="20" mode="normal" min_value="0" max_value="100" value="70">
-			<lv_label name="label_1" align="center" text="normal" style_text_color="#text_color" />
+		<lv_bar
+			name="bar_1"
+			width="90%"
+			height="20"
+			mode="normal"
+			min_value="0"
+			max_value="100"
+			value="70"
+		>
+			<lv_label
+				name="label_1"
+				align="center"
+				text="normal"
+				style_text_color="#text_color"
+			/>
 		</lv_bar>
 
 		<!-- Symmetrical mode around zero -->
-		<lv_bar name="bar_2" width="90%" height="20" mode="symmetrical" min_value="-100" max_value="100" value="45">
-			<lv_label name="label_2" align="center" text="symmetrical" style_text_color="#text_color" />
+		<lv_bar
+			name="bar_2"
+			width="90%"
+			height="20"
+			mode="symmetrical"
+			min_value="-100"
+			max_value="100"
+			value="45"
+		>
+			<lv_label
+				name="label_2"
+				align="center"
+				text="symmetrical"
+				style_text_color="#text_color"
+			/>
 		</lv_bar>
 
 		<!-- Range mode with start and end values -->
-		<lv_bar name="bar_3" width="90%" height="20" mode="range" min_value="0" max_value="100" start_value="25" value="80">
-			<lv_label name="label_3" align="center" text="range" style_text_color="#text_color" />
+		<lv_bar
+			name="bar_3"
+			width="90%"
+			height="20"
+			mode="range"
+			min_value="0"
+			max_value="100"
+			start_value="25"
+			value="80"
+		>
+			<lv_label
+				name="label_3"
+				align="center"
+				text="range"
+				style_text_color="#text_color"
+			/>
 		</lv_bar>
 	</view>
 </screen>

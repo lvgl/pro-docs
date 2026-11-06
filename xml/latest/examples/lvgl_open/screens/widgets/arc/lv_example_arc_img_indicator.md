@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/arc/lv_example_arc_img_indicator.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/widgets/arc/lv_example_arc_img_indicator.xml"
+```xml title="examples/lvgl_open/screens/widgets/arc/lv_example_arc_img_indicator.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/widgets/arc/lv_example_arc_img_indicator.xml"
 <!--
  @title Arc image indicator
  @brief Use bitmaps as the arc background and indicator — the arc shape is cut from each image.
@@ -12,9 +12,19 @@
 <screen>
 	<styles>
 		<!-- Background ring: dark segmented bitmap replaces the arc colour -->
-		<style name="style_arc_bg" arc_image_src="img_arc_bg" arc_width="40" arc_rounded="false" />
+		<style
+			name="style_arc_bg"
+			arc_image_src="img_arc_bg"
+			arc_width="40"
+			arc_rounded="false"
+		/>
 		<!-- Indicator ring: glowing cyan bitmap clipped to the swept angle -->
-		<style name="style_arc_indicator" arc_image_src="img_arc_indicator" arc_width="40" arc_rounded="false" />
+		<style
+			name="style_arc_indicator"
+			arc_image_src="img_arc_indicator"
+			arc_width="40"
+			arc_rounded="false"
+		/>
 		<!-- Knob: Just hid it -->
 		<style name="style_arc_knob" opa="0" />
 	</styles>

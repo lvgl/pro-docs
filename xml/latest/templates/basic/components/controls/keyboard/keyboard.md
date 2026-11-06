@@ -1,4 +1,4 @@
-```xml title="templates/basic/components/controls/keyboard/keyboard.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/templates/basic/components/controls/keyboard/keyboard.xml"
+```xml title="templates/basic/components/controls/keyboard/keyboard.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/templates/basic/components/controls/keyboard/keyboard.xml"
 <component>
 	<previews>
 		<preview name="light" width="360" height="200" />

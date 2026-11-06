@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/slider/lv_example_slider_value_range_orientation.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/widgets/slider/lv_example_slider_value_range_orientation.xml"
+```xml title="examples/lvgl_open/screens/widgets/slider/lv_example_slider_value_range_orientation.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/widgets/slider/lv_example_slider_value_range_orientation.xml"
 <!--
  @title Slider value, range, and orientation
  @brief Set a custom numeric range and choose horizontal or vertical layout.
@@ -20,8 +20,20 @@
 	>
 		<!-- 💡 Edit min_value/max_value/value and orientation to see how fill direction and knob travel change. -->
 		<!-- Horizontal slider with custom range -->
-		<lv_slider name="slider_1" width="90%" height="20" min_value="-20" max_value="80" value="35">
-			<lv_label name="label_1" align="center" text="Horizontal" style_text_color="#text_color" />
+		<lv_slider
+			name="slider_1"
+			width="90%"
+			height="20"
+			min_value="-20"
+			max_value="80"
+			value="35"
+		>
+			<lv_label
+				name="label_1"
+				align="center"
+				text="Horizontal"
+				style_text_color="#text_color"
+			/>
 		</lv_slider>
 
 		<!-- Vertical slider with explicit vertical orientation -->

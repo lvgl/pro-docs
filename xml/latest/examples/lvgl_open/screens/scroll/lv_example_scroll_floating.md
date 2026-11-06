@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/scroll/lv_example_scroll_floating.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/scroll/lv_example_scroll_floating.xml"
+```xml title="examples/lvgl_open/screens/scroll/lv_example_scroll_floating.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/scroll/lv_example_scroll_floating.xml"
 <!--
  @title Floating button over a list
  @brief A floating child stays pinned while the list behind it scrolls.
@@ -14,18 +14,49 @@
 		<style name="style_fab" radius="22" />
 	</styles>
 
-	<view flex_flow="column" style_flex_main_place="center" style_flex_cross_place="center" style_flex_track_place="center" style_pad_row="12">
+	<view
+		flex_flow="column"
+		style_flex_main_place="center"
+		style_flex_cross_place="center"
+		style_flex_track_place="center"
+		style_pad_row="12"
+	>
 		<!-- 💡 Scroll the list — the round + button has `floating="true"` so it stays pinned. -->
-		<lv_obj name="container" width="240" height="180" flex_flow="column" style_pad_row="8">
-			<lv_button name="button_1" width="100%"><lv_label name="label_1" align="center" text="Track 1" /></lv_button>
-			<lv_button name="button_2" width="100%"><lv_label name="label_2" align="center" text="Track 2" /></lv_button>
-			<lv_button name="button_3" width="100%"><lv_label name="label_3" align="center" text="Track 3" /></lv_button>
-			<lv_button name="button_4" width="100%"><lv_label name="label_4" align="center" text="Track 4" /></lv_button>
-			<lv_button name="button_5" width="100%"><lv_label name="label_5" align="center" text="Track 5" /></lv_button>
-			<lv_button name="button_6" width="100%"><lv_label name="label_6" align="center" text="Track 6" /></lv_button>
+		<lv_obj
+			name="container"
+			width="240"
+			height="180"
+			flex_flow="column"
+			style_pad_row="8"
+		>
+			<lv_button name="button_1" width="100%">
+				<lv_label name="label_1" align="center" text="Track 1" />
+			</lv_button>
+			<lv_button name="button_2" width="100%">
+				<lv_label name="label_2" align="center" text="Track 2" />
+			</lv_button>
+			<lv_button name="button_3" width="100%">
+				<lv_label name="label_3" align="center" text="Track 3" />
+			</lv_button>
+			<lv_button name="button_4" width="100%">
+				<lv_label name="label_4" align="center" text="Track 4" />
+			</lv_button>
+			<lv_button name="button_5" width="100%">
+				<lv_label name="label_5" align="center" text="Track 5" />
+			</lv_button>
+			<lv_button name="button_6" width="100%">
+				<lv_label name="label_6" align="center" text="Track 6" />
+			</lv_button>
 
 			<!-- Pinned to bottom-right, unaffected by the list's scroll -->
-			<lv_button name="button_7" width="44" height="44" align="bottom_right" floating="true" style_bg_color="0x9429ff">
+			<lv_button
+				name="button_7"
+				width="44"
+				height="44"
+				align="bottom_right"
+				floating="true"
+				style_bg_color="0x9429ff"
+			>
 				<style name="style_fab" />
 				<lv_label name="label_7" align="center" text="+" />
 			</lv_button>

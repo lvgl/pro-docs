@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/led/lv_example_led_color.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/widgets/led/lv_example_led_color.xml"
+```xml title="examples/lvgl_open/screens/widgets/led/lv_example_led_color.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/widgets/led/lv_example_led_color.xml"
 <!--
  @title LED color
  @brief Three LEDs lit in different hues via the color attribute.
@@ -8,7 +8,13 @@
  to isolate the effect of changing the color alone.
 -->
 <screen>
-	<view flex_flow="column" style_flex_main_place="center" style_flex_cross_place="center" style_flex_track_place="center" style_pad_row="16">
+	<view
+		flex_flow="column"
+		style_flex_main_place="center"
+		style_flex_cross_place="center"
+		style_flex_track_place="center"
+		style_pad_row="16"
+	>
 		<!-- 💡 Edit each color attribute to recolor that LED. -->
 		<!-- Red LED -->
 		<lv_led name="led_1" width="40" height="40" color="0xff3030" />

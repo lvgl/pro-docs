@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_pro/screens/lv_example_label.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_pro/screens/lv_example_label.xml"
+```xml title="examples/lvgl_pro/screens/lv_example_label.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_pro/screens/lv_example_label.xml"
 <!--
  @title Label
  @brief Recoloring, a long-text mode and a value bound to a subject.
@@ -37,7 +37,11 @@
 		</lv_label>
 
 		<!-- Fixed width + circular scroll for overflow -->
-		<lv_label width="200" long_mode="scroll_circular" text="This text is too long to fit so it scrolls around.">
+		<lv_label
+			width="200"
+			long_mode="scroll_circular"
+			text="This text is too long to fit so it scrolls around."
+		>
 			<style name="style_box" />
 		</lv_label>
 

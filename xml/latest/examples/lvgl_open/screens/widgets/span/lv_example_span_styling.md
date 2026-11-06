@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/span/lv_example_span_styling.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/widgets/span/lv_example_span_styling.xml"
+```xml title="examples/lvgl_open/screens/widgets/span/lv_example_span_styling.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/widgets/span/lv_example_span_styling.xml"
 <!--
  @title Spangroup styled text
  @brief Mix per-span color and decoration in one wrapping rich-text block.
@@ -11,23 +11,61 @@
 -->
 <screen>
 	<styles>
-		<style name="style_span_title" text_color="0x1d4ed8" text_decor="underline" />
+		<style
+			name="style_span_title"
+			text_color="0x1d4ed8"
+			text_decor="underline"
+		/>
 		<style name="style_span_body" text_color="0x111827" />
 		<style name="style_span_accent" text_color="0xdc2626" />
-		<style name="style_span_underline" text_color="0x059669" text_decor="underline" />
-		<style name="style_span_strike" text_color="0x6b7280" text_decor="strikethrough" />
+		<style
+			name="style_span_underline"
+			text_color="0x059669"
+			text_decor="underline"
+		/>
+		<style
+			name="style_span_strike"
+			text_color="0x6b7280"
+			text_decor="strikethrough"
+		/>
 	</styles>
 
-	<view flex_flow="column" style_flex_main_place="center" style_flex_cross_place="center" style_flex_track_place="center" style_pad_row="16">
+	<view
+		flex_flow="column"
+		style_flex_main_place="center"
+		style_flex_cross_place="center"
+		style_flex_track_place="center"
+		style_pad_row="16"
+	>
 		<!-- 💡 Each span keeps its own style; the group only controls wrap, indent, and overflow. -->
-		<lv_spangroup name="spangroup" width="260" height="content" indent="20"
-			overflow="ellipsis" max_lines="4"
-			style_border_color="0xf59e0b" style_border_width="1" style_pad_all="6">
+		<lv_spangroup
+			name="spangroup"
+			width="260"
+			height="content"
+			indent="20"
+			overflow="ellipsis"
+			max_lines="4"
+			style_border_color="0xf59e0b"
+			style_border_width="1"
+			style_pad_all="6"
+		>
 			<lv_spangroup-span text="LVGL " style="style_span_title" />
-			<lv_spangroup-span text="renders rich text " style="style_span_body" />
-			<lv_spangroup-span text="with per-span color, " style="style_span_accent" />
-			<lv_spangroup-span text="underline, " style="style_span_underline" />
-			<lv_spangroup-span text="and strikethrough decoration." style="style_span_strike" />
+			<lv_spangroup-span
+				text="renders rich text "
+				style="style_span_body"
+			/>
+			<lv_spangroup-span
+				text="with per-span color, "
+				style="style_span_accent"
+			/>
+			<lv_spangroup-span
+				text="underline, "
+				style="style_span_underline"
+			/>
+			<lv_spangroup-span
+				text="and strikethrough decoration."
+				style="style_span_strike"
+			/>
 		</lv_spangroup>
 	</view>
 </screen>

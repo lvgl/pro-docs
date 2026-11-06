@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/buttonmatrix/lv_example_buttonmatrix_one_checked.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/widgets/buttonmatrix/lv_example_buttonmatrix_one_checked.xml"
+```xml title="examples/lvgl_open/screens/widgets/buttonmatrix/lv_example_buttonmatrix_one_checked.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/widgets/buttonmatrix/lv_example_buttonmatrix_one_checked.xml"
 <!--
  @title Button matrix one-checked mode
  @brief Make the matrix behave like a radio group with a single checked button.
@@ -12,7 +12,8 @@
 	<view>
 		<!-- 💡 Tap any day: it becomes checked and the previously checked button clears automatically. -->
 		<!-- Weekday selector with single-checked semantics -->
-		<lv_buttonmatrix name="buttonmatrix"
+		<lv_buttonmatrix
+			name="buttonmatrix"
 			align="center"
 			width="90%"
 			height="80"

@@ -1,4 +1,4 @@
-```xml title="tutorials/screens/hello_world/screen_hello_world.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/tutorials/screens/hello_world/screen_hello_world.xml"
+```xml title="tutorials/screens/hello_world/screen_hello_world.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/tutorials/screens/hello_world/screen_hello_world.xml"
 <!-- The simplest screen: a background style, a button and a label. Start here. -->
 <screen>
 	<styles>
@@ -9,7 +9,10 @@
 		<style name="style_main" />
 
 		<lv_button align="center" style_bg_color="0x111">
-			<lv_label text="Hello world" style_text_font="montserrat_16_bin_file" />
+			<lv_label
+				text="Hello world"
+				style_text_font="montserrat_16_bin_file"
+			/>
 		</lv_button>
 	</view>
 </screen>

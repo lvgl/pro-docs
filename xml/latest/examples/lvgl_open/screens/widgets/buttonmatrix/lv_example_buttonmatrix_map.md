@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/buttonmatrix/lv_example_buttonmatrix_map.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/widgets/buttonmatrix/lv_example_buttonmatrix_map.xml"
+```xml title="examples/lvgl_open/screens/widgets/buttonmatrix/lv_example_buttonmatrix_map.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/widgets/buttonmatrix/lv_example_buttonmatrix_map.xml"
 <!--
  @title Button matrix map
  @brief Lay out buttons in rows using the `map` attribute.
@@ -15,7 +15,8 @@
 	<view>
 		<!-- 💡 Move or remove `'&#10;'` (the XML newline entity) tokens inside `map` to change how buttons are grouped into rows. -->
 		<!-- 3x3 numeric keypad: rows split by '&#10;' (XML entity = newline) inside the map -->
-		<lv_buttonmatrix name="buttonmatrix"
+		<lv_buttonmatrix
+			name="buttonmatrix"
 			align="center"
 			width="90%"
 			height="200"

@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/arc/lv_example_arc_value_range.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/widgets/arc/lv_example_arc_value_range.xml"
+```xml title="examples/lvgl_open/screens/widgets/arc/lv_example_arc_value_range.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/widgets/arc/lv_example_arc_value_range.xml"
 <!--
  @title Arc value and range
  @brief Show how min_value/max_value map onto the same background arc.
@@ -8,7 +8,11 @@
  — including one crossing zero — produces the same relative fill.
 -->
 <screen>
-	<view flex_flow="row" style_flex_main_place="space_evenly" style_flex_track_place="center">
+	<view
+		flex_flow="row"
+		style_flex_main_place="space_evenly"
+		style_flex_track_place="center"
+	>
 		<!-- 💡 Change min_value, max_value, and value together to see how the indicator span maps onto the same background arc. -->
 
 		<!-- Arc with a custom range showing the same concept at different numeric scale -->
@@ -23,7 +27,12 @@
 			bg_end_angle="45"
 			bind_value="subject_value"
 		>
-			<lv_label name="label_4" align="center" y="-10" bind_text="subject_value" />
+			<lv_label
+				name="label_4"
+				align="center"
+				y="-10"
+				bind_text="subject_value"
+			/>
 			<lv_label name="label_3" align="center" y="10" text="[-20..220]" />
 		</lv_arc>
 	</view>

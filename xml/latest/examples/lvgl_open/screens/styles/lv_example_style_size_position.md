@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/styles/lv_example_style_size_position.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/styles/lv_example_style_size_position.xml"
+```xml title="examples/lvgl_open/screens/styles/lv_example_style_size_position.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/styles/lv_example_style_size_position.xml"
 <!--
  @title Size and padding
  @brief Set a Widget's width and padding; its height follows the content.
@@ -29,14 +29,32 @@
 
 	<view>
 		<!-- 💡 Change a card's `width` or `style_pad_all`; `height="content"` keeps it exactly as tall as its text. -->
-		<lv_obj name="container_1" width="140" height="content" align="center" y="-40" style_pad_all="12">
+		<lv_obj
+			name="container_1"
+			width="140"
+			height="content"
+			align="center"
+			y="-40"
+			style_pad_all="12"
+		>
 			<style name="style_card" />
 			<lv_label name="label_1" align="center" text="140 wide" />
 		</lv_obj>
 
-		<lv_obj name="container_2" width="260" height="content" align="center" y="40" style_pad_all="28">
+		<lv_obj
+			name="container_2"
+			width="260"
+			height="content"
+			align="center"
+			y="40"
+			style_pad_all="28"
+		>
 			<style name="style_card" />
-			<lv_label name="label_2" align="center" text="260 wide, roomy padding" />
+			<lv_label
+				name="label_2"
+				align="center"
+				text="260 wide, roomy padding"
+			/>
 		</lv_obj>
 	</view>
 </screen>

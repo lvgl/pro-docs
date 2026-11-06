@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/buttonmatrix/lv_example_buttonmatrix_recolor.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/widgets/buttonmatrix/lv_example_buttonmatrix_recolor.xml"
+```xml title="examples/lvgl_open/screens/widgets/buttonmatrix/lv_example_buttonmatrix_recolor.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/widgets/buttonmatrix/lv_example_buttonmatrix_recolor.xml"
 <!--
  @title Button matrix per-button text recolor
  @brief Color parts of a button label inline with `#RRGGBB ... #` tags.
@@ -12,7 +12,8 @@
 	<view>
 		<!-- 💡 Edit the `#RRGGBB ... #` segments in any `map` entry to recolor different parts of the button label. -->
 		<!-- Three buttons, each highlighting a different word with recolor -->
-		<lv_buttonmatrix name="buttonmatrix"
+		<lv_buttonmatrix
+			name="buttonmatrix"
 			align="center"
 			width="90%"
 			height="80"

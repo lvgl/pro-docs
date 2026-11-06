@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/image/lv_example_image_recolor.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/widgets/image/lv_example_image_recolor.xml"
+```xml title="examples/lvgl_open/screens/widgets/image/lv_example_image_recolor.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/widgets/image/lv_example_image_recolor.xml"
 <!--
  @title Image recolor
  @brief Mix a tint into an image; a slider drives the recolor intensity live via `bind_style_prop`.
@@ -20,13 +20,31 @@
 		style_pad_row="16"
 	>
 		<!-- 💡 Drag the slider; the logo's tint fades in and out as `subject_opa` (0..255) moves. -->
-		<lv_image name="image" src="img_example_lvgl_logo" style_image_recolor-main="0x6366f1">
-			<bind_style_prop prop="image_recolor_opa" selector="main" subject="subject_opa" />
+		<lv_image
+			name="image"
+			src="img_example_lvgl_logo"
+			style_image_recolor-main="0x6366f1"
+		>
+			<bind_style_prop
+				prop="image_recolor_opa"
+				selector="main"
+				subject="subject_opa"
+			/>
 		</lv_image>
 
-		<lv_slider name="slider" width="240" min_value="0" max_value="255" bind_value="subject_opa" />
+		<lv_slider
+			name="slider"
+			width="240"
+			min_value="0"
+			max_value="255"
+			bind_value="subject_opa"
+		/>
 
-		<lv_label name="label" bind_text="subject_opa" bind_text-fmt="recolor_opa = %d / 255" />
+		<lv_label
+			name="label"
+			bind_text="subject_opa"
+			bind_text-fmt="recolor_opa = %d / 255"
+		/>
 	</view>
 </screen>
 ```

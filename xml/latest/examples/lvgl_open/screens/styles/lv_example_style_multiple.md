@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/styles/lv_example_style_multiple.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/styles/lv_example_style_multiple.xml"
+```xml title="examples/lvgl_open/screens/styles/lv_example_style_multiple.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/styles/lv_example_style_multiple.xml"
 <!--
  @title Cascading styles
  @brief Stack a second style that overrides only a few properties of a shared base.
@@ -31,10 +31,19 @@
 			text_color="0xffffff"
 		/>
 		<!-- Override: only the three color properties -->
-		<style name="style_warning" bg_color="#warn" border_color="0xb45309" text_color="0x1f2937" />
+		<style
+			name="style_warning"
+			bg_color="#warn"
+			border_color="0xb45309"
+			text_color="0x1f2937"
+		/>
 	</styles>
 
-	<view flex_flow="row" style_flex_main_place="center" style_flex_track_place="center">
+	<view
+		flex_flow="row"
+		style_flex_main_place="center"
+		style_flex_track_place="center"
+	>
 		<!-- 💡 Both cards share `style_base`; the right one adds `style_warning`, which only repaints color. -->
 		<lv_obj name="container_2" width="110" height="content">
 			<style name="style_base" />

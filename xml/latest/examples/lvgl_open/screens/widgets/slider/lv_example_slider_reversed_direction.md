@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/slider/lv_example_slider_reversed_direction.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/widgets/slider/lv_example_slider_reversed_direction.xml"
+```xml title="examples/lvgl_open/screens/widgets/slider/lv_example_slider_reversed_direction.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/widgets/slider/lv_example_slider_reversed_direction.xml"
 <!--
  @title Slider reversed direction
  @brief Flip the fill direction by swapping min and max.
@@ -20,13 +20,37 @@
 	>
 		<!-- 💡 Reverse min/max to flip slider direction without changing orientation. -->
 		<!-- Forward direction: range 0..100 -->
-		<lv_slider name="slider_1" width="90%" height="20" min_value="0" max_value="100" value="30">
-			<lv_label name="label_1" align="center" text="0..100" style_text_color="#text_color" />
+		<lv_slider
+			name="slider_1"
+			width="90%"
+			height="20"
+			min_value="0"
+			max_value="100"
+			value="30"
+		>
+			<lv_label
+				name="label_1"
+				align="center"
+				text="0..100"
+				style_text_color="#text_color"
+			/>
 		</lv_slider>
 
 		<!-- Reverse direction: range 100..0 -->
-		<lv_slider name="slider_2" width="90%" height="20" min_value="100" max_value="0" value="30">
-			<lv_label name="label_2" align="center" text="100..0" style_text_color="#text_color" />
+		<lv_slider
+			name="slider_2"
+			width="90%"
+			height="20"
+			min_value="100"
+			max_value="0"
+			value="30"
+		>
+			<lv_label
+				name="label_2"
+				align="center"
+				text="100..0"
+				style_text_color="#text_color"
+			/>
 		</lv_slider>
 	</view>
 </screen>

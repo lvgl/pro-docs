@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/button/lv_example_button_basic.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/widgets/button/lv_example_button_basic.xml"
+```xml title="examples/lvgl_open/screens/widgets/button/lv_example_button_basic.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/widgets/button/lv_example_button_basic.xml"
 <!--
  @title Button basics
  @brief Two buttons showing default content-sized sizing and an explicit width.
@@ -8,7 +8,13 @@
  clickable base widget with a label child.
 -->
 <screen>
-	<view flex_flow="column" style_flex_main_place="center" style_flex_cross_place="center" style_flex_track_place="center" style_pad_row="16">
+	<view
+		flex_flow="column"
+		style_flex_main_place="center"
+		style_flex_cross_place="center"
+		style_flex_track_place="center"
+		style_pad_row="16"
+	>
 		<!-- 💡 Resize one button or change its label to see how content-sizing reacts. -->
 		<!-- Default size driven by label content -->
 		<lv_button name="button_1">

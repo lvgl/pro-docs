@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/layouts/grid/lv_example_grid_subgrid.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/layouts/grid/lv_example_grid_subgrid.xml"
+```xml title="examples/lvgl_open/screens/layouts/grid/lv_example_grid_subgrid.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/layouts/grid/lv_example_grid_subgrid.xml"
 <!--
  @title Grid sub-grid
  @brief Nest a grid inside a cell of a parent grid.
@@ -10,14 +10,27 @@
 <screen>
 	<styles>
 		<!-- Shared style for parent and sub-grid tiles -->
-		<style name="style_tile" bg_opa="100%" text_color="0xffffff" pad_all="6" radius="4" />
+		<style
+			name="style_tile"
+			bg_opa="100%"
+			text_color="0xffffff"
+			pad_all="6"
+			radius="4"
+		/>
 	</styles>
 
-	<view flex_flow="column" style_flex_main_place="center" style_flex_cross_place="center" style_flex_track_place="center" style_pad_row="8">
+	<view
+		flex_flow="column"
+		style_flex_main_place="center"
+		style_flex_cross_place="center"
+		style_flex_track_place="center"
+		style_pad_row="8"
+	>
 		<!-- Screen title label -->
 		<!-- 💡 Adjust descriptors, spans, and colors to explore sub-grid behavior. -->
 		<!-- Parent grid container -->
-		<lv_obj name="container_1"
+		<lv_obj
+			name="container_1"
 			style_grid_column_dsc_array="60 60 60"
 			style_grid_row_dsc_array="40 40"
 			style_layout="grid"
@@ -26,13 +39,20 @@
 		>
 			<!-- Parent grid item (column 0, row 0) -->
 			<!-- Label in the parent grid: left tile -->
-			<lv_label name="label_1" style_grid_cell_column_pos="0" style_grid_cell_row_pos="0" style_bg_color="0x1f77b4" text="P0,0">
+			<lv_label
+				name="label_1"
+				style_grid_cell_column_pos="0"
+				style_grid_cell_row_pos="0"
+				style_bg_color="0x1f77b4"
+				text="P0,0"
+			>
 				<style name="style_tile" />
 			</lv_label>
 
 			<!-- Sub-grid container spanning 2 columns and 2 rows
                  Do not set the grid descriptor to let them inherit the parent tracks -->
-			<lv_obj name="container_2"
+			<lv_obj
+				name="container_2"
 				style_grid_cell_x_align="stretch"
 				style_grid_cell_column_pos="1"
 				style_grid_cell_column_span="2"
@@ -43,7 +63,8 @@
 				style_pad_all="4"
 			>
 				<!-- Sub-grid label at local cell (0,0) -->
-				<lv_label name="label_2"
+				<lv_label
+					name="label_2"
 					style_grid_cell_column_pos="0"
 					style_grid_cell_row_pos="0"
 					style_bg_color="0x2ca02c"
@@ -53,7 +74,8 @@
 				</lv_label>
 
 				<!-- Sub-grid label at local cell (1,0) -->
-				<lv_label name="label_3"
+				<lv_label
+					name="label_3"
 					style_grid_cell_column_pos="1"
 					style_grid_cell_row_pos="0"
 					style_bg_color="0xff7f0e"
@@ -63,7 +85,8 @@
 				</lv_label>
 
 				<!-- Sub-grid label at local cell (0,1) -->
-				<lv_label name="label_4"
+				<lv_label
+					name="label_4"
 					style_grid_cell_column_pos="0"
 					style_grid_cell_row_pos="1"
 					style_bg_color="0xd62728"
@@ -73,7 +96,8 @@
 				</lv_label>
 
 				<!-- Sub-grid label at local cell (1,1) -->
-				<lv_label name="label_5"
+				<lv_label
+					name="label_5"
 					style_grid_cell_column_pos="1"
 					style_grid_cell_row_pos="1"
 					style_bg_color="0x9467bd"

@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/slider/lv_example_slider_modes.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/widgets/slider/lv_example_slider_modes.xml"
+```xml title="examples/lvgl_open/screens/widgets/slider/lv_example_slider_modes.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/widgets/slider/lv_example_slider_modes.xml"
 <!--
  @title Slider modes
  @brief Compare normal, symmetrical, and range modes.
@@ -21,8 +21,21 @@
 	>
 		<!-- 💡 Switch mode and range values together: symmetrical needs negative+positive range, range mode uses left_value + value. -->
 		<!-- Normal mode -->
-		<lv_slider name="slider_1" width="90%" height="20" mode="normal" min_value="0" max_value="100" value="70">
-			<lv_label name="label_1" align="center" text="Normal" style_text_color="#text_color" />
+		<lv_slider
+			name="slider_1"
+			width="90%"
+			height="20"
+			mode="normal"
+			min_value="0"
+			max_value="100"
+			value="70"
+		>
+			<lv_label
+				name="label_1"
+				align="center"
+				text="Normal"
+				style_text_color="#text_color"
+			/>
 		</lv_slider>
 
 		<!-- Symmetrical mode around zero -->
@@ -35,7 +48,12 @@
 			max_value="100"
 			value="45"
 		>
-			<lv_label name="label_2" align="center" text="Symmetrical" style_text_color="#text_color" />
+			<lv_label
+				name="label_2"
+				align="center"
+				text="Symmetrical"
+				style_text_color="#text_color"
+			/>
 		</lv_slider>
 
 		<!-- Range mode with left and right values -->
@@ -49,7 +67,12 @@
 			start_value="25"
 			value="80"
 		>
-			<lv_label name="label_3" align="center" text="Range" style_text_color="#text_color" />
+			<lv_label
+				name="label_3"
+				align="center"
+				text="Range"
+				style_text_color="#text_color"
+			/>
 		</lv_slider>
 	</view>
 </screen>

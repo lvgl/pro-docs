@@ -1,4 +1,4 @@
-```xml title="tutorials/screens/screens/screen_main.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/tutorials/screens/screens/screen_main.xml"
+```xml title="tutorials/screens/screens/screen_main.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/tutorials/screens/screens/screen_main.xml"
 <!--Make the main screen permanent.
     It means it's created only once when the UI is created and never deleted. -->
 <screen permanent="true">
@@ -22,7 +22,11 @@
 			<lv_label text="About" />
 			<!-- Since the About screen is not permanent <screen_create_event>
 			     shall be used to create it dynamically.  -->
-			<screen_create_event screen="screen_about" anim_type="move_top" duration="500" />
+			<screen_create_event
+				screen="screen_about"
+				anim_type="move_top"
+				duration="500"
+			/>
 		</lv_button>
 	</view>
 </screen>

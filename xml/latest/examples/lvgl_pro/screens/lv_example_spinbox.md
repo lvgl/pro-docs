@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_pro/screens/lv_example_spinbox.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_pro/screens/lv_example_spinbox.xml"
+```xml title="examples/lvgl_pro/screens/lv_example_spinbox.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_pro/screens/lv_example_spinbox.xml"
 <!--
  @title Spinbox
  @brief A fixed-point spinbox and a bound one linked to a slider.
@@ -44,7 +44,12 @@
 		</lv_spinbox>
 
 		<!-- Bound to subject_value, driven by the slider below -->
-		<lv_spinbox width="150" min_value="0" max_value="100" bind_value="subject_value">
+		<lv_spinbox
+			width="150"
+			min_value="0"
+			max_value="100"
+			bind_value="subject_value"
+		>
 			<style name="style_sb" />
 		</lv_spinbox>
 

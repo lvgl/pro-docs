@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/libs/qrcode/qrcode_basic/lv_example_qrcode_basic.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/libs/qrcode/qrcode_basic/lv_example_qrcode_basic.xml"
+```xml title="examples/lvgl_open/screens/libs/qrcode/qrcode_basic/lv_example_qrcode_basic.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/libs/qrcode/qrcode_basic/lv_example_qrcode_basic.xml"
 <!--
  @title QR code colors and quiet zone
  @brief Encode a URL with custom dark/light colors and a padded quiet zone.
@@ -14,11 +14,24 @@
 		<color name="qr_light" value="0xdbeafe" />
 	</consts>
 
-	<view flex_flow="column" style_flex_main_place="center" style_flex_cross_place="center" style_flex_track_place="center" style_pad_row="16">
+	<view
+		flex_flow="column"
+		style_flex_main_place="center"
+		style_flex_cross_place="center"
+		style_flex_track_place="center"
+		style_pad_row="16"
+	>
 		<!-- 💡 Swap dark_color/light_color for brand colors; keep enough contrast or scanners fail. -->
-		<lv_qrcode name="qrcode" size="150" dark_color="#qr_dark" light_color="#qr_light"
-			data="https://lvgl.io" quiet_zone="true"
-			style_border_color="#qr_dark" style_border_width="4" />
+		<lv_qrcode
+			name="qrcode"
+			size="150"
+			dark_color="#qr_dark"
+			light_color="#qr_light"
+			data="https://lvgl.io"
+			quiet_zone="true"
+			style_border_color="#qr_dark"
+			style_border_width="4"
+		/>
 	</view>
 </screen>
 ```

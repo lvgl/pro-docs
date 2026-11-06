@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/styles/lv_example_style_padding.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/styles/lv_example_style_padding.xml"
+```xml title="examples/lvgl_open/screens/styles/lv_example_style_padding.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/styles/lv_example_style_padding.xml"
 <!--
  @title Padding
  @brief Inset a Widget's content per side with the directional pad_* properties.
@@ -14,10 +14,19 @@
 	</consts>
 	<styles>
 		<!-- Block that fills the padded content area -->
-		<style name="style_block" radius="10" bg_opa="100%" bg_color="#accent" />
+		<style
+			name="style_block"
+			radius="10"
+			bg_opa="100%"
+			bg_color="#accent"
+		/>
 	</styles>
 
-	<view flex_flow="row" style_flex_track_place="center" style_flex_main_place="space_evenly">
+	<view
+		flex_flow="row"
+		style_flex_track_place="center"
+		style_flex_main_place="space_evenly"
+	>
 		<!-- 💡 Edit each card's `style_pad_*`; the accent block tracks the shrinking content area. -->
 
 		<lv_obj

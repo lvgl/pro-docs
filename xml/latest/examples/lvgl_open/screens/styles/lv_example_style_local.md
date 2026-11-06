@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/styles/lv_example_style_local.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/styles/lv_example_style_local.xml"
+```xml title="examples/lvgl_open/screens/styles/lv_example_style_local.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/styles/lv_example_style_local.xml"
 <!--
  @title Local style override
  @brief Local properties — including state selectors — beat the shared style.
@@ -27,7 +27,11 @@
 		/>
 	</styles>
 
-	<view flex_flow="row" style_flex_main_place="center" style_flex_track_place="center">
+	<view
+		flex_flow="row"
+		style_flex_main_place="center"
+		style_flex_track_place="center"
+	>
 		<!-- 💡 "Override" is always pink; press "On press" — its `style_bg_color-pressed` wins only while held. Borders never change. -->
 		<lv_button name="button_1" width="95">
 			<style name="style_shared" />

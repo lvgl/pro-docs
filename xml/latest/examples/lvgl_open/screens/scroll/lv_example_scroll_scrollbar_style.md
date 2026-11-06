@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/scroll/lv_example_scroll_scrollbar_style.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/scroll/lv_example_scroll_scrollbar_style.xml"
+```xml title="examples/lvgl_open/screens/scroll/lv_example_scroll_scrollbar_style.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/scroll/lv_example_scroll_scrollbar_style.xml"
 <!--
  @title Styling the scrollbar
  @brief Restyle the SCROLLBAR part into a thick, rounded, coloured bar.
@@ -15,19 +15,52 @@
 	</consts>
 	<styles>
 		<!-- The scrollbar part: thick rounded accent bar inset from the edge -->
-		<style name="style_scrollbar" width="10" radius="5" bg_color="#accent" bg_opa="100%" pad_right="4" pad_top="4" />
+		<style
+			name="style_scrollbar"
+			width="10"
+			radius="5"
+			bg_color="#accent"
+			bg_opa="100%"
+			pad_right="4"
+			pad_top="4"
+		/>
 	</styles>
 
-	<view flex_flow="column" style_flex_main_place="center" style_flex_cross_place="center" style_flex_track_place="center" style_pad_row="12">
+	<view
+		flex_flow="column"
+		style_flex_main_place="center"
+		style_flex_cross_place="center"
+		style_flex_track_place="center"
+		style_pad_row="12"
+	>
 		<!-- 💡 Drag the panel — the wide blue rounded bar is the styled `scrollbar` part. -->
-		<lv_obj name="container" width="240" height="160" flex_flow="column" style_pad_row="8" scrollbar_mode="on">
+		<lv_obj
+			name="container"
+			width="240"
+			height="160"
+			flex_flow="column"
+			style_pad_row="8"
+			scrollbar_mode="on"
+		>
 			<style name="style_scrollbar" selector="scrollbar" />
-			<lv_button name="button_1" width="100%"><lv_label name="label_1" align="center" text="Row 1" /></lv_button>
-			<lv_button name="button_2" width="100%"><lv_label name="label_2" align="center" text="Row 2" /></lv_button>
-			<lv_button name="button_3" width="100%"><lv_label name="label_3" align="center" text="Row 3" /></lv_button>
-			<lv_button name="button_4" width="100%"><lv_label name="label_4" align="center" text="Row 4" /></lv_button>
-			<lv_button name="button_5" width="100%"><lv_label name="label_5" align="center" text="Row 5" /></lv_button>
-			<lv_button name="button_6" width="100%"><lv_label name="label_6" align="center" text="Row 6" /></lv_button>
+			<lv_button name="button_1" width="100%">
+				<lv_label name="label_1" align="center" text="Row 1" />
+			</lv_button>
+			<lv_button name="button_2" width="100%">
+				<lv_label name="label_2" align="center" text="Row 2" />
+			</lv_button>
+			<lv_button name="button_3" width="100%">
+				<lv_label name="label_3" align="center" text="Row 3" />
+			</lv_button>
+			<lv_button name="button_4" width="100%">
+				<lv_label name="label_4" align="center" text="Row 4" />
+			</lv_button>
+			<lv_button name="button_5" width="100%">
+				<lv_label name="label_5" align="center" text="Row 5" />
+			</lv_button>
+			<lv_button name="button_6" width="100%">
+				<lv_label name="label_6" align="center" text="Row 6" />
+			</lv_button>
 		</lv_obj>
 	</view>
 </screen>

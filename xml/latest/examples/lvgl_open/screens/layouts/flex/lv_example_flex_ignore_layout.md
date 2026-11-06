@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/layouts/flex/lv_example_flex_ignore_layout.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/layouts/flex/lv_example_flex_ignore_layout.xml"
+```xml title="examples/lvgl_open/screens/layouts/flex/lv_example_flex_ignore_layout.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/layouts/flex/lv_example_flex_ignore_layout.xml"
 <!--
  @title Flex ignore layout
  @brief Opt one item out of the flex flow.
@@ -8,7 +8,12 @@
  there, which is useful for overlays, floating badges, or absolutely positioned helpers.
 -->
 <screen>
-	<view flex_flow="column" style_flex_main_place="center" style_flex_cross_place="center" style_flex_track_place="center">
+	<view
+		flex_flow="column"
+		style_flex_main_place="center"
+		style_flex_cross_place="center"
+		style_flex_track_place="center"
+	>
 		<!-- 💡 Toggle ignore_layout on the red item: Flex skips it and it floats by its own align. -->
 		<!-- Demo row mixing normal and ignore_layout items.
 		     The red item uses ignore_layout="true", so Flex skips it;
@@ -20,7 +25,12 @@
 
 			<!-- This item is invisible to flex. It centers itself by its own
 			     align and does not occupy a flex slot. -->
-			<lv_button name="button_2" align="center" ignore_layout="true" style_bg_color="0xe74c3c">
+			<lv_button
+				name="button_2"
+				align="center"
+				ignore_layout="true"
+				style_bg_color="0xe74c3c"
+			>
 				<lv_label name="label_2" text="I'm Free!" align="center" />
 			</lv_button>
 

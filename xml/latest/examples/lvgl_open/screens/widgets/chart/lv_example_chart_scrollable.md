@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/chart/lv_example_chart_scrollable.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/widgets/chart/lv_example_chart_scrollable.xml"
+```xml title="examples/lvgl_open/screens/widgets/chart/lv_example_chart_scrollable.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/widgets/chart/lv_example_chart_scrollable.xml"
 <!--
  @title Scrollable chart
  @brief A chart wider than its container scrolls horizontally as the user drags it.
@@ -39,8 +39,16 @@
 					hor_div_line_count="3"
 					ver_div_line_count="0"
 				>
-					<lv_chart-series color="0x6366f1" axis="primary_y" values="32 41 38 55 62 70 65 58 47 60 75 80" />
-					<lv_chart-axis axis="primary_y" min_value="0" max_value="100" />
+					<lv_chart-series
+						color="0x6366f1"
+						axis="primary_y"
+						values="32 41 38 55 62 70 65 58 47 60 75 80"
+					/>
+					<lv_chart-axis
+						axis="primary_y"
+						min_value="0"
+						max_value="100"
+					/>
 				</lv_chart>
 
 				<lv_scale

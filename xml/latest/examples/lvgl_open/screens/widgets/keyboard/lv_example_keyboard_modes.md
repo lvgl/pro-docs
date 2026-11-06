@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/keyboard/lv_example_keyboard_modes.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/widgets/keyboard/lv_example_keyboard_modes.xml"
+```xml title="examples/lvgl_open/screens/widgets/keyboard/lv_example_keyboard_modes.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/widgets/keyboard/lv_example_keyboard_modes.xml"
 <!--
  @title Keyboard modes
  @brief Switch between text and number layouts via the `mode` attribute.
@@ -21,7 +21,13 @@
 			placeholder_text="Type some numbers"
 		/>
 
-		<lv_keyboard name="keyboard" align="bottom_mid" width="100%" height="60%" mode="number" />
+		<lv_keyboard
+			name="keyboard"
+			align="bottom_mid"
+			width="100%"
+			height="60%"
+			mode="number"
+		/>
 	</view>
 </screen>
 ```

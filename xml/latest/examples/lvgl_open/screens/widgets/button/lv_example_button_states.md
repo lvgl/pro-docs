@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/button/lv_example_button_states.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/widgets/button/lv_example_button_states.xml"
+```xml title="examples/lvgl_open/screens/widgets/button/lv_example_button_states.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/widgets/button/lv_example_button_states.xml"
 <!--
  @title Button states
  @brief Show normal, checked, and disabled buttons side by side.
@@ -8,7 +8,13 @@
  colors. The third uses the disabled state so it ignores input and renders faded.
 -->
 <screen>
-	<view flex_flow="column" style_flex_main_place="center" style_flex_cross_place="center" style_flex_track_place="center" style_pad_row="16">
+	<view
+		flex_flow="column"
+		style_flex_main_place="center"
+		style_flex_cross_place="center"
+		style_flex_track_place="center"
+		style_pad_row="16"
+	>
 		<!-- 💡 Add or remove `checkable` / `checked` / `disabled` to flip the rendered state. -->
 		<!-- Default button -->
 		<lv_button name="button_1" width="160" height="40">
@@ -16,7 +22,13 @@
 		</lv_button>
 
 		<!-- Checkable, starts checked -->
-		<lv_button name="button_2" width="160" height="40" checkable="true" checked="true">
+		<lv_button
+			name="button_2"
+			width="160"
+			height="40"
+			checkable="true"
+			checked="true"
+		>
 			<lv_label name="label_2" align="center" text="Checked" />
 		</lv_button>
 

@@ -1,11 +1,15 @@
-```xml title="tutorials/screens/screens/screen_about.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/tutorials/screens/screens/screen_about.xml"
+```xml title="tutorials/screens/screens/screen_about.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/tutorials/screens/screens/screen_about.xml"
 <!-- If the permanent is not set, the default "false" will be applied.
      It means the screen is created dynamically when it's opened
      and deleted when it's closed.
      It also mean that the widget states are lost-->
 <screen>
 	<view style_bg_color="0x041d3a" style_text_color="0xfff">
-		<lv_label text="About screen (dynamically created)" align="top_mid" y="10" />
+		<lv_label
+			text="About screen (dynamically created)"
+			align="top_mid"
+			y="10"
+		/>
 
 		<!-- If set value on this slider, go to About screen and come back here
 		     the value will remain as the "permanent" screens are not recreated. -->
@@ -24,7 +28,11 @@
 			<lv_label text="Back" />
 			<!-- Since the Main screen is permanent <screen_load_event>
 			     shall be used just to load the already existing screen.  -->
-			<screen_load_event screen="screen_main" anim_type="move_bottom" duration="500" />
+			<screen_load_event
+				screen="screen_main"
+				anim_type="move_bottom"
+				duration="500"
+			/>
 		</lv_button>
 	</view>
 </screen>

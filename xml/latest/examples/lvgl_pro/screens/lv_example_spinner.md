@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_pro/screens/lv_example_spinner.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_pro/screens/lv_example_spinner.xml"
+```xml title="examples/lvgl_pro/screens/lv_example_spinner.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_pro/screens/lv_example_spinner.xml"
 <!--
  @title Spinner
  @brief Two spinners with different speeds, sweeps and arc styling.
@@ -11,7 +11,12 @@
 	<styles>
 		<style name="style_track" arc_color="0x334155" arc_width="8" />
 		<style name="style_ind" arc_color="0x3b82f6" arc_width="8" />
-		<style name="style_ind2" arc_color="0xf59e0b" arc_width="12" pad_all="-2" />
+		<style
+			name="style_ind2"
+			arc_color="0xf59e0b"
+			arc_width="12"
+			pad_all="-2"
+		/>
 	</styles>
 
 	<view

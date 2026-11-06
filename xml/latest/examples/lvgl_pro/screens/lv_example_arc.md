@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_pro/screens/lv_example_arc.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_pro/screens/lv_example_arc.xml"
+```xml title="examples/lvgl_pro/screens/lv_example_arc.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_pro/screens/lv_example_arc.xml"
 <!--
  @title Arc
  @brief A bound arc with named styles on its main, indicator and knob parts.
@@ -29,11 +29,20 @@
 	<view>
 		<!-- 💡 Drag the arc — the label tracks subject_value live. -->
 
-		<lv_arc width="120" height="120" align="center" bind_value="subject_value">
+		<lv_arc
+			width="120"
+			height="120"
+			align="center"
+			bind_value="subject_value"
+		>
 			<style name="style_arc_main" />
 			<style name="style_arc_ind" selector="indicator" />
 			<style name="style_arc_knob" selector="knob" />
-			<lv_label bind_text="subject_value" bind_text-fmt="value: %d" align="center" />
+			<lv_label
+				bind_text="subject_value"
+				bind_text-fmt="value: %d"
+				align="center"
+			/>
 		</lv_arc>
 	</view>
 </screen>

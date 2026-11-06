@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/slider/lv_example_slider_styling.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/widgets/slider/lv_example_slider_styling.xml"
+```xml title="examples/lvgl_open/screens/widgets/slider/lv_example_slider_styling.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/widgets/slider/lv_example_slider_styling.xml"
 <!--
  @title Slider styling
  @brief Style MAIN, INDICATOR, and KNOB — including a pressed-state knob highlight.
@@ -60,9 +60,22 @@
 		/>
 	</styles>
 
-	<view flex_flow="column" style_flex_main_place="center" style_flex_cross_place="center" style_flex_track_place="center" style_pad_row="20">
+	<view
+		flex_flow="column"
+		style_flex_main_place="center"
+		style_flex_cross_place="center"
+		style_flex_track_place="center"
+		style_pad_row="20"
+	>
 		<!-- 💡 Drag the knob slowly to see the knob-pressed style kick in. -->
-		<lv_slider name="slider" width="90%" height="22" min_value="0" max_value="100" value="55">
+		<lv_slider
+			name="slider"
+			width="90%"
+			height="22"
+			min_value="0"
+			max_value="100"
+			value="55"
+		>
 			<style name="style_slider_track" selector="main" />
 			<style name="style_slider_indicator" selector="indicator" />
 			<style name="style_slider_knob" selector="knob" />

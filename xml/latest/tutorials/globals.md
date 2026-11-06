@@ -1,4 +1,4 @@
-```xml title="tutorials/globals.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/tutorials/globals.xml"
+```xml title="tutorials/globals.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/tutorials/globals.xml"
 <!-- Project-wide definitions: shared constants, styles, subjects, images and fonts.
      Anything defined here can be referenced from any screen or component. -->
 <globals>
@@ -26,7 +26,11 @@
 	<images memory="int_flash">
 		<!-- Add <file> or <data> tags here -->
 
-		<data src_path="images/orange-flower.png" name="flower_data" color_format="argb8888" />
+		<data
+			src_path="images/orange-flower.png"
+			name="flower_data"
+			color_format="argb8888"
+		/>
 		<file src_path="images/orange-flower.png" name="flower_file" />
 	</images>
 
@@ -57,16 +61,25 @@
 		/>
 		<!-- <tiny_ttf as_file="false" means convert the TTF files raw data to a C array and load it runtime with TinyTTF.
 		     Characters will be rendered at runtime from the TTF file./> -->
-		<tiny_ttf name="montserrat_18_tiny_ttf_data" as_file="false" size="18" src_path="fonts/Montserrat_Medium.ttf" />
+		<tiny_ttf
+			name="montserrat_18_tiny_ttf_data"
+			as_file="false"
+			size="18"
+			src_path="fonts/Montserrat_Medium.ttf"
+		/>
 
 		<!-- <tiny_ttf as_file="true" means load the TTF files at runtime with TinyTTF.
 		     Characters will be rendered at runtime from the TTF file./> -->
-		<tiny_ttf name="montserrat_20_tiny_ttf_file" as_file="true" size="20" src_path="fonts/Montserrat_Medium.ttf" />
+		<tiny_ttf
+			name="montserrat_20_tiny_ttf_file"
+			as_file="true"
+			size="20"
+			src_path="fonts/Montserrat_Medium.ttf"
+		/>
 	</fonts>
 
 	<styles>
 		<!-- Add <style> tags here -->
 	</styles>
-
 </globals>
 ```

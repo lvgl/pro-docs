@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/spinbox/lv_example_spinbox_bind_value.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/widgets/spinbox/lv_example_spinbox_bind_value.xml"
+```xml title="examples/lvgl_open/screens/widgets/spinbox/lv_example_spinbox_bind_value.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/widgets/spinbox/lv_example_spinbox_bind_value.xml"
 <!--
  @title Spinbox bind value
  @brief Spinbox edits a subject; a bound arc visualises the same number.
@@ -11,7 +11,13 @@
 <screen>
 	<view>
 		<!-- 💡 Tap the spinbox arrows; the arc follows because both bind to `subject_value`. -->
-		<lv_arc name="arc" width="160" height="160" bind_value="subject_value" align="center">
+		<lv_arc
+			name="arc"
+			width="160"
+			height="160"
+			bind_value="subject_value"
+			align="center"
+		>
 			<lv_spinbox
 				name="spinbox"
 				width="80"
@@ -24,15 +30,45 @@
 				y="-20"
 			/>
 
-			<lv_button name="button_1" align="center" y="20" x="-20" width="30" height="30">
+			<lv_button
+				name="button_1"
+				align="center"
+				y="20"
+				x="-20"
+				width="30"
+				height="30"
+			>
 				<lv_label name="label_1" text="-" align="center" />
-				<subject_increment_event subject="subject_value" step="-1" trigger="clicked" />
-				<subject_increment_event subject="subject_value" step="-1" trigger="long_pressed_repeat" />
+				<subject_increment_event
+					subject="subject_value"
+					step="-1"
+					trigger="clicked"
+				/>
+				<subject_increment_event
+					subject="subject_value"
+					step="-1"
+					trigger="long_pressed_repeat"
+				/>
 			</lv_button>
-			<lv_button name="button_2" align="center" y="20" x="20" width="30" height="30">
+			<lv_button
+				name="button_2"
+				align="center"
+				y="20"
+				x="20"
+				width="30"
+				height="30"
+			>
 				<lv_label name="label_2" text="+" align="center" />
-				<subject_increment_event subject="subject_value" step="1" trigger="clicked" />
-				<subject_increment_event subject="subject_value" step="1" trigger="long_pressed_repeat" />
+				<subject_increment_event
+					subject="subject_value"
+					step="1"
+					trigger="clicked"
+				/>
+				<subject_increment_event
+					subject="subject_value"
+					step="1"
+					trigger="long_pressed_repeat"
+				/>
 			</lv_button>
 		</lv_arc>
 	</view>

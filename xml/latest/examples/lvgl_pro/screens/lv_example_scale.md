@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_pro/screens/lv_example_scale.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_pro/screens/lv_example_scale.xml"
+```xml title="examples/lvgl_pro/screens/lv_example_scale.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_pro/screens/lv_example_scale.xml"
 <!--
  @title Scale
  @brief A round and a horizontal scale, each with a coloured danger section.
@@ -21,12 +21,31 @@
 			text_color="0xcbd5e1"
 		/>
 
-		<style name="style_scale_minor_ticks" line_color="0x64748b" length="6" />
-		<style name="style_scale_major_ticks" line_color="0x3577d3" line_width="3" length="10" />
+		<style
+			name="style_scale_minor_ticks"
+			line_color="0x64748b"
+			length="6"
+		/>
+		<style
+			name="style_scale_major_ticks"
+			line_color="0x3577d3"
+			line_width="3"
+			length="10"
+		/>
 
 		<!-- Danger section styling -->
-		<style name="style_danger_line" line_color="0xef4444" arc_color="0xef4444" line_width="4" />
-		<style name="style_danger_ind" line_color="0xef4444" line_width="4" text_color="0xef4444" />
+		<style
+			name="style_danger_line"
+			line_color="0xef4444"
+			arc_color="0xef4444"
+			line_width="4"
+		/>
+		<style
+			name="style_danger_ind"
+			line_color="0xef4444"
+			line_width="4"
+			text_color="0xef4444"
+		/>
 		<style name="style_danger_items" line_color="0xf87171" line_width="3" />
 	</styles>
 

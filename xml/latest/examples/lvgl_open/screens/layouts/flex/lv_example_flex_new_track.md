@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/layouts/flex/lv_example_flex_new_track.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/layouts/flex/lv_example_flex_new_track.xml"
+```xml title="examples/lvgl_open/screens/layouts/flex/lv_example_flex_new_track.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/layouts/flex/lv_example_flex_new_track.xml"
 <!--
  @title Flex new track
  @brief Force an item to start a new wrap row.
@@ -10,15 +10,30 @@
 <screen>
 	<styles>
 		<!-- Shared style for day labels -->
-		<style name="style_day" bg_opa="100%" text_color="0xffffff" pad_all="6" />
+		<style
+			name="style_day"
+			bg_opa="100%"
+			text_color="0xffffff"
+			pad_all="6"
+		/>
 	</styles>
 
-	<view flex_flow="column" style_flex_main_place="center" style_flex_cross_place="center" style_flex_track_place="center">
+	<view
+		flex_flow="column"
+		style_flex_main_place="center"
+		style_flex_cross_place="center"
+		style_flex_track_place="center"
+	>
 		<!-- 💡 Move or remove flex_in_new_track to control exactly where a new row starts. -->
 		<!-- A row-wrap container holds 7 items grouped into 2 tracks.
 		     The sixth item is forced to start in a new tracks -->
 		<!-- Demo container showing explicit new-track start -->
-		<lv_obj name="container" flex_flow="row_wrap" width="90%" height="content">
+		<lv_obj
+			name="container"
+			flex_flow="row_wrap"
+			width="90%"
+			height="content"
+		>
 			<!-- Track 1 -->
 			<lv_label name="label_1" style_bg_color="0x3498db" text="Mon">
 				<style name="style_day" />
@@ -37,7 +52,12 @@
 			</lv_label>
 
 			<!-- Track 2 — forced onto a new track -->
-			<lv_label name="label_6" flex_in_new_track="true" style_bg_color="0xe74c3c" text="Sat">
+			<lv_label
+				name="label_6"
+				flex_in_new_track="true"
+				style_bg_color="0xe74c3c"
+				text="Sat"
+			>
 				<style name="style_day" />
 			</lv_label>
 			<lv_label name="label_7" style_bg_color="0xe74c3c" text="Sun">

@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/styles/lv_example_style_arc.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/styles/lv_example_style_arc.xml"
+```xml title="examples/lvgl_open/screens/styles/lv_example_style_arc.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/styles/lv_example_style_arc.xml"
 <!--
  @title Arc stroke
  @brief Style the arc's ring and indicator into a modern progress dial.
@@ -14,9 +14,20 @@
 	</consts>
 	<styles>
 		<!-- Unfilled background ring: soft neutral track -->
-		<style name="style_bg" arc_color="#accent" arc_width="14" arc_opa="20%" arc_rounded="true" />
+		<style
+			name="style_bg"
+			arc_color="#accent"
+			arc_width="14"
+			arc_opa="20%"
+			arc_rounded="true"
+		/>
 		<!-- Active ring: accent progress -->
-		<style name="style_indicator" arc_color="#accent" arc_width="14" arc_rounded="true" />
+		<style
+			name="style_indicator"
+			arc_color="#accent"
+			arc_width="14"
+			arc_rounded="true"
+		/>
 	</styles>
 
 	<view
@@ -27,7 +38,14 @@
 		style_pad_row="12"
 	>
 		<!-- 💡 Change `arc_width` or either `arc_color`; track and progress restyle independently. -->
-		<lv_arc name="arc" width="160" height="160" min_value="0" max_value="100" value="68">
+		<lv_arc
+			name="arc"
+			width="160"
+			height="160"
+			min_value="0"
+			max_value="100"
+			value="68"
+		>
 			<style name="style_bg" selector="main" />
 			<style name="style_indicator" selector="indicator" />
 		</lv_arc>

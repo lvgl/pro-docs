@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/layouts/grid/lv_example_grid_rtl.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/layouts/grid/lv_example_grid_rtl.xml"
+```xml title="examples/lvgl_open/screens/layouts/grid/lv_example_grid_rtl.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/layouts/grid/lv_example_grid_rtl.xml"
 <!--
  @title Grid RTL
  @brief Reverse column order with style_base_dir.
@@ -10,7 +10,13 @@
 <screen>
 	<styles>
 		<!-- Shared style for numbered badges -->
-		<style name="style_badge" bg_opa="100%" text_color="0xffffff" pad_all="6" radius="4" />
+		<style
+			name="style_badge"
+			bg_opa="100%"
+			text_color="0xffffff"
+			pad_all="6"
+			radius="4"
+		/>
 	</styles>
 
 	<view

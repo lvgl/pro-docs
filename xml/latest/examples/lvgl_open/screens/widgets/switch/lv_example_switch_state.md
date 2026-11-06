@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/switch/lv_example_switch_state.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/widgets/switch/lv_example_switch_state.xml"
+```xml title="examples/lvgl_open/screens/widgets/switch/lv_example_switch_state.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/widgets/switch/lv_example_switch_state.xml"
 <!--
  @title Switch states
  @brief Pre-set the on/off state, and show what `disabled` looks like.
@@ -10,7 +10,13 @@
  (not shown here — see the docs for the C-side API).
 -->
 <screen>
-	<view flex_flow="column" style_flex_main_place="center" style_flex_cross_place="center" style_flex_track_place="center" style_pad_row="16">
+	<view
+		flex_flow="column"
+		style_flex_main_place="center"
+		style_flex_cross_place="center"
+		style_flex_track_place="center"
+		style_pad_row="16"
+	>
 		<!-- 💡 Toggle either of the first two switches by clicking; the disabled ones won't respond. -->
 		<lv_switch name="sw_1" />
 		<lv_switch name="sw_2" checked="true" />

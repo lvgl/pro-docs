@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/image/lv_example_image_transformations.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/widgets/image/lv_example_image_transformations.xml"
+```xml title="examples/lvgl_open/screens/widgets/image/lv_example_image_transformations.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/widgets/image/lv_example_image_transformations.xml"
 <!--
  @title Image transformations
  @brief Rotate and scale a single image source by setting widget attributes.
@@ -10,14 +10,23 @@
  at render time, no extra image variants needed.
 -->
 <screen>
-	<view flex_flow="row" style_flex_main_place="space_evenly" style_flex_track_place="center">
+	<view
+		flex_flow="row"
+		style_flex_main_place="space_evenly"
+		style_flex_track_place="center"
+	>
 		<!-- 💡 Edit `rotation`, the `scale_*` pair, or `pivot_*` to compare against the unmodified copy on the left. -->
 
 		<lv_image name="image_1" src="img_example_lvgl_logo" />
 
 		<lv_image name="image_2" src="img_example_lvgl_logo" rotation="450" />
 
-		<lv_image name="image_3" src="img_example_lvgl_logo" scale_x="160" scale_y="160" />
+		<lv_image
+			name="image_3"
+			src="img_example_lvgl_logo"
+			scale_x="160"
+			scale_y="160"
+		/>
 	</view>
 </screen>
 ```

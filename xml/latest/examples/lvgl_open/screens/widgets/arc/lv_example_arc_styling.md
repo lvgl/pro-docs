@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/arc/lv_example_arc_styling.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/widgets/arc/lv_example_arc_styling.xml"
+```xml title="examples/lvgl_open/screens/widgets/arc/lv_example_arc_styling.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/widgets/arc/lv_example_arc_styling.xml"
 <!--
  @title Arc styling
  @brief Style the background ring, the active indicator, and the knob.
@@ -26,7 +26,13 @@
 			shadow_width="21"
 		/>
 		<!-- Indicator ring: same thickness, accent color, rounded ends -->
-		<style name="style_arc_indicator" arc_color="0x6366f1" arc_width="14" arc_rounded="true" pad_all="4" />
+		<style
+			name="style_arc_indicator"
+			arc_color="0x6366f1"
+			arc_width="14"
+			arc_rounded="true"
+			pad_all="4"
+		/>
 		<!-- Knob: filled circle with halo -->
 		<style
 			name="style_arc_knob"
@@ -49,7 +55,14 @@
 		style_pad_row="20"
 	>
 		<!-- 💡 Drag the knob to repaint the indicator; styling is independent of value. -->
-		<lv_arc name="arc" width="180" height="180" min_value="0" max_value="100" value="65">
+		<lv_arc
+			name="arc"
+			width="180"
+			height="180"
+			min_value="0"
+			max_value="100"
+			value="65"
+		>
 			<style name="style_arc_bg" selector="main" />
 			<style name="style_arc_indicator" selector="indicator" />
 			<style name="style_arc_knob" selector="knob" />

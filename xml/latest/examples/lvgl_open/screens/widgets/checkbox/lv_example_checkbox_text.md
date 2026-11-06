@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/checkbox/lv_example_checkbox_text.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/widgets/checkbox/lv_example_checkbox_text.xml"
+```xml title="examples/lvgl_open/screens/widgets/checkbox/lv_example_checkbox_text.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/widgets/checkbox/lv_example_checkbox_text.xml"
 <!--
  @title Checkbox text
  @brief Set the label that appears next to the tick box.
@@ -9,7 +9,13 @@
  between tick box and label is controlled by `pad_column` on the main part.
 -->
 <screen>
-	<view flex_flow="column" style_flex_main_place="center" style_flex_cross_place="center" style_flex_track_place="center" style_pad_row="16">
+	<view
+		flex_flow="column"
+		style_flex_main_place="center"
+		style_flex_cross_place="center"
+		style_flex_track_place="center"
+		style_pad_row="16"
+	>
 		<!-- 💡 Edit each text attribute to see the label update next to the tick box. -->
 		<!-- Short label -->
 		<lv_checkbox name="checkbox_1" text="Enable" />
@@ -18,7 +24,10 @@
 		<lv_checkbox name="checkbox_2" text="Send anonymous usage data" />
 
 		<!-- Multi-line label via &amp;#10; -->
-		<lv_checkbox name="checkbox_3" text="I agree to the terms&#10;and the privacy policy" />
+		<lv_checkbox
+			name="checkbox_3"
+			text="I agree to the terms&#10;and the privacy policy"
+		/>
 	</view>
 </screen>
 ```

@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_pro/screens/lv_example_textarea.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_pro/screens/lv_example_textarea.xml"
+```xml title="examples/lvgl_pro/screens/lv_example_textarea.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_pro/screens/lv_example_textarea.xml"
 <!--
  @title Text area
  @brief A one-line field, a password field, and a multi-line area.
@@ -32,12 +32,22 @@
 	>
 		<!-- 💡 The middle field masks input; the others show plain and wrapped text. -->
 
-		<lv_textarea width="240" one_line="true" placeholder_text="Type your name ...">
+		<lv_textarea
+			width="240"
+			one_line="true"
+			placeholder_text="Type your name ..."
+		>
 			<style name="style_ta" />
 			<style name="style_cursor" selector="cursor|focused" />
 		</lv_textarea>
 
-		<lv_textarea width="240" one_line="true" password_mode="true" password_show_time="500" text="secret">
+		<lv_textarea
+			width="240"
+			one_line="true"
+			password_mode="true"
+			password_show_time="500"
+			text="secret"
+		>
 			<style name="style_ta" />
 			<style name="style_cursor" selector="cursor|focused" />
 		</lv_textarea>

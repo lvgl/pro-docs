@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/spinner/lv_example_spinner_basic.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/widgets/spinner/lv_example_spinner_basic.xml"
+```xml title="examples/lvgl_open/screens/widgets/spinner/lv_example_spinner_basic.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/widgets/spinner/lv_example_spinner_basic.xml"
 <!--
  @title Spinner basics
  @brief A loading indicator that rotates a configurable arc segment.
@@ -11,14 +11,30 @@
  the arc to fill the widget.
 -->
 <screen>
-	<view flex_flow="row" style_flex_main_place="space_evenly" style_flex_track_place="center">
+	<view
+		flex_flow="row"
+		style_flex_main_place="space_evenly"
+		style_flex_track_place="center"
+	>
 		<!-- 💡 Lower `anim_duration` to spin faster; raise `arc_sweep` to make the moving segment longer. -->
 
 		<!-- Long arc, medium speed -->
-		<lv_spinner name="spinner_1" width="80" height="80" anim_duration="1500" arc_sweep="270" />
+		<lv_spinner
+			name="spinner_1"
+			width="80"
+			height="80"
+			anim_duration="1500"
+			arc_sweep="270"
+		/>
 
 		<!-- Short arc, faster -->
-		<lv_spinner name="spinner_2" width="80" height="80" anim_duration="600" arc_sweep="180" />
+		<lv_spinner
+			name="spinner_2"
+			width="80"
+			height="80"
+			anim_duration="600"
+			arc_sweep="180"
+		/>
 	</view>
 </screen>
 ```

@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/layouts/flex/lv_example_flex_rtl.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/layouts/flex/lv_example_flex_rtl.xml"
+```xml title="examples/lvgl_open/screens/layouts/flex/lv_example_flex_rtl.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/layouts/flex/lv_example_flex_rtl.xml"
 <!--
  @title Flex RTL
  @brief Reverse the main axis direction with style_base_dir.
@@ -10,10 +10,21 @@
 <screen>
 	<styles>
 		<!-- Shared style for colored labels -->
-		<style name="style_label" bg_opa="100%" text_color="0xffffff" pad_all="8" />
+		<style
+			name="style_label"
+			bg_opa="100%"
+			text_color="0xffffff"
+			pad_all="8"
+		/>
 	</styles>
 
-	<view flex_flow="column" style_flex_main_place="center" style_flex_cross_place="center" style_flex_track_place="center" style_pad_row="10">
+	<view
+		flex_flow="column"
+		style_flex_main_place="center"
+		style_flex_cross_place="center"
+		style_flex_track_place="center"
+		style_pad_row="10"
+	>
 		<!-- 💡 Switch style_base_dir between ltr and rtl to compare item ordering on the same row setup. -->
 		<!-- LTR row for comparison -->
 		<!-- Default left-to-right row -->
@@ -33,7 +44,13 @@
 		<!-- RTL row: style_base_dir="rtl" reverses the main axis direction -->
 		<!-- Right-to-left row with the same children -->
 		<lv_label name="label_5" text="RTL:" />
-		<lv_obj name="container_2" flex_flow="row" style_base_dir="rtl" width="90%" height="content">
+		<lv_obj
+			name="container_2"
+			flex_flow="row"
+			style_base_dir="rtl"
+			width="90%"
+			height="content"
+		>
 			<lv_label name="label_6" style_bg_color="0x3498db" text="First">
 				<style name="style_label" />
 			</lv_label>

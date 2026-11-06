@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_pro/screens/lv_example_obj.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_pro/screens/lv_example_obj.xml"
+```xml title="examples/lvgl_pro/screens/lv_example_obj.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_pro/screens/lv_example_obj.xml"
 <!--
  @title Base widget
  @brief A plain lv_obj used as a styled, scrollable, flex container.
@@ -10,7 +10,14 @@
 -->
 <screen>
 	<styles>
-		<style name="style_box" bg_color="0x1e293b" bg_opa="100%" radius="10" pad_all="14" text_color="0xe2e8f0" />
+		<style
+			name="style_box"
+			bg_color="0x1e293b"
+			bg_opa="100%"
+			radius="10"
+			pad_all="14"
+			text_color="0xe2e8f0"
+		/>
 		<!-- Swapped in when subject_checked == 1 -->
 		<style name="style_box_alt" bg_color="0x5b1db7" />
 		<style
@@ -24,7 +31,13 @@
 			width="100%"
 			text_color="0xe2e8f0"
 		/>
-		<style name="style_scrollbar" bg_color="0x9a80c1" bg_opa="100%" width="6" pad_ver="14" />
+		<style
+			name="style_scrollbar"
+			bg_color="0x9a80c1"
+			bg_opa="100%"
+			width="6"
+			pad_ver="14"
+		/>
 	</styles>
 
 	<view>
@@ -32,9 +45,20 @@
 		<lv_label text="Switch theme" x="163" y="19" />
 
 		<!-- The base widget as a scrollable flex container -->
-		<lv_obj width="300" height="200" align="center" flex_flow="column" style_pad_row="8" scrollbar_mode="active">
+		<lv_obj
+			width="300"
+			height="200"
+			align="center"
+			flex_flow="column"
+			style_pad_row="8"
+			scrollbar_mode="active"
+		>
 			<style name="style_box" />
-			<bind_style name="style_box_alt" subject="subject_checked" ref_value="1" />
+			<bind_style
+				name="style_box_alt"
+				subject="subject_checked"
+				ref_value="1"
+			/>
 			<style name="style_scrollbar" selector="scrollbar" />
 			<lv_obj>
 				<style name="style_row" />

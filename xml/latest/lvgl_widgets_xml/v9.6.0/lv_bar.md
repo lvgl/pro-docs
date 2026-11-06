@@ -1,4 +1,4 @@
-```xml title="lvgl_widgets_xml/v9.6.0/lv_bar.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/lvgl_widgets_xml/v9.6.0/lv_bar.xml"
+```xml title="lvgl_widgets_xml/v9.6.0/lv_bar.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/lvgl_widgets_xml/v9.6.0/lv_bar.xml"
 <!--
 Example
 <lv_bar mode="symmetrical" range="-40 100" value="60"/>

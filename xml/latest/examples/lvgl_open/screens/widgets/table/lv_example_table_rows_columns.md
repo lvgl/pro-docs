@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/table/lv_example_table_rows_columns.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/widgets/table/lv_example_table_rows_columns.xml"
+```xml title="examples/lvgl_open/screens/widgets/table/lv_example_table_rows_columns.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/widgets/table/lv_example_table_rows_columns.xml"
 <!--
  @title Table rows and columns
  @brief Set the table dimensions explicitly so the grid is sized before cells are placed.
@@ -15,7 +15,13 @@
 <screen>
 	<view>
 		<!-- 💡 Bump `row_count` past what fits on screen — the table scrolls; the empty cells stay in place because they're part of the grid. -->
-		<lv_table name="table" align="center" row_count="10" column_count="2" height="90%">
+		<lv_table
+			name="table"
+			align="center"
+			row_count="10"
+			column_count="2"
+			height="90%"
+		>
 			<lv_table-cell row="0" column="0" value="A" />
 			<lv_table-cell row="0" column="1" value="B" />
 			<lv_table-cell row="2" column="1" value="middle" />

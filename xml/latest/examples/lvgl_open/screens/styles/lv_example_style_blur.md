@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/styles/lv_example_style_blur.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/styles/lv_example_style_blur.xml"
+```xml title="examples/lvgl_open/screens/styles/lv_example_style_blur.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/styles/lv_example_style_blur.xml"
 <!--
  @title Backdrop blur
  @brief Frost the text sitting behind a translucent card.
@@ -33,7 +33,8 @@
 		style_pad_all="10"
 	>
 		<!-- 💡 The text under the card is blurred; lower the card's `bg_opa` or raise `blur_radius` for a stronger frost. -->
-		<lv_label name="label_1"
+		<lv_label
+			name="label_1"
 			align="center"
 			width="100%"
 			style_text_align="center"

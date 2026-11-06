@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/chart/lv_example_chart_ticks_labels.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/widgets/chart/lv_example_chart_ticks_labels.xml"
+```xml title="examples/lvgl_open/screens/widgets/chart/lv_example_chart_ticks_labels.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/widgets/chart/lv_example_chart_ticks_labels.xml"
 <!--
  @title Chart ticks and labels
  @brief Pair a chart with an `lv_scale` to get a labelled X axis.
@@ -19,8 +19,18 @@
 		style_pad_row="8"
 	>
 		<!-- 💡 Edit the `text_src` list to relabel the X axis; entries must match `total_tick_count`. -->
-		<lv_chart name="chart" width="90%" height="160" type="bar" point_count="6">
-			<lv_chart-series color="0x6366f1" axis="primary_y" values="20 45 30 70 55 80" />
+		<lv_chart
+			name="chart"
+			width="90%"
+			height="160"
+			type="bar"
+			point_count="6"
+		>
+			<lv_chart-series
+				color="0x6366f1"
+				axis="primary_y"
+				values="20 45 30 70 55 80"
+			/>
 			<lv_chart-axis axis="primary_y" min_value="0" max_value="100" />
 		</lv_chart>
 

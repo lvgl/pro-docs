@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/dropdown/lv_example_dropdown_styling.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/widgets/dropdown/lv_example_dropdown_styling.xml"
+```xml title="examples/lvgl_open/screens/widgets/dropdown/lv_example_dropdown_styling.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/widgets/dropdown/lv_example_dropdown_styling.xml"
 <!--
  @title Dropdown styling
  @brief Style the dropdown button (MAIN) with rounded corners and a focused border.
@@ -43,7 +43,11 @@
 		style_pad_row="16"
 	>
 		<!-- 💡 Tap or focus the dropdown to see the focused-state border swap in. -->
-		<lv_dropdown name="dropdown" width="200" options="Apple&#10;Banana&#10;Cherry&#10;Date">
+		<lv_dropdown
+			name="dropdown"
+			width="200"
+			options="Apple&#10;Banana&#10;Cherry&#10;Date"
+		>
 			<style name="style_dropdown_main" selector="main" />
 			<style name="style_dropdown_focused" selector="main|focused" />
 			<lv_dropdown-list style_bg_color-selected-checked="0x6366f1" />

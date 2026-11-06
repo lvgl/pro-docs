@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/spinbox/lv_example_spinbox_format.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/widgets/spinbox/lv_example_spinbox_format.xml"
+```xml title="examples/lvgl_open/screens/widgets/spinbox/lv_example_spinbox_format.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/widgets/spinbox/lv_example_spinbox_format.xml"
 <!--
  @title Spinbox digit count and decimal point
  @brief Control how the number is displayed: how many digits, and where the dot goes.
@@ -10,13 +10,32 @@
  both spinboxes (`123`); only the rendering differs.
 -->
 <screen>
-	<view flex_flow="column" style_flex_main_place="center" style_flex_track_place="center" style_pad_row="16">
+	<view
+		flex_flow="column"
+		style_flex_main_place="center"
+		style_flex_track_place="center"
+		style_pad_row="16"
+	>
 		<!-- 💡 Move `dec_point_pos` to see the dot shift; the stored value stays at 123. -->
 		<!-- 3 digits, no decimal point → "123" -->
-		<lv_spinbox name="spinbox_1" width="160" digit_count="3" value="123" dec_point_pos="0" step="1" />
+		<lv_spinbox
+			name="spinbox_1"
+			width="160"
+			digit_count="3"
+			value="123"
+			dec_point_pos="0"
+			step="1"
+		/>
 
 		<!-- 5 digits with decimal 2 from the right → "001.23" (same value, padded + decimalised) -->
-		<lv_spinbox name="spinbox_2" width="160" digit_count="5" value="123" dec_point_pos="2" step="1" />
+		<lv_spinbox
+			name="spinbox_2"
+			width="160"
+			digit_count="5"
+			value="123"
+			dec_point_pos="2"
+			step="1"
+		/>
 	</view>
 </screen>
 ```

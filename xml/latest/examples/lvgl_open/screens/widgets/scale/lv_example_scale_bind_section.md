@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/scale/lv_example_scale_bind_section.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/widgets/scale/lv_example_scale_bind_section.xml"
+```xml title="examples/lvgl_open/screens/widgets/scale/lv_example_scale_bind_section.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/widgets/scale/lv_example_scale_bind_section.xml"
 <!--
  @title Scale section bind min/max
  @brief Drive a scale section's range live from two subjects.
@@ -10,14 +10,36 @@
 -->
 <screen>
 	<styles>
-		<style name="style_section_main" line_color="0xef4444" line_width="4" text_color="0xef4444" />
-		<style name="style_section_items" line_color="0xef4444" line_width="2" text_color="0xef4444" />
-		<style name="style_section_indicator" line_color="0xef4444" line_width="4" text_color="0xef4444" />
+		<style
+			name="style_section_main"
+			line_color="0xef4444"
+			line_width="4"
+			text_color="0xef4444"
+		/>
+		<style
+			name="style_section_items"
+			line_color="0xef4444"
+			line_width="2"
+			text_color="0xef4444"
+		/>
+		<style
+			name="style_section_indicator"
+			line_color="0xef4444"
+			line_width="4"
+			text_color="0xef4444"
+		/>
 	</styles>
 
-	<view flex_flow="column" style_flex_main_place="center" style_flex_cross_place="center" style_flex_track_place="center" style_pad_row="16">
+	<view
+		flex_flow="column"
+		style_flex_main_place="center"
+		style_flex_cross_place="center"
+		style_flex_track_place="center"
+		style_pad_row="16"
+	>
 		<!-- 💡 Move the sliders; the red section on the scale grows and shrinks because its bounds are bound to the subjects. -->
-		<lv_scale name="scale"
+		<lv_scale
+			name="scale"
 			width="280"
 			height="80"
 			mode="horizontal_bottom"

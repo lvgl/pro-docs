@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/checkbox/lv_example_checkbox_states.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/widgets/checkbox/lv_example_checkbox_states.xml"
+```xml title="examples/lvgl_open/screens/widgets/checkbox/lv_example_checkbox_states.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/widgets/checkbox/lv_example_checkbox_states.xml"
 <!--
  @title Checkbox states
  @brief Show unchecked, checked, and disabled tick boxes side by side.
@@ -8,7 +8,13 @@
  XML the same effect is achieved by setting the state attribute directly.
 -->
 <screen>
-	<view flex_flow="column" style_flex_main_place="center" style_flex_cross_place="center" style_flex_track_place="center" style_pad_row="16">
+	<view
+		flex_flow="column"
+		style_flex_main_place="center"
+		style_flex_cross_place="center"
+		style_flex_track_place="center"
+		style_pad_row="16"
+	>
 		<!-- 💡 Add or remove `checked` / `disabled` to flip the rendered state. -->
 		<!-- Default unchecked -->
 		<lv_checkbox name="checkbox_1" text="Unchecked" />
@@ -20,7 +26,12 @@
 		<lv_checkbox name="checkbox_3" text="Disabled" disabled="true" />
 
 		<!-- Disabled and Checked-->
-		<lv_checkbox name="checkbox_4" text="Disabled + Checked" disabled="true" checked="true" />
+		<lv_checkbox
+			name="checkbox_4"
+			text="Disabled + Checked"
+			disabled="true"
+			checked="true"
+		/>
 	</view>
 </screen>
 ```

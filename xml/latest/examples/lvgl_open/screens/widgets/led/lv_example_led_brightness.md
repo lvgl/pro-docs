@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/led/lv_example_led_brightness.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/widgets/led/lv_example_led_brightness.xml"
+```xml title="examples/lvgl_open/screens/widgets/led/lv_example_led_brightness.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/widgets/led/lv_example_led_brightness.xml"
 <!--
  @title LED brightness
  @brief Same hue, three different brightness values.
@@ -8,16 +8,40 @@
  three LEDs share one color so the effect of brightness alone is visible.
 -->
 <screen>
-	<view flex_flow="column" style_flex_main_place="center" style_flex_cross_place="center" style_flex_track_place="center" style_pad_row="16">
+	<view
+		flex_flow="column"
+		style_flex_main_place="center"
+		style_flex_cross_place="center"
+		style_flex_track_place="center"
+		style_pad_row="16"
+	>
 		<!-- 💡 Edit each brightness value (0..255) to dim or brighten the matching LED. -->
 		<!-- Dim -->
-		<lv_led name="led_1" width="40" height="40" color="0xff8000" brightness="60" />
+		<lv_led
+			name="led_1"
+			width="40"
+			height="40"
+			color="0xff8000"
+			brightness="60"
+		/>
 
 		<!-- Mid -->
-		<lv_led name="led_2" width="40" height="40" color="0xff8000" brightness="150" />
+		<lv_led
+			name="led_2"
+			width="40"
+			height="40"
+			color="0xff8000"
+			brightness="150"
+		/>
 
 		<!-- Full -->
-		<lv_led name="led_3" width="40" height="40" color="0xff8000" brightness="255" />
+		<lv_led
+			name="led_3"
+			width="40"
+			height="40"
+			color="0xff8000"
+			brightness="255"
+		/>
 	</view>
 </screen>
 ```

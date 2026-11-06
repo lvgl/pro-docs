@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/spinbox/lv_example_spinbox_value.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/widgets/spinbox/lv_example_spinbox_value.xml"
+```xml title="examples/lvgl_open/screens/widgets/spinbox/lv_example_spinbox_value.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/widgets/spinbox/lv_example_spinbox_value.xml"
 <!--
  @title Spinbox value, range, and step
  @brief Pin the initial value, clamp it to a numeric range, and set the per-step delta.
@@ -12,7 +12,11 @@
 <screen>
 	<view>
 		<!-- 💡 Edit `step` to 5 or 10; each press now changes by that delta until a bound is hit. -->
-		<lv_label text="Use the arrows to change the value" align="center" y="-50" />
+		<lv_label
+			text="Use the arrows to change the value"
+			align="center"
+			y="-50"
+		/>
 
 		<lv_spinbox
 			name="spinbox"

@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/label/lv_example_label_set_text_newline.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/widgets/label/lv_example_label_set_text_newline.xml"
+```xml title="examples/lvgl_open/screens/widgets/label/lv_example_label_set_text_newline.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/widgets/label/lv_example_label_set_text_newline.xml"
 <!--
  @title Label set text with newlines
  @brief Insert explicit line breaks into a label's text.
@@ -17,7 +17,10 @@
 	>
 		<!-- 💡 Adjust text and line breaks (&#10;) to test multi-line layout and spacing. -->
 		<!-- Label with explicit newline characters -->
-		<lv_label name="label_1" text="First line&#10;Second line&#10;&#10;Fourth line" />
+		<lv_label
+			name="label_1"
+			text="First line&#10;Second line&#10;&#10;Fourth line"
+		/>
 		<!-- Plain label for comparison -->
 		<lv_label name="label_2" text="Just a normal single line text." />
 	</view>

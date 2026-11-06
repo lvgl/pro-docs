@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/layouts/flex/lv_example_flex_internal_padding.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/layouts/flex/lv_example_flex_internal_padding.xml"
+```xml title="examples/lvgl_open/screens/layouts/flex/lv_example_flex_internal_padding.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/layouts/flex/lv_example_flex_internal_padding.xml"
 <!--
  @title Flex internal padding
  @brief Set horizontal and vertical gaps between flex items.
@@ -10,16 +10,29 @@
 <screen>
 	<styles>
 		<!-- Shared chip style for all language tags -->
-		<style name="style_tag" bg_opa="100%" pad_ver="12" pad_hor="18" radius="4" />
+		<style
+			name="style_tag"
+			bg_opa="100%"
+			pad_ver="12"
+			pad_hor="18"
+			radius="4"
+		/>
 	</styles>
 
-	<view flex_flow="column" style_flex_main_place="center" style_flex_cross_place="center" style_flex_track_place="center" style_pad_row="10">
+	<view
+		flex_flow="column"
+		style_flex_main_place="center"
+		style_flex_cross_place="center"
+		style_flex_track_place="center"
+		style_pad_row="10"
+	>
 		<!-- 💡 Adjust style_pad_column and style_pad_row to compare horizontal and vertical gaps between wrapped items. -->
 		<!-- style_pad_column controls horizontal gap between items in a row.
 		     style_pad_row would control the vertical gap between rows when wrapping.
 		     Try changing style_pad_column to 0 or 20 to see the effect. -->
 		<!-- Demo container with row/column gaps -->
-		<lv_obj name="container"
+		<lv_obj
+			name="container"
 			flex_flow="row_wrap"
 			style_pad_column="10"
 			style_pad_row="30"
@@ -32,7 +45,11 @@
 			<lv_label name="label_2" style_bg_color="0xe67e22" text="CSS">
 				<style name="style_tag" />
 			</lv_label>
-			<lv_label name="label_3" style_bg_color="0x27ae60" text="JavaScript">
+			<lv_label
+				name="label_3"
+				style_bg_color="0x27ae60"
+				text="JavaScript"
+			>
 				<style name="style_tag" />
 			</lv_label>
 			<lv_label name="label_4" style_bg_color="0x8e44ad" text="Python">

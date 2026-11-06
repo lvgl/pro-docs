@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/tabview/lv_example_tabview_tab_bar_style.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/widgets/tabview/lv_example_tabview_tab_bar_style.xml"
+```xml title="examples/lvgl_open/screens/widgets/tabview/lv_example_tabview_tab_bar_style.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/widgets/tabview/lv_example_tabview_tab_bar_style.xml"
 <!--
  @title Tab view styling spots
  @brief Three independent style targets: tab view body, tab bar, and a single tab.
@@ -13,7 +13,8 @@
 <screen>
 	<view>
 		<!-- 💡 Switch tabs: tab B paints its own bg, A and C show the tab view body color. -->
-		<lv_tabview name="tabview"
+		<lv_tabview
+			name="tabview"
 			width="100%"
 			height="100%"
 			tab_bar_position="left"
@@ -31,17 +32,35 @@
 
 			<!-- Transparent tab — the tab view body color is what you see -->
 			<lv_tabview-tab text="A">
-				<lv_label name="label_1" align="center" style_text_color="0xeeeeee" text="tab view bg = 0x37474f" />
+				<lv_label
+					name="label_1"
+					align="center"
+					style_text_color="0xeeeeee"
+					text="tab view bg = 0x37474f"
+				/>
 			</lv_tabview-tab>
 
 			<!-- Per-tab override: this tab paints its own background -->
-			<lv_tabview-tab text="B" style_bg_color="0xff7043" style_bg_opa="100%">
-				<lv_label name="label_2" align="center" text="this tab overrides bg = 0xff7043" />
+			<lv_tabview-tab
+				text="B"
+				style_bg_color="0xff7043"
+				style_bg_opa="100%"
+			>
+				<lv_label
+					name="label_2"
+					align="center"
+					text="this tab overrides bg = 0xff7043"
+				/>
 			</lv_tabview-tab>
 
 			<!-- Transparent tab again — back to the tab view body color -->
 			<lv_tabview-tab text="C">
-				<lv_label name="label_3" align="center" style_text_color="0xeeeeee" text="tab bar bg = 0x222831" />
+				<lv_label
+					name="label_3"
+					align="center"
+					style_text_color="0xeeeeee"
+					text="tab bar bg = 0x222831"
+				/>
 			</lv_tabview-tab>
 		</lv_tabview>
 	</view>

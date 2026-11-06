@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/dropdown/lv_example_dropdown_bind_value.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/widgets/dropdown/lv_example_dropdown_bind_value.xml"
+```xml title="examples/lvgl_open/screens/widgets/dropdown/lv_example_dropdown_bind_value.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/widgets/dropdown/lv_example_dropdown_bind_value.xml"
 <!--
  @title Roller bind value
  @brief Roller bound to a subject; a button jumps it programmatically.
@@ -9,11 +9,27 @@
  the roller widget.
 -->
 <screen>
-	<view flex_flow="column" style_flex_main_place="center" style_flex_cross_place="center" style_flex_track_place="center" style_pad_row="16">
+	<view
+		flex_flow="column"
+		style_flex_main_place="center"
+		style_flex_cross_place="center"
+		style_flex_track_place="center"
+		style_pad_row="16"
+	>
 		<!-- 💡 Scroll the roller, or click the button to snap to a fixed option through the subject. -->
-		<lv_label name="label_1" bind_text="subject_index" bind_text-fmt="Selected option: %d"/>
+		<lv_label
+			name="label_1"
+			bind_text="subject_index"
+			bind_text-fmt="Selected option: %d"
+		/>
 
-		<lv_roller name="roller" width="160" visible_row_count="3" options="Mon&#10;Tue&#10;Wed&#10;Thu&#10;Fri&#10;Sat&#10;Sun" bind_value="subject_index" />
+		<lv_roller
+			name="roller"
+			width="160"
+			visible_row_count="3"
+			options="Mon&#10;Tue&#10;Wed&#10;Thu&#10;Fri&#10;Sat&#10;Sun"
+			bind_value="subject_index"
+		/>
 
 		<lv_button name="button">
 			<lv_label name="label_2" align="center" text="Jump to Wed" />

@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/layouts/grid/lv_example_grid_cell_span.xml" source="https://github.com/lvgl/lvgl_pro/blob/e3bfb67a18d171c33904a5cb09c9848e7be73657/examples/lvgl_open/screens/layouts/grid/lv_example_grid_cell_span.xml"
+```xml title="examples/lvgl_open/screens/layouts/grid/lv_example_grid_cell_span.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/layouts/grid/lv_example_grid_cell_span.xml"
 <!--
  @title Grid cell span and alignment
  @brief Position cells inside their track and span multiple tracks.
@@ -11,7 +11,13 @@
 <screen>
 	<styles>
 		<!-- Shared card style for compact text blocks -->
-		<style name="style_card" bg_color="0xf6f6f6" bg_opa="100%" pad_all="6" radius="6" />
+		<style
+			name="style_card"
+			bg_color="0xf6f6f6"
+			bg_opa="100%"
+			pad_all="6"
+			radius="6"
+		/>
 	</styles>
 
 	<view
@@ -97,7 +103,11 @@
 				style_bg_color="0xffe8cc"
 				style_bg_opa="100%"
 			>
-				<lv_label name="label_5" text="span&#10;2 rows" align="center" />
+				<lv_label
+					name="label_5"
+					text="span&#10;2 rows"
+					align="center"
+				/>
 			</lv_obj>
 		</lv_obj>
 	</view>
