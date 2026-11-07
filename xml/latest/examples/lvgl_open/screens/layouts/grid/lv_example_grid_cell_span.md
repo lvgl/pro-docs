@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/layouts/grid/lv_example_grid_cell_span.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_open/screens/layouts/grid/lv_example_grid_cell_span.xml"
+```xml title="examples/lvgl_open/screens/layouts/grid/lv_example_grid_cell_span.xml" source="https://github.com/lvgl/lvgl_pro/blob/e56c9b98c7af2f263a49f8b0fe5756d8aee2ff5a/examples/lvgl_open/screens/layouts/grid/lv_example_grid_cell_span.xml"
 <!--
  @title Grid cell span and alignment
  @brief Position cells inside their track and span multiple tracks.

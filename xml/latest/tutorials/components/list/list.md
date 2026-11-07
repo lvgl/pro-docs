@@ -1,4 +1,4 @@
-```xml title="tutorials/components/list/list.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/tutorials/components/list/list.xml"
+```xml title="tutorials/components/list/list.xml" source="https://github.com/lvgl/lvgl_pro/blob/e56c9b98c7af2f263a49f8b0fe5756d8aee2ff5a/tutorials/components/list/list.xml"
 <!-- A simple list component which defines its open animation -->
 <component>
 	<animations>

@@ -1,4 +1,4 @@
-```xml title="lvgl_widgets_xml/v9.5.0/globals.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/lvgl_widgets_xml/v9.5.0/globals.xml"
+```xml title="lvgl_widgets_xml/v9.5.0/globals.xml" source="https://github.com/lvgl/lvgl_pro/blob/e56c9b98c7af2f263a49f8b0fe5756d8aee2ff5a/lvgl_widgets_xml/v9.5.0/globals.xml"
 <api>
     <enumdef name="lv_state" help="Widget states">
         <enum name="default" value="0" help="Normal state"/>

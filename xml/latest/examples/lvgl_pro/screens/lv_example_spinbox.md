@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_pro/screens/lv_example_spinbox.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/examples/lvgl_pro/screens/lv_example_spinbox.xml"
+```xml title="examples/lvgl_pro/screens/lv_example_spinbox.xml" source="https://github.com/lvgl/lvgl_pro/blob/e56c9b98c7af2f263a49f8b0fe5756d8aee2ff5a/examples/lvgl_pro/screens/lv_example_spinbox.xml"
 <!--
  @title Spinbox
  @brief A fixed-point spinbox and a bound one linked to a slider.

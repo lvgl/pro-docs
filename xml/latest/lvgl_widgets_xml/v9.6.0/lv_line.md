@@ -1,4 +1,4 @@
-```xml title="lvgl_widgets_xml/v9.6.0/lv_line.xml" source="https://github.com/lvgl/lvgl_pro/blob/53167c734579376c91628025f7806b34b521508c/lvgl_widgets_xml/v9.6.0/lv_line.xml"
+```xml title="lvgl_widgets_xml/v9.6.0/lv_line.xml" source="https://github.com/lvgl/lvgl_pro/blob/e56c9b98c7af2f263a49f8b0fe5756d8aee2ff5a/lvgl_widgets_xml/v9.6.0/lv_line.xml"
 <!--
 Example
 <lv_line points="(10 20) (60 40) (20, 60)"/>
