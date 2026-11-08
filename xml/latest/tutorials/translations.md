@@ -1,4 +1,4 @@
-```xml title="tutorials/translations.xml" source="https://github.com/lvgl/lvgl_pro/blob/e56c9b98c7af2f263a49f8b0fe5756d8aee2ff5a/tutorials/translations.xml"
+```xml title="tutorials/translations.xml" source="https://github.com/lvgl/lvgl_pro/blob/9167aff6baf85c9552b466a9a475bf36de3d3425/tutorials/translations.xml"
 <!-- Translations for each language. Reference a tag with translation_tag="..." on a widget.
      See screens/translations for a usage example. -->
 <translations languages="en de">

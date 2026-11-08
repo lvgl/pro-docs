@@ -1,4 +1,4 @@
-```xml title="tutorials/screens/assets/screen_assets.xml" source="https://github.com/lvgl/lvgl_pro/blob/e56c9b98c7af2f263a49f8b0fe5756d8aee2ff5a/tutorials/screens/assets/screen_assets.xml"
+```xml title="tutorials/screens/assets/screen_assets.xml" source="https://github.com/lvgl/lvgl_pro/blob/9167aff6baf85c9552b466a9a475bf36de3d3425/tutorials/screens/assets/screen_assets.xml"
 <!-- Check out globals.xml for the font and image definitions -->
 <screen>
 	<view flex_flow="column" style_pad_all="8">

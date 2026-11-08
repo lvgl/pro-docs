@@ -1,4 +1,4 @@
-```xml title="tutorials/components/sliderbox.xml" source="https://github.com/lvgl/lvgl_pro/blob/e56c9b98c7af2f263a49f8b0fe5756d8aee2ff5a/tutorials/components/sliderbox.xml"
+```xml title="tutorials/components/sliderbox.xml" source="https://github.com/lvgl/lvgl_pro/blob/9167aff6baf85c9552b466a9a475bf36de3d3425/tutorials/components/sliderbox.xml"
 <!-- A title + and - buttons + a slider, all bound to one subject. Shows light/dark previews. -->
 <component>
 	<previews>

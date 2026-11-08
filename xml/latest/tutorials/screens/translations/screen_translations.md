@@ -1,4 +1,4 @@
-```xml title="tutorials/screens/translations/screen_translations.xml" source="https://github.com/lvgl/lvgl_pro/blob/e56c9b98c7af2f263a49f8b0fe5756d8aee2ff5a/tutorials/screens/translations/screen_translations.xml"
+```xml title="tutorials/screens/translations/screen_translations.xml" source="https://github.com/lvgl/lvgl_pro/blob/9167aff6baf85c9552b466a9a475bf36de3d3425/tutorials/screens/translations/screen_translations.xml"
 <screen>
 	<!-- Create some label with translated text.
 		 Try out the "Translations" panel under the Preview
