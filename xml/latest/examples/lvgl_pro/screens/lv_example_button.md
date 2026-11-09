@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_pro/screens/lv_example_button.xml" source="https://github.com/lvgl/lvgl_pro/blob/0cf032b483962f1d7111da38d18218f06dd78ea0/examples/lvgl_pro/screens/lv_example_button.xml"
+```xml title="examples/lvgl_pro/screens/lv_example_button.xml" source="https://github.com/lvgl/lvgl_pro/blob/6a64e6a851619119c359a5ae0ca6e8091732a70c/examples/lvgl_pro/screens/lv_example_button.xml"
 <!--
  @title Button
  @brief A normal, a toggleable and a disabled button with per-state styling.

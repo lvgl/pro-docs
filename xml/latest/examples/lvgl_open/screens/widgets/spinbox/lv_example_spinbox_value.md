@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_open/screens/widgets/spinbox/lv_example_spinbox_value.xml" source="https://github.com/lvgl/lvgl_pro/blob/0cf032b483962f1d7111da38d18218f06dd78ea0/examples/lvgl_open/screens/widgets/spinbox/lv_example_spinbox_value.xml"
+```xml title="examples/lvgl_open/screens/widgets/spinbox/lv_example_spinbox_value.xml" source="https://github.com/lvgl/lvgl_pro/blob/6a64e6a851619119c359a5ae0ca6e8091732a70c/examples/lvgl_open/screens/widgets/spinbox/lv_example_spinbox_value.xml"
 <!--
  @title Spinbox value, range, and step
  @brief Pin the initial value, clamp it to a numeric range, and set the per-step delta.
