@@ -1,4 +1,4 @@
-```xml title="lvgl_widgets_xml/v9.5.0/lv_gif.xml" source="https://github.com/lvgl/lvgl_pro/blob/9167aff6baf85c9552b466a9a475bf36de3d3425/lvgl_widgets_xml/v9.5.0/lv_gif.xml"
+```xml title="lvgl_widgets_xml/v9.5.0/lv_gif.xml" source="https://github.com/lvgl/lvgl_pro/blob/0cf032b483962f1d7111da38d18218f06dd78ea0/lvgl_widgets_xml/v9.5.0/lv_gif.xml"
 <!--
 Example:
 <lv_gif src="my_gif" loop_count="5"/>

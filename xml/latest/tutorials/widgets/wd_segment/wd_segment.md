@@ -1,4 +1,4 @@
-```xml title="tutorials/widgets/wd_segment/wd_segment.xml" source="https://github.com/lvgl/lvgl_pro/blob/9167aff6baf85c9552b466a9a475bf36de3d3425/tutorials/widgets/wd_segment/wd_segment.xml"
+```xml title="tutorials/widgets/wd_segment/wd_segment.xml" source="https://github.com/lvgl/lvgl_pro/blob/0cf032b483962f1d7111da38d18218f06dd78ea0/tutorials/widgets/wd_segment/wd_segment.xml"
 <widget>
 	<!--
 		This is a widget with custom C code.

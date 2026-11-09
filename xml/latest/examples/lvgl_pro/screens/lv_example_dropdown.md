@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_pro/screens/lv_example_dropdown.xml" source="https://github.com/lvgl/lvgl_pro/blob/9167aff6baf85c9552b466a9a475bf36de3d3425/examples/lvgl_pro/screens/lv_example_dropdown.xml"
+```xml title="examples/lvgl_pro/screens/lv_example_dropdown.xml" source="https://github.com/lvgl/lvgl_pro/blob/0cf032b483962f1d7111da38d18218f06dd78ea0/examples/lvgl_pro/screens/lv_example_dropdown.xml"
 <!--
  @title Drop-down list
  @brief Options, a preselected item, a styled list, and subject binding.

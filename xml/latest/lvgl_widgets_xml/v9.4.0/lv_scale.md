@@ -1,4 +1,4 @@
-```xml title="lvgl_widgets_xml/v9.4.0/lv_scale.xml" source="https://github.com/lvgl/lvgl_pro/blob/9167aff6baf85c9552b466a9a475bf36de3d3425/lvgl_widgets_xml/v9.4.0/lv_scale.xml"
+```xml title="lvgl_widgets_xml/v9.4.0/lv_scale.xml" source="https://github.com/lvgl/lvgl_pro/blob/0cf032b483962f1d7111da38d18218f06dd78ea0/lvgl_widgets_xml/v9.4.0/lv_scale.xml"
 <!--
 <lv_scale total_tick_count="30">
     <lv_scale-section column="2" range="30 40" style_indicator="scale_style"/>

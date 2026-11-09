@@ -1,4 +1,4 @@
-```xml title="tutorials/screens/hello_world/screen_hello_world.xml" source="https://github.com/lvgl/lvgl_pro/blob/9167aff6baf85c9552b466a9a475bf36de3d3425/tutorials/screens/hello_world/screen_hello_world.xml"
+```xml title="tutorials/screens/hello_world/screen_hello_world.xml" source="https://github.com/lvgl/lvgl_pro/blob/0cf032b483962f1d7111da38d18218f06dd78ea0/tutorials/screens/hello_world/screen_hello_world.xml"
 <!-- The simplest screen: a background style, a button and a label. Start here. -->
 <screen>
 	<styles>
