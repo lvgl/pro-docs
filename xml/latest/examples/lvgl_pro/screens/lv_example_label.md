@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_pro/screens/lv_example_label.xml" source="https://github.com/lvgl/lvgl_pro/blob/8445dbad1528dd75a54ea7ed223f8fec0749f31b/examples/lvgl_pro/screens/lv_example_label.xml"
+```xml title="examples/lvgl_pro/screens/lv_example_label.xml" source="https://github.com/lvgl/lvgl_pro/blob/77f3409fddaa097468ca2bce0839a00a4ed27b02/examples/lvgl_pro/screens/lv_example_label.xml"
 <!--
  @title Label
  @brief Recoloring, a long-text mode and a value bound to a subject.

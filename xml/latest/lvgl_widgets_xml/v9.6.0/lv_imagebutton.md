@@ -1,4 +1,4 @@
-```xml title="lvgl_widgets_xml/v9.6.0/lv_imagebutton.xml" source="https://github.com/lvgl/lvgl_pro/blob/8445dbad1528dd75a54ea7ed223f8fec0749f31b/lvgl_widgets_xml/v9.6.0/lv_imagebutton.xml"
+```xml title="lvgl_widgets_xml/v9.6.0/lv_imagebutton.xml" source="https://github.com/lvgl/lvgl_pro/blob/77f3409fddaa097468ca2bce0839a00a4ed27b02/lvgl_widgets_xml/v9.6.0/lv_imagebutton.xml"
 <!--
 <lv_imagebutton state="checked">
     <lv_imagebutton-src state="released" left="normal_left" mid="normal_mid" right="normal_right"/>

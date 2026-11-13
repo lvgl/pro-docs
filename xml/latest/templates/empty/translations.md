@@ -1,4 +1,4 @@
-```xml title="templates/empty/translations.xml" source="https://github.com/lvgl/lvgl_pro/blob/8445dbad1528dd75a54ea7ed223f8fec0749f31b/templates/empty/translations.xml"
+```xml title="templates/empty/translations.xml" source="https://github.com/lvgl/lvgl_pro/blob/77f3409fddaa097468ca2bce0839a00a4ed27b02/templates/empty/translations.xml"
 <!-- Translations for each language. Reference a tag with translation_tag="..." on a widget. -->
 <translations languages="en de">
 	<translation tag="dog" char_count="40" en="This is a dog" de="Das ist ein Hund" />
