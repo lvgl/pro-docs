@@ -1,4 +1,4 @@
-```xml title="tutorials/globals.xml" source="https://github.com/lvgl/lvgl_pro/blob/6a64e6a851619119c359a5ae0ca6e8091732a70c/tutorials/globals.xml"
+```xml title="tutorials/globals.xml" source="https://github.com/lvgl/lvgl_pro/blob/2b291f2ba054540cc7f4397e419866f9e1f5a84f/tutorials/globals.xml"
 <!-- Project-wide definitions: shared constants, styles, subjects, images and fonts.
      Anything defined here can be referenced from any screen or component. -->
 <globals>
