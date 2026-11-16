@@ -1,11 +1,11 @@
-```xml title="templates/basic/tests/test_theme_toggle.xml" source="https://github.com/lvgl/lvgl_pro/blob/0db8cf78c5106b4829538771f6cb5d4288506cf2/templates/basic/tests/test_theme_toggle.xml"
+```xml title="templates/basic/tests/test_theme_toggle.xml" source="https://github.com/lvgl/lvgl_pro/blob/4df91fdef99e5c2f1a8af7bada6de3e7680aef6d/templates/basic/tests/test_theme_toggle.xml"
 <!-- Toggling the theme switch flips subject_theme_dark and restyles the screen.
 
      A test's <view> is built exactly like a component's, so it can `extends` a
      real screen and drive the actual UI. Steps run top to bottom; the first
      failing assertion fails the test.
      Docs: https://lvgl.io/docs/pro/syntax/testing -->
-<test width="480" height="320">
+<test>
 	<view extends="screen_components" />
 
 	<steps>

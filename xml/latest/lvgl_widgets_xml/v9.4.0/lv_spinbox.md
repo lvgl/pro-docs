@@ -1,4 +1,4 @@
-```xml title="lvgl_widgets_xml/v9.4.0/lv_spinbox.xml" source="https://github.com/lvgl/lvgl_pro/blob/0db8cf78c5106b4829538771f6cb5d4288506cf2/lvgl_widgets_xml/v9.4.0/lv_spinbox.xml"
+```xml title="lvgl_widgets_xml/v9.4.0/lv_spinbox.xml" source="https://github.com/lvgl/lvgl_pro/blob/4df91fdef99e5c2f1a8af7bada6de3e7680aef6d/lvgl_widgets_xml/v9.4.0/lv_spinbox.xml"
 <!--
 Example
 <lv_spinbox digit_count="5" dec_point_pos="3" value="12345"/>
