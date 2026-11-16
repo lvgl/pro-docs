@@ -1,4 +1,4 @@
-```xml title="tutorials/screens/screens/screen_main.xml" source="https://github.com/lvgl/lvgl_pro/blob/77f3409fddaa097468ca2bce0839a00a4ed27b02/tutorials/screens/screens/screen_main.xml"
+```xml title="tutorials/screens/screens/screen_main.xml" source="https://github.com/lvgl/lvgl_pro/blob/0db8cf78c5106b4829538771f6cb5d4288506cf2/tutorials/screens/screens/screen_main.xml"
 <!--Make the main screen permanent.
     It means it's created only once when the UI is created and never deleted. -->
 <screen permanent="true">

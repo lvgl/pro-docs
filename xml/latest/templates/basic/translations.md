@@ -1,4 +1,4 @@
-```xml title="templates/basic/translations.xml" source="https://github.com/lvgl/lvgl_pro/blob/77f3409fddaa097468ca2bce0839a00a4ed27b02/templates/basic/translations.xml"
+```xml title="templates/basic/translations.xml" source="https://github.com/lvgl/lvgl_pro/blob/0db8cf78c5106b4829538771f6cb5d4288506cf2/templates/basic/translations.xml"
 <!-- Describe translations for languages.
      Use a tag with translation_tag="..." on a label-based widget and switch
      languages via lv_translation_set_language("de") in code. 

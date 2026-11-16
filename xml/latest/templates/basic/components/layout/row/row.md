@@ -1,4 +1,4 @@
-```xml title="templates/basic/components/layout/row/row.xml" source="https://github.com/lvgl/lvgl_pro/blob/77f3409fddaa097468ca2bce0839a00a4ed27b02/templates/basic/components/layout/row/row.xml"
+```xml title="templates/basic/components/layout/row/row.xml" source="https://github.com/lvgl/lvgl_pro/blob/0db8cf78c5106b4829538771f6cb5d4288506cf2/templates/basic/components/layout/row/row.xml"
 <component>
 	<api>
 		<prop name="pad" type="int" default="0" help="Inner padding on all sides" />
