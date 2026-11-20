@@ -1,4 +1,4 @@
-```xml title="examples/lvgl_pro/screens/lv_example_led.xml" source="https://github.com/lvgl/lvgl_pro/blob/4df91fdef99e5c2f1a8af7bada6de3e7680aef6d/examples/lvgl_pro/screens/lv_example_led.xml"
+```xml title="examples/lvgl_pro/screens/lv_example_led.xml" source="https://github.com/lvgl/lvgl_pro/blob/18e1933b22cf7c1855a2e4dd6768cbc8bc703134/examples/lvgl_pro/screens/lv_example_led.xml"
 <!--
  @title LED
  @brief A row of LEDs with different colors and brightness levels.

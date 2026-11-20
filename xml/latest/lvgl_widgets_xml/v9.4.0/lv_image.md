@@ -1,4 +1,4 @@
-```xml title="lvgl_widgets_xml/v9.4.0/lv_image.xml" source="https://github.com/lvgl/lvgl_pro/blob/4df91fdef99e5c2f1a8af7bada6de3e7680aef6d/lvgl_widgets_xml/v9.4.0/lv_image.xml"
+```xml title="lvgl_widgets_xml/v9.4.0/lv_image.xml" source="https://github.com/lvgl/lvgl_pro/blob/18e1933b22cf7c1855a2e4dd6768cbc8bc703134/lvgl_widgets_xml/v9.4.0/lv_image.xml"
 <!--
 Example
 <lv_image src="logo" scale="300" rotate="30"/>

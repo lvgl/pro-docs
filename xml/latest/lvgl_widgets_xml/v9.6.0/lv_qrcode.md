@@ -1,4 +1,4 @@
-```xml title="lvgl_widgets_xml/v9.6.0/lv_qrcode.xml" source="https://github.com/lvgl/lvgl_pro/blob/4df91fdef99e5c2f1a8af7bada6de3e7680aef6d/lvgl_widgets_xml/v9.6.0/lv_qrcode.xml"
+```xml title="lvgl_widgets_xml/v9.6.0/lv_qrcode.xml" source="https://github.com/lvgl/lvgl_pro/blob/18e1933b22cf7c1855a2e4dd6768cbc8bc703134/lvgl_widgets_xml/v9.6.0/lv_qrcode.xml"
 <!--
 Example
 <lv_qrcode size="150" dark_color="0x2596be" light_color="0xffffff" data="https://lvgl.io"/>
